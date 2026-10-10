@@ -1,13 +1,148 @@
 {
-  "atualizado_em": "2026-10-10T09:01-03:00",
+  "atualizado_em": "2026-10-10T09:02-03:00",
   "projeto": "Tekto Calc",
-  "estado": "preparacao",
+  "estado": "ativo",
   "backlog_encontrado": true,
-  "total": 0,
-  "feitos": 0,
-  "percentual": 0,
-  "disciplinas": [],
-  "proximas": [],
+  "total": 41,
+  "feitos": 1,
+  "percentual": 2.4,
+  "disciplinas": [
+    {
+      "nome": "Concreto armado",
+      "total": 21,
+      "feitos": 1,
+      "normas": [
+        "NBR 6118"
+      ],
+      "percentual": 4.8
+    },
+    {
+      "nome": "Ações e combinações",
+      "total": 4,
+      "feitos": 0,
+      "normas": [
+        "NBR 6118",
+        "NBR 8681",
+        "NBR 6120"
+      ],
+      "percentual": 0.0
+    },
+    {
+      "nome": "Aço",
+      "total": 4,
+      "feitos": 0,
+      "normas": [
+        "NBR 8800"
+      ],
+      "percentual": 0.0
+    },
+    {
+      "nome": "Madeira",
+      "total": 3,
+      "feitos": 0,
+      "normas": [
+        "NBR 7190"
+      ],
+      "percentual": 0.0
+    },
+    {
+      "nome": "Fundações",
+      "total": 3,
+      "feitos": 0,
+      "normas": [
+        "NBR 6122",
+        "NBR 6118"
+      ],
+      "percentual": 0.0
+    },
+    {
+      "nome": "Instalações",
+      "total": 4,
+      "feitos": 0,
+      "normas": [
+        "NBR 5626",
+        "NBR 8160",
+        "NBR 10844",
+        "NBR 5410"
+      ],
+      "percentual": 0.0
+    },
+    {
+      "nome": "Camada de IA",
+      "total": 2,
+      "feitos": 0,
+      "normas": [
+        "NBR 6118"
+      ],
+      "percentual": 0.0
+    }
+  ],
+  "proximas": [
+    {
+      "id": "TC-001",
+      "titulo": "Cortante resistido pelo concreto no modelo I",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-002",
+      "titulo": "Resistência da biela comprimida no modelo I",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-003",
+      "titulo": "Armadura transversal do modelo I",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-004",
+      "titulo": "Taxa mínima de estribos",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-005",
+      "titulo": "Cortante no modelo II com ângulo informado",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-006",
+      "titulo": "Comprimento básico de ancoragem",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-007",
+      "titulo": "Comprimento de ancoragem necessário com gancho",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    },
+    {
+      "id": "TC-008",
+      "titulo": "Comprimento de traspasse",
+      "normas": [
+        "NBR 6118"
+      ],
+      "disciplina": "Concreto armado"
+    }
+  ],
   "entregas": [
     {
       "numero": 1,
@@ -20,16 +155,16 @@
     {
       "norma": "NBR 6118",
       "descricao": "Concreto armado e protendido",
-      "tarefas": 0,
-      "feitas": 0,
-      "estado": "futura"
+      "tarefas": 26,
+      "feitas": 1,
+      "estado": "em_andamento"
     },
     {
       "norma": "NBR 8800",
       "descricao": "Estruturas de aço",
-      "tarefas": 0,
+      "tarefas": 4,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 14762",
@@ -41,60 +176,62 @@
     {
       "norma": "NBR 7190",
       "descricao": "Estruturas de madeira",
-      "tarefas": 0,
+      "tarefas": 3,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 6122",
       "descricao": "Fundações",
-      "tarefas": 0,
+      "tarefas": 3,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 6120",
       "descricao": "Ações para o cálculo de estruturas",
-      "tarefas": 0,
+      "tarefas": 1,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 8681",
       "descricao": "Ações e segurança nas estruturas",
-      "tarefas": 0,
+      "tarefas": 2,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 5410",
       "descricao": "Instalações elétricas de baixa tensão",
-      "tarefas": 0,
+      "tarefas": 1,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 5626",
       "descricao": "Água fria e água quente",
-      "tarefas": 0,
+      "tarefas": 1,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 8160",
       "descricao": "Esgoto sanitário",
-      "tarefas": 0,
+      "tarefas": 1,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     },
     {
       "norma": "NBR 10844",
       "descricao": "Águas pluviais",
-      "tarefas": 0,
+      "tarefas": 1,
       "feitas": 0,
-      "estado": "futura"
+      "estado": "planejada"
     }
   ],
-  "normas_cobertas": [],
+  "normas_cobertas": [
+    "NBR 6118"
+  ],
   "duvidas": []
 }
