@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-10T11:53-03:00",
+  "atualizado_em": "2026-10-10T11:55-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 84,
+    "total": 164,
     "feitos": 1,
-    "percentual": 1.2,
-    "duvidas": 7,
-    "entregas": 4,
-    "ultima_entrega": "2026-10-10T11:30-03:00",
+    "percentual": 0.6,
+    "duvidas": 11,
+    "entregas": 6,
+    "ultima_entrega": "2026-10-10T11:55-03:00",
     "projetos_ativos": 2
   },
   "projetos": [
@@ -19,9 +19,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 48,
+      "total": 91,
       "feitos": 1,
-      "percentual": 2.1,
+      "percentual": 1.1,
       "areas": [
         {
           "nome": "Concreto armado",
@@ -42,6 +42,60 @@
           "percentual": 0.0
         },
         {
+          "nome": "Instalações elétricas",
+          "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Instalações hidráulicas",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Esgoto sanitário",
+          "total": 5,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Águas pluviais",
+          "total": 5,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "SPDA",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Dados e telecom",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Incêndio",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "CFTV",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Gás",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
           "nome": "Aço",
           "total": 4,
           "feitos": 0,
@@ -56,12 +110,6 @@
         {
           "nome": "Fundações",
           "total": 3,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Instalações",
-          "total": 4,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -140,6 +188,11 @@
       ],
       "entregas": [
         {
+          "numero": 4,
+          "titulo": "Cobre as instalações no backlog, por disciplina",
+          "data": "2026-10-10T11:55-03:00"
+        },
+        {
           "numero": 3,
           "titulo": "Aplica ηc na flexão e registra a verificação de D-001 a D-003",
           "data": "2026-10-10T09:32-03:00"
@@ -155,8 +208,8 @@
           "data": "2026-10-10T09:01-03:00"
         }
       ],
-      "total_entregas": 3,
-      "ultima_entrega": "2026-10-10T09:32-03:00",
+      "total_entregas": 4,
+      "ultima_entrega": "2026-10-10T11:55-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -210,28 +263,28 @@
         {
           "norma": "NBR 5410",
           "descricao": "Instalações elétricas de baixa tensão",
-          "tarefas": 1,
+          "tarefas": 7,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 5626",
           "descricao": "Água fria e água quente",
-          "tarefas": 1,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 8160",
           "descricao": "Esgoto sanitário",
-          "tarefas": 1,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 10844",
           "descricao": "Águas pluviais",
-          "tarefas": 1,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -239,6 +292,76 @@
           "norma": "DT-002",
           "descricao": "",
           "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5419",
+          "descricao": "",
+          "tarefas": 6,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14565",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 13714",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10897",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 17240",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10898",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 12693",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "sem NBR de cálculo específica (D-006)",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IEC 62676",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15526",
+          "descricao": "",
+          "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
         }
@@ -256,6 +379,10 @@
         {
           "texto": "D-004 — Texto oficial da Emenda 1:2026",
           "normas": []
+        },
+        {
+          "texto": "D-005 — Fichas do catálogo ABNT não abertas nas instalações",
+          "normas": []
         }
       ]
     },
@@ -267,7 +394,7 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 36,
+      "total": 73,
       "feitos": 0,
       "percentual": 0.0,
       "areas": [
@@ -310,6 +437,12 @@
         {
           "nome": "Normas",
           "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Instalações",
+          "total": 37,
           "feitos": 0,
           "percentual": 0.0
         }
@@ -390,13 +523,18 @@
       ],
       "entregas": [
         {
+          "numero": 2,
+          "titulo": "Cobre instalações prediais no acervo e no backlog",
+          "data": "2026-10-10T11:54-03:00"
+        },
+        {
           "numero": 1,
           "titulo": "Fundação do Tekto Docs: estrutura, convenções, fichas e backlog",
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 1,
-      "ultima_entrega": "2026-10-10T11:30-03:00",
+      "total_entregas": 2,
+      "ultima_entrega": "2026-10-10T11:54-03:00",
       "normas": [
         {
           "norma": "NBR 15575",
@@ -464,28 +602,28 @@
         {
           "norma": "NBR 5626",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 8160",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 10844",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 5410",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 12,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -600,6 +738,69 @@
           "tarefas": 1,
           "feitas": 0,
           "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5419",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14565",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 13714",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10897",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 17240",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10898",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 12693",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IEC 62676-1",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15526",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
         }
       ],
       "normas_cobertas": [],
@@ -626,6 +827,21 @@
         {
           "texto": "D-005 — Escala de nível de desenvolvimento BIM",
           "normas": []
+        },
+        {
+          "texto": "D-006 — UF do Corpo de Bombeiros no escopo imediato",
+          "normas": []
+        },
+        {
+          "texto": "D-007 — Partes brasileiras da NBR IEC 62676 além da 1-1 e da 1-2",
+          "normas": []
+        },
+        {
+          "texto": "D-008 — NBR 15358 ao lado da NBR 15526",
+          "normas": [
+            "NBR 15358",
+            "NBR 15526"
+          ]
         }
       ]
     },
