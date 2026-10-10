@@ -1,0 +1,94 @@
+{
+  "atualizado_em": "2026-10-10T08:51-03:00",
+  "projeto": "Tekto Calc",
+  "estado": "preparacao",
+  "backlog_encontrado": false,
+  "total": 0,
+  "feitos": 0,
+  "percentual": 0,
+  "disciplinas": [],
+  "proximas": [],
+  "entregas": [],
+  "total_entregas": 0,
+  "normas": [
+    {
+      "norma": "NBR 6118",
+      "descricao": "Concreto armado e protendido",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 8800",
+      "descricao": "Estruturas de aço",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 14762",
+      "descricao": "Perfis de aço formados a frio",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 7190",
+      "descricao": "Estruturas de madeira",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 6122",
+      "descricao": "Fundações",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 6120",
+      "descricao": "Ações para o cálculo de estruturas",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 8681",
+      "descricao": "Ações e segurança nas estruturas",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 5410",
+      "descricao": "Instalações elétricas de baixa tensão",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 5626",
+      "descricao": "Água fria e água quente",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 8160",
+      "descricao": "Esgoto sanitário",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    },
+    {
+      "norma": "NBR 10844",
+      "descricao": "Águas pluviais",
+      "tarefas": 0,
+      "feitas": 0,
+      "estado": "futura"
+    }
+  ],
+  "normas_cobertas": [],
+  "duvidas": []
+}

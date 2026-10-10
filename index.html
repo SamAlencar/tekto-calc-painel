@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tekto Calc · Painel de progresso</title>
+<meta name="description" content="Painel de progresso do projeto Tekto Calc — acervo de cálculos de engenharia segundo as normas ABNT NBR.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b2545'/><path d='M7 24 L16 8 L25 24 Z' fill='none' stroke='%23f5a524' stroke-width='3'/></svg>">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="topo">
+  <div class="wrap topo-in">
+    <div class="marca">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 26 L16 6 L27 26 Z M10.5 26 L16 16 L21.5 26" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+      <div>
+        <h1>Tekto Calc</h1>
+        <p>Acervo de cálculos de engenharia segundo as normas ABNT NBR</p>
+      </div>
+    </div>
+    <div class="atualizado" id="atualizado">Carregando…</div>
+  </div>
+</header>
+
+<main class="wrap" id="conteudo">
+  <section class="cartao" aria-busy="true"><p class="vazio">Carregando dados do projeto…</p></section>
+</main>
+
+<footer class="wrap rodape">
+  Painel gerado automaticamente a partir do backlog do projeto. O código de cálculo é privado; aqui aparecem apenas metadados de progresso.
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
