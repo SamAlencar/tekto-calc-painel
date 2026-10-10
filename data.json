@@ -1,20 +1,20 @@
 {
-  "atualizado_em": "2026-10-10T09:09-03:00",
+  "atualizado_em": "2026-10-10T09:32-03:00",
   "projeto": "Tekto Calc",
   "estado": "ativo",
   "backlog_encontrado": true,
-  "total": 47,
+  "total": 48,
   "feitos": 1,
   "percentual": 2.1,
   "disciplinas": [
     {
       "nome": "Concreto armado",
-      "total": 21,
+      "total": 22,
       "feitos": 1,
       "normas": [
         "NBR 6118"
       ],
-      "percentual": 4.8
+      "percentual": 4.5
     },
     {
       "nome": "Ações e combinações",
@@ -154,6 +154,11 @@
   ],
   "entregas": [
     {
+      "numero": 3,
+      "titulo": "Aplica ηc na flexão e registra a verificação de D-001 a D-003",
+      "data": "2026-10-10T09:32-03:00"
+    },
+    {
       "numero": 2,
       "titulo": "DT-002: serviço de cálculo no centro da integração",
       "data": "2026-10-10T09:09-03:00"
@@ -164,12 +169,12 @@
       "data": "2026-10-10T09:01-03:00"
     }
   ],
-  "total_entregas": 2,
+  "total_entregas": 3,
   "normas": [
     {
       "norma": "NBR 6118",
       "descricao": "Concreto armado e protendido",
-      "tarefas": 27,
+      "tarefas": 28,
       "feitas": 1,
       "estado": "em_andamento"
     },
@@ -249,17 +254,7 @@
   ],
   "duvidas": [
     {
-      "texto": "D-001 — Numeração dos itens da NBR 6118:2023 usados na flexão",
-      "normas": [
-        "NBR 6118"
-      ]
-    },
-    {
-      "texto": "D-002 — Valores numéricos da Tabela 17.3 na edição 2023",
-      "normas": []
-    },
-    {
-      "texto": "D-003 — Diagrama retangular quando a raiz cai no domínio 2",
+      "texto": "D-004 — Texto oficial da Emenda 1:2026",
       "normas": []
     }
   ]
