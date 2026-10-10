@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-10T12:03-03:00",
+  "atualizado_em": "2026-10-10T12:05-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 341,
@@ -12,10 +12,10 @@
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-04-05",
-        "dias": 177,
+        "data": "2027-01-08",
+        "dias": 90,
         "concluido": false,
-        "projeto": "Tekto Model"
+        "projeto": "Tekto Calc"
       }
     }
   },
@@ -1635,11 +1635,11 @@
       ],
       "previsao": {
         "situacao": "ativo",
-        "ritmo_planejado": 1.0,
+        "ritmo_planejado": 2.0,
         "pendentes": 177,
         "planejada": {
-          "data": "2027-04-05",
-          "dias": 177,
+          "data": "2027-01-07",
+          "dias": 89,
           "concluido": false
         },
         "real": {
