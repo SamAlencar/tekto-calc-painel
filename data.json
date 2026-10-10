@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-10T12:01-03:00",
+  "atualizado_em": "2026-10-10T12:03-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 341,
@@ -298,16 +298,16 @@
           "estado": "planejada"
         },
         {
-          "norma": "DT-002",
+          "norma": "NBR 5419",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "NBR 5419",
+          "norma": "NBR 15526",
           "descricao": "",
-          "tarefas": 6,
+          "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -354,9 +354,9 @@
           "estado": "planejada"
         },
         {
-          "norma": "sem NBR de cálculo específica (D-006)",
+          "norma": "DT-002",
           "descricao": "",
-          "tarefas": 2,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -364,13 +364,6 @@
           "norma": "IEC 62676",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 15526",
-          "descricao": "",
-          "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
         }
@@ -560,65 +553,9 @@
       "ultima_entrega": "2026-10-10T11:54-03:00",
       "normas": [
         {
-          "norma": "NBR 15575",
+          "norma": "NBR 5410",
           "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 9050",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 6118",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 14931",
-          "descricao": "",
-          "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 6120",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 8681",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 6122",
-          "descricao": "",
-          "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 9575",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 9574",
-          "descricao": "",
-          "tarefas": 4,
+          "tarefas": 12,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -644,16 +581,93 @@
           "estado": "planejada"
         },
         {
-          "norma": "NBR 5410",
+          "norma": "NBR 14565",
           "descricao": "",
-          "tarefas": 12,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "NBR 12655",
+          "norma": "NBR 13714",
           "descricao": "",
-          "tarefas": 2,
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10897",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 17240",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10898",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 12693",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6118",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9575",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9574",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5419",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15526",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14931",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6122",
+          "descricao": "",
+          "tarefas": 3,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -665,23 +679,9 @@
           "estado": "planejada"
         },
         {
-          "norma": "NBR 15270",
-          "descricao": "",
-          "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "NBR 6136",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 16868",
-          "descricao": "",
-          "tarefas": 2,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -707,9 +707,58 @@
           "estado": "planejada"
         },
         {
+          "norma": "NBR 12655",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15270",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 16868",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
           "norma": "NBR ISO 19650",
           "descricao": "",
           "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15575",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9050",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6120",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 8681",
+          "descricao": "",
+          "tarefas": 1,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -763,63 +812,7 @@
           "estado": "planejada"
         },
         {
-          "norma": "NBR 5419",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 14565",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 13714",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 10897",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 17240",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 10898",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 12693",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "IEC 62676-1",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "NBR 15526",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -1044,7 +1037,9 @@
           "id": "TM-001",
           "titulo": "Unidades SI explícitas",
           "normas": [
-            "IFC 4"
+            "IfcSIUnit",
+            "guia de unidades da API do Revit 2025",
+            "UnitUtils"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1052,7 +1047,8 @@
           "id": "TM-002",
           "titulo": "Codec do IfcGloballyUniqueId",
           "normas": [
-            "IFC 4"
+            "IfcGloballyUniqueId",
+            "instalação do IfcOpenShell"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1060,7 +1056,7 @@
           "id": "TM-003",
           "titulo": "Histórico de origem",
           "normas": [
-            "IFC 4"
+            "IfcOwnerHistory"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1068,7 +1064,8 @@
           "id": "TM-004",
           "titulo": "Materiais",
           "normas": [
-            "IFC 4"
+            "IfcMaterial",
+            "IfcMaterialLayerSet"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1076,7 +1073,9 @@
           "id": "TM-005",
           "titulo": "Seções transversais parametrizadas",
           "normas": [
-            "IFC 4"
+            "IfcRectangleProfileDef",
+            "IfcCircleProfileDef",
+            "IfcIShapeProfileDef"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1084,7 +1083,8 @@
           "id": "TM-006",
           "titulo": "Resultados de cálculo anexos ao elemento",
           "normas": [
-            "IFC 4"
+            "IfcPropertySet",
+            "painel do tekto-calc"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1092,7 +1092,9 @@
           "id": "TM-007",
           "titulo": "Níveis e eixos no modelo neutro",
           "normas": [
-            "IFC 4"
+            "IfcBuildingStorey",
+            "IfcGrid",
+            "IfcGridAxis"
           ],
           "disciplina": "Núcleo transversal"
         },
@@ -1100,8 +1102,11 @@
           "id": "TM-008",
           "titulo": "Arquivo IFC4X3_ADD2 com projeto e unidades",
           "normas": [
-            "IFC 4",
-            "ISO 16739-1"
+            "IfcProject",
+            "IfcSIUnit",
+            "ISO 16739-1",
+            "lista de schemas",
+            "IfcOpenShell"
           ],
           "disciplina": "IFC transversal"
         }
@@ -1117,83 +1122,6 @@
       "ultima_entrega": "2026-10-10T12:00-03:00",
       "normas": [
         {
-          "norma": "IFC 4",
-          "descricao": "",
-          "tarefas": 165,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "ISO 16739-1",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "ifcopenshell.validate (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "My First Plug-in e versões de .NET (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "guia estrutural (",
-          "descricao": "",
-          "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "Guia de parâmetros compartilhados (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "arquivo de definição (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "guia de unidades (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "Mapa de versões do Dynamo (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "migração Python (",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "Arquitetura do pyRevit (",
-          "descricao": "",
-          "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "NBR 6118",
           "descricao": "",
           "tarefas": 1,
@@ -1201,44 +1129,415 @@
           "estado": "planejada"
         },
         {
-          "norma": "Ajuda do Robot Structural Analysis (",
+          "norma": "BuiltInCategory",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 33,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "AnalyticalMember (",
+          "norma": "painel tekto-calc",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 23,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "Open XML (",
+          "norma": "AnalyticalMember",
           "descricao": "",
-          "tarefas": 2,
+          "tarefas": 21,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "painel tekto-calc (",
+          "norma": "IfcPipeSegment",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 20,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "Painel tekto-calc (",
+          "norma": "fundações na API do Revit",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 16,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "porta do modelador neste repositório.",
+          "norma": "OST_StructuralFraming",
           "descricao": "",
-          "tarefas": 1,
+          "tarefas": 16,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcMemberTypeEnum",
+          "descricao": "",
+          "tarefas": 16,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "FIREPROTECTION",
+          "descricao": "",
+          "tarefas": 16,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcCableSegment",
+          "descricao": "",
+          "tarefas": 12,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcBeam",
+          "descricao": "",
+          "tarefas": 9,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcFootingTypeEnum",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcElectricDistributionBoard",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcDistributionSystemEnum",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcLightFixture",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_LightingFixtures",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_PipeCurves e OST_PipingSystem",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcAlarm",
+          "descricao": "",
+          "tarefas": 8,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "guia estrutural",
+          "descricao": "",
+          "tarefas": 6,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcPile",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcPileTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcFooting e IfcFootingTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcColumn e IfcColumnTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "BuiltInCategory OST_StructuralColumns",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcBeam e IfcBeamTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcSlab e IfcSlabTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "pisos e lajes de fundação na API do Revit",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_Floors e OST_AnalyticalPanel",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcColumn",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_StructuralColumns",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcMember",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcElementAssemblyTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_StructuralTruss",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcWall e IfcWallTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_Walls",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcCoveringTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcRoof",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcSlabTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_Roofs",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcStair",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcStairFlight",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_Stairs",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "normas previstas no tekto-calc",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcDistributionCircuit",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_ElectricalCircuit e OST_Wire",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcCableCarrierSegment",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcCableCarrierSegmentTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_Conduit e OST_CableTray",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcOutlet",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcDistributionSystem ELECTRICAL",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_ElectricalFixtures e OST_ElectricalConnector",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "definição de LIGHTING em IfcDistributionSystemEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "definição de DOMESTICCOLDWATER",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "portas no exemplo oficial de OST_PipeCurves",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "definição de DOMESTICHOTWATER",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "SEWAGE em IfcDistributionSystemEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcSanitaryTerminal",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcWasteTerminal",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_PipeCurves e OST_PlumbingFixtures",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_PipeCurves",
+          "descricao": "",
+          "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
         }
