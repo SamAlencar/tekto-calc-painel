@@ -1,14 +1,23 @@
 {
-  "atualizado_em": "2026-10-10T11:55-03:00",
+  "atualizado_em": "2026-10-10T12:01-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 164,
+    "total": 341,
     "feitos": 1,
-    "percentual": 0.6,
-    "duvidas": 11,
-    "entregas": 6,
-    "ultima_entrega": "2026-10-10T11:55-03:00",
-    "projetos_ativos": 2
+    "percentual": 0.3,
+    "duvidas": 33,
+    "entregas": 7,
+    "ultima_entrega": "2026-10-10T12:00-03:00",
+    "projetos_ativos": 3,
+    "previsao": {
+      "aguardando": [],
+      "planejada": {
+        "data": "2027-04-05",
+        "dias": 177,
+        "concluido": false,
+        "projeto": "Tekto Model"
+      }
+    }
   },
   "projetos": [
     {
@@ -384,7 +393,21 @@
           "texto": "D-005 — Fichas do catálogo ABNT não abertas nas instalações",
           "normas": []
         }
-      ]
+      ],
+      "previsao": {
+        "situacao": "ativo",
+        "ritmo_planejado": 1.0,
+        "pendentes": 90,
+        "planejada": {
+          "data": "2027-01-08",
+          "dias": 90,
+          "concluido": false
+        },
+        "real": {
+          "disponivel": false,
+          "historico_dias": 0.1
+        }
+      }
     },
     {
       "slug": "docs",
@@ -843,27 +866,488 @@
             "NBR 15526"
           ]
         }
-      ]
+      ],
+      "previsao": {
+        "situacao": "ativo",
+        "ritmo_planejado": 1.0,
+        "pendentes": 73,
+        "planejada": {
+          "data": "2026-12-22",
+          "dias": 73,
+          "concluido": false
+        },
+        "real": {
+          "disponivel": false,
+          "historico_dias": 0.0
+        }
+      }
     },
     {
       "slug": "model",
       "nome": "Tekto Model",
       "descricao": "Modelagem e BIM",
-      "estado": "preparacao",
+      "estado": "ativo",
       "repo_encontrado": true,
-      "backlog_encontrado": false,
-      "duvidas_encontrado": false,
-      "total": 0,
+      "backlog_encontrado": true,
+      "duvidas_encontrado": true,
+      "total": 177,
       "feitos": 0,
-      "percentual": 0,
-      "areas": [],
-      "proximas": [],
-      "entregas": [],
-      "total_entregas": 0,
-      "ultima_entrega": null,
-      "normas": [],
+      "percentual": 0.0,
+      "areas": [
+        {
+          "nome": "Núcleo transversal",
+          "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "IFC transversal",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Revit, Dynamo e pyRevit",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fundações",
+          "total": 16,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Concreto",
+          "total": 12,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Aço",
+          "total": 20,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Vedações e cobertura",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Circulação",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Instalações elétricas",
+          "total": 20,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Água fria e água quente",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Esgoto sanitário",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Águas pluviais",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "SPDA",
+          "total": 12,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Dados e telecom",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Incêndio e bombeiros",
+          "total": 24,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "CFTV",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Gás",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Regras",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Integração tekto-calc",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Robot",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Tekla Structures",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Civil 3D",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Documentos Office",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Camada de IA",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
+        }
+      ],
+      "proximas": [
+        {
+          "id": "TM-001",
+          "titulo": "Unidades SI explícitas",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-002",
+          "titulo": "Codec do IfcGloballyUniqueId",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-003",
+          "titulo": "Histórico de origem",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-004",
+          "titulo": "Materiais",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-005",
+          "titulo": "Seções transversais parametrizadas",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-006",
+          "titulo": "Resultados de cálculo anexos ao elemento",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-007",
+          "titulo": "Níveis e eixos no modelo neutro",
+          "normas": [
+            "IFC 4"
+          ],
+          "disciplina": "Núcleo transversal"
+        },
+        {
+          "id": "TM-008",
+          "titulo": "Arquivo IFC4X3_ADD2 com projeto e unidades",
+          "normas": [
+            "IFC 4",
+            "ISO 16739-1"
+          ],
+          "disciplina": "IFC transversal"
+        }
+      ],
+      "entregas": [
+        {
+          "numero": 1,
+          "titulo": "Fundação do Tekto Model: modelo neutro, fichas e backlog",
+          "data": "2026-10-10T12:00-03:00"
+        }
+      ],
+      "total_entregas": 1,
+      "ultima_entrega": "2026-10-10T12:00-03:00",
+      "normas": [
+        {
+          "norma": "IFC 4",
+          "descricao": "",
+          "tarefas": 165,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "ISO 16739-1",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "ifcopenshell.validate (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "My First Plug-in e versões de .NET (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "guia estrutural (",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Guia de parâmetros compartilhados (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "arquivo de definição (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "guia de unidades (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Mapa de versões do Dynamo (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "migração Python (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Arquitetura do pyRevit (",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6118",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Ajuda do Robot Structural Analysis (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "AnalyticalMember (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Open XML (",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "painel tekto-calc (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Painel tekto-calc (",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "porta do modelador neste repositório.",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        }
+      ],
       "normas_cobertas": [],
-      "duvidas": []
+      "duvidas": [
+        {
+          "texto": "D-001 — Versão do Revit na máquina da Tekto",
+          "normas": []
+        },
+        {
+          "texto": "D-002 — Template, famílias e parâmetros da Tekto",
+          "normas": []
+        },
+        {
+          "texto": "D-003 — Ordem das disciplinas na obra",
+          "normas": []
+        },
+        {
+          "texto": "D-004 — pyRevit instalado e engine",
+          "normas": []
+        },
+        {
+          "texto": "D-005 — CPython embutido no Dynamo do Revit 2024 a 2026",
+          "normas": []
+        },
+        {
+          "texto": "D-006 — Ordem dos bytes do IfcGloballyUniqueId",
+          "normas": []
+        },
+        {
+          "texto": "D-007 — Recorte IFC de edifício",
+          "normas": []
+        },
+        {
+          "texto": "D-008 — UniqueId do Revit e GlobalId",
+          "normas": []
+        },
+        {
+          "texto": "D-009 — Contrato publicado do tekto-calc",
+          "normas": []
+        },
+        {
+          "texto": "D-010 — Caminho dos esforços do Robot",
+          "normas": []
+        },
+        {
+          "texto": "D-011 — Revit 2027 entra no alvo?",
+          "normas": []
+        },
+        {
+          "texto": "D-012 — LGPL do IfcOpenShell no add-in",
+          "normas": []
+        },
+        {
+          "texto": "D-013 — Quem emite o GUID dos parâmetros compartilhados",
+          "normas": []
+        },
+        {
+          "texto": "D-014 — Classe Revit de estaca, sapata, laje e extintor no template",
+          "normas": []
+        },
+        {
+          "texto": "D-015 — Parâmetro compartilhado em eixo e material",
+          "normas": []
+        },
+        {
+          "texto": "D-016 — API analítica do Revit 2024 e a de 2025/2026",
+          "normas": []
+        },
+        {
+          "texto": "D-017 — Viga baldrame e a definição de FOOTING_BEAM",
+          "normas": []
+        },
+        {
+          "texto": "D-018 — Terça e a definição de PURLIN",
+          "normas": []
+        },
+        {
+          "texto": "D-019 — Template MEP e padrão de conectores",
+          "normas": []
+        },
+        {
+          "texto": "D-020 — Escala de nível de informação da Tekto",
+          "normas": []
+        },
+        {
+          "texto": "D-021 — Entidade IFC de captor, extintor, sinalização e rack",
+          "normas": []
+        },
+        {
+          "texto": "D-022 — Nome curto do schema no IfcOpenShell 0.9.0",
+          "normas": []
+        }
+      ],
+      "previsao": {
+        "situacao": "ativo",
+        "ritmo_planejado": 1.0,
+        "pendentes": 177,
+        "planejada": {
+          "data": "2027-04-05",
+          "dias": 177,
+          "concluido": false
+        },
+        "real": {
+          "disponivel": false,
+          "historico_dias": 0.0
+        }
+      }
     }
   ]
 }
