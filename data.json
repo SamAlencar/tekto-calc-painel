@@ -1,261 +1,653 @@
 {
-  "atualizado_em": "2026-10-10T09:32-03:00",
-  "projeto": "Tekto Calc",
-  "estado": "ativo",
-  "backlog_encontrado": true,
-  "total": 48,
-  "feitos": 1,
-  "percentual": 2.1,
-  "disciplinas": [
+  "atualizado_em": "2026-10-10T11:53-03:00",
+  "painel": "Painel Tekto",
+  "geral": {
+    "total": 84,
+    "feitos": 1,
+    "percentual": 1.2,
+    "duvidas": 7,
+    "entregas": 4,
+    "ultima_entrega": "2026-10-10T11:30-03:00",
+    "projetos_ativos": 2
+  },
+  "projetos": [
     {
-      "nome": "Concreto armado",
-      "total": 22,
+      "slug": "calc",
+      "nome": "Tekto Calc",
+      "descricao": "Rotinas de cálculo de engenharia em Python",
+      "estado": "ativo",
+      "repo_encontrado": true,
+      "backlog_encontrado": true,
+      "duvidas_encontrado": true,
+      "total": 48,
       "feitos": 1,
+      "percentual": 2.1,
+      "areas": [
+        {
+          "nome": "Concreto armado",
+          "total": 22,
+          "feitos": 1,
+          "percentual": 4.5
+        },
+        {
+          "nome": "Ações e combinações",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Integração",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Aço",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Madeira",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fundações",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Instalações",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Camada de IA",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
+        }
+      ],
+      "proximas": [
+        {
+          "id": "TC-001",
+          "titulo": "Cortante resistido pelo concreto no modelo I",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-002",
+          "titulo": "Resistência da biela comprimida no modelo I",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-003",
+          "titulo": "Armadura transversal do modelo I",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-004",
+          "titulo": "Taxa mínima de estribos",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-005",
+          "titulo": "Cortante no modelo II com ângulo informado",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-006",
+          "titulo": "Comprimento básico de ancoragem",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-007",
+          "titulo": "Comprimento de ancoragem necessário com gancho",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-008",
+          "titulo": "Comprimento de traspasse",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        }
+      ],
+      "entregas": [
+        {
+          "numero": 3,
+          "titulo": "Aplica ηc na flexão e registra a verificação de D-001 a D-003",
+          "data": "2026-10-10T09:32-03:00"
+        },
+        {
+          "numero": 2,
+          "titulo": "DT-002: serviço de cálculo no centro da integração",
+          "data": "2026-10-10T09:09-03:00"
+        },
+        {
+          "numero": 1,
+          "titulo": "Fundação do tekto-calc e flexão simples pela NBR 6118:2023",
+          "data": "2026-10-10T09:01-03:00"
+        }
+      ],
+      "total_entregas": 3,
+      "ultima_entrega": "2026-10-10T09:32-03:00",
       "normas": [
+        {
+          "norma": "NBR 6118",
+          "descricao": "Concreto armado e protendido",
+          "tarefas": 28,
+          "feitas": 1,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "NBR 8800",
+          "descricao": "Estruturas de aço",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14762",
+          "descricao": "Perfis de aço formados a frio",
+          "tarefas": 0,
+          "feitas": 0,
+          "estado": "futura"
+        },
+        {
+          "norma": "NBR 7190",
+          "descricao": "Estruturas de madeira",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6122",
+          "descricao": "Fundações",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6120",
+          "descricao": "Ações para o cálculo de estruturas",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 8681",
+          "descricao": "Ações e segurança nas estruturas",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5410",
+          "descricao": "Instalações elétricas de baixa tensão",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5626",
+          "descricao": "Água fria e água quente",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 8160",
+          "descricao": "Esgoto sanitário",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10844",
+          "descricao": "Águas pluviais",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "DT-002",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        }
+      ],
+      "normas_cobertas": [
         "NBR 6118"
       ],
-      "percentual": 4.5
+      "duvidas": [
+        {
+          "texto": "D-001 — Numeração dos itens da NBR 6118:2023 usados na flexão",
+          "normas": [
+            "NBR 6118"
+          ]
+        },
+        {
+          "texto": "D-004 — Texto oficial da Emenda 1:2026",
+          "normas": []
+        }
+      ]
     },
     {
-      "nome": "Ações e combinações",
-      "total": 4,
+      "slug": "docs",
+      "nome": "Tekto Docs",
+      "descricao": "Memoriais, especificações, laudos e fichas técnicas",
+      "estado": "ativo",
+      "repo_encontrado": true,
+      "backlog_encontrado": true,
+      "duvidas_encontrado": true,
+      "total": 36,
       "feitos": 0,
-      "normas": [
-        "NBR 6118",
-        "NBR 8681",
-        "NBR 6120"
+      "percentual": 0.0,
+      "areas": [
+        {
+          "nome": "Memoriais",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Especificações",
+          "total": 5,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Laudos",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "BIM",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Métodos construtivos",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Materiais",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Normas",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        }
       ],
-      "percentual": 0.0
+      "proximas": [
+        {
+          "id": "TD-001",
+          "titulo": "Memorial descritivo de arquitetura para residência unifamiliar",
+          "normas": [
+            "NBR 15575",
+            "NBR 9050"
+          ],
+          "disciplina": "Memoriais"
+        },
+        {
+          "id": "TD-002",
+          "titulo": "Memorial descritivo de estrutura de concreto armado",
+          "normas": [
+            "NBR 6118",
+            "NBR 14931",
+            "NBR 6120",
+            "NBR 8681"
+          ],
+          "disciplina": "Memoriais"
+        },
+        {
+          "id": "TD-003",
+          "titulo": "Memorial descritivo de fundações",
+          "normas": [
+            "NBR 6122"
+          ],
+          "disciplina": "Memoriais"
+        },
+        {
+          "id": "TD-004",
+          "titulo": "Memorial descritivo de impermeabilização",
+          "normas": [
+            "NBR 9575",
+            "NBR 9574"
+          ],
+          "disciplina": "Memoriais"
+        },
+        {
+          "id": "TD-005",
+          "titulo": "Memorial descritivo de instalações hidrossanitárias",
+          "normas": [
+            "NBR 5626",
+            "NBR 8160",
+            "NBR 10844"
+          ],
+          "disciplina": "Memoriais"
+        },
+        {
+          "id": "TD-006",
+          "titulo": "Memorial descritivo de instalações elétricas",
+          "normas": [
+            "NBR 5410"
+          ],
+          "disciplina": "Memoriais"
+        },
+        {
+          "id": "TD-007",
+          "titulo": "Especificação de concreto estrutural",
+          "normas": [
+            "NBR 12655",
+            "NBR 6118"
+          ],
+          "disciplina": "Especificações"
+        },
+        {
+          "id": "TD-008",
+          "titulo": "Especificação de aço para armadura passiva",
+          "normas": [
+            "NBR 7480"
+          ],
+          "disciplina": "Especificações"
+        }
+      ],
+      "entregas": [
+        {
+          "numero": 1,
+          "titulo": "Fundação do Tekto Docs: estrutura, convenções, fichas e backlog",
+          "data": "2026-10-10T11:30-03:00"
+        }
+      ],
+      "total_entregas": 1,
+      "ultima_entrega": "2026-10-10T11:30-03:00",
+      "normas": [
+        {
+          "norma": "NBR 15575",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9050",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6118",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14931",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6120",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 8681",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6122",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9575",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9574",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5626",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 8160",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 10844",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 5410",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 12655",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 7480",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15270",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 6136",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 16868",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 16747",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 13752",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15965",
+          "descricao": "",
+          "tarefas": 3,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR ISO 19650",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15253",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 16970",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14762",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 9062",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 16697",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 7211",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 8800",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        }
+      ],
+      "normas_cobertas": [],
+      "duvidas": [
+        {
+          "texto": "D-001 — Edições vigentes no acervo da Tekto",
+          "normas": []
+        },
+        {
+          "texto": "D-002 — Identificador estável das rotinas do tekto-calc",
+          "normas": []
+        },
+        {
+          "texto": "D-003 — Tipos de obra no escopo imediato",
+          "normas": []
+        },
+        {
+          "texto": "D-004 — Estrutura de laudo diante da NBR 13752 e da NBR 16747",
+          "normas": [
+            "NBR 13752",
+            "NBR 16747"
+          ]
+        },
+        {
+          "texto": "D-005 — Escala de nível de desenvolvimento BIM",
+          "normas": []
+        }
+      ]
     },
     {
-      "nome": "Integração",
-      "total": 6,
+      "slug": "model",
+      "nome": "Tekto Model",
+      "descricao": "Modelagem e BIM",
+      "estado": "preparacao",
+      "repo_encontrado": true,
+      "backlog_encontrado": false,
+      "duvidas_encontrado": false,
+      "total": 0,
       "feitos": 0,
-      "normas": [
-        "NBR 6118"
-      ],
-      "percentual": 0.0
-    },
-    {
-      "nome": "Aço",
-      "total": 4,
-      "feitos": 0,
-      "normas": [
-        "NBR 8800"
-      ],
-      "percentual": 0.0
-    },
-    {
-      "nome": "Madeira",
-      "total": 3,
-      "feitos": 0,
-      "normas": [
-        "NBR 7190"
-      ],
-      "percentual": 0.0
-    },
-    {
-      "nome": "Fundações",
-      "total": 3,
-      "feitos": 0,
-      "normas": [
-        "NBR 6122",
-        "NBR 6118"
-      ],
-      "percentual": 0.0
-    },
-    {
-      "nome": "Instalações",
-      "total": 4,
-      "feitos": 0,
-      "normas": [
-        "NBR 5626",
-        "NBR 8160",
-        "NBR 10844",
-        "NBR 5410"
-      ],
-      "percentual": 0.0
-    },
-    {
-      "nome": "Camada de IA",
-      "total": 2,
-      "feitos": 0,
-      "normas": [
-        "NBR 6118"
-      ],
-      "percentual": 0.0
-    }
-  ],
-  "proximas": [
-    {
-      "id": "TC-001",
-      "titulo": "Cortante resistido pelo concreto no modelo I",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-002",
-      "titulo": "Resistência da biela comprimida no modelo I",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-003",
-      "titulo": "Armadura transversal do modelo I",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-004",
-      "titulo": "Taxa mínima de estribos",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-005",
-      "titulo": "Cortante no modelo II com ângulo informado",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-006",
-      "titulo": "Comprimento básico de ancoragem",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-007",
-      "titulo": "Comprimento de ancoragem necessário com gancho",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    },
-    {
-      "id": "TC-008",
-      "titulo": "Comprimento de traspasse",
-      "normas": [
-        "NBR 6118"
-      ],
-      "disciplina": "Concreto armado"
-    }
-  ],
-  "entregas": [
-    {
-      "numero": 3,
-      "titulo": "Aplica ηc na flexão e registra a verificação de D-001 a D-003",
-      "data": "2026-10-10T09:32-03:00"
-    },
-    {
-      "numero": 2,
-      "titulo": "DT-002: serviço de cálculo no centro da integração",
-      "data": "2026-10-10T09:09-03:00"
-    },
-    {
-      "numero": 1,
-      "titulo": "Fundação do tekto-calc e flexão simples pela NBR 6118:2023",
-      "data": "2026-10-10T09:01-03:00"
-    }
-  ],
-  "total_entregas": 3,
-  "normas": [
-    {
-      "norma": "NBR 6118",
-      "descricao": "Concreto armado e protendido",
-      "tarefas": 28,
-      "feitas": 1,
-      "estado": "em_andamento"
-    },
-    {
-      "norma": "NBR 8800",
-      "descricao": "Estruturas de aço",
-      "tarefas": 4,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 14762",
-      "descricao": "Perfis de aço formados a frio",
-      "tarefas": 0,
-      "feitas": 0,
-      "estado": "futura"
-    },
-    {
-      "norma": "NBR 7190",
-      "descricao": "Estruturas de madeira",
-      "tarefas": 3,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 6122",
-      "descricao": "Fundações",
-      "tarefas": 3,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 6120",
-      "descricao": "Ações para o cálculo de estruturas",
-      "tarefas": 1,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 8681",
-      "descricao": "Ações e segurança nas estruturas",
-      "tarefas": 2,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 5410",
-      "descricao": "Instalações elétricas de baixa tensão",
-      "tarefas": 1,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 5626",
-      "descricao": "Água fria e água quente",
-      "tarefas": 1,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 8160",
-      "descricao": "Esgoto sanitário",
-      "tarefas": 1,
-      "feitas": 0,
-      "estado": "planejada"
-    },
-    {
-      "norma": "NBR 10844",
-      "descricao": "Águas pluviais",
-      "tarefas": 1,
-      "feitas": 0,
-      "estado": "planejada"
-    }
-  ],
-  "normas_cobertas": [
-    "NBR 6118"
-  ],
-  "duvidas": [
-    {
-      "texto": "D-004 — Texto oficial da Emenda 1:2026",
-      "normas": []
+      "percentual": 0,
+      "areas": [],
+      "proximas": [],
+      "entregas": [],
+      "total_entregas": 0,
+      "ultima_entrega": null,
+      "normas": [],
+      "normas_cobertas": [],
+      "duvidas": []
     }
   ]
 }
