@@ -7,7 +7,8 @@ nunca código. Faz commit+push no repositório do painel só se os dados mudaram
 Uso: python3 gerar_dados.py [--sem-push]
 """
 import json, os, re, subprocess, sys
-from datetime import datetime
+from datetime import datetime, timedelta
+import math
 from zoneinfo import ZoneInfo
 
 # ---------------------------------------------------------------------------
@@ -18,6 +19,7 @@ from zoneinfo import ZoneInfo
 #   descricao: subtítulo do cartão
 #   prefixo: prefixo dos IDs de tarefa (informativo)
 #   normas_escopo: (opcional) lista (código, descrição) exibida mesmo sem tarefas
+#   ritmo_planejado: (opcional) tarefas/dia da rotina diária do projeto (padrão RITMO_PADRAO)
 # ---------------------------------------------------------------------------
 PROJETOS = [
     {
@@ -47,6 +49,9 @@ PROJETOS = [
     },
 ]
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
+RITMO_PADRAO = 1.0        # rotina diária: 1 tarefa por dia, 7 dias por semana
+JANELA_RITMO_REAL = 14    # dias usados para medir o ritmo real
+HISTORICO_MINIMO = 7      # dias de histórico do backlog antes de mostrar o ritmo real
 CAMINHO_DUVIDAS = "docs/DUVIDAS.md"
 
 DIR = os.path.dirname(os.path.abspath(__file__))
@@ -276,6 +281,37 @@ def prs_mesclados(repo):
     return out
 
 
+def previsao(pendentes, ritmo, hoje):
+    """Data prevista de término com `ritmo` tarefas/dia a partir de hoje."""
+    if pendentes <= 0:
+        return {"data": hoje.date().isoformat(), "dias": 0, "concluido": True}
+    dias = math.ceil(pendentes / ritmo)
+    return {"data": (hoje + timedelta(days=dias)).date().isoformat(), "dias": dias, "concluido": False}
+
+
+def ritmo_real(repo, branch, feitos_agora, hoje):
+    """Tarefas concluídas por dia nos últimos JANELA_RITMO_REAL dias, medido pelo
+    histórico de commits do BACKLOG.md (contagem de [x] no início da janela vs. agora)."""
+    commits = gh_api(f"repos/{repo}/commits?path={CAMINHO_BACKLOG}&sha={branch}&per_page=100") or []
+    if not commits:
+        return {"disponivel": False, "historico_dias": 0}
+    datas = [(datetime.fromisoformat(c["commit"]["committer"]["date"].replace("Z", "+00:00")), c["sha"]) for c in commits]
+    datas.sort()
+    primeiro = datas[0][0]
+    historico = (hoje - primeiro).total_seconds() / 86400
+    if historico < HISTORICO_MINIMO:
+        return {"disponivel": False, "historico_dias": round(historico, 1)}
+    inicio = hoje - timedelta(days=JANELA_RITMO_REAL)
+    antes = [x for x in datas if x[0] <= inicio]
+    base_data, base_sha = antes[-1] if antes else datas[0]
+    md = gh_api(f"repos/{repo}/contents/{CAMINHO_BACKLOG}?ref={base_sha}", raw=True) or ""
+    feitos_base = sum(t["feito"] for t in parse_backlog(md))
+    janela = (hoje - max(base_data, inicio)).total_seconds() / 86400
+    concluidas = max(0, feitos_agora - feitos_base)
+    return {"disponivel": True, "historico_dias": round(historico, 1), "janela_dias": round(janela, 1),
+            "concluidas_na_janela": concluidas, "tarefas_por_dia": round(concluidas / janela, 3) if janela > 0 else 0}
+
+
 def gerar_projeto(cfg):
     repo = cfg["repo"]
     info = gh_api(f"repos/{repo}")
@@ -308,6 +344,18 @@ def gerar_projeto(cfg):
         normas.append({"norma": n, "descricao": desc, "tarefas": nt, "feitas": nf, "estado": estado})
     lista_duv = parse_duvidas(duvidas) if duvidas else []
 
+    hoje = datetime.now(TZ)
+    ritmo_plan = cfg.get("ritmo_planejado", RITMO_PADRAO)
+    pend = total - feitos
+    if total:
+        real = ritmo_real(repo, branch, feitos, hoje)
+        prev = {"situacao": "ativo", "ritmo_planejado": ritmo_plan, "pendentes": pend,
+                "planejada": previsao(pend, ritmo_plan, hoje), "real": real}
+        if real.get("disponivel") and real["tarefas_por_dia"] > 0:
+            real["previsao"] = previsao(pend, real["tarefas_por_dia"], hoje)
+    else:
+        prev = {"situacao": "aguardando_backlog", "ritmo_planejado": ritmo_plan, "pendentes": 0}
+
     return {
         "slug": cfg["slug"],
         "nome": cfg["nome"],
@@ -327,6 +375,7 @@ def gerar_projeto(cfg):
         "normas": normas,
         "normas_cobertas": sorted({n for t in tarefas if t["feito"] for n in t["normas"]}),
         "duvidas": lista_duv,
+        "previsao": prev,
     }
 
 
@@ -335,6 +384,14 @@ def gerar():
     total = sum(p["total"] for p in projetos)
     feitos = sum(p["feitos"] for p in projetos)
     datas = [p["ultima_entrega"] for p in projetos if p["ultima_entrega"]]
+    ativos = [p for p in projetos if p["previsao"]["situacao"] == "ativo"]
+    prev_sis = {"aguardando": [p["nome"] for p in projetos if p["previsao"]["situacao"] != "ativo"]}
+    if ativos:
+        ult = max(ativos, key=lambda p: p["previsao"]["planejada"]["data"])
+        prev_sis["planejada"] = dict(ult["previsao"]["planejada"], projeto=ult["nome"])
+        if all(p["previsao"]["real"].get("previsao") for p in ativos):
+            ur = max(ativos, key=lambda p: p["previsao"]["real"]["previsao"]["data"])
+            prev_sis["real"] = dict(ur["previsao"]["real"]["previsao"], projeto=ur["nome"])
     return {
         "painel": "Painel Tekto",
         "geral": {
@@ -344,6 +401,7 @@ def gerar():
             "entregas": sum(p["total_entregas"] for p in projetos),
             "ultima_entrega": max(datas) if datas else None,
             "projetos_ativos": sum(p["estado"] == "ativo" for p in projetos),
+            "previsao": prev_sis,
         },
         "projetos": projetos,
     }
