@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-10T13:15-03:00",
+  "atualizado_em": "2026-10-10T14:55-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 1,
-    "percentual": 0.3,
-    "duvidas": 23,
-    "entregas": 9,
-    "ultima_entrega": "2026-10-10T13:15-03:00",
+    "feitos": 5,
+    "percentual": 1.5,
+    "duvidas": 31,
+    "entregas": 13,
+    "ultima_entrega": "2026-10-10T14:54-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-08",
-        "dias": 90,
+        "data": "2027-01-07",
+        "dias": 89,
         "concluido": false,
         "projeto": "Tekto Calc"
       }
@@ -29,14 +29,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 91,
-      "feitos": 1,
-      "percentual": 1.1,
+      "feitos": 2,
+      "percentual": 2.2,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 1,
-          "percentual": 4.5
+          "feitos": 2,
+          "percentual": 9.1
         },
         {
           "nome": "Ações e combinações",
@@ -131,14 +131,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-001",
-          "titulo": "Cortante resistido pelo concreto no modelo I",
-          "normas": [
-            "NBR 6118"
-          ],
-          "disciplina": "Concreto armado"
-        },
-        {
           "id": "TC-002",
           "titulo": "Resistência da biela comprimida no modelo I",
           "normas": [
@@ -193,9 +185,22 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-009",
+          "titulo": "Flecha imediata de viga biapoiada",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 6,
+          "titulo": "Calcula Vc do cortante no modelo I (NBR 6118:2026)",
+          "data": "2026-10-10T14:44-03:00"
+        },
         {
           "numero": 5,
           "titulo": "Cita a NBR 6118:2026 na flexão e prepara o fator 0,9",
@@ -222,14 +227,14 @@
           "data": "2026-10-10T09:01-03:00"
         }
       ],
-      "total_entregas": 5,
-      "ultima_entrega": "2026-10-10T13:15-03:00",
+      "total_entregas": 6,
+      "ultima_entrega": "2026-10-10T14:44-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 28,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
@@ -380,15 +385,19 @@
         {
           "texto": "D-005 — Fichas do catálogo ABNT não abertas nas instalações",
           "normas": []
+        },
+        {
+          "texto": "D-007 — Definição de M0 e o trecho de MSd,máx no modelo I",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 90,
+        "pendentes": 89,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 90,
+          "data": "2027-01-07",
+          "dias": 89,
           "concluido": false
         },
         "real": {
@@ -406,14 +415,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 73,
-      "feitos": 0,
-      "percentual": 0.0,
+      "feitos": 1,
+      "percentual": 1.4,
       "areas": [
         {
           "nome": "Memoriais",
           "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 16.7
         },
         {
           "nome": "Especificações",
@@ -459,15 +468,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TD-001",
-          "titulo": "Memorial descritivo de arquitetura para residência unifamiliar",
-          "normas": [
-            "NBR 15575",
-            "NBR 9050"
-          ],
-          "disciplina": "Memoriais"
-        },
         {
           "id": "TD-002",
           "titulo": "Memorial descritivo de estrutura de concreto armado",
@@ -530,9 +530,23 @@
             "NBR 7480"
           ],
           "disciplina": "Especificações"
+        },
+        {
+          "id": "TD-009",
+          "titulo": "Especificação de alvenaria de vedação",
+          "normas": [
+            "NBR 15270",
+            "NBR 6136"
+          ],
+          "disciplina": "Especificações"
         }
       ],
       "entregas": [
+        {
+          "numero": 3,
+          "titulo": "Memorial de arquitetura para residência unifamiliar (TD-001)",
+          "data": "2026-10-10T14:54-03:00"
+        },
         {
           "numero": 2,
           "titulo": "Cobre instalações prediais no acervo e no backlog",
@@ -544,8 +558,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 2,
-      "ultima_entrega": "2026-10-10T11:54-03:00",
+      "total_entregas": 3,
+      "ultima_entrega": "2026-10-10T14:54-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -733,15 +747,15 @@
           "norma": "NBR 15575",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 9050",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 6120",
@@ -814,7 +828,10 @@
           "estado": "planejada"
         }
       ],
-      "normas_cobertas": [],
+      "normas_cobertas": [
+        "NBR 15575",
+        "NBR 9050"
+      ],
       "duvidas": [
         {
           "texto": "D-001 — Edições vigentes no acervo da Tekto",
@@ -853,15 +870,47 @@
             "NBR 15358",
             "NBR 15526"
           ]
+        },
+        {
+          "texto": "D-009 — Aplicabilidade obrigatória da NBR 9050 à residência unifamiliar",
+          "normas": [
+            "NBR 9050"
+          ]
+        },
+        {
+          "texto": "D-010 — Nível de desempenho no memorial de arquitetura",
+          "normas": []
+        },
+        {
+          "texto": "D-011 — Subitens e valores numéricos da NBR 15575 no memorial de arquitetura",
+          "normas": [
+            "NBR 15575"
+          ]
+        },
+        {
+          "texto": "D-012 — Subitens e valores numéricos da NBR 9050 no memorial de arquitetura",
+          "normas": [
+            "NBR 9050"
+          ]
+        },
+        {
+          "texto": "D-013 — Sistema de impermeabilização em vedação, cobertura e revestimento",
+          "normas": []
+        },
+        {
+          "texto": "D-014 — Parte da NBR 15575 que rege escada, rampa e guarda-corpo",
+          "normas": [
+            "NBR 15575"
+          ]
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 73,
+        "pendentes": 72,
         "planejada": {
-          "data": "2026-12-22",
-          "dias": 73,
+          "data": "2026-12-21",
+          "dias": 72,
           "concluido": false
         },
         "real": {
@@ -879,14 +928,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 179,
-      "feitos": 0,
-      "percentual": 0.0,
+      "feitos": 2,
+      "percentual": 1.1,
       "areas": [
         {
           "nome": "Núcleo transversal",
           "total": 7,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 2,
+          "percentual": 28.6
         },
         {
           "nome": "IFC transversal",
@@ -1029,25 +1078,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-001",
-          "titulo": "Unidades SI explícitas",
-          "normas": [
-            "IfcSIUnit",
-            "guia de unidades da API do Revit 2025",
-            "UnitUtils"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
-          "id": "TM-002",
-          "titulo": "Codec do IfcGloballyUniqueId",
-          "normas": [
-            "IfcGloballyUniqueId",
-            "instalação do IfcOpenShell"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
           "id": "TM-003",
           "titulo": "Histórico de origem",
           "normas": [
@@ -1104,9 +1134,36 @@
             "IfcOpenShell"
           ],
           "disciplina": "IFC transversal"
+        },
+        {
+          "id": "TM-009",
+          "titulo": "Ida e volta do GlobalId",
+          "normas": [
+            "IfcGloballyUniqueId",
+            "IfcRoot em IfcProject"
+          ],
+          "disciplina": "IFC transversal"
+        },
+        {
+          "id": "TM-010",
+          "titulo": "Harness de validação do arquivo IFC",
+          "normas": [
+            "ifcopenshell.validate"
+          ],
+          "disciplina": "IFC transversal"
         }
       ],
       "entregas": [
+        {
+          "numero": 4,
+          "titulo": "TM-001: unidades SI explícitas",
+          "data": "2026-10-10T14:47-03:00"
+        },
+        {
+          "numero": 3,
+          "titulo": "Codec do IfcGloballyUniqueId (TM-002)",
+          "data": "2026-10-10T14:42-03:00"
+        },
         {
           "numero": 2,
           "titulo": "Revit 2027 como alvo e padrão Tekto no backlog",
@@ -1118,8 +1175,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 2,
-      "ultima_entrega": "2026-10-10T12:18-03:00",
+      "total_entregas": 4,
+      "ultima_entrega": "2026-10-10T14:47-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1542,12 +1599,15 @@
           "estado": "planejada"
         }
       ],
-      "normas_cobertas": [],
+      "normas_cobertas": [
+        "IfcGloballyUniqueId",
+        "IfcSIPrefix",
+        "IfcSIUnit",
+        "UnitUtils 27.3.0.0",
+        "guia de unidades da API do Revit 2027",
+        "instalação do IfcOpenShell"
+      ],
       "duvidas": [
-        {
-          "texto": "D-006 — Ordem dos bytes do IfcGloballyUniqueId",
-          "normas": []
-        },
         {
           "texto": "D-007 — Recorte IFC de edifício",
           "normas": []
@@ -1599,15 +1659,23 @@
         {
           "texto": "D-023 — Loader do pyRevit no Revit 2027",
           "normas": []
+        },
+        {
+          "texto": "D-024 — Fator do pé interno do Revit 2027 em metro",
+          "normas": []
+        },
+        {
+          "texto": "D-025 — Unidade da geometria do Dynamo no Revit 2027",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 179,
+        "pendentes": 177,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 90,
+          "data": "2027-01-07",
+          "dias": 89,
           "concluido": false
         },
         "real": {
