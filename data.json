@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-10T15:47-03:00",
+  "atualizado_em": "2026-10-10T16:01-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 5,
-    "percentual": 1.5,
-    "duvidas": 31,
-    "entregas": 13,
-    "ultima_entrega": "2026-10-10T14:54-03:00",
+    "feitos": 6,
+    "percentual": 1.7,
+    "duvidas": 33,
+    "entregas": 14,
+    "ultima_entrega": "2026-10-10T16:00-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -928,14 +928,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 179,
-      "feitos": 2,
-      "percentual": 1.1,
+      "feitos": 3,
+      "percentual": 1.7,
       "areas": [
         {
           "nome": "Núcleo transversal",
           "total": 7,
-          "feitos": 2,
-          "percentual": 28.6
+          "feitos": 3,
+          "percentual": 42.9
         },
         {
           "nome": "IFC transversal",
@@ -1078,14 +1078,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-003",
-          "titulo": "Histórico de origem",
-          "normas": [
-            "IfcOwnerHistory"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
           "id": "TM-004",
           "titulo": "Materiais",
           "normas": [
@@ -1151,9 +1143,26 @@
             "ifcopenshell.validate"
           ],
           "disciplina": "IFC transversal"
+        },
+        {
+          "id": "TM-011",
+          "titulo": "Guia de instalação do pyRevit no Revit 2027",
+          "normas": [
+            "Instalação do pyRevit",
+            "suporte a versão nova",
+            "arquitetura",
+            "instaladores",
+            "migração do Revit 2027 para .NET 10"
+          ],
+          "disciplina": "Revit, Dynamo e pyRevit"
         }
       ],
       "entregas": [
+        {
+          "numero": 5,
+          "titulo": "Acrescenta o histórico de origem ao envelope 0.1.1 (TM-003)",
+          "data": "2026-10-10T16:00-03:00"
+        },
         {
           "numero": 4,
           "titulo": "TM-001: unidades SI explícitas",
@@ -1175,8 +1184,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 4,
-      "ultima_entrega": "2026-10-10T14:47-03:00",
+      "total_entregas": 5,
+      "ultima_entrega": "2026-10-10T16:00-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1601,6 +1610,7 @@
       ],
       "normas_cobertas": [
         "IfcGloballyUniqueId",
+        "IfcOwnerHistory",
         "IfcSIPrefix",
         "IfcSIUnit",
         "UnitUtils 27.3.0.0",
@@ -1610,6 +1620,10 @@
       "duvidas": [
         {
           "texto": "D-007 — Recorte IFC de edifício",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -1667,15 +1681,19 @@
         {
           "texto": "D-025 — Unidade da geometria do Dynamo no Revit 2027",
           "normas": []
+        },
+        {
+          "texto": "D-026 — Lista de eventos e o IfcOwnerHistory",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 177,
+        "pendentes": 176,
         "planejada": {
-          "data": "2027-01-07",
-          "dias": 89,
+          "data": "2027-01-06",
+          "dias": 88,
           "concluido": false
         },
         "real": {
