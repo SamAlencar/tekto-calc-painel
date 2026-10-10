@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-10T12:19-03:00",
+  "atualizado_em": "2026-10-10T13:15-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
     "feitos": 1,
     "percentual": 0.3,
-    "duvidas": 25,
-    "entregas": 8,
-    "ultima_entrega": "2026-10-10T12:18-03:00",
+    "duvidas": 23,
+    "entregas": 9,
+    "ultima_entrega": "2026-10-10T13:15-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -197,6 +197,11 @@
       ],
       "entregas": [
         {
+          "numero": 5,
+          "titulo": "Cita a NBR 6118:2026 na flexão e prepara o fator 0,9",
+          "data": "2026-10-10T13:15-03:00"
+        },
+        {
           "numero": 4,
           "titulo": "Cobre as instalações no backlog, por disciplina",
           "data": "2026-10-10T11:55-03:00"
@@ -217,8 +222,8 @@
           "data": "2026-10-10T09:01-03:00"
         }
       ],
-      "total_entregas": 4,
-      "ultima_entrega": "2026-10-10T11:55-03:00",
+      "total_entregas": 5,
+      "ultima_entrega": "2026-10-10T13:15-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -373,16 +378,6 @@
       ],
       "duvidas": [
         {
-          "texto": "D-001 — Numeração dos itens da NBR 6118:2023 usados na flexão",
-          "normas": [
-            "NBR 6118"
-          ]
-        },
-        {
-          "texto": "D-004 — Texto oficial da Emenda 1:2026",
-          "normas": []
-        },
-        {
           "texto": "D-005 — Fichas do catálogo ABNT não abertas nas instalações",
           "normas": []
         }
@@ -398,7 +393,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.1
+          "historico_dias": 0.2
         }
       }
     },
@@ -871,7 +866,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.0
+          "historico_dias": 0.1
         }
       }
     },
@@ -1617,7 +1612,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.0
+          "historico_dias": 0.1
         }
       }
     }
