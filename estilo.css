@@ -63,3 +63,26 @@ main{padding:24px 20px 8px;display:grid;gap:18px;grid-template-columns:repeat(12
 .prep h2::before{display:none}
 .prep p{max-width:620px;margin:8px auto;color:var(--sutil)}
 .rodape{font-size:.8rem;color:var(--sutil);padding:18px 20px 30px;text-align:center}
+
+/* ---- Painel multiprojeto ---- */
+.secao-titulo{grid-column:span 12;margin:6px 0 -6px;font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:var(--sutil)}
+.projetos{grid-column:span 12;display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.proj{background:#fff;border:1px solid var(--linha);border-radius:10px;padding:18px 20px;box-shadow:0 1px 2px rgba(11,37,69,.05);
+  text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:10px;border-top:4px solid var(--azul2);transition:transform .15s,box-shadow .15s;cursor:pointer}
+.proj:hover,.proj:focus-visible{transform:translateY(-2px);box-shadow:0 6px 16px rgba(11,37,69,.10);outline:none}
+.proj.sel{border-top-color:var(--ambar)}
+.proj.total{background:var(--azul);color:#fff;border-color:var(--azul);border-top-color:var(--ambar);cursor:default}
+.proj.total:hover{transform:none;box-shadow:0 1px 2px rgba(11,37,69,.05)}
+.proj.total .sub,.proj.total .meta{color:var(--aco)}
+.proj.total .barra{background:rgba(255,255,255,.15)}
+.proj.total .barra>span{background:var(--ambar)}
+.proj h3{margin:0;font-size:1.15rem;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.proj h3 b{font-family:var(--mono);font-size:1.4rem}
+.proj .sub{margin-top:-8px}
+.meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-family:var(--mono);font-size:.78rem;color:var(--sutil)}
+.selo{font-family:var(--mono);font-size:.72rem;background:#fff4dc;color:#8a5a00;padding:2px 8px;border-radius:999px;align-self:flex-start}
+.abas{grid-column:span 12;display:flex;gap:6px;flex-wrap:wrap;border-bottom:2px solid var(--linha);margin-top:6px}
+.abas button{font:inherit;font-size:.92rem;background:none;border:0;padding:10px 16px;cursor:pointer;color:var(--sutil);border-bottom:3px solid transparent;margin-bottom:-2px}
+.abas button[aria-selected="true"]{color:var(--azul);font-weight:600;border-bottom-color:var(--ambar)}
+.abas button:hover{color:var(--azul)}
+#detalhe{grid-column:span 12;display:grid;gap:18px;grid-template-columns:repeat(12,1fr)}

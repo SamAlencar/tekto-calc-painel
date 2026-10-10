@@ -1,35 +1,59 @@
 #!/usr/bin/env python3
-"""Gera data.json do painel Tekto Calc a partir do repositório privado.
+"""Gera data.json do Painel Tekto a partir dos repositórios privados da Tekto.
 
-Lê (somente leitura, via `gh api`) docs/BACKLOG.md, docs/DUVIDAS.md e os PRs
-mesclados de SamAlencar/tekto-calc. Publica apenas metadados de progresso —
+Para cada projeto em PROJETOS, lê (somente leitura, via `gh api`) docs/BACKLOG.md,
+docs/DUVIDAS.md e os PRs mesclados. Publica apenas metadados de progresso —
 nunca código. Faz commit+push no repositório do painel só se os dados mudaram.
 Uso: python3 gerar_dados.py [--sem-push]
 """
 import json, os, re, subprocess, sys
-from datetime import datetime, timezone
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
-REPO_PRIVADO = "SamAlencar/tekto-calc"
+# ---------------------------------------------------------------------------
+# CONFIGURAÇÃO — para acompanhar um novo projeto, basta acrescentar um item.
+#   slug:   identificador curto usado na URL do painel (#slug)
+#   nome:   nome exibido
+#   repo:   repositório privado (dono/nome), lido só via gh api
+#   descricao: subtítulo do cartão
+#   prefixo: prefixo dos IDs de tarefa (informativo)
+#   normas_escopo: (opcional) lista (código, descrição) exibida mesmo sem tarefas
+# ---------------------------------------------------------------------------
+PROJETOS = [
+    {
+        "slug": "calc", "nome": "Tekto Calc", "repo": "SamAlencar/tekto-calc", "prefixo": "TC",
+        "descricao": "Rotinas de cálculo de engenharia em Python",
+        "normas_escopo": [
+            ("NBR 6118", "Concreto armado e protendido"),
+            ("NBR 8800", "Estruturas de aço"),
+            ("NBR 14762", "Perfis de aço formados a frio"),
+            ("NBR 7190", "Estruturas de madeira"),
+            ("NBR 6122", "Fundações"),
+            ("NBR 6120", "Ações para o cálculo de estruturas"),
+            ("NBR 8681", "Ações e segurança nas estruturas"),
+            ("NBR 5410", "Instalações elétricas de baixa tensão"),
+            ("NBR 5626", "Água fria e água quente"),
+            ("NBR 8160", "Esgoto sanitário"),
+            ("NBR 10844", "Águas pluviais"),
+        ],
+    },
+    {
+        "slug": "docs", "nome": "Tekto Docs", "repo": "SamAlencar/tekto-docs", "prefixo": "TD",
+        "descricao": "Memoriais, especificações, laudos e fichas técnicas",
+    },
+    {
+        "slug": "model", "nome": "Tekto Model", "repo": "SamAlencar/tekto-model", "prefixo": "TM",
+        "descricao": "Modelagem e BIM",
+    },
+]
+CAMINHO_BACKLOG = "docs/BACKLOG.md"
+CAMINHO_DUVIDAS = "docs/DUVIDAS.md"
+
 DIR = os.path.dirname(os.path.abspath(__file__))
 SAIDA = os.path.join(DIR, "data.json")
 TZ = ZoneInfo("America/Sao_Paulo")
 
-NORMAS_PROJETO = [
-    ("NBR 6118", "Concreto armado e protendido"),
-    ("NBR 8800", "Estruturas de aço"),
-    ("NBR 14762", "Perfis de aço formados a frio"),
-    ("NBR 7190", "Estruturas de madeira"),
-    ("NBR 6122", "Fundações"),
-    ("NBR 6120", "Ações para o cálculo de estruturas"),
-    ("NBR 8681", "Ações e segurança nas estruturas"),
-    ("NBR 5410", "Instalações elétricas de baixa tensão"),
-    ("NBR 5626", "Água fria e água quente"),
-    ("NBR 8160", "Esgoto sanitário"),
-    ("NBR 10844", "Águas pluviais"),
-]
-
-RE_NORMA = re.compile(r"\bNBR\s*(\d{4,5})(?:[-:\s]*(\d{4}))?", re.I)
+RE_NORMA = re.compile(r"\bNBR\s*(ISO(?:/IEC)?\s*)?(\d{4,5})(?:-\d+)?(?:[:\s]*(\d{4})\b)?", re.I)
 RE_ID = re.compile(r"`?\b([A-Z]{1,6}(?:[-_.][A-Z0-9]{1,6})*[-_.]?\d{1,4}(?:\.\d+)?)\b`?")
 RE_CHECK = re.compile(r"^\s*[-*+]\s*\[([ xX~\-])\]\s*(.+)$")
 RE_TAREFA_HEAD = re.compile(r"^\s*(?:\[[ xX]\]\s*)?`?\*{0,2}[A-Z]{1,6}(?:[-_.][A-Z0-9]{1,6})*[-_.]?\d{1,4}(?:\.\d+)?\b")
@@ -61,9 +85,30 @@ def limpa(t):
 def normas_em(t):
     out = []
     for m in RE_NORMA.finditer(t):
-        n = f"NBR {m.group(1)}"
+        n = f"NBR {'ISO ' if m.group(1) else ''}{m.group(2)}"
         if n not in out:
             out.append(n)
+    return out
+
+
+RE_OUTRAS = re.compile(r"\b(?:ISO(?:/IEC)?|IEC|EN|NR)[\s-]*\d{2,5}(?:-\d+)?|\bIFC\s*\d(?:\.\d)*", re.I)
+
+
+def referencias_em(valor):
+    """Códigos de norma do campo (NBR, ISO, IEC, NR, IFC...). Se não houver código,
+    os itens curtos separados por ';' entram como texto (ex.: 'buildingSMART IDS')."""
+    out = normas_em(valor)
+    resto = RE_NORMA.sub(" ", valor)
+    for m in RE_OUTRAS.finditer(resto):
+        c = re.sub(r"\s+", " ", m.group(0).upper().replace("IFC", "IFC ")).strip().replace("  ", " ")
+        if c not in out:
+            out.append(c)
+    if out:
+        return out
+    for parte in valor.split(";"):
+        t = limpa(re.split(r"\.\s", re.sub(r"<[^>]*>|https?://\S+", "", parte))[0])
+        if 2 <= len(t) <= 40 and not re.search(r"\b(nenhum\w*|n/a|não se aplica|a definir)\b", t, re.I) and t not in out:
+            out.append(t)
     return out
 
 
@@ -114,7 +159,7 @@ def parse_backlog(md):
                     atual["feito"] = bool(FEITO_TXT.search(valor)) and not re.search(r"\[ \]", valor)
                     atual["_status_explicito"] = True
                 elif chave.startswith(("norma", "refer")):
-                    for n in normas_em(valor):
+                    for n in referencias_em(valor):
                         if n not in atual["normas"]:
                             atual["normas"].append(n)
                 elif chave.startswith("depende"):
@@ -166,6 +211,14 @@ def parse_backlog(md):
     return tarefas
 
 
+def duvida_resolvida(st):
+    if re.search(r"\[x\]|✅|✔", st, re.I):
+        return True
+    if re.search(r"\[ \]|parcial|em aberto|pendente", st, re.I):
+        return False
+    return bool(re.search(r"resolvid|respondid|fechad|encerrad", st, re.I))
+
+
 def parse_duvidas(md):
     abertas, secao_fechada, atual = [], False, None
     tem_check = any(RE_CHECK.match(l) for l in md.splitlines())
@@ -189,7 +242,7 @@ def parse_duvidas(md):
             continue
         mc = RE_CAMPO.match(linha)
         if atual is not None and mc and limpa(mc.group(1)).lower().startswith(("status", "situa", "estado")):
-            if re.search(r"\[x\]|✅|resolvid|respondid|fechad|encerrad", mc.group(2), re.I) and atual in abertas:
+            if duvida_resolvida(mc.group(2)) and atual in abertas:
                 abertas.remove(atual)
             continue
         if atual is not None and mc:
@@ -210,8 +263,8 @@ def parse_duvidas(md):
     return abertas
 
 
-def prs_mesclados():
-    prs = gh_api(f"repos/{REPO_PRIVADO}/pulls?state=closed&per_page=100&sort=updated&direction=desc") or []
+def prs_mesclados(repo):
+    prs = gh_api(f"repos/{repo}/pulls?state=closed&per_page=100&sort=updated&direction=desc") or []
     out = []
     for p in prs:
         if not p.get("merged_at"):
@@ -223,51 +276,76 @@ def prs_mesclados():
     return out
 
 
-def gerar():
-    repo = gh_api(f"repos/{REPO_PRIVADO}")
-    branch = repo["default_branch"] if repo else "main"
-    backlog = gh_api(f"repos/{REPO_PRIVADO}/contents/docs/BACKLOG.md?ref={branch}", raw=True)
-    duvidas = gh_api(f"repos/{REPO_PRIVADO}/contents/docs/DUVIDAS.md?ref={branch}", raw=True)
+def gerar_projeto(cfg):
+    repo = cfg["repo"]
+    info = gh_api(f"repos/{repo}")
+    branch = info["default_branch"] if info else "main"
+    backlog = gh_api(f"repos/{repo}/contents/{CAMINHO_BACKLOG}?ref={branch}", raw=True) if info else None
+    duvidas = gh_api(f"repos/{repo}/contents/{CAMINHO_DUVIDAS}?ref={branch}", raw=True) if info else None
     tarefas = parse_backlog(backlog) if backlog else []
-    entregas = prs_mesclados() if repo else []
+    entregas = prs_mesclados(repo) if info else []
 
-    disciplinas = {}
+    areas = {}
     for t in tarefas:
-        d = disciplinas.setdefault(t["disciplina"], {"nome": t["disciplina"], "total": 0, "feitos": 0, "normas": []})
+        d = areas.setdefault(t["disciplina"], {"nome": t["disciplina"], "total": 0, "feitos": 0})
         d["total"] += 1
         d["feitos"] += t["feito"]
-        for n in t["normas"]:
-            if n not in d["normas"]:
-                d["normas"].append(n)
-    for d in disciplinas.values():
+    for d in areas.values():
         d["percentual"] = round(100 * d["feitos"] / d["total"], 1) if d["total"] else 0
 
     total = len(tarefas)
     feitos = sum(t["feito"] for t in tarefas)
-    cobertas = {n for t in tarefas if t["feito"] for n in t["normas"]}
-    planejadas = {n for t in tarefas for n in t["normas"]}
+    escopo = cfg.get("normas_escopo", [])
+    conhecidas = [n for n, _ in escopo]
+    vistas = []
+    for t in tarefas:
+        vistas += [n for n in t["normas"] if n not in vistas and n not in conhecidas]
     normas = []
-    conhecidas = [n for n, _ in NORMAS_PROJETO]
-    for n, desc in NORMAS_PROJETO + [(n, "") for n in sorted(planejadas) if n not in conhecidas]:
+    for n, desc in list(escopo) + [(n, "") for n in vistas]:
         nt = sum(1 for t in tarefas if n in t["normas"])
         nf = sum(1 for t in tarefas if t["feito"] and n in t["normas"])
         estado = "coberta" if nt and nf == nt else "em_andamento" if nf else "planejada" if nt else "futura"
         normas.append({"norma": n, "descricao": desc, "tarefas": nt, "feitas": nf, "estado": estado})
+    lista_duv = parse_duvidas(duvidas) if duvidas else []
 
     return {
-        "projeto": "Tekto Calc",
+        "slug": cfg["slug"],
+        "nome": cfg["nome"],
+        "descricao": cfg.get("descricao", ""),
         "estado": "ativo" if total else "preparacao",
+        "repo_encontrado": info is not None,
         "backlog_encontrado": backlog is not None,
+        "duvidas_encontrado": duvidas is not None,
         "total": total,
         "feitos": feitos,
         "percentual": round(100 * feitos / total, 1) if total else 0,
-        "disciplinas": list(disciplinas.values()),
+        "areas": list(areas.values()),
         "proximas": [{k: t[k] for k in ("id", "titulo", "normas", "disciplina")} for t in tarefas if not t["feito"]][:8],
         "entregas": entregas[:12],
         "total_entregas": len(entregas),
+        "ultima_entrega": entregas[0]["data"] if entregas else None,
         "normas": normas,
-        "normas_cobertas": sorted(cobertas),
-        "duvidas": parse_duvidas(duvidas) if duvidas else [],
+        "normas_cobertas": sorted({n for t in tarefas if t["feito"] for n in t["normas"]}),
+        "duvidas": lista_duv,
+    }
+
+
+def gerar():
+    projetos = [gerar_projeto(c) for c in PROJETOS]
+    total = sum(p["total"] for p in projetos)
+    feitos = sum(p["feitos"] for p in projetos)
+    datas = [p["ultima_entrega"] for p in projetos if p["ultima_entrega"]]
+    return {
+        "painel": "Painel Tekto",
+        "geral": {
+            "total": total, "feitos": feitos,
+            "percentual": round(100 * feitos / total, 1) if total else 0,
+            "duvidas": sum(len(p["duvidas"]) for p in projetos),
+            "entregas": sum(p["total_entregas"] for p in projetos),
+            "ultima_entrega": max(datas) if datas else None,
+            "projetos_ativos": sum(p["estado"] == "ativo" for p in projetos),
+        },
+        "projetos": projetos,
     }
 
 
@@ -289,13 +367,14 @@ def main():
     with open(SAIDA, "w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(f"data.json atualizado: {dados['feitos']}/{dados['total']} tarefas, estado={dados['estado']}")
+    resumo = ", ".join(f"{p['nome']} {p['feitos']}/{p['total']}" for p in dados["projetos"])
+    print(f"data.json atualizado: {resumo}")
     if "--sem-push" in sys.argv:
         return
     git("add", "data.json")
     if not git("status", "--porcelain", "data.json").strip():
         return
-    git("commit", "-m", f"Atualiza dados do painel ({dados['feitos']}/{dados['total']})")
+    git("commit", "-m", f"Atualiza dados do painel ({resumo})")
     git("push", "origin", "HEAD:main")
     print("Publicado no GitHub Pages.")
 
