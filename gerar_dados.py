@@ -51,6 +51,7 @@ PROJETOS = [
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
 RITMO_PADRAO = 1.0        # rotina diária: 1 tarefa por dia, 7 dias por semana
 JANELA_RITMO_REAL = 14    # dias usados para medir o ritmo real
+MAX_REFERENCIAS = 60      # limite de chips de normas/referências por projeto
 HISTORICO_MINIMO = 7      # dias de histórico do backlog antes de mostrar o ritmo real
 CAMINHO_DUVIDAS = "docs/DUVIDAS.md"
 
@@ -102,17 +103,22 @@ RE_OUTRAS = re.compile(r"\b(?:ISO(?:/IEC)?|IEC|EN|NR)[\s-]*\d{2,5}(?:-\d+)?|\bIF
 def referencias_em(valor):
     """Códigos de norma do campo (NBR, ISO, IEC, NR, IFC...). Se não houver código,
     os itens curtos separados por ';' entram como texto (ex.: 'buildingSMART IDS')."""
-    out = normas_em(valor)
-    resto = RE_NORMA.sub(" ", valor)
-    for m in RE_OUTRAS.finditer(resto):
-        c = re.sub(r"\s+", " ", m.group(0).upper().replace("IFC", "IFC ")).strip().replace("  ", " ")
-        if c not in out:
-            out.append(c)
-    if out:
-        return out
+    valor = re.sub(r"\(\s*<?https?://[^)]*\)", "", valor)   # "(https://...)" depois do nome
+    valor = re.sub(r"<?https?://\S+>?", "", valor)
+    out = []
     for parte in valor.split(";"):
-        t = limpa(re.split(r"\.\s", re.sub(r"<[^>]*>|https?://\S+", "", parte))[0])
-        if 2 <= len(t) <= 40 and not re.search(r"\b(nenhum\w*|n/a|não se aplica|a definir)\b", t, re.I) and t not in out:
+        codigos = normas_em(parte)
+        for m in RE_OUTRAS.finditer(RE_NORMA.sub(" ", parte)):
+            c = re.sub(r"\s+", " ", m.group(0).upper().replace("IFC", "IFC ")).strip()
+            if c not in codigos:
+                codigos.append(c)
+        if codigos:
+            out += [c for c in codigos if c not in out]
+            continue
+        t = limpa(re.split(r"\.\s|,\s", parte)[0]).rstrip(". ")
+        if t.count("(") != t.count(")") or re.match(r"(conferir|sem|ver|verificar|ainda|na edição|edição)\b", t, re.I):
+            continue
+        if 2 <= len(t) <= 50 and not re.search(r"\b(nenhum\w*|n/a|não se aplica|a definir)\b", t, re.I) and t not in out:
             out.append(t)
     return out
 
@@ -337,6 +343,8 @@ def gerar_projeto(cfg):
     for t in tarefas:
         vistas += [n for n in t["normas"] if n not in vistas and n not in conhecidas]
     normas = []
+    freq = {n: sum(1 for t in tarefas if n in t["normas"]) for n in vistas}
+    vistas = sorted(vistas, key=lambda n: (not RE_NORMA.search(n), -freq[n]))[:MAX_REFERENCIAS]
     for n, desc in list(escopo) + [(n, "") for n in vistas]:
         nt = sum(1 for t in tarefas if n in t["normas"])
         nf = sum(1 for t in tarefas if t["feito"] and n in t["normas"])
