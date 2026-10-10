@@ -25,6 +25,7 @@ PROJETOS = [
     {
         "slug": "calc", "nome": "Tekto Calc", "repo": "SamAlencar/tekto-calc", "prefixo": "TC",
         "descricao": "Rotinas de cálculo de engenharia em Python",
+        "ritmo_planejado": 1.0,
         "normas_escopo": [
             ("NBR 6118", "Concreto armado e protendido"),
             ("NBR 8800", "Estruturas de aço"),
@@ -42,14 +43,16 @@ PROJETOS = [
     {
         "slug": "docs", "nome": "Tekto Docs", "repo": "SamAlencar/tekto-docs", "prefixo": "TD",
         "descricao": "Memoriais, especificações, laudos e fichas técnicas",
+        "ritmo_planejado": 1.0,
     },
     {
         "slug": "model", "nome": "Tekto Model", "repo": "SamAlencar/tekto-model", "prefixo": "TM",
         "descricao": "Modelagem e BIM",
+        "ritmo_planejado": 2.0,   # rotina roda duas vezes por dia
     },
 ]
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
-RITMO_PADRAO = 1.0        # rotina diária: 1 tarefa por dia, 7 dias por semana
+RITMO_PADRAO = 1.0        # tarefas/dia quando o projeto não define ritmo_planejado (7 dias por semana)
 JANELA_RITMO_REAL = 14    # dias usados para medir o ritmo real
 MAX_REFERENCIAS = 60      # limite de chips de normas/referências por projeto
 HISTORICO_MINIMO = 7      # dias de histórico do backlog antes de mostrar o ritmo real
@@ -353,7 +356,7 @@ def gerar_projeto(cfg):
     lista_duv = parse_duvidas(duvidas) if duvidas else []
 
     hoje = datetime.now(TZ)
-    ritmo_plan = cfg.get("ritmo_planejado", RITMO_PADRAO)
+    ritmo_plan = float(cfg.get("ritmo_planejado") or RITMO_PADRAO)
     pend = total - feitos
     if total:
         real = ritmo_real(repo, branch, feitos, hoje)
@@ -441,7 +444,12 @@ def main():
     if not git("status", "--porcelain", "data.json").strip():
         return
     git("commit", "-m", f"Atualiza dados do painel ({resumo})")
-    git("push", "origin", "HEAD:main")
+    try:
+        git("push", "origin", "HEAD:main")
+    except subprocess.CalledProcessError:
+        # origin andou (outro push): rebase e tenta de novo uma vez
+        git("pull", "--rebase", "origin", "main")
+        git("push", "origin", "HEAD:main")
     print("Publicado no GitHub Pages.")
 
 
