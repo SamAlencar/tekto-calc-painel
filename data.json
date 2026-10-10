@@ -1,15 +1,21 @@
 {
-  "atualizado_em": "2026-10-10T08:51-03:00",
+  "atualizado_em": "2026-10-10T09:01-03:00",
   "projeto": "Tekto Calc",
   "estado": "preparacao",
-  "backlog_encontrado": false,
+  "backlog_encontrado": true,
   "total": 0,
   "feitos": 0,
   "percentual": 0,
   "disciplinas": [],
   "proximas": [],
-  "entregas": [],
-  "total_entregas": 0,
+  "entregas": [
+    {
+      "numero": 1,
+      "titulo": "Fundação do tekto-calc e flexão simples pela NBR 6118:2023",
+      "data": "2026-10-10T09:01-03:00"
+    }
+  ],
+  "total_entregas": 1,
   "normas": [
     {
       "norma": "NBR 6118",
