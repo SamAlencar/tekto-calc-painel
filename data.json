@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-10T12:05-03:00",
+  "atualizado_em": "2026-10-10T12:19-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 341,
+    "total": 343,
     "feitos": 1,
     "percentual": 0.3,
-    "duvidas": 33,
-    "entregas": 7,
-    "ultima_entrega": "2026-10-10T12:00-03:00",
+    "duvidas": 25,
+    "entregas": 8,
+    "ultima_entrega": "2026-10-10T12:18-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -883,7 +883,7 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 177,
+      "total": 179,
       "feitos": 0,
       "percentual": 0.0,
       "areas": [
@@ -901,6 +901,12 @@
         },
         {
           "nome": "Revit, Dynamo e pyRevit",
+          "total": 5,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Padrão estrutural Tekto",
           "total": 6,
           "feitos": 0,
           "percentual": 0.0
@@ -937,7 +943,7 @@
         },
         {
           "nome": "Instalações elétricas",
-          "total": 20,
+          "total": 21,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -973,7 +979,7 @@
         },
         {
           "nome": "Incêndio e bombeiros",
-          "total": 24,
+          "total": 22,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1008,20 +1014,14 @@
           "percentual": 0.0
         },
         {
-          "nome": "Tekla Structures",
-          "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Civil 3D",
+          "nome": "Tekla e Civil 3D",
           "total": 1,
           "feitos": 0,
           "percentual": 0.0
         },
         {
           "nome": "Documentos Office",
-          "total": 2,
+          "total": 1,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1113,13 +1113,18 @@
       ],
       "entregas": [
         {
+          "numero": 2,
+          "titulo": "Revit 2027 como alvo e padrão Tekto no backlog",
+          "data": "2026-10-10T12:18-03:00"
+        },
+        {
           "numero": 1,
           "titulo": "Fundação do Tekto Model: modelo neutro, fichas e backlog",
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 1,
-      "ultima_entrega": "2026-10-10T12:00-03:00",
+      "total_entregas": 2,
+      "ultima_entrega": "2026-10-10T12:18-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1180,7 +1185,7 @@
         {
           "norma": "FIREPROTECTION",
           "descricao": "",
-          "tarefas": 16,
+          "tarefas": 14,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -1193,6 +1198,13 @@
         },
         {
           "norma": "IfcBeam",
+          "descricao": "",
+          "tarefas": 10,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcDistributionSystemEnum",
           "descricao": "",
           "tarefas": 9,
           "feitas": 0,
@@ -1207,13 +1219,6 @@
         },
         {
           "norma": "IfcElectricDistributionBoard",
-          "descricao": "",
-          "tarefas": 8,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcDistributionSystemEnum",
           "descricao": "",
           "tarefas": 8,
           "feitas": 0,
@@ -1248,16 +1253,30 @@
           "estado": "planejada"
         },
         {
-          "norma": "guia estrutural",
+          "norma": "IfcPile",
           "descricao": "",
-          "tarefas": 6,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "IfcPile",
+          "norma": "IfcColumn",
           "descricao": "",
-          "tarefas": 4,
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcMember",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "guia estrutural",
+          "descricao": "",
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -1318,21 +1337,7 @@
           "estado": "planejada"
         },
         {
-          "norma": "IfcColumn",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "OST_StructuralColumns",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcMember",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -1545,26 +1550,6 @@
       "normas_cobertas": [],
       "duvidas": [
         {
-          "texto": "D-001 — Versão do Revit na máquina da Tekto",
-          "normas": []
-        },
-        {
-          "texto": "D-002 — Template, famílias e parâmetros da Tekto",
-          "normas": []
-        },
-        {
-          "texto": "D-003 — Ordem das disciplinas na obra",
-          "normas": []
-        },
-        {
-          "texto": "D-004 — pyRevit instalado e engine",
-          "normas": []
-        },
-        {
-          "texto": "D-005 — CPython embutido no Dynamo do Revit 2024 a 2026",
-          "normas": []
-        },
-        {
           "texto": "D-006 — Ordem dos bytes do IfcGloballyUniqueId",
           "normas": []
         },
@@ -1585,19 +1570,7 @@
           "normas": []
         },
         {
-          "texto": "D-011 — Revit 2027 entra no alvo?",
-          "normas": []
-        },
-        {
           "texto": "D-012 — LGPL do IfcOpenShell no add-in",
-          "normas": []
-        },
-        {
-          "texto": "D-013 — Quem emite o GUID dos parâmetros compartilhados",
-          "normas": []
-        },
-        {
-          "texto": "D-014 — Classe Revit de estaca, sapata, laje e extintor no template",
           "normas": []
         },
         {
@@ -1617,10 +1590,6 @@
           "normas": []
         },
         {
-          "texto": "D-019 — Template MEP e padrão de conectores",
-          "normas": []
-        },
-        {
           "texto": "D-020 — Escala de nível de informação da Tekto",
           "normas": []
         },
@@ -1631,15 +1600,19 @@
         {
           "texto": "D-022 — Nome curto do schema no IfcOpenShell 0.9.0",
           "normas": []
+        },
+        {
+          "texto": "D-023 — Loader do pyRevit no Revit 2027",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 177,
+        "pendentes": 179,
         "planejada": {
-          "data": "2027-01-07",
-          "dias": 89,
+          "data": "2027-01-08",
+          "dias": 90,
           "concluido": false
         },
         "real": {
