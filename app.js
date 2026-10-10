@@ -16,7 +16,7 @@
     const n = d.normas || [];
     if (!n.length) return `<p class="vazio">Nenhuma norma mapeada ainda.</p>`;
     return `<div class="chips">${n.map((x) => `<span class="chip ${esc(x.estado)}" title="${esc(ROTULO[x.estado] || "")}${x.tarefas ? ` · ${x.feitas}/${x.tarefas} tarefas` : ""}"><i></i><b>${esc(x.norma)}</b><span class="d">${esc(x.descricao)}</span></span>`).join("")}</div>
-      <div class="leg-chips">${Object.entries(ROTULO).map(([k, v]) => `<span><i style="background:var(--${{ coberta: "verde", em_andamento: "laranja", planejada: "azul2", futura: "cinza" }[k]})"></i>${v}</span>`).join("")}</div>`;
+      <div class="leg-chips">${Object.entries(ROTULO).map(([k, v]) => `<span><i style="background:var(--${{ coberta: "verde", em_andamento: "laranja", planejada: "plan", futura: "cinza" }[k]})"></i>${v}</span>`).join("")}</div>`;
   }
 
   function duvidasHTML(d) {

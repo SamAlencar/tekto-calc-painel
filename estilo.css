@@ -1,6 +1,6 @@
 :root{
   --azul:#0b2545; --azul2:#13315c; --aco:#8da9c4; --papel:#f4f6f9; --linha:#dfe5ee;
-  --texto:#1b2330; --sutil:#5b6778; --ambar:#f5a524; --verde:#1f9d6b; --laranja:#e07b24; --cinza:#a9b4c2;
+  --texto:#1b2330; --sutil:#5b6778; --ambar:#f5a524; --verde:#1f9d6b; --laranja:#e07b24; --cinza:#a9b4c2; --plan:#2a6fb0;
   --mono: ui-monospace,"SFMono-Regular","JetBrains Mono",Menlo,Consolas,monospace;
 }
 *{box-sizing:border-box}
