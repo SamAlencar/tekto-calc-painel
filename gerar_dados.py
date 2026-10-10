@@ -32,6 +32,8 @@ NORMAS_PROJETO = [
 RE_NORMA = re.compile(r"\bNBR\s*(\d{4,5})(?:[-:\s]*(\d{4}))?", re.I)
 RE_ID = re.compile(r"`?\b([A-Z]{1,6}(?:[-_.][A-Z0-9]{1,6})*[-_.]?\d{1,4}(?:\.\d+)?)\b`?")
 RE_CHECK = re.compile(r"^\s*[-*+]\s*\[([ xX~\-])\]\s*(.+)$")
+RE_TAREFA_HEAD = re.compile(r"^\s*(?:\[[ xX]\]\s*)?`?\*{0,2}[A-Z]{1,6}(?:[-_.][A-Z0-9]{1,6})*[-_.]?\d{1,4}(?:\.\d+)?\b")
+RE_CAMPO = re.compile(r"^\s*[-*+]\s*\*{0,2}([A-Za-zÀ-ú ]{3,30}?)\*{0,2}\s*:\s*\*{0,2}\s*(.*)$")
 RE_HEAD = re.compile(r"^(#{1,6})\s+(.+?)\s*#*\s*$")
 FEITO_TXT = re.compile(r"\[x\]|✅|✔|☑|\bfeit[oa]\b|\bconclu[ií]d[oa]\b|\bdone\b|\bok\b|\bmesclad[oa]\b", re.I)
 PEND_TXT = re.compile(r"\[ \]|⬜|☐|pendente|a fazer|todo|em andamento|aberto", re.I)
@@ -85,15 +87,39 @@ def separa_tarefa(texto, disciplina):
 
 
 def parse_backlog(md):
-    tarefas, disc, headers = [], "Geral", None
+    tarefas, disc, headers, atual = [], "Geral", None, None
     for linha in md.splitlines():
         h = RE_HEAD.match(linha)
         if h:
             nivel = len(h.group(1))
+            headers, atual = None, None
+            # Formato "### TC-001 — Título" (tarefa como cabeçalho, campos em bullets)
+            mt = RE_TAREFA_HEAD.match(h.group(2)) if nivel >= 3 else None
+            if mt:
+                t = separa_tarefa(h.group(2), disc)
+                t["feito"] = bool(re.search(r"\[x\]|✅|✔", h.group(2), re.I))
+                t["_status_explicito"] = False
+                if t["titulo"]:
+                    tarefas.append(t)
+                    atual = t
+                continue
             if nivel >= 2:
                 disc = limpa(re.sub(r"^\d+(\.\d+)*[.)]?\s*", "", h.group(2))) or disc
-            headers = None
             continue
+        if atual is not None:
+            mc = RE_CAMPO.match(linha)
+            if mc:
+                chave, valor = limpa(mc.group(1)).lower(), mc.group(2)
+                if chave.startswith(("status", "situa", "estado")):
+                    atual["feito"] = bool(FEITO_TXT.search(valor)) and not re.search(r"\[ \]", valor)
+                    atual["_status_explicito"] = True
+                elif chave.startswith(("norma", "refer")):
+                    for n in normas_em(valor):
+                        if n not in atual["normas"]:
+                            atual["normas"].append(n)
+                elif chave.startswith("depende"):
+                    atual["depende"] = [x for x in re.findall(r"[A-Z]{1,6}-?\d{1,4}", valor)]
+                continue
         c = RE_CHECK.match(linha)
         if c and not linha.startswith((" " * 4, "\t")):
             t = separa_tarefa(c.group(2), disc)
@@ -134,6 +160,9 @@ def parse_backlog(md):
         elif s and not s.startswith("|"):
             if not RE_CHECK.match(linha) and not linha.startswith((" ", "\t")):
                 headers = None
+    for t in tarefas:
+        t.pop("_status_explicito", None)
+        t.pop("depende", None)
     return tarefas
 
 
@@ -157,6 +186,13 @@ def parse_duvidas(md):
                 abertas.append(atual)
             continue
         if secao_fechada:
+            continue
+        mc = RE_CAMPO.match(linha)
+        if atual is not None and mc and limpa(mc.group(1)).lower().startswith(("status", "situa", "estado")):
+            if re.search(r"\[x\]|✅|resolvid|respondid|fechad|encerrad", mc.group(2), re.I) and atual in abertas:
+                abertas.remove(atual)
+            continue
+        if atual is not None and mc:
             continue
         c = RE_CHECK.match(linha)
         if c and not linha.startswith((" ", "\t")):
