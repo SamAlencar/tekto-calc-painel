@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-11T09:04-03:00",
+  "atualizado_em": "2026-10-11T09:23-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 8,
-    "percentual": 2.3,
-    "duvidas": 34,
-    "entregas": 16,
-    "ultima_entrega": "2026-10-11T09:04-03:00",
+    "feitos": 9,
+    "percentual": 2.6,
+    "duvidas": 40,
+    "entregas": 17,
+    "ultima_entrega": "2026-10-11T09:23-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -420,14 +420,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 73,
-      "feitos": 1,
-      "percentual": 1.4,
+      "feitos": 2,
+      "percentual": 2.7,
       "areas": [
         {
           "nome": "Memoriais",
           "total": 6,
-          "feitos": 1,
-          "percentual": 16.7
+          "feitos": 2,
+          "percentual": 33.3
         },
         {
           "nome": "Especificações",
@@ -473,17 +473,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TD-002",
-          "titulo": "Memorial descritivo de estrutura de concreto armado",
-          "normas": [
-            "NBR 6118",
-            "NBR 14931",
-            "NBR 6120",
-            "NBR 8681"
-          ],
-          "disciplina": "Memoriais"
-        },
         {
           "id": "TD-003",
           "titulo": "Memorial descritivo de fundações",
@@ -544,9 +533,23 @@
             "NBR 6136"
           ],
           "disciplina": "Especificações"
+        },
+        {
+          "id": "TD-010",
+          "titulo": "Especificação de alvenaria estrutural",
+          "normas": [
+            "NBR 16868",
+            "NBR 6136"
+          ],
+          "disciplina": "Especificações"
         }
       ],
       "entregas": [
+        {
+          "numero": 4,
+          "titulo": "Memorial descritivo de estrutura de concreto armado (TD-002)",
+          "data": "2026-10-11T09:23-03:00"
+        },
         {
           "numero": 3,
           "titulo": "Memorial de arquitetura para residência unifamiliar (TD-001)",
@@ -563,8 +566,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 3,
-      "ultima_entrega": "2026-10-10T14:54-03:00",
+      "total_entregas": 4,
+      "ultima_entrega": "2026-10-11T09:23-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -640,8 +643,8 @@
           "norma": "NBR 6118",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 9575",
@@ -675,8 +678,8 @@
           "norma": "NBR 14931",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 6122",
@@ -766,15 +769,15 @@
           "norma": "NBR 6120",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 8681",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 15253",
@@ -834,7 +837,11 @@
         }
       ],
       "normas_cobertas": [
+        "NBR 14931",
         "NBR 15575",
+        "NBR 6118",
+        "NBR 6120",
+        "NBR 8681",
         "NBR 9050"
       ],
       "duvidas": [
@@ -907,15 +914,45 @@
           "normas": [
             "NBR 15575"
           ]
+        },
+        {
+          "texto": "D-015 — Células das Tabelas 7.1 e 7.2 e caracterização das classes da Tabela 6.1",
+          "normas": []
+        },
+        {
+          "texto": "D-016 — Pesos específicos da Tabela 1 e ações fora da lista residencial conferida",
+          "normas": []
+        },
+        {
+          "texto": "D-017 — Valores de γg, γq, ψ0, ψ1 e ψ2 na NBR 8681:2025",
+          "normas": [
+            "NBR 8681"
+          ]
+        },
+        {
+          "texto": "D-018 — Tolerâncias numéricas, cura e retirada de fôrmas na NBR 14931:2023",
+          "normas": [
+            "NBR 14931"
+          ]
+        },
+        {
+          "texto": "D-019 — Grandezas numéricas do concreto e do aço nas seções 8.2 e 8.3",
+          "normas": []
+        },
+        {
+          "texto": "D-020 — Item de dimensionamento do elemento na NBR 6118:2026",
+          "normas": [
+            "NBR 6118"
+          ]
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 72,
+        "pendentes": 71,
         "planejada": {
-          "data": "2026-12-22",
-          "dias": 72,
+          "data": "2026-12-21",
+          "dias": 71,
           "concluido": false
         },
         "real": {
