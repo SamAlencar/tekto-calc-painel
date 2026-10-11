@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-11T15:46-03:00",
+  "atualizado_em": "2026-10-11T16:02-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 9,
-    "percentual": 2.6,
-    "duvidas": 40,
-    "entregas": 17,
-    "ultima_entrega": "2026-10-11T09:23-03:00",
+    "feitos": 10,
+    "percentual": 2.9,
+    "duvidas": 44,
+    "entregas": 18,
+    "ultima_entrega": "2026-10-11T16:01-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -970,14 +970,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 179,
-      "feitos": 4,
-      "percentual": 2.2,
+      "feitos": 5,
+      "percentual": 2.8,
       "areas": [
         {
           "nome": "Núcleo transversal",
           "total": 7,
-          "feitos": 4,
-          "percentual": 57.1
+          "feitos": 5,
+          "percentual": 71.4
         },
         {
           "nome": "IFC transversal",
@@ -1120,16 +1120,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-005",
-          "titulo": "Seções transversais parametrizadas",
-          "normas": [
-            "IfcRectangleProfileDef",
-            "IfcCircleProfileDef",
-            "IfcIShapeProfileDef"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
           "id": "TM-006",
           "titulo": "Resultados de cálculo anexos ao elemento",
           "normas": [
@@ -1197,9 +1187,23 @@
             "My First Plug-in"
           ],
           "disciplina": "Revit, Dynamo e pyRevit"
+        },
+        {
+          "id": "TM-013",
+          "titulo": "Níveis e eixos no Revit e no Dynamo",
+          "normas": [
+            "BuiltInCategory",
+            "guia de unidades"
+          ],
+          "disciplina": "Revit, Dynamo e pyRevit"
         }
       ],
       "entregas": [
+        {
+          "numero": 7,
+          "titulo": "Abre as seções transversais parametrizadas (TM-005)",
+          "data": "2026-10-11T16:01-03:00"
+        },
         {
           "numero": 6,
           "titulo": "Abre a lista de materiais no envelope 0.1.2 (TM-004)",
@@ -1231,8 +1235,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 6,
-      "ultima_entrega": "2026-10-11T09:04-03:00",
+      "total_entregas": 7,
+      "ultima_entrega": "2026-10-11T16:01-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1656,10 +1660,13 @@
         }
       ],
       "normas_cobertas": [
+        "IfcCircleProfileDef",
         "IfcGloballyUniqueId",
+        "IfcIShapeProfileDef",
         "IfcMaterial",
         "IfcMaterialLayerSet",
         "IfcOwnerHistory",
+        "IfcRectangleProfileDef",
         "IfcSIPrefix",
         "IfcSIUnit",
         "UnitUtils 27.3.0.0",
@@ -1677,6 +1684,10 @@
         },
         {
           "texto": "D-008 — UniqueId do Revit e GlobalId",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -1738,15 +1749,27 @@
         {
           "texto": "D-027 — Identificador do material no IFC",
           "normas": []
+        },
+        {
+          "texto": "D-028 — Eixo, diâmetro e unidade da StructuralSection no Revit 2027",
+          "normas": []
+        },
+        {
+          "texto": "D-029 — Nó Dynamo da seção parametrizada",
+          "normas": []
+        },
+        {
+          "texto": "D-030 — Identificador da seção no arquivo IFC",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 175,
+        "pendentes": 174,
         "planejada": {
-          "data": "2027-01-07",
-          "dias": 88,
+          "data": "2027-01-06",
+          "dias": 87,
           "concluido": false
         },
         "real": {
