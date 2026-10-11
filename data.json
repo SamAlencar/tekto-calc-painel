@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-11T08:50-03:00",
+  "atualizado_em": "2026-10-11T09:04-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 7,
-    "percentual": 2.0,
-    "duvidas": 33,
-    "entregas": 15,
-    "ultima_entrega": "2026-10-11T08:01-03:00",
+    "feitos": 8,
+    "percentual": 2.3,
+    "duvidas": 34,
+    "entregas": 16,
+    "ultima_entrega": "2026-10-11T09:04-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -933,14 +933,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 179,
-      "feitos": 3,
-      "percentual": 1.7,
+      "feitos": 4,
+      "percentual": 2.2,
       "areas": [
         {
           "nome": "Núcleo transversal",
           "total": 7,
-          "feitos": 3,
-          "percentual": 42.9
+          "feitos": 4,
+          "percentual": 57.1
         },
         {
           "nome": "IFC transversal",
@@ -1083,15 +1083,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-004",
-          "titulo": "Materiais",
-          "normas": [
-            "IfcMaterial",
-            "IfcMaterialLayerSet"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
           "id": "TM-005",
           "titulo": "Seções transversais parametrizadas",
           "normas": [
@@ -1160,9 +1151,23 @@
             "migração do Revit 2027 para .NET 10"
           ],
           "disciplina": "Revit, Dynamo e pyRevit"
+        },
+        {
+          "id": "TM-012",
+          "titulo": "Interface C# compilada no CI sem o Revit",
+          "normas": [
+            "Migração do Revit 2027 para .NET 10",
+            "My First Plug-in"
+          ],
+          "disciplina": "Revit, Dynamo e pyRevit"
         }
       ],
       "entregas": [
+        {
+          "numero": 6,
+          "titulo": "Abre a lista de materiais no envelope 0.1.2 (TM-004)",
+          "data": "2026-10-11T09:04-03:00"
+        },
         {
           "numero": 5,
           "titulo": "Acrescenta o histórico de origem ao envelope 0.1.1 (TM-003)",
@@ -1189,8 +1194,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 5,
-      "ultima_entrega": "2026-10-10T16:00-03:00",
+      "total_entregas": 6,
+      "ultima_entrega": "2026-10-11T09:04-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1615,6 +1620,8 @@
       ],
       "normas_cobertas": [
         "IfcGloballyUniqueId",
+        "IfcMaterial",
+        "IfcMaterialLayerSet",
         "IfcOwnerHistory",
         "IfcSIPrefix",
         "IfcSIUnit",
@@ -1648,7 +1655,7 @@
           "normas": []
         },
         {
-          "texto": "D-015 — Parâmetro compartilhado em eixo e material",
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -1690,12 +1697,16 @@
         {
           "texto": "D-026 — Lista de eventos e o IfcOwnerHistory",
           "normas": []
+        },
+        {
+          "texto": "D-027 — Identificador do material no IFC",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 176,
+        "pendentes": 175,
         "planejada": {
           "data": "2027-01-07",
           "dias": 88,
