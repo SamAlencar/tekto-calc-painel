@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-11T07:49-03:00",
+  "atualizado_em": "2026-10-11T08:02-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 6,
-    "percentual": 1.7,
+    "feitos": 7,
+    "percentual": 2.0,
     "duvidas": 33,
-    "entregas": 14,
-    "ultima_entrega": "2026-10-10T16:00-03:00",
+    "entregas": 15,
+    "ultima_entrega": "2026-10-11T08:01-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-08",
-        "dias": 89,
+        "data": "2027-01-07",
+        "dias": 88,
         "concluido": false,
         "projeto": "Tekto Calc"
       }
@@ -29,14 +29,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 91,
-      "feitos": 2,
-      "percentual": 2.2,
+      "feitos": 3,
+      "percentual": 3.3,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 2,
-          "percentual": 9.1
+          "feitos": 3,
+          "percentual": 13.6
         },
         {
           "nome": "Ações e combinações",
@@ -131,14 +131,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-002",
-          "titulo": "Resistência da biela comprimida no modelo I",
-          "normas": [
-            "NBR 6118"
-          ],
-          "disciplina": "Concreto armado"
-        },
-        {
           "id": "TC-003",
           "titulo": "Armadura transversal do modelo I",
           "normas": [
@@ -193,9 +185,22 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-010",
+          "titulo": "Flecha diferida no tempo",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 7,
+          "titulo": "Verifica a biela VRd2 do modelo I (NBR 6118:2026)",
+          "data": "2026-10-11T08:01-03:00"
+        },
         {
           "numero": 6,
           "titulo": "Calcula Vc do cortante no modelo I (NBR 6118:2026)",
@@ -227,14 +232,14 @@
           "data": "2026-10-10T09:01-03:00"
         }
       ],
-      "total_entregas": 6,
-      "ultima_entrega": "2026-10-10T14:44-03:00",
+      "total_entregas": 7,
+      "ultima_entrega": "2026-10-11T08:01-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 28,
-          "feitas": 2,
+          "feitas": 3,
           "estado": "em_andamento"
         },
         {
@@ -394,10 +399,10 @@
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 89,
+        "pendentes": 88,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 89,
+          "data": "2027-01-07",
+          "dias": 88,
           "concluido": false
         },
         "real": {
@@ -915,7 +920,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.8
+          "historico_dias": 0.9
         }
       }
     },
