@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-12T08:33-03:00",
+  "atualizado_em": "2026-10-12T08:57-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 12,
-    "percentual": 3.5,
-    "duvidas": 49,
-    "entregas": 20,
-    "ultima_entrega": "2026-10-12T08:32-03:00",
+    "feitos": 13,
+    "percentual": 3.8,
+    "duvidas": 52,
+    "entregas": 21,
+    "ultima_entrega": "2026-10-12T08:56-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -1012,14 +1012,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 179,
-      "feitos": 5,
-      "percentual": 2.8,
+      "feitos": 6,
+      "percentual": 3.4,
       "areas": [
         {
           "nome": "Núcleo transversal",
           "total": 7,
-          "feitos": 5,
-          "percentual": 71.4
+          "feitos": 6,
+          "percentual": 85.7
         },
         {
           "nome": "IFC transversal",
@@ -1162,15 +1162,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-006",
-          "titulo": "Resultados de cálculo anexos ao elemento",
-          "normas": [
-            "IfcPropertySet",
-            "painel do tekto-calc"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
           "id": "TM-007",
           "titulo": "Níveis e eixos no modelo neutro",
           "normas": [
@@ -1238,9 +1229,24 @@
             "guia de unidades"
           ],
           "disciplina": "Revit, Dynamo e pyRevit"
+        },
+        {
+          "id": "TM-014",
+          "titulo": "Pacote Dynamo que lê o JSON neutro",
+          "normas": [
+            "Mapa de versões do Dynamo",
+            "Dynamo 4.0.2 e PythonNet3",
+            "primer"
+          ],
+          "disciplina": "Revit, Dynamo e pyRevit"
         }
       ],
       "entregas": [
+        {
+          "numero": 8,
+          "titulo": "Abre resultados de cálculo no envelope 0.1.4 (TM-006)",
+          "data": "2026-10-12T08:56-03:00"
+        },
         {
           "numero": 7,
           "titulo": "Abre as seções transversais parametrizadas (TM-005)",
@@ -1277,8 +1283,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 7,
-      "ultima_entrega": "2026-10-11T16:01-03:00",
+      "total_entregas": 8,
+      "ultima_entrega": "2026-10-12T08:56-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1708,12 +1714,14 @@
         "IfcMaterial",
         "IfcMaterialLayerSet",
         "IfcOwnerHistory",
+        "IfcPropertySet",
         "IfcRectangleProfileDef",
         "IfcSIPrefix",
         "IfcSIUnit",
         "UnitUtils 27.3.0.0",
         "guia de unidades da API do Revit 2027",
-        "instalação do IfcOpenShell"
+        "instalação do IfcOpenShell",
+        "painel do tekto-calc"
       ],
       "duvidas": [
         {
@@ -1734,6 +1742,10 @@
         },
         {
           "texto": "D-009 — Contrato publicado do tekto-calc",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -1803,12 +1815,20 @@
         {
           "texto": "D-030 — Identificador da seção no arquivo IFC",
           "normas": []
+        },
+        {
+          "texto": "D-031 — Gravação IFC do resultado de cálculo",
+          "normas": []
+        },
+        {
+          "texto": "D-032 — Entidade IFC do elemento genérico",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 174,
+        "pendentes": 173,
         "planejada": {
           "data": "2027-01-07",
           "dias": 87,
