@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-12T15:57-03:00",
+  "atualizado_em": "2026-10-12T16:20-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 350,
-    "feitos": 13,
-    "percentual": 3.7,
-    "duvidas": 52,
-    "entregas": 22,
-    "ultima_entrega": "2026-10-12T13:12-03:00",
+    "feitos": 14,
+    "percentual": 4.0,
+    "duvidas": 58,
+    "entregas": 23,
+    "ultima_entrega": "2026-10-12T16:20-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -1012,14 +1012,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 186,
-      "feitos": 6,
-      "percentual": 3.2,
+      "feitos": 7,
+      "percentual": 3.8,
       "areas": [
         {
           "nome": "Núcleo transversal",
           "total": 7,
-          "feitos": 6,
-          "percentual": 85.7
+          "feitos": 7,
+          "percentual": 100.0
         },
         {
           "nome": "IFC transversal",
@@ -1168,16 +1168,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-007",
-          "titulo": "Níveis e eixos no modelo neutro",
-          "normas": [
-            "IfcBuildingStorey",
-            "IfcGrid",
-            "IfcGridAxis"
-          ],
-          "disciplina": "Núcleo transversal"
-        },
-        {
           "id": "TM-008",
           "titulo": "Arquivo IFC4X3_ADD2 com projeto e unidades",
           "normas": [
@@ -1245,9 +1235,23 @@
             "primer"
           ],
           "disciplina": "Revit, Dynamo e pyRevit"
+        },
+        {
+          "id": "TM-015",
+          "titulo": "Botões pyRevit que exportam e importam o JSON",
+          "normas": [
+            "Arquitetura do pyRevit",
+            "instalação"
+          ],
+          "disciplina": "Revit, Dynamo e pyRevit"
         }
       ],
       "entregas": [
+        {
+          "numero": 10,
+          "titulo": "Abre níveis e eixos no envelope 0.1.5 (TM-007)",
+          "data": "2026-10-12T16:20-03:00"
+        },
         {
           "numero": 9,
           "titulo": "Registra a decisão de esforços no Robot 2027 (DT-003)",
@@ -1294,8 +1298,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 9,
-      "ultima_entrega": "2026-10-12T13:12-03:00",
+      "total_entregas": 10,
+      "ultima_entrega": "2026-10-12T16:20-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1719,8 +1723,11 @@
         }
       ],
       "normas_cobertas": [
+        "IfcBuildingStorey",
         "IfcCircleProfileDef",
         "IfcGloballyUniqueId",
+        "IfcGrid",
+        "IfcGridAxis",
         "IfcIShapeProfileDef",
         "IfcMaterial",
         "IfcMaterialLayerSet",
@@ -1800,6 +1807,10 @@
           "normas": []
         },
         {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
           "texto": "D-025 — Unidade da geometria do Dynamo no Revit 2027",
           "normas": []
         },
@@ -1834,12 +1845,32 @@
         {
           "texto": "D-033 — Unidade de momento no resultado",
           "normas": []
+        },
+        {
+          "texto": "D-034 — Cota do nível no arquivo IFC",
+          "normas": []
+        },
+        {
+          "texto": "D-035 — Eixo fora do arquivo IFC",
+          "normas": []
+        },
+        {
+          "texto": "D-036 — Qual propriedade do Level é a cota",
+          "normas": []
+        },
+        {
+          "texto": "D-037 — Dois pontos no plano e o Grid do Revit",
+          "normas": []
+        },
+        {
+          "texto": "D-038 — GlobalId gerado do edifício e das agregações",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 180,
+        "pendentes": 179,
         "planejada": {
           "data": "2027-01-10",
           "dias": 90,
