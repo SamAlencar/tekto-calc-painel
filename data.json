@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-11T16:02-03:00",
+  "atualizado_em": "2026-10-12T08:04-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 10,
-    "percentual": 2.9,
-    "duvidas": 44,
-    "entregas": 18,
-    "ultima_entrega": "2026-10-11T16:01-03:00",
+    "feitos": 11,
+    "percentual": 3.2,
+    "duvidas": 43,
+    "entregas": 19,
+    "ultima_entrega": "2026-10-12T08:03-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
       "planejada": {
         "data": "2027-01-07",
-        "dias": 88,
+        "dias": 87,
         "concluido": false,
         "projeto": "Tekto Calc"
       }
@@ -29,14 +29,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 91,
-      "feitos": 3,
-      "percentual": 3.3,
+      "feitos": 4,
+      "percentual": 4.4,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 3,
-          "percentual": 13.6
+          "feitos": 4,
+          "percentual": 18.2
         },
         {
           "nome": "Ações e combinações",
@@ -131,14 +131,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-003",
-          "titulo": "Armadura transversal do modelo I",
-          "normas": [
-            "NBR 6118"
-          ],
-          "disciplina": "Concreto armado"
-        },
-        {
           "id": "TC-004",
           "titulo": "Taxa mínima de estribos",
           "normas": [
@@ -193,9 +185,22 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-011",
+          "titulo": "Abertura característica de fissuras",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 8,
+          "titulo": "Dimensiona os estribos do modelo I (NBR 6118:2026)",
+          "data": "2026-10-12T08:03-03:00"
+        },
         {
           "numero": 7,
           "titulo": "Verifica a biela VRd2 do modelo I (NBR 6118:2026)",
@@ -232,14 +237,14 @@
           "data": "2026-10-10T09:01-03:00"
         }
       ],
-      "total_entregas": 7,
-      "ultima_entrega": "2026-10-11T08:01-03:00",
+      "total_entregas": 8,
+      "ultima_entrega": "2026-10-12T08:03-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 28,
-          "feitas": 3,
+          "feitas": 4,
           "estado": "em_andamento"
         },
         {
@@ -390,24 +395,20 @@
         {
           "texto": "D-005 — Fichas do catálogo ABNT não abertas nas instalações",
           "normas": []
-        },
-        {
-          "texto": "D-007 — Definição de M0 e o trecho de MSd,máx no modelo I",
-          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 88,
+        "pendentes": 87,
         "planejada": {
           "data": "2027-01-07",
-          "dias": 88,
+          "dias": 87,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.3
+          "historico_dias": 2.0
         }
       }
     },
@@ -951,13 +952,13 @@
         "ritmo_planejado": 1.0,
         "pendentes": 71,
         "planejada": {
-          "data": "2026-12-21",
+          "data": "2026-12-22",
           "dias": 71,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.2
+          "historico_dias": 1.9
         }
       }
     },
@@ -1768,13 +1769,13 @@
         "ritmo_planejado": 2.0,
         "pendentes": 174,
         "planejada": {
-          "data": "2027-01-06",
+          "data": "2027-01-07",
           "dias": 87,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.2
+          "historico_dias": 1.8
         }
       }
     }
