@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-12T13:12-03:00",
+  "atualizado_em": "2026-10-12T15:57-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 350,
@@ -408,7 +408,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.2
+          "historico_dias": 2.3
         }
       }
     },
@@ -999,7 +999,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.1
+          "historico_dias": 2.2
         }
       }
     },
@@ -1847,7 +1847,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.1
+          "historico_dias": 2.2
         }
       }
     }
