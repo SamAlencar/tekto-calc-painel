@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-12T08:04-03:00",
+  "atualizado_em": "2026-10-12T08:33-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 343,
-    "feitos": 11,
-    "percentual": 3.2,
-    "duvidas": 43,
-    "entregas": 19,
-    "ultima_entrega": "2026-10-12T08:03-03:00",
+    "feitos": 12,
+    "percentual": 3.5,
+    "duvidas": 49,
+    "entregas": 20,
+    "ultima_entrega": "2026-10-12T08:32-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -421,14 +421,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 73,
-      "feitos": 2,
-      "percentual": 2.7,
+      "feitos": 3,
+      "percentual": 4.1,
       "areas": [
         {
           "nome": "Memoriais",
           "total": 6,
-          "feitos": 2,
-          "percentual": 33.3
+          "feitos": 3,
+          "percentual": 50.0
         },
         {
           "nome": "Especificações",
@@ -474,14 +474,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TD-003",
-          "titulo": "Memorial descritivo de fundações",
-          "normas": [
-            "NBR 6122"
-          ],
-          "disciplina": "Memoriais"
-        },
         {
           "id": "TD-004",
           "titulo": "Memorial descritivo de impermeabilização",
@@ -543,9 +535,23 @@
             "NBR 6136"
           ],
           "disciplina": "Especificações"
+        },
+        {
+          "id": "TD-011",
+          "titulo": "Especificação de impermeabilização",
+          "normas": [
+            "NBR 9574",
+            "NBR 9575"
+          ],
+          "disciplina": "Especificações"
         }
       ],
       "entregas": [
+        {
+          "numero": 5,
+          "titulo": "Memorial descritivo de fundações (TD-003)",
+          "data": "2026-10-12T08:32-03:00"
+        },
         {
           "numero": 4,
           "titulo": "Memorial descritivo de estrutura de concreto armado (TD-002)",
@@ -567,8 +573,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 4,
-      "ultima_entrega": "2026-10-11T09:23-03:00",
+      "total_entregas": 5,
+      "ultima_entrega": "2026-10-12T08:32-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -686,8 +692,8 @@
           "norma": "NBR 6122",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 7480",
@@ -842,6 +848,7 @@
         "NBR 15575",
         "NBR 6118",
         "NBR 6120",
+        "NBR 6122",
         "NBR 8681",
         "NBR 9050"
       ],
@@ -945,15 +952,49 @@
           "normas": [
             "NBR 6118"
           ]
+        },
+        {
+          "texto": "D-021 — Programa mínimo de investigação da seção 4 da NBR 6122:2022",
+          "normas": [
+            "NBR 6122"
+          ]
+        },
+        {
+          "texto": "D-022 — Valores do fator de segurança da seção 6 da NBR 6122:2022",
+          "normas": [
+            "NBR 6122"
+          ]
+        },
+        {
+          "texto": "D-023 — Critério que separa fundação rasa e fundação profunda",
+          "normas": []
+        },
+        {
+          "texto": "D-024 — Caso em que a prova de carga é obrigatória na NBR 6122:2022",
+          "normas": [
+            "NBR 6122"
+          ]
+        },
+        {
+          "texto": "D-025 — Anexo executivo de cada tipo na NBR 6122:2022",
+          "normas": [
+            "NBR 6122"
+          ]
+        },
+        {
+          "texto": "D-026 — Lista e valores das ações da seção 5 da NBR 6122:2022",
+          "normas": [
+            "NBR 6122"
+          ]
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 71,
+        "pendentes": 70,
         "planejada": {
-          "data": "2026-12-22",
-          "dias": 71,
+          "data": "2026-12-21",
+          "dias": 70,
           "concluido": false
         },
         "real": {
@@ -1775,7 +1816,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.8
+          "historico_dias": 1.9
         }
       }
     }
