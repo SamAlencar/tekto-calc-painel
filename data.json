@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "2026-10-12T08:57-03:00",
+  "atualizado_em": "2026-10-12T13:12-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 343,
+    "total": 350,
     "feitos": 13,
-    "percentual": 3.8,
+    "percentual": 3.7,
     "duvidas": 52,
-    "entregas": 21,
-    "ultima_entrega": "2026-10-12T08:56-03:00",
+    "entregas": 22,
+    "ultima_entrega": "2026-10-12T13:12-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-07",
-        "dias": 87,
+        "data": "2027-01-10",
+        "dias": 90,
         "concluido": false,
-        "projeto": "Tekto Calc"
+        "projeto": "Tekto Model"
       }
     }
   },
@@ -408,7 +408,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.0
+          "historico_dias": 2.2
         }
       }
     },
@@ -999,7 +999,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.9
+          "historico_dias": 2.1
         }
       }
     },
@@ -1011,9 +1011,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 179,
+      "total": 186,
       "feitos": 6,
-      "percentual": 3.4,
+      "percentual": 3.2,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1158,6 +1158,12 @@
           "total": 2,
           "feitos": 0,
           "percentual": 0.0
+        },
+        {
+          "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
+          "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -1243,6 +1249,11 @@
       ],
       "entregas": [
         {
+          "numero": 9,
+          "titulo": "Registra a decisão de esforços no Robot 2027 (DT-003)",
+          "data": "2026-10-12T13:12-03:00"
+        },
+        {
           "numero": 8,
           "titulo": "Abre resultados de cálculo no envelope 0.1.4 (TM-006)",
           "data": "2026-10-12T08:56-03:00"
@@ -1283,8 +1294,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 8,
-      "ultima_entrega": "2026-10-12T08:56-03:00",
+      "total_entregas": 9,
+      "ultima_entrega": "2026-10-12T13:12-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1749,10 +1760,6 @@
           "normas": []
         },
         {
-          "texto": "D-010 — Caminho dos esforços do Robot",
-          "normas": []
-        },
-        {
           "texto": "D-012 — LGPL do IfcOpenShell no add-in",
           "normas": []
         },
@@ -1823,20 +1830,24 @@
         {
           "texto": "D-032 — Entidade IFC do elemento genérico",
           "normas": []
+        },
+        {
+          "texto": "D-033 — Unidade de momento no resultado",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 173,
+        "pendentes": 180,
         "planejada": {
-          "data": "2027-01-07",
-          "dias": 87,
+          "data": "2027-01-10",
+          "dias": 90,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.9
+          "historico_dias": 2.1
         }
       }
     }
