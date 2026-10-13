@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-13T15:53-03:00",
+  "atualizado_em": "2026-10-13T16:02-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 350,
-    "feitos": 17,
-    "percentual": 4.9,
-    "duvidas": 60,
-    "entregas": 26,
-    "ultima_entrega": "2026-10-13T09:09-03:00",
+    "feitos": 18,
+    "percentual": 5.1,
+    "duvidas": 62,
+    "entregas": 27,
+    "ultima_entrega": "2026-10-13T16:02-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -1031,8 +1031,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 186,
-      "feitos": 8,
-      "percentual": 4.3,
+      "feitos": 9,
+      "percentual": 4.8,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1043,8 +1043,8 @@
         {
           "nome": "IFC transversal",
           "total": 3,
-          "feitos": 1,
-          "percentual": 33.3
+          "feitos": 2,
+          "percentual": 66.7
         },
         {
           "nome": "Revit, Dynamo e pyRevit",
@@ -1187,15 +1187,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-009",
-          "titulo": "Ida e volta do GlobalId",
-          "normas": [
-            "IfcGloballyUniqueId",
-            "IfcRoot em IfcProject"
-          ],
-          "disciplina": "IFC transversal"
-        },
-        {
           "id": "TM-010",
           "titulo": "Harness de validação do arquivo IFC",
           "normas": [
@@ -1260,9 +1251,25 @@
             "arquivo de definição"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-017",
+          "titulo": "Template Revit estrutural Tekto",
+          "normas": [
+            "Guia de unidades",
+            "fundações",
+            "BuiltInCategory",
+            ".NET 10 do Revit 2027"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 12,
+          "titulo": "Fecha a ida e volta do GlobalId do projeto (TM-009)",
+          "data": "2026-10-13T16:02-03:00"
+        },
         {
           "numero": 11,
           "titulo": "Abre arquivo IFC4X3_ADD2 com IfcProject e unidades SI (TM-008)",
@@ -1319,8 +1326,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 11,
-      "ultima_entrega": "2026-10-13T09:09-03:00",
+      "total_entregas": 12,
+      "ultima_entrega": "2026-10-13T16:02-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1758,6 +1765,7 @@
         "IfcProject",
         "IfcPropertySet",
         "IfcRectangleProfileDef",
+        "IfcRoot em IfcProject",
         "IfcSIPrefix",
         "IfcSIUnit",
         "UnitUtils 27.3.0.0",
@@ -1892,14 +1900,22 @@
           "normas": []
         },
         {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
           "texto": "D-039 — Descrição de vista no cabeçalho do arquivo IFC",
+          "normas": []
+        },
+        {
+          "texto": "D-040 — GlobalId estável do edifício e das agregações",
           "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 178,
+        "pendentes": 177,
         "planejada": {
           "data": "2027-01-10",
           "dias": 89,
