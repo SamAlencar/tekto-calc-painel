@@ -50,6 +50,12 @@ PROJETOS = [
         "descricao": "Modelagem e BIM",
         "ritmo_planejado": 2.0,   # rotina roda duas vezes por dia
     },
+    {
+        "slug": "hunter", "nome": "Tek Hunter", "repo": "SamAlencar/tek-hunter", "prefixo": "TH",
+        "descricao": "Base para captação de elaboração de projetos",
+        "ritmo_planejado": 1 / 7,   # uma etapa por semana
+        "rotina": "semanal",
+    },
 ]
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
 RITMO_PADRAO = 1.0        # tarefas/dia quando o projeto não define ritmo_planejado (7 dias por semana)
@@ -321,6 +327,15 @@ def ritmo_real(repo, branch, feitos_agora, hoje):
             "concluidas_na_janela": concluidas, "tarefas_por_dia": round(concluidas / janela, 3) if janela > 0 else 0}
 
 
+def ritmo_texto(cfg, ritmo):
+    if cfg.get("rotina") == "semanal":
+        n = round(ritmo * 7)
+        return f"{n} {'etapa' if n == 1 else 'etapas'}/semana"
+    n = ritmo
+    nt = int(n) if float(n).is_integer() else round(n, 2)
+    return f"{nt} {'tarefa' if n == 1 else 'tarefas'}/dia"
+
+
 def gerar_projeto(cfg):
     repo = cfg["repo"]
     info = gh_api(f"repos/{repo}")
@@ -360,12 +375,14 @@ def gerar_projeto(cfg):
     pend = total - feitos
     if total:
         real = ritmo_real(repo, branch, feitos, hoje)
-        prev = {"situacao": "ativo", "ritmo_planejado": ritmo_plan, "pendentes": pend,
+        prev = {"situacao": "ativo", "ritmo_planejado": ritmo_plan, "ritmo_texto": ritmo_texto(cfg, ritmo_plan),
+                "rotina": cfg.get("rotina", "diária"), "pendentes": pend,
                 "planejada": previsao(pend, ritmo_plan, hoje), "real": real}
         if real.get("disponivel") and real["tarefas_por_dia"] > 0:
             real["previsao"] = previsao(pend, real["tarefas_por_dia"], hoje)
     else:
-        prev = {"situacao": "aguardando_backlog", "ritmo_planejado": ritmo_plan, "pendentes": 0}
+        prev = {"situacao": "aguardando_backlog", "ritmo_planejado": ritmo_plan,
+                "ritmo_texto": ritmo_texto(cfg, ritmo_plan), "rotina": cfg.get("rotina", "diária"), "pendentes": 0}
 
     return {
         "slug": cfg["slug"],
@@ -400,9 +417,12 @@ def gerar():
     if ativos:
         ult = max(ativos, key=lambda p: p["previsao"]["planejada"]["data"])
         prev_sis["planejada"] = dict(ult["previsao"]["planejada"], projeto=ult["nome"])
-        if all(p["previsao"]["real"].get("previsao") for p in ativos):
-            ur = max(ativos, key=lambda p: p["previsao"]["real"]["previsao"]["data"])
-            prev_sis["real"] = dict(ur["previsao"]["real"]["previsao"], projeto=ur["nome"])
+        # Projetos sem histórico suficiente não apagam o ritmo real dos demais.
+        com_real = [p for p in ativos if p["previsao"]["real"].get("previsao")]
+        if com_real:
+            ur = max(com_real, key=lambda p: p["previsao"]["real"]["previsao"]["data"])
+            prev_sis["real"] = dict(ur["previsao"]["real"]["previsao"], projeto=ur["nome"],
+                                    sem_historico=[p["nome"] for p in ativos if p not in com_real])
     return {
         "painel": "Painel Tekto",
         "geral": {

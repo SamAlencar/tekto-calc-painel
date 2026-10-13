@@ -29,7 +29,7 @@
     const pl = pv.planejada, re = pv.real || {};
     const realTxt = re.previsao ? `ritmo real: ${fmtDia(re.previsao.data)} (${ritmoTxt(re.tarefas_por_dia)}/dia)` : re.disponivel ? "ritmo real: sem tarefas concluídas na janela" : "ritmo real: dados insuficientes";
     return `<div class="prev"><span class="prev-r">Previsão de término</span><span class="prev-d">${pl.concluido ? "Concluído" : fmtDia(pl.data)}</span>
-      <span class="prev-s">${pl.concluido ? "" : fmtPrazo(pl.dias) + ` · ritmo planejado (${ritmoTxt(pv.ritmo_planejado)}/dia)`}</span><span class="prev-s">${realTxt}</span></div>`;
+      <span class="prev-s">${pl.concluido ? "" : fmtPrazo(pl.dias) + ` · ritmo planejado (${pv.ritmo_texto || ritmoTxt(pv.ritmo_planejado) + "/dia"})`}</span><span class="prev-s">${realTxt}</span></div>`;
   }
   function previsaoSistema(g) {
     const pv = g.previsao || {};
@@ -40,7 +40,7 @@
       <span class="prev-s">${fmtPrazo(pv.planejada.dias)} · define: ${esc(pv.planejada.projeto)}</span><span class="prev-s">${real}</span>${ag}</div>`;
   }
   const comoHTML = (ps) => `<details class="como"><summary>Como calculamos a previsão de término</summary>
-    <p><b>Ritmo planejado.</b> Cada projeto tem uma rotina automática que conclui tarefas do backlog todos os dias (7 dias por semana), no ritmo configurado para o projeto: ${ps.map((p) => `${esc(p.nome)} ${ritmoTxt((p.previsao || {}).ritmo_planejado || 1)} ${((p.previsao || {}).ritmo_planejado || 1) === 1 ? "tarefa" : "tarefas"}/dia`).join("; ")}. A previsão é <i>hoje + tarefas pendentes ÷ ritmo do projeto</i>, arredondada para cima em dias. Os projetos andam em paralelo, então a previsão do sistema é a mais tardia entre os projetos ativos. Projeto sem backlog publicado aparece como “aguardando backlog” e passa a contar no seu ritmo quando o backlog chegar.</p>
+    <p><b>Ritmo planejado.</b> Cada projeto tem uma rotina automática que conclui tarefas do backlog no ritmo configurado (diária ou semanal) para o projeto: ${ps.map((p) => `${esc(p.nome)} ${(p.previsao || {}).ritmo_texto || ritmoTxt((p.previsao || {}).ritmo_planejado || 1) + "/dia"}`).join("; ")}. A previsão é <i>hoje + tarefas pendentes ÷ ritmo do projeto</i>, arredondada para cima em dias. Os projetos andam em paralelo, então a previsão do sistema é a mais tardia entre os projetos ativos. Projeto sem backlog publicado aparece como “aguardando backlog” e passa a contar no seu ritmo quando o backlog chegar.</p>
     <p><b>Ritmo real.</b> Quando o backlog de um projeto tem pelo menos 7 dias de histórico, medimos as tarefas marcadas como concluídas nos últimos 14 dias (pelo histórico de commits do backlog) e projetamos as pendentes com esse ritmo. Antes disso aparece “dados insuficientes”.</p>
     <p><b>Atenção:</b> o backlog cresce à medida que novos itens são incluídos, então a previsão se move. Datas no horário de Brasília; “meses” considera 30,4 dias.</p></details>`;
 
@@ -86,7 +86,7 @@
       : `<b>Dados insuficientes</b><span>histórico do backlog: ${ritmoTxt(re.historico_dias || 0)} de 7 dias necessários</span>`;
     return `<section class="cartao"><h2>Previsão de término</h2>
       <div class="prevs">
-        <div class="prevbox"><small>Ritmo planejado · ${ritmoTxt(pv.ritmo_planejado)} ${pv.ritmo_planejado === 1 ? "tarefa" : "tarefas"}/dia</small><b>${pl.concluido ? "Concluído" : fmtDia(pl.data)}</b><span>${pl.concluido ? "" : fmtPrazo(pl.dias)}</span><span>${plural(pv.pendentes, "tarefa pendente", "tarefas pendentes")}</span></div>
+        <div class="prevbox"><small>Ritmo planejado · ${pv.ritmo_texto || ritmoTxt(pv.ritmo_planejado) + "/dia"}</small><b>${pl.concluido ? "Concluído" : fmtDia(pl.data)}</b><span>${pl.concluido ? "" : fmtPrazo(pl.dias)}</span><span>${plural(pv.pendentes, "tarefa pendente", "tarefas pendentes")}</span></div>
         <div class="prevbox"><small>Ritmo real · últimos 14 dias</small>${realHTML}</div>
       </div>
       <p class="sub" style="margin:12px 0 0">O backlog cresce à medida que novos itens são incluídos, então a previsão se move.</p></section>`;
