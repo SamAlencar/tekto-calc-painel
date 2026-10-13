@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "2026-10-13T16:02-03:00",
+  "atualizado_em": "2026-10-13T20:25-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 350,
+    "total": 374,
     "feitos": 18,
-    "percentual": 5.1,
+    "percentual": 4.8,
     "duvidas": 62,
-    "entregas": 27,
-    "ultima_entrega": "2026-10-13T16:02-03:00",
-    "projetos_ativos": 3,
+    "entregas": 29,
+    "ultima_entrega": "2026-10-13T20:23-03:00",
+    "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-10",
-        "dias": 89,
+        "data": "2027-03-30",
+        "dias": 168,
         "concluido": false,
-        "projeto": "Tekto Model"
+        "projeto": "Tek Hunter"
       }
     }
   },
@@ -405,6 +405,8 @@
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
+        "ritmo_texto": "1 tarefa/dia",
+        "rotina": "diária",
         "pendentes": 86,
         "planejada": {
           "data": "2027-01-07",
@@ -413,7 +415,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.3
+          "historico_dias": 3.5
         }
       }
     },
@@ -1010,6 +1012,8 @@
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
+        "ritmo_texto": "1 tarefa/dia",
+        "rotina": "diária",
         "pendentes": 69,
         "planejada": {
           "data": "2026-12-21",
@@ -1018,7 +1022,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.2
+          "historico_dias": 3.4
         }
       }
     },
@@ -1915,6 +1919,8 @@
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
+        "ritmo_texto": "2 tarefas/dia",
+        "rotina": "diária",
         "pendentes": 177,
         "planejada": {
           "data": "2027-01-10",
@@ -1923,7 +1929,140 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.2
+          "historico_dias": 3.4
+        }
+      }
+    },
+    {
+      "slug": "hunter",
+      "nome": "Tek Hunter",
+      "descricao": "Base para captação de elaboração de projetos",
+      "estado": "ativo",
+      "repo_encontrado": true,
+      "backlog_encontrado": true,
+      "duvidas_encontrado": false,
+      "total": 24,
+      "feitos": 0,
+      "percentual": 0.0,
+      "areas": [
+        {
+          "nome": "Convenções",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fontes",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Amostra",
+          "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Sínteses",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Uso",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fechamento",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        }
+      ],
+      "proximas": [
+        {
+          "id": "TH-001",
+          "titulo": "Convenções, taxonomia e modelo de ficha",
+          "normas": [],
+          "disciplina": "Convenções"
+        },
+        {
+          "id": "TH-002",
+          "titulo": "Catálogo dos portais federais (PNCP e Compras.gov.br)",
+          "normas": [],
+          "disciplina": "Fontes"
+        },
+        {
+          "id": "TH-003",
+          "titulo": "Catálogo dos portais estaduais",
+          "normas": [],
+          "disciplina": "Fontes"
+        },
+        {
+          "id": "TH-004",
+          "titulo": "Catálogo de plataformas privadas de licitação",
+          "normas": [],
+          "disciplina": "Fontes"
+        },
+        {
+          "id": "TH-005",
+          "titulo": "Catálogo de diários oficiais e sites municipais",
+          "normas": [],
+          "disciplina": "Fontes"
+        },
+        {
+          "id": "TH-006",
+          "titulo": "Catálogo de plataformas de freelancer e portais de cotação",
+          "normas": [],
+          "disciplina": "Fontes"
+        },
+        {
+          "id": "TH-007",
+          "titulo": "Guia da API pública do PNCP",
+          "normas": [],
+          "disciplina": "Fontes"
+        },
+        {
+          "id": "TH-008",
+          "titulo": "Quadro legal dos documentos de habilitação",
+          "normas": [],
+          "disciplina": "Amostra"
+        }
+      ],
+      "entregas": [
+        {
+          "numero": 2,
+          "titulo": "Padroniza o backlog do Tek Hunter para o painel da Tekto",
+          "data": "2026-10-13T20:23-03:00"
+        },
+        {
+          "numero": 1,
+          "titulo": "Estrutura e plano semanal da base Tek Hunter",
+          "data": "2026-10-13T16:45-03:00"
+        }
+      ],
+      "total_entregas": 2,
+      "ultima_entrega": "2026-10-13T20:23-03:00",
+      "normas": [],
+      "normas_cobertas": [],
+      "duvidas": [],
+      "previsao": {
+        "situacao": "ativo",
+        "ritmo_planejado": 0.14285714285714285,
+        "ritmo_texto": "1 etapa/semana",
+        "rotina": "semanal",
+        "pendentes": 24,
+        "planejada": {
+          "data": "2027-03-30",
+          "dias": 168,
+          "concluido": false
+        },
+        "real": {
+          "disponivel": false,
+          "historico_dias": 0.2
         }
       }
     }
