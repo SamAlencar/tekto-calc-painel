@@ -53,7 +53,7 @@ PROJETOS = [
     {
         "slug": "hunter", "nome": "Tek Hunter", "repo": "SamAlencar/tek-hunter", "prefixo": "TH",
         "descricao": "Base para captação de elaboração de projetos",
-        "ritmo_planejado": 1 / 7,   # uma etapa por semana
+        "ritmo_planejado": 2/7,   # duas etapas por semana
         "rotina": "semanal",
     },
 ]
