@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-13T20:25-03:00",
+  "atualizado_em": "2026-10-13T20:31-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 374,
@@ -12,10 +12,10 @@
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-03-30",
-        "dias": 168,
+        "data": "2027-01-10",
+        "dias": 89,
         "concluido": false,
-        "projeto": "Tek Hunter"
+        "projeto": "Tekto Model"
       }
     }
   },
@@ -2051,13 +2051,13 @@
       "duvidas": [],
       "previsao": {
         "situacao": "ativo",
-        "ritmo_planejado": 0.14285714285714285,
-        "ritmo_texto": "1 etapa/semana",
+        "ritmo_planejado": 0.2857142857142857,
+        "ritmo_texto": "2 etapas/semana",
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-03-30",
-          "dias": 168,
+          "data": "2027-01-05",
+          "dias": 84,
           "concluido": false
         },
         "real": {
