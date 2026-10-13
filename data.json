@@ -1,18 +1,18 @@
 {
-  "atualizado_em": "2026-10-12T16:20-03:00",
+  "atualizado_em": "2026-10-13T08:08-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 350,
-    "feitos": 14,
-    "percentual": 4.0,
+    "feitos": 15,
+    "percentual": 4.3,
     "duvidas": 58,
-    "entregas": 23,
-    "ultima_entrega": "2026-10-12T16:20-03:00",
+    "entregas": 24,
+    "ultima_entrega": "2026-10-13T08:08-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-10",
+        "data": "2027-01-11",
         "dias": 90,
         "concluido": false,
         "projeto": "Tekto Model"
@@ -29,14 +29,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 91,
-      "feitos": 4,
-      "percentual": 4.4,
+      "feitos": 5,
+      "percentual": 5.5,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 4,
-          "percentual": 18.2
+          "feitos": 5,
+          "percentual": 22.7
         },
         {
           "nome": "Ações e combinações",
@@ -131,14 +131,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-004",
-          "titulo": "Taxa mínima de estribos",
-          "normas": [
-            "NBR 6118"
-          ],
-          "disciplina": "Concreto armado"
-        },
-        {
           "id": "TC-005",
           "titulo": "Cortante no modelo II com ângulo informado",
           "normas": [
@@ -193,9 +185,22 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-012",
+          "titulo": "Armadura de pele",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 9,
+          "titulo": "Adota a taxa mínima de estribos do modelo I",
+          "data": "2026-10-13T08:08-03:00"
+        },
         {
           "numero": 8,
           "titulo": "Dimensiona os estribos do modelo I (NBR 6118:2026)",
@@ -237,14 +242,14 @@
           "data": "2026-10-10T09:01-03:00"
         }
       ],
-      "total_entregas": 8,
-      "ultima_entrega": "2026-10-12T08:03-03:00",
+      "total_entregas": 9,
+      "ultima_entrega": "2026-10-13T08:08-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 28,
-          "feitas": 4,
+          "feitas": 5,
           "estado": "em_andamento"
         },
         {
@@ -400,15 +405,15 @@
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 87,
+        "pendentes": 86,
         "planejada": {
           "data": "2027-01-07",
-          "dias": 87,
+          "dias": 86,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.3
+          "historico_dias": 3.0
         }
       }
     },
@@ -993,13 +998,13 @@
         "ritmo_planejado": 1.0,
         "pendentes": 70,
         "planejada": {
-          "data": "2026-12-21",
+          "data": "2026-12-22",
           "dias": 70,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.2
+          "historico_dias": 2.9
         }
       }
     },
@@ -1872,13 +1877,13 @@
         "ritmo_planejado": 2.0,
         "pendentes": 179,
         "planejada": {
-          "data": "2027-01-10",
+          "data": "2027-01-11",
           "dias": 90,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.2
+          "historico_dias": 2.8
         }
       }
     }
