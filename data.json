@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-13T08:08-03:00",
+  "atualizado_em": "2026-10-13T08:31-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 350,
-    "feitos": 15,
-    "percentual": 4.3,
-    "duvidas": 58,
-    "entregas": 24,
-    "ultima_entrega": "2026-10-13T08:08-03:00",
+    "feitos": 16,
+    "percentual": 4.6,
+    "duvidas": 59,
+    "entregas": 25,
+    "ultima_entrega": "2026-10-13T08:30-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
@@ -426,14 +426,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 73,
-      "feitos": 3,
-      "percentual": 4.1,
+      "feitos": 4,
+      "percentual": 5.5,
       "areas": [
         {
           "nome": "Memoriais",
           "total": 6,
-          "feitos": 3,
-          "percentual": 50.0
+          "feitos": 4,
+          "percentual": 66.7
         },
         {
           "nome": "Especificações",
@@ -479,15 +479,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TD-004",
-          "titulo": "Memorial descritivo de impermeabilização",
-          "normas": [
-            "NBR 9575",
-            "NBR 9574"
-          ],
-          "disciplina": "Memoriais"
-        },
         {
           "id": "TD-005",
           "titulo": "Memorial descritivo de instalações hidrossanitárias",
@@ -549,9 +540,22 @@
             "NBR 9575"
           ],
           "disciplina": "Especificações"
+        },
+        {
+          "id": "TD-012",
+          "titulo": "Laudo de inspeção predial",
+          "normas": [
+            "NBR 16747"
+          ],
+          "disciplina": "Laudos"
         }
       ],
       "entregas": [
+        {
+          "numero": 6,
+          "titulo": "Memorial descritivo de impermeabilização (TD-004)",
+          "data": "2026-10-13T08:30-03:00"
+        },
         {
           "numero": 5,
           "titulo": "Memorial descritivo de fundações (TD-003)",
@@ -578,8 +582,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 5,
-      "ultima_entrega": "2026-10-12T08:32-03:00",
+      "total_entregas": 6,
+      "ultima_entrega": "2026-10-13T08:30-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -662,15 +666,15 @@
           "norma": "NBR 9575",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 9574",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 5419",
@@ -855,7 +859,9 @@
         "NBR 6120",
         "NBR 6122",
         "NBR 8681",
-        "NBR 9050"
+        "NBR 9050",
+        "NBR 9574",
+        "NBR 9575"
       ],
       "duvidas": [
         {
@@ -917,10 +923,6 @@
           "normas": [
             "NBR 9050"
           ]
-        },
-        {
-          "texto": "D-013 — Sistema de impermeabilização em vedação, cobertura e revestimento",
-          "normas": []
         },
         {
           "texto": "D-014 — Parte da NBR 15575 que rege escada, rampa e guarda-corpo",
@@ -991,15 +993,27 @@
           "normas": [
             "NBR 6122"
           ]
+        },
+        {
+          "texto": "D-027 — Nomes dos tipos da seção 4.1 da NBR 9575:2010 não registrados na consulta",
+          "normas": [
+            "NBR 9575"
+          ]
+        },
+        {
+          "texto": "D-028 — Referências datadas do item 2 da NBR 9574:2008",
+          "normas": [
+            "NBR 9574"
+          ]
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
-        "pendentes": 70,
+        "pendentes": 69,
         "planejada": {
-          "data": "2026-12-22",
-          "dias": 70,
+          "data": "2026-12-21",
+          "dias": 69,
           "concluido": false
         },
         "real": {
@@ -1883,7 +1897,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.8
+          "historico_dias": 2.9
         }
       }
     }
