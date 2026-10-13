@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-13T08:31-03:00",
+  "atualizado_em": "2026-10-13T09:10-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 350,
-    "feitos": 16,
-    "percentual": 4.6,
-    "duvidas": 59,
-    "entregas": 25,
-    "ultima_entrega": "2026-10-13T08:30-03:00",
+    "feitos": 17,
+    "percentual": 4.9,
+    "duvidas": 60,
+    "entregas": 26,
+    "ultima_entrega": "2026-10-13T09:09-03:00",
     "projetos_ativos": 3,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-11",
-        "dias": 90,
+        "data": "2027-01-10",
+        "dias": 89,
         "concluido": false,
         "projeto": "Tekto Model"
       }
@@ -1031,8 +1031,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 186,
-      "feitos": 7,
-      "percentual": 3.8,
+      "feitos": 8,
+      "percentual": 4.3,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1043,8 +1043,8 @@
         {
           "nome": "IFC transversal",
           "total": 3,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 33.3
         },
         {
           "nome": "Revit, Dynamo e pyRevit",
@@ -1187,18 +1187,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-008",
-          "titulo": "Arquivo IFC4X3_ADD2 com projeto e unidades",
-          "normas": [
-            "IfcProject",
-            "IfcSIUnit",
-            "ISO 16739-1",
-            "lista de schemas",
-            "IfcOpenShell"
-          ],
-          "disciplina": "IFC transversal"
-        },
-        {
           "id": "TM-009",
           "titulo": "Ida e volta do GlobalId",
           "normas": [
@@ -1263,9 +1251,23 @@
             "instalação"
           ],
           "disciplina": "Revit, Dynamo e pyRevit"
+        },
+        {
+          "id": "TM-016",
+          "titulo": "Arquivo de parâmetros compartilhados Tekto",
+          "normas": [
+            "Guia de parâmetros compartilhados",
+            "arquivo de definição"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 11,
+          "titulo": "Abre arquivo IFC4X3_ADD2 com IfcProject e unidades SI (TM-008)",
+          "data": "2026-10-13T09:09-03:00"
+        },
         {
           "numero": 10,
           "titulo": "Abre níveis e eixos no envelope 0.1.5 (TM-007)",
@@ -1317,8 +1319,8 @@
           "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 10,
-      "ultima_entrega": "2026-10-12T16:20-03:00",
+      "total_entregas": 11,
+      "ultima_entrega": "2026-10-13T09:09-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1742,6 +1744,7 @@
         }
       ],
       "normas_cobertas": [
+        "ISO 16739-1",
         "IfcBuildingStorey",
         "IfcCircleProfileDef",
         "IfcGloballyUniqueId",
@@ -1750,7 +1753,9 @@
         "IfcIShapeProfileDef",
         "IfcMaterial",
         "IfcMaterialLayerSet",
+        "IfcOpenShell",
         "IfcOwnerHistory",
+        "IfcProject",
         "IfcPropertySet",
         "IfcRectangleProfileDef",
         "IfcSIPrefix",
@@ -1758,6 +1763,7 @@
         "UnitUtils 27.3.0.0",
         "guia de unidades da API do Revit 2027",
         "instalação do IfcOpenShell",
+        "lista de schemas",
         "painel do tekto-calc"
       ],
       "duvidas": [
@@ -1814,7 +1820,7 @@
           "normas": []
         },
         {
-          "texto": "D-022 — Nome curto do schema no IfcOpenShell 0.9.0",
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -1884,15 +1890,19 @@
         {
           "texto": "D-038 — GlobalId gerado do edifício e das agregações",
           "normas": []
+        },
+        {
+          "texto": "D-039 — Descrição de vista no cabeçalho do arquivo IFC",
+          "normas": []
         }
       ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 2.0,
-        "pendentes": 179,
+        "pendentes": 178,
         "planejada": {
-          "data": "2027-01-11",
-          "dias": 90,
+          "data": "2027-01-10",
+          "dias": 89,
           "concluido": false
         },
         "real": {
