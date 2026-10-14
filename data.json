@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-14T10:58-03:00",
+  "atualizado_em": "2026-10-14T11:32-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 397,
+    "total": 399,
     "feitos": 111,
-    "percentual": 28.0,
-    "duvidas": 74,
-    "entregas": 50,
-    "ultima_entrega": "2026-10-14T10:58-03:00",
+    "percentual": 27.8,
+    "duvidas": 75,
+    "entregas": 52,
+    "ultima_entrega": "2026-10-14T11:32-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -28,9 +28,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 94,
+      "total": 96,
       "feitos": 26,
-      "percentual": 27.7,
+      "percentual": 27.1,
       "areas": [
         {
           "nome": "Concreto armado",
@@ -127,6 +127,12 @@
           "total": 2,
           "feitos": 0,
           "percentual": 0.0
+        },
+        {
+          "nome": "Durabilidade e detalhamento",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -197,6 +203,11 @@
       ],
       "entregas": [
         {
+          "numero": 25,
+          "titulo": "Backlog: promove propostas aprovadas no ciclo de manutenção de 14/10",
+          "data": "2026-10-14T11:32-03:00"
+        },
+        {
           "numero": 24,
           "titulo": "Manutenção 2026-10-14: edições do catálogo e registro do ciclo",
           "data": "2026-10-14T10:47-03:00"
@@ -250,20 +261,15 @@
           "numero": 15,
           "titulo": "Compara a esbeltez da estaca com o limite informado",
           "data": "2026-10-13T23:48-03:00"
-        },
-        {
-          "numero": 14,
-          "titulo": "Calcula a flambagem do trecho livre da estaca",
-          "data": "2026-10-13T23:39-03:00"
         }
       ],
-      "total_entregas": 24,
-      "ultima_entrega": "2026-10-14T10:47-03:00",
+      "total_entregas": 25,
+      "ultima_entrega": "2026-10-14T11:32-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
-          "tarefas": 28,
+          "tarefas": 30,
           "feitas": 11,
           "estado": "em_andamento"
         },
@@ -428,6 +434,12 @@
         {
           "texto": "D-005 — Fichas do catálogo ABNT não abertas nas instalações",
           "normas": []
+        },
+        {
+          "texto": "D-012 — Célula ilegível da classe IV na tabela de cobrimento da NBR 6118:2026",
+          "normas": [
+            "NBR 6118"
+          ]
         }
       ],
       "previsao": {
@@ -435,10 +447,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 68,
+        "pendentes": 70,
         "planejada": {
-          "data": "2026-12-21",
-          "dias": 68,
+          "data": "2026-12-23",
+          "dias": 70,
           "concluido": false
         },
         "real": {
@@ -514,7 +526,7 @@
           "percentual": 33.3
         },
         {
-          "nome": "Propostas",
+          "nome": "Estrutura NBR 6118:2026",
           "total": 1,
           "feitos": 0,
           "percentual": 0.0
@@ -592,6 +604,11 @@
       ],
       "entregas": [
         {
+          "numero": 9,
+          "titulo": "Backlog: promove propostas aprovadas no ciclo de manutenção de 14/10",
+          "data": "2026-10-14T11:32-03:00"
+        },
+        {
           "numero": 8,
           "titulo": "Manutenção 2026-10-14: NBR 5419 partes 3 e 4 e registro do ciclo",
           "data": "2026-10-14T10:47-03:00"
@@ -632,8 +649,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 8,
-      "ultima_entrega": "2026-10-14T10:47-03:00",
+      "total_entregas": 9,
+      "ultima_entrega": "2026-10-14T11:32-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
