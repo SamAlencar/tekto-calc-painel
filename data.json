@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-14T08:48-03:00",
+  "atualizado_em": "2026-10-14T09:07-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 396,
-    "feitos": 110,
-    "percentual": 27.8,
-    "duvidas": 72,
-    "entregas": 45,
-    "ultima_entrega": "2026-10-14T07:50-03:00",
+    "feitos": 111,
+    "percentual": 28.0,
+    "duvidas": 75,
+    "entregas": 46,
+    "ultima_entrega": "2026-10-14T09:06-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -1140,8 +1140,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 202,
-      "feitos": 64,
-      "percentual": 31.7,
+      "feitos": 65,
+      "percentual": 32.2,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1158,8 +1158,8 @@
         {
           "nome": "Revit, Dynamo e pyRevit",
           "total": 5,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 20.0
         },
         {
           "nome": "Padrão estrutural Tekto",
@@ -1302,18 +1302,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-011",
-          "titulo": "Guia de instalação do pyRevit no Revit 2027",
-          "normas": [
-            "Instalação do pyRevit",
-            "suporte a versão nova",
-            "arquitetura",
-            "instaladores",
-            "migração do Revit 2027 para .NET 10"
-          ],
-          "disciplina": "Revit, Dynamo e pyRevit"
-        },
-        {
           "id": "TM-012",
           "titulo": "Interface C# compilada no CI sem o Revit",
           "normas": [
@@ -1379,9 +1367,24 @@
             "IfcPile"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-019",
+          "titulo": "Famílias de pilar e viga de concreto",
+          "normas": [
+            "OST_StructuralColumns e OST_StructuralFraming",
+            "IfcColumn",
+            "IfcBeam"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 14,
+          "titulo": "Publica o guia de instalação do pyRevit no Revit 2027 (TM-011)",
+          "data": "2026-10-14T09:06-03:00"
+        },
         {
           "numero": 13,
           "titulo": "Base da escola no modelo neutro 0.1.6",
@@ -1436,15 +1439,10 @@
           "numero": 3,
           "titulo": "Codec do IfcGloballyUniqueId (TM-002)",
           "data": "2026-10-10T14:42-03:00"
-        },
-        {
-          "numero": 2,
-          "titulo": "Revit 2027 como alvo e padrão Tekto no backlog",
-          "data": "2026-10-10T12:18-03:00"
         }
       ],
-      "total_entregas": 13,
-      "ultima_entrega": "2026-10-14T07:03-03:00",
+      "total_entregas": 14,
+      "ultima_entrega": "2026-10-14T09:06-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1905,6 +1903,7 @@
         "IfcStairFlight",
         "IfcWall e IfcWallTypeEnum",
         "IfcWasteTerminal",
+        "Instalação do pyRevit",
         "LIGHTNINGPROTECTION",
         "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
         "Modelo da ficha em docs/especificacoes/modelo.md",
@@ -1926,13 +1925,16 @@
         "guia de unidades da API do Revit 2027",
         "guia estrutural",
         "ifcopenshell.validate",
+        "instaladores",
         "instalação do IfcOpenShell",
         "lista de schemas",
+        "migração do Revit 2027 para .NET 10",
         "nota da Autodesk sobre a biblioteca RobotOM",
         "painel do tekto-calc",
         "painel tekto-calc",
         "página do produto",
-        "suporte a Revit 2027"
+        "suporte a Revit 2027",
+        "suporte a versão nova"
       ],
       "duvidas": [
         {
@@ -1993,6 +1995,10 @@
         },
         {
           "texto": "D-023 — Loader do pyRevit no Revit 2027",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2078,6 +2084,14 @@
         {
           "texto": "D-043 — Categoria Revit de captor, descida, aterramento e DPS",
           "normas": []
+        },
+        {
+          "texto": "D-044 — Pasta padrão dos instaladores pyRevit 7.0.0.26278",
+          "normas": []
+        },
+        {
+          "texto": "D-045 — Shebang python3 e a chave engine.type cpython3",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2085,7 +2099,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 138,
+        "pendentes": 137,
         "planejada": {
           "data": "2026-12-22",
           "dias": 69,
