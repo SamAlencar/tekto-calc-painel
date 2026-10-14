@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "2026-10-13T20:31-03:00",
+  "atualizado_em": "2026-10-14T07:51-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 374,
-    "feitos": 18,
-    "percentual": 4.8,
-    "duvidas": 62,
-    "entregas": 29,
-    "ultima_entrega": "2026-10-13T20:23-03:00",
+    "total": 396,
+    "feitos": 110,
+    "percentual": 27.8,
+    "duvidas": 72,
+    "entregas": 45,
+    "ultima_entrega": "2026-10-14T07:50-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-10",
-        "dias": 89,
+        "data": "2027-01-06",
+        "dias": 84,
         "concluido": false,
-        "projeto": "Tekto Model"
+        "projeto": "Tek Hunter"
       }
     }
   },
@@ -28,21 +28,21 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 91,
-      "feitos": 5,
-      "percentual": 5.5,
+      "total": 94,
+      "feitos": 26,
+      "percentual": 27.7,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 5,
-          "percentual": 22.7
+          "feitos": 8,
+          "percentual": 36.4
         },
         {
           "nome": "Ações e combinações",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 4,
+          "percentual": 100.0
         },
         {
           "nome": "Integração",
@@ -71,14 +71,14 @@
         {
           "nome": "Águas pluviais",
           "total": 5,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 5,
+          "percentual": 100.0
         },
         {
           "nome": "SPDA",
           "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 6,
+          "percentual": 100.0
         },
         {
           "nome": "Dados e telecom",
@@ -118,9 +118,9 @@
         },
         {
           "nome": "Fundações",
-          "total": 3,
-          "feitos": 0,
-          "percentual": 0.0
+          "total": 6,
+          "feitos": 3,
+          "percentual": 50.0
         },
         {
           "nome": "Camada de IA",
@@ -197,59 +197,74 @@
       ],
       "entregas": [
         {
-          "numero": 9,
-          "titulo": "Adota a taxa mínima de estribos do modelo I",
-          "data": "2026-10-13T08:08-03:00"
+          "numero": 23,
+          "titulo": "Aponta o MCP do Cursor para o Python da venv no Windows",
+          "data": "2026-10-14T07:50-03:00"
         },
         {
-          "numero": 8,
-          "titulo": "Dimensiona os estribos do modelo I (NBR 6118:2026)",
-          "data": "2026-10-12T08:03-03:00"
+          "numero": 22,
+          "titulo": "Publica o catálogo e calcula ações, sapata, empuxo, alvenaria, SPDA e pluviais",
+          "data": "2026-10-14T07:08-03:00"
         },
         {
-          "numero": 7,
-          "titulo": "Verifica a biela VRd2 do modelo I (NBR 6118:2026)",
-          "data": "2026-10-11T08:01-03:00"
+          "numero": 21,
+          "titulo": "Detalha faixa, distribuição e suspensão do bloco",
+          "data": "2026-10-14T01:39-03:00"
         },
         {
-          "numero": 6,
-          "titulo": "Calcula Vc do cortante no modelo I (NBR 6118:2026)",
-          "data": "2026-10-10T14:44-03:00"
+          "numero": 19,
+          "titulo": "Calcula o momento total do pilar pela rigidez κ",
+          "data": "2026-10-14T01:33-03:00"
         },
         {
-          "numero": 5,
-          "titulo": "Cita a NBR 6118:2026 na flexão e prepara o fator 0,9",
-          "data": "2026-10-10T13:15-03:00"
+          "numero": 20,
+          "titulo": "Expõe as rotinas de cálculo num servidor MCP",
+          "data": "2026-10-14T01:32-03:00"
         },
         {
-          "numero": 4,
-          "titulo": "Cobre as instalações no backlog, por disciplina",
-          "data": "2026-10-10T11:55-03:00"
+          "numero": 17,
+          "titulo": "Calcula o momento local de 2ª ordem do pilar retangular.",
+          "data": "2026-10-14T01:02-03:00"
         },
         {
-          "numero": 3,
-          "titulo": "Aplica ηc na flexão e registra a verificação de D-001 a D-003",
-          "data": "2026-10-10T09:32-03:00"
+          "numero": 18,
+          "titulo": "Cita blocos sobre estacas no item 22.7",
+          "data": "2026-10-14T01:02-03:00"
         },
         {
-          "numero": 2,
-          "titulo": "DT-002: serviço de cálculo no centro da integração",
-          "data": "2026-10-10T09:09-03:00"
+          "numero": 16,
+          "titulo": "Calcula a capacidade geotécnica da estaca",
+          "data": "2026-10-13T23:58-03:00"
         },
         {
-          "numero": 1,
-          "titulo": "Fundação do tekto-calc e flexão simples pela NBR 6118:2023",
-          "data": "2026-10-10T09:01-03:00"
+          "numero": 13,
+          "titulo": "Bloco sobre estacas: reações, rigidez e tirante",
+          "data": "2026-10-13T23:49-03:00"
+        },
+        {
+          "numero": 15,
+          "titulo": "Compara a esbeltez da estaca com o limite informado",
+          "data": "2026-10-13T23:48-03:00"
+        },
+        {
+          "numero": 14,
+          "titulo": "Calcula a flambagem do trecho livre da estaca",
+          "data": "2026-10-13T23:39-03:00"
+        },
+        {
+          "numero": 12,
+          "titulo": "Calcula a resistência estrutural à compressão da estaca",
+          "data": "2026-10-13T23:23-03:00"
         }
       ],
-      "total_entregas": 9,
-      "ultima_entrega": "2026-10-13T08:08-03:00",
+      "total_entregas": 23,
+      "ultima_entrega": "2026-10-14T07:50-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 28,
-          "feitas": 5,
+          "feitas": 11,
           "estado": "em_andamento"
         },
         {
@@ -276,23 +291,23 @@
         {
           "norma": "NBR 6122",
           "descricao": "Fundações",
-          "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "tarefas": 4,
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 6120",
           "descricao": "Ações para o cálculo de estruturas",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 8681",
           "descricao": "Ações e segurança nas estruturas",
           "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 2,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 5410",
@@ -319,15 +334,15 @@
           "norma": "NBR 10844",
           "descricao": "Águas pluviais",
           "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 5,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 5419",
           "descricao": "",
           "tarefas": 6,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 6,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 15526",
@@ -379,6 +394,13 @@
           "estado": "planejada"
         },
         {
+          "norma": "NBR 16868",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 1,
+          "estado": "coberta"
+        },
+        {
           "norma": "DT-002",
           "descricao": "",
           "tarefas": 6,
@@ -394,7 +416,13 @@
         }
       ],
       "normas_cobertas": [
-        "NBR 6118"
+        "NBR 10844",
+        "NBR 16868",
+        "NBR 5419",
+        "NBR 6118",
+        "NBR 6120",
+        "NBR 6122",
+        "NBR 8681"
       ],
       "duvidas": [
         {
@@ -407,15 +435,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 86,
+        "pendentes": 68,
         "planejada": {
-          "data": "2027-01-07",
-          "dias": 86,
+          "data": "2026-12-21",
+          "dias": 68,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.5
+          "historico_dias": 4.0
         }
       }
     },
@@ -427,9 +455,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 73,
-      "feitos": 4,
-      "percentual": 5.5,
+      "total": 76,
+      "feitos": 20,
+      "percentual": 26.3,
       "areas": [
         {
           "nome": "Memoriais",
@@ -440,8 +468,8 @@
         {
           "nome": "Especificações",
           "total": 5,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 3,
+          "percentual": 60.0
         },
         {
           "nome": "Laudos",
@@ -458,14 +486,14 @@
         {
           "nome": "Métodos construtivos",
           "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 3,
+          "percentual": 50.0
         },
         {
           "nome": "Materiais",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 25.0
         },
         {
           "nome": "Normas",
@@ -476,8 +504,14 @@
         {
           "nome": "Instalações",
           "total": 37,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 8,
+          "percentual": 21.6
+        },
+        {
+          "nome": "Base da escola",
+          "total": 3,
+          "feitos": 1,
+          "percentual": 33.3
         }
       ],
       "proximas": [
@@ -500,36 +534,10 @@
           "disciplina": "Memoriais"
         },
         {
-          "id": "TD-007",
-          "titulo": "Especificação de concreto estrutural",
-          "normas": [
-            "NBR 12655",
-            "NBR 6118"
-          ],
-          "disciplina": "Especificações"
-        },
-        {
-          "id": "TD-008",
-          "titulo": "Especificação de aço para armadura passiva",
-          "normas": [
-            "NBR 7480"
-          ],
-          "disciplina": "Especificações"
-        },
-        {
           "id": "TD-009",
           "titulo": "Especificação de alvenaria de vedação",
           "normas": [
             "NBR 15270",
-            "NBR 6136"
-          ],
-          "disciplina": "Especificações"
-        },
-        {
-          "id": "TD-010",
-          "titulo": "Especificação de alvenaria estrutural",
-          "normas": [
-            "NBR 16868",
             "NBR 6136"
           ],
           "disciplina": "Especificações"
@@ -550,9 +558,38 @@
             "NBR 16747"
           ],
           "disciplina": "Laudos"
+        },
+        {
+          "id": "TD-013",
+          "titulo": "Checklist de inspeção predial",
+          "normas": [
+            "NBR 16747"
+          ],
+          "disciplina": "Laudos"
+        },
+        {
+          "id": "TD-014",
+          "titulo": "Laudo técnico de engenharia",
+          "normas": [
+            "NBR 13752"
+          ],
+          "disciplina": "Laudos"
+        },
+        {
+          "id": "TD-015",
+          "titulo": "Checklist de vistoria cautelar",
+          "normas": [
+            "NBR 13752"
+          ],
+          "disciplina": "Laudos"
         }
       ],
       "entregas": [
+        {
+          "numero": 7,
+          "titulo": "Acrescenta a base da escola, SPDA, pluviais e o MCP de leitura",
+          "data": "2026-10-14T07:05-03:00"
+        },
         {
           "numero": 6,
           "titulo": "Memorial descritivo de impermeabilização (TD-004)",
@@ -584,15 +621,15 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 6,
-      "ultima_entrega": "2026-10-13T08:30-03:00",
+      "total_entregas": 7,
+      "ultima_entrega": "2026-10-14T07:05-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
           "descricao": "",
           "tarefas": 12,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 5626",
@@ -612,8 +649,8 @@
           "norma": "NBR 10844",
           "descricao": "",
           "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 4,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 14565",
@@ -661,7 +698,7 @@
           "norma": "NBR 6118",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 1,
+          "feitas": 3,
           "estado": "em_andamento"
         },
         {
@@ -682,8 +719,8 @@
           "norma": "NBR 5419",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 4,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 15526",
@@ -696,29 +733,29 @@
           "norma": "NBR 14931",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
           "norma": "NBR 6122",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
           "norma": "NBR 7480",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 6136",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 2,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 16747",
@@ -742,25 +779,32 @@
           "estado": "planejada"
         },
         {
+          "norma": "NBR 6120",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 1,
+          "estado": "em_andamento"
+        },
+        {
           "norma": "NBR 12655",
           "descricao": "",
           "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 15270",
           "descricao": "",
           "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 16868",
           "descricao": "",
           "tarefas": 2,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 2,
+          "estado": "coberta"
         },
         {
           "norma": "NBR ISO 19650",
@@ -778,13 +822,6 @@
         },
         {
           "norma": "NBR 9050",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 1,
-          "estado": "coberta"
-        },
-        {
-          "norma": "NBR 6120",
           "descricao": "",
           "tarefas": 1,
           "feitas": 1,
@@ -852,14 +889,37 @@
           "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
+        },
+        {
+          "norma": "NR-18",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "DT-001",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 1,
+          "estado": "coberta"
         }
       ],
       "normas_cobertas": [
+        "DT-001",
+        "NBR 10844",
+        "NBR 12655",
         "NBR 14931",
+        "NBR 15270",
         "NBR 15575",
+        "NBR 16868",
+        "NBR 5410",
+        "NBR 5419",
         "NBR 6118",
         "NBR 6120",
         "NBR 6122",
+        "NBR 6136",
+        "NBR 7480",
         "NBR 8681",
         "NBR 9050",
         "NBR 9574",
@@ -1007,6 +1067,51 @@
           "normas": [
             "NBR 9574"
           ]
+        },
+        {
+          "texto": "D-029 — Ação de ocupação de escola na NBR 6120",
+          "normas": [
+            "NBR 6120"
+          ]
+        },
+        {
+          "texto": "D-030 — Edição e item da NR-18",
+          "normas": []
+        },
+        {
+          "texto": "D-031 — Itens da NBR 12655 para preparo, controle e recebimento",
+          "normas": [
+            "NBR 12655"
+          ]
+        },
+        {
+          "texto": "D-032 — Itens da NBR 7480 para aceitação da armadura passiva",
+          "normas": [
+            "NBR 7480"
+          ]
+        },
+        {
+          "texto": "D-033 — Itens da NBR 16868 e da NBR 6136",
+          "normas": [
+            "NBR 16868",
+            "NBR 6136"
+          ]
+        },
+        {
+          "texto": "D-034 — Itens da NBR 15270 para o componente cerâmico",
+          "normas": [
+            "NBR 15270"
+          ]
+        },
+        {
+          "texto": "D-035 — Partes 3 e 4 da NBR 5419 no catálogo ABNT",
+          "normas": [
+            "NBR 5419"
+          ]
+        },
+        {
+          "texto": "D-036 — Fatores de prazo, custo e risco sem fonte",
+          "normas": []
         }
       ],
       "previsao": {
@@ -1014,15 +1119,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 69,
+        "pendentes": 56,
         "planejada": {
-          "data": "2026-12-21",
-          "dias": 69,
+          "data": "2026-12-09",
+          "dias": 56,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.4
+          "historico_dias": 3.8
         }
       }
     },
@@ -1034,9 +1139,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 186,
-      "feitos": 9,
-      "percentual": 4.8,
+      "total": 202,
+      "feitos": 64,
+      "percentual": 31.7,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1047,8 +1152,8 @@
         {
           "nome": "IFC transversal",
           "total": 3,
-          "feitos": 2,
-          "percentual": 66.7
+          "feitos": 3,
+          "percentual": 100.0
         },
         {
           "nome": "Revit, Dynamo e pyRevit",
@@ -1065,14 +1170,14 @@
         {
           "nome": "Fundações",
           "total": 16,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 6,
+          "percentual": 37.5
         },
         {
           "nome": "Concreto",
           "total": 12,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 3,
+          "percentual": 25.0
         },
         {
           "nome": "Aço",
@@ -1083,14 +1188,14 @@
         {
           "nome": "Vedações e cobertura",
           "total": 8,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 3,
+          "percentual": 37.5
         },
         {
           "nome": "Circulação",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 3,
+          "percentual": 75.0
         },
         {
           "nome": "Instalações elétricas",
@@ -1113,14 +1218,14 @@
         {
           "nome": "Águas pluviais",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 4,
+          "percentual": 100.0
         },
         {
           "nome": "SPDA",
           "total": 12,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 12,
+          "percentual": 100.0
         },
         {
           "nome": "Dados e telecom",
@@ -1149,14 +1254,14 @@
         {
           "nome": "Regras",
           "total": 2,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 50.0
         },
         {
           "nome": "Integração tekto-calc",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 25.0
         },
         {
           "nome": "Robot",
@@ -1185,19 +1290,17 @@
         {
           "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
           "total": 7,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 7,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Base da escola",
+          "total": 16,
+          "feitos": 14,
+          "percentual": 87.5
         }
       ],
       "proximas": [
-        {
-          "id": "TM-010",
-          "titulo": "Harness de validação do arquivo IFC",
-          "normas": [
-            "ifcopenshell.validate"
-          ],
-          "disciplina": "IFC transversal"
-        },
         {
           "id": "TM-011",
           "titulo": "Guia de instalação do pyRevit no Revit 2027",
@@ -1266,9 +1369,24 @@
             ".NET 10 do Revit 2027"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-018",
+          "titulo": "Famílias de fundação Tekto",
+          "normas": [
+            "Guia de fundações",
+            "OST_StructuralFoundation",
+            "IfcPile"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 13,
+          "titulo": "Base da escola no modelo neutro 0.1.6",
+          "data": "2026-10-14T07:03-03:00"
+        },
         {
           "numero": 12,
           "titulo": "Fecha a ida e volta do GlobalId do projeto (TM-009)",
@@ -1323,15 +1441,10 @@
           "numero": 2,
           "titulo": "Revit 2027 como alvo e padrão Tekto no backlog",
           "data": "2026-10-10T12:18-03:00"
-        },
-        {
-          "numero": 1,
-          "titulo": "Fundação do Tekto Model: modelo neutro, fichas e backlog",
-          "data": "2026-10-10T12:00-03:00"
         }
       ],
-      "total_entregas": 12,
-      "ultima_entrega": "2026-10-13T16:02-03:00",
+      "total_entregas": 13,
+      "ultima_entrega": "2026-10-14T07:03-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1343,37 +1456,37 @@
         {
           "norma": "BuiltInCategory",
           "descricao": "",
-          "tarefas": 33,
-          "feitas": 0,
-          "estado": "planejada"
+          "tarefas": 35,
+          "feitas": 20,
+          "estado": "em_andamento"
         },
         {
           "norma": "painel tekto-calc",
           "descricao": "",
           "tarefas": 23,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 4,
+          "estado": "em_andamento"
         },
         {
           "norma": "AnalyticalMember",
           "descricao": "",
           "tarefas": 21,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 6,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcPipeSegment",
           "descricao": "",
           "tarefas": 20,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 4,
+          "estado": "em_andamento"
         },
         {
           "norma": "fundações na API do Revit",
           "descricao": "",
           "tarefas": 16,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 6,
+          "estado": "em_andamento"
         },
         {
           "norma": "OST_StructuralFraming",
@@ -1400,8 +1513,8 @@
           "norma": "IfcCableSegment",
           "descricao": "",
           "tarefas": 12,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 8,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcBeam",
@@ -1460,11 +1573,25 @@
           "estado": "planejada"
         },
         {
+          "norma": "IfcWasteTerminal",
+          "descricao": "",
+          "tarefas": 7,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "LIGHTNINGPROTECTION",
+          "descricao": "",
+          "tarefas": 7,
+          "feitas": 7,
+          "estado": "coberta"
+        },
+        {
           "norma": "IfcPile",
           "descricao": "",
           "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcColumn",
@@ -1484,36 +1611,43 @@
           "norma": "guia estrutural",
           "descricao": "",
           "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "OST_StructuralFoundation",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 2,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcPileTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcFooting e IfcFootingTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcColumn e IfcColumnTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "BuiltInCategory OST_StructuralColumns",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcBeam e IfcBeamTypeEnum",
@@ -1568,15 +1702,15 @@
           "norma": "IfcWall e IfcWallTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "OST_Walls",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcCoveringTypeEnum",
@@ -1610,22 +1744,22 @@
           "norma": "IfcStair",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcStairFlight",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "OST_Stairs",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 3,
+          "estado": "em_andamento"
         },
         {
           "norma": "normas previstas no tekto-calc",
@@ -1731,33 +1865,23 @@
           "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
-        },
-        {
-          "norma": "IfcWasteTerminal",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "OST_PipeCurves e OST_PlumbingFixtures",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "OST_PipeCurves",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
         }
       ],
       "normas_cobertas": [
+        "AnalyticalMember",
+        "BuiltInCategory",
+        "BuiltInCategory OST_StructuralColumns",
+        "Extensões do pyRevit",
         "ISO 16739-1",
+        "IfcBuildingElementProxy",
         "IfcBuildingStorey",
+        "IfcCableSegment",
         "IfcCircleProfileDef",
+        "IfcColumn e IfcColumnTypeEnum",
+        "IfcDistributionSystem",
+        "IfcElectricApplianceTypeEnum",
+        "IfcFooting",
+        "IfcFooting e IfcFootingTypeEnum",
         "IfcGloballyUniqueId",
         "IfcGrid",
         "IfcGridAxis",
@@ -1766,17 +1890,49 @@
         "IfcMaterialLayerSet",
         "IfcOpenShell",
         "IfcOwnerHistory",
+        "IfcPile",
+        "IfcPileTypeEnum",
+        "IfcPipeSegment",
         "IfcProject",
         "IfcPropertySet",
+        "IfcRamp",
+        "IfcRampTypeEnum",
         "IfcRectangleProfileDef",
         "IfcRoot em IfcProject",
         "IfcSIPrefix",
         "IfcSIUnit",
+        "IfcStair",
+        "IfcStairFlight",
+        "IfcWall e IfcWallTypeEnum",
+        "IfcWasteTerminal",
+        "LIGHTNINGPROTECTION",
+        "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
+        "Modelo da ficha em docs/especificacoes/modelo.md",
+        "Nota da Autodesk sobre a biblioteca RobotOM",
+        "OST_PipeCurves",
+        "OST_PlumbingFixtures",
+        "OST_Ramps",
+        "OST_Stairs",
+        "OST_StructuralFoundation",
+        "OST_Walls",
+        "Painel do tekto-calc",
+        "Página do produto",
+        "RAINWATER",
+        "ROOFDRAIN",
+        "STRIP_FOOTING em IfcFootingTypeEnum",
         "UnitUtils 27.3.0.0",
+        "arquitetura",
+        "fundações na API do Revit",
         "guia de unidades da API do Revit 2027",
+        "guia estrutural",
+        "ifcopenshell.validate",
         "instalação do IfcOpenShell",
         "lista de schemas",
-        "painel do tekto-calc"
+        "nota da Autodesk sobre a biblioteca RobotOM",
+        "painel do tekto-calc",
+        "painel tekto-calc",
+        "página do produto",
+        "suporte a Revit 2027"
       ],
       "duvidas": [
         {
@@ -1880,10 +2036,6 @@
           "normas": []
         },
         {
-          "texto": "D-033 — Unidade de momento no resultado",
-          "normas": []
-        },
-        {
           "texto": "D-034 — Cota do nível no arquivo IFC",
           "normas": []
         },
@@ -1914,6 +2066,18 @@
         {
           "texto": "D-040 — GlobalId estável do edifício e das agregações",
           "normas": []
+        },
+        {
+          "texto": "D-041 — Eixo local do Robot e Mx/My do pilar",
+          "normas": []
+        },
+        {
+          "texto": "D-042 — ProgID e membros RobotOM de nó, barra, apoio e caso",
+          "normas": []
+        },
+        {
+          "texto": "D-043 — Categoria Revit de captor, descida, aterramento e DPS",
+          "normas": []
         }
       ],
       "previsao": {
@@ -1921,15 +2085,15 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 177,
+        "pendentes": 138,
         "planejada": {
-          "data": "2027-01-10",
-          "dias": 89,
+          "data": "2026-12-22",
+          "dias": 69,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.4
+          "historico_dias": 3.8
         }
       }
     },
@@ -2056,13 +2220,13 @@
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-01-05",
+          "data": "2027-01-06",
           "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.2
+          "historico_dias": 0.6
         }
       }
     }
