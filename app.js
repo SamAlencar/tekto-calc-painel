@@ -117,7 +117,7 @@
           <div class="kpis">
             <div class="kpi"><b>${d.feitos}/${d.total}</b><span>tarefas</span></div>
             <div class="kpi"><b>${areas.length}</b><span>áreas</span></div>
-            <div class="kpi"><b>${(d.normas_cobertas || []).length}</b><span>normas cobertas</span></div>
+            <div class="kpi"><b>${(d.normas_cobertas || []).length}</b><span>normas e referências cobertas</span></div>
             <div class="kpi"><b>${d.total_entregas || 0}</b><span>entregas mescladas</span></div>
             <div class="kpi"><b>${(d.duvidas || []).length}</b><span>dúvidas em aberto</span></div>
           </div>
