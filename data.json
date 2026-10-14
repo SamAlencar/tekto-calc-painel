@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-14T10:30-03:00",
+  "atualizado_em": "2026-10-14T10:58-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 396,
+    "total": 397,
     "feitos": 111,
     "percentual": 28.0,
-    "duvidas": 75,
-    "entregas": 46,
-    "ultima_entrega": "2026-10-14T09:06-03:00",
+    "duvidas": 74,
+    "entregas": 50,
+    "ultima_entrega": "2026-10-14T10:58-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -197,6 +197,11 @@
       ],
       "entregas": [
         {
+          "numero": 24,
+          "titulo": "Manutenção 2026-10-14: edições do catálogo e registro do ciclo",
+          "data": "2026-10-14T10:47-03:00"
+        },
+        {
           "numero": 23,
           "titulo": "Aponta o MCP do Cursor para o Python da venv no Windows",
           "data": "2026-10-14T07:50-03:00"
@@ -250,15 +255,10 @@
           "numero": 14,
           "titulo": "Calcula a flambagem do trecho livre da estaca",
           "data": "2026-10-13T23:39-03:00"
-        },
-        {
-          "numero": 12,
-          "titulo": "Calcula a resistência estrutural à compressão da estaca",
-          "data": "2026-10-13T23:23-03:00"
         }
       ],
-      "total_entregas": 23,
-      "ultima_entrega": "2026-10-14T07:50-03:00",
+      "total_entregas": 24,
+      "ultima_entrega": "2026-10-14T10:47-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -455,9 +455,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 76,
+      "total": 77,
       "feitos": 20,
-      "percentual": 26.3,
+      "percentual": 26.0,
       "areas": [
         {
           "nome": "Memoriais",
@@ -512,6 +512,12 @@
           "total": 3,
           "feitos": 1,
           "percentual": 33.3
+        },
+        {
+          "nome": "Propostas",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -586,6 +592,11 @@
       ],
       "entregas": [
         {
+          "numero": 8,
+          "titulo": "Manutenção 2026-10-14: NBR 5419 partes 3 e 4 e registro do ciclo",
+          "data": "2026-10-14T10:47-03:00"
+        },
+        {
           "numero": 7,
           "titulo": "Acrescenta a base da escola, SPDA, pluviais e o MCP de leitura",
           "data": "2026-10-14T07:05-03:00"
@@ -621,14 +632,21 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 7,
-      "ultima_entrega": "2026-10-14T07:05-03:00",
+      "total_entregas": 8,
+      "ultima_entrega": "2026-10-14T10:47-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
           "descricao": "",
           "tarefas": 12,
           "feitas": 1,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "NBR 6118",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 3,
           "estado": "em_andamento"
         },
         {
@@ -693,13 +711,6 @@
           "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
-        },
-        {
-          "norma": "NBR 6118",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
         },
         {
           "norma": "NBR 9575",
@@ -954,10 +965,6 @@
           "normas": []
         },
         {
-          "texto": "D-007 — Partes brasileiras da NBR IEC 62676 além da 1-1 e da 1-2",
-          "normas": []
-        },
-        {
           "texto": "D-008 — NBR 15358 ao lado da NBR 15526",
           "normas": [
             "NBR 15358",
@@ -1104,12 +1111,6 @@
           ]
         },
         {
-          "texto": "D-035 — Partes 3 e 4 da NBR 5419 no catálogo ABNT",
-          "normas": [
-            "NBR 5419"
-          ]
-        },
-        {
           "texto": "D-036 — Fatores de prazo, custo e risco sem fonte",
           "normas": []
         }
@@ -1119,10 +1120,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 56,
+        "pendentes": 57,
         "planejada": {
-          "data": "2026-12-09",
-          "dias": 56,
+          "data": "2026-12-10",
+          "dias": 57,
           "concluido": false
         },
         "real": {
@@ -1381,6 +1382,11 @@
       ],
       "entregas": [
         {
+          "numero": 15,
+          "titulo": "Manutenção 2026-10-14: índice de parâmetros e tag do IfcOpenShell",
+          "data": "2026-10-14T10:58-03:00"
+        },
+        {
           "numero": 14,
           "titulo": "Publica o guia de instalação do pyRevit no Revit 2027 (TM-011)",
           "data": "2026-10-14T09:06-03:00"
@@ -1434,15 +1440,10 @@
           "numero": 4,
           "titulo": "TM-001: unidades SI explícitas",
           "data": "2026-10-10T14:47-03:00"
-        },
-        {
-          "numero": 3,
-          "titulo": "Codec do IfcGloballyUniqueId (TM-002)",
-          "data": "2026-10-10T14:42-03:00"
         }
       ],
-      "total_entregas": 14,
-      "ultima_entrega": "2026-10-14T09:06-03:00",
+      "total_entregas": 15,
+      "ultima_entrega": "2026-10-14T10:58-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -2092,6 +2093,10 @@
         {
           "texto": "D-045 — Shebang python3 e a chave engine.type cpython3",
           "normas": []
+        },
+        {
+          "texto": "D-046 — Momento no mock da TM-175",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2107,7 +2112,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.9
+          "historico_dias": 4.0
         }
       }
     },
@@ -2118,7 +2123,7 @@
       "estado": "ativo",
       "repo_encontrado": true,
       "backlog_encontrado": true,
-      "duvidas_encontrado": false,
+      "duvidas_encontrado": true,
       "total": 24,
       "feitos": 0,
       "percentual": 0.0,
@@ -2212,6 +2217,11 @@
       ],
       "entregas": [
         {
+          "numero": 3,
+          "titulo": "Manutenção 2026-10-14: registro do ciclo e arquivo de dúvidas",
+          "data": "2026-10-14T10:47-03:00"
+        },
+        {
           "numero": 2,
           "titulo": "Padroniza o backlog do Tek Hunter para o painel da Tekto",
           "data": "2026-10-13T20:23-03:00"
@@ -2222,8 +2232,8 @@
           "data": "2026-10-13T16:45-03:00"
         }
       ],
-      "total_entregas": 2,
-      "ultima_entrega": "2026-10-13T20:23-03:00",
+      "total_entregas": 3,
+      "ultima_entrega": "2026-10-14T10:47-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -2240,7 +2250,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.7
+          "historico_dias": 0.8
         }
       }
     }
