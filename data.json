@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-14T11:32-03:00",
+  "atualizado_em": "2026-10-14T15:48-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 399,
-    "feitos": 111,
-    "percentual": 27.8,
-    "duvidas": 75,
-    "entregas": 52,
-    "ultima_entrega": "2026-10-14T11:32-03:00",
+    "total": 406,
+    "feitos": 118,
+    "percentual": 29.1,
+    "duvidas": 76,
+    "entregas": 56,
+    "ultima_entrega": "2026-10-14T15:46-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -28,9 +28,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 96,
-      "feitos": 26,
-      "percentual": 27.1,
+      "total": 101,
+      "feitos": 31,
+      "percentual": 30.7,
       "areas": [
         {
           "nome": "Concreto armado",
@@ -76,8 +76,8 @@
         },
         {
           "nome": "SPDA",
-          "total": 6,
-          "feitos": 6,
+          "total": 11,
+          "feitos": 11,
           "percentual": 100.0
         },
         {
@@ -203,6 +203,11 @@
       ],
       "entregas": [
         {
+          "numero": 26,
+          "titulo": "Calcula o risco de vida humana do SPDA",
+          "data": "2026-10-14T13:39-03:00"
+        },
+        {
           "numero": 25,
           "titulo": "Backlog: promove propostas aprovadas no ciclo de manutenção de 14/10",
           "data": "2026-10-14T11:32-03:00"
@@ -256,15 +261,10 @@
           "numero": 13,
           "titulo": "Bloco sobre estacas: reações, rigidez e tirante",
           "data": "2026-10-13T23:49-03:00"
-        },
-        {
-          "numero": 15,
-          "titulo": "Compara a esbeltez da estaca com o limite informado",
-          "data": "2026-10-13T23:48-03:00"
         }
       ],
-      "total_entregas": 25,
-      "ultima_entrega": "2026-10-14T11:32-03:00",
+      "total_entregas": 26,
+      "ultima_entrega": "2026-10-14T13:39-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -346,8 +346,8 @@
         {
           "norma": "NBR 5419",
           "descricao": "",
-          "tarefas": 6,
-          "feitas": 6,
+          "tarefas": 11,
+          "feitas": 11,
           "estado": "coberta"
         },
         {
@@ -455,7 +455,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.1
+          "historico_dias": 4.3
         }
       }
     },
@@ -604,6 +604,11 @@
       ],
       "entregas": [
         {
+          "numero": 10,
+          "titulo": "Memorial descritivo de SPDA da escola institucional",
+          "data": "2026-10-14T13:35-03:00"
+        },
+        {
           "numero": 9,
           "titulo": "Backlog: promove propostas aprovadas no ciclo de manutenção de 14/10",
           "data": "2026-10-14T11:32-03:00"
@@ -649,8 +654,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 9,
-      "ultima_entrega": "2026-10-14T11:32-03:00",
+      "total_entregas": 10,
+      "ultima_entrega": "2026-10-14T13:35-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -1145,7 +1150,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.0
+          "historico_dias": 4.2
         }
       }
     },
@@ -1157,9 +1162,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 202,
-      "feitos": 65,
-      "percentual": 32.2,
+      "total": 204,
+      "feitos": 67,
+      "percentual": 32.8,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1313,9 +1318,9 @@
         },
         {
           "nome": "Base da escola",
-          "total": 16,
-          "feitos": 14,
-          "percentual": 87.5
+          "total": 18,
+          "feitos": 16,
+          "percentual": 88.9
         }
       ],
       "proximas": [
@@ -1399,6 +1404,16 @@
       ],
       "entregas": [
         {
+          "numero": 17,
+          "titulo": "Aceita os ids de risco na referência do memorial (TM-204)",
+          "data": "2026-10-14T15:46-03:00"
+        },
+        {
+          "numero": 16,
+          "titulo": "Guarda o risco informado do SPDA no elemento (TM-203)",
+          "data": "2026-10-14T13:36-03:00"
+        },
+        {
           "numero": 15,
           "titulo": "Manutenção 2026-10-14: índice de parâmetros e tag do IfcOpenShell",
           "data": "2026-10-14T10:58-03:00"
@@ -1447,20 +1462,10 @@
           "numero": 6,
           "titulo": "Abre a lista de materiais no envelope 0.1.2 (TM-004)",
           "data": "2026-10-11T09:04-03:00"
-        },
-        {
-          "numero": 5,
-          "titulo": "Acrescenta o histórico de origem ao envelope 0.1.1 (TM-003)",
-          "data": "2026-10-10T16:00-03:00"
-        },
-        {
-          "numero": 4,
-          "titulo": "TM-001: unidades SI explícitas",
-          "data": "2026-10-10T14:47-03:00"
         }
       ],
-      "total_entregas": 15,
-      "ultima_entrega": "2026-10-14T10:58-03:00",
+      "total_entregas": 17,
+      "ultima_entrega": "2026-10-14T15:46-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1479,8 +1484,8 @@
         {
           "norma": "painel tekto-calc",
           "descricao": "",
-          "tarefas": 23,
-          "feitas": 4,
+          "tarefas": 25,
+          "feitas": 6,
           "estado": "em_andamento"
         },
         {
@@ -1923,6 +1928,7 @@
         "IfcWasteTerminal",
         "Instalação do pyRevit",
         "LIGHTNINGPROTECTION",
+        "LIGHTNINGPROTECTION e EARTHING",
         "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
         "Modelo da ficha em docs/especificacoes/modelo.md",
         "Nota da Autodesk sobre a biblioteca RobotOM",
@@ -1951,6 +1957,7 @@
         "painel do tekto-calc",
         "painel tekto-calc",
         "página do produto",
+        "resultado anexado ao elemento",
         "suporte a Revit 2027",
         "suporte a versão nova"
       ],
@@ -2114,6 +2121,10 @@
         {
           "texto": "D-046 — Momento no mock da TM-175",
           "normas": []
+        },
+        {
+          "texto": "D-047 — Unidade do risco de SPDA",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2129,7 +2140,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.0
+          "historico_dias": 4.2
         }
       }
     },
@@ -2267,7 +2278,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.8
+          "historico_dias": 1.0
         }
       }
     }
