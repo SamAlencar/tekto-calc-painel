@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-14T15:48-03:00",
+  "atualizado_em": "2026-10-14T16:07-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 406,
-    "feitos": 118,
-    "percentual": 29.1,
-    "duvidas": 76,
-    "entregas": 56,
-    "ultima_entrega": "2026-10-14T15:46-03:00",
+    "feitos": 119,
+    "percentual": 29.3,
+    "duvidas": 81,
+    "entregas": 57,
+    "ultima_entrega": "2026-10-14T16:06-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -1163,8 +1163,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 204,
-      "feitos": 67,
-      "percentual": 32.8,
+      "feitos": 68,
+      "percentual": 33.3,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1181,8 +1181,8 @@
         {
           "nome": "Revit, Dynamo e pyRevit",
           "total": 5,
-          "feitos": 1,
-          "percentual": 20.0
+          "feitos": 2,
+          "percentual": 40.0
         },
         {
           "nome": "Padrão estrutural Tekto",
@@ -1325,15 +1325,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-012",
-          "titulo": "Interface C# compilada no CI sem o Revit",
-          "normas": [
-            "Migração do Revit 2027 para .NET 10",
-            "My First Plug-in"
-          ],
-          "disciplina": "Revit, Dynamo e pyRevit"
-        },
-        {
           "id": "TM-013",
           "titulo": "Níveis e eixos no Revit e no Dynamo",
           "normas": [
@@ -1400,9 +1391,23 @@
             "IfcBeam"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-020",
+          "titulo": "Tipo de laje no template Tekto",
+          "normas": [
+            "OST_Floors",
+            "IfcSlab"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 18,
+          "titulo": "TM-012: interface C# do Revit 2027 no CI, sem RevitAPI",
+          "data": "2026-10-14T16:06-03:00"
+        },
         {
           "numero": 17,
           "titulo": "Aceita os ids de risco na referência do memorial (TM-204)",
@@ -1457,15 +1462,10 @@
           "numero": 7,
           "titulo": "Abre as seções transversais parametrizadas (TM-005)",
           "data": "2026-10-11T16:01-03:00"
-        },
-        {
-          "numero": 6,
-          "titulo": "Abre a lista de materiais no envelope 0.1.2 (TM-004)",
-          "data": "2026-10-11T09:04-03:00"
         }
       ],
-      "total_entregas": 17,
-      "ultima_entrega": "2026-10-14T15:46-03:00",
+      "total_entregas": 18,
+      "ultima_entrega": "2026-10-14T16:06-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1930,7 +1930,9 @@
         "LIGHTNINGPROTECTION",
         "LIGHTNINGPROTECTION e EARTHING",
         "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
+        "Migração do Revit 2027 para .NET 10",
         "Modelo da ficha em docs/especificacoes/modelo.md",
+        "My First Plug-in",
         "Nota da Autodesk sobre a biblioteca RobotOM",
         "OST_PipeCurves",
         "OST_PlumbingFixtures",
@@ -2000,6 +2002,10 @@
         },
         {
           "texto": "D-017 — Viga baldrame e a definição de FOOTING_BEAM",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2125,6 +2131,22 @@
         {
           "texto": "D-047 — Unidade do risco de SPDA",
           "normas": []
+        },
+        {
+          "texto": "D-048 — Pasta de RevitAPI.dll no Revit 2027",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
+          "texto": "D-049 — NETSDK1100 e a biblioteca net10.0-windows",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2132,10 +2154,10 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 137,
+        "pendentes": 136,
         "planejada": {
-          "data": "2026-12-22",
-          "dias": 69,
+          "data": "2026-12-21",
+          "dias": 68,
           "concluido": false
         },
         "real": {
