@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-15T15:43-03:00",
+  "atualizado_em": "2026-10-15T16:03-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 407,
-    "feitos": 120,
-    "percentual": 29.5,
-    "duvidas": 83,
-    "entregas": 62,
-    "ultima_entrega": "2026-10-14T17:57-03:00",
+    "feitos": 121,
+    "percentual": 29.7,
+    "duvidas": 85,
+    "entregas": 63,
+    "ultima_entrega": "2026-10-15T16:03-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -1185,8 +1185,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 205,
-      "feitos": 69,
-      "percentual": 33.7,
+      "feitos": 70,
+      "percentual": 34.1,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1203,8 +1203,8 @@
         {
           "nome": "Revit, Dynamo e pyRevit",
           "total": 5,
-          "feitos": 2,
-          "percentual": 40.0
+          "feitos": 3,
+          "percentual": 60.0
         },
         {
           "nome": "Padrão estrutural Tekto",
@@ -1347,15 +1347,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-013",
-          "titulo": "Níveis e eixos no Revit e no Dynamo",
-          "normas": [
-            "BuiltInCategory",
-            "guia de unidades"
-          ],
-          "disciplina": "Revit, Dynamo e pyRevit"
-        },
-        {
           "id": "TM-014",
           "titulo": "Pacote Dynamo que lê o JSON neutro",
           "normas": [
@@ -1422,9 +1413,24 @@
             "IfcSlab"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-021",
+          "titulo": "Famílias de perfis metálicos",
+          "normas": [
+            "OST_StructuralColumns e OST_StructuralFraming",
+            "IfcIShapeProfileDef",
+            "IfcMember"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 20,
+          "titulo": "Lê e grava níveis e eixos no Revit e no Dynamo (TM-013)",
+          "data": "2026-10-15T16:03-03:00"
+        },
         {
           "numero": 19,
           "titulo": "Guarda o trecho pluvial dimensionado no elemento (TM-205)",
@@ -1479,15 +1485,10 @@
           "numero": 9,
           "titulo": "Registra a decisão de esforços no Robot 2027 (DT-003)",
           "data": "2026-10-12T13:12-03:00"
-        },
-        {
-          "numero": 8,
-          "titulo": "Abre resultados de cálculo no envelope 0.1.4 (TM-006)",
-          "data": "2026-10-12T08:56-03:00"
         }
       ],
-      "total_entregas": 19,
-      "ultima_entrega": "2026-10-14T17:57-03:00",
+      "total_entregas": 20,
+      "ultima_entrega": "2026-10-15T16:03-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1500,7 +1501,7 @@
           "norma": "BuiltInCategory",
           "descricao": "",
           "tarefas": 35,
-          "feitas": 20,
+          "feitas": 21,
           "estado": "em_andamento"
         },
         {
@@ -1953,6 +1954,7 @@
         "LIGHTNINGPROTECTION",
         "LIGHTNINGPROTECTION e EARTHING",
         "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
+        "Level.ProjectElevation",
         "Migração do Revit 2027 para .NET 10",
         "Modelo da ficha em docs/especificacoes/modelo.md",
         "My First Plug-in",
@@ -1971,6 +1973,7 @@
         "UnitUtils 27.3.0.0",
         "arquitetura",
         "fundações na API do Revit",
+        "guia de unidades",
         "guia de unidades da API do Revit 2027",
         "guia estrutural",
         "ifcopenshell.validate",
@@ -2108,6 +2111,10 @@
           "normas": []
         },
         {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
           "texto": "D-037 — Dois pontos no plano e o Grid do Revit",
           "normas": []
         },
@@ -2170,6 +2177,10 @@
         {
           "texto": "Verificação",
           "normas": []
+        },
+        {
+          "texto": "D-050 — Nó Dynamo de níveis fora do pacote",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2177,7 +2188,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 136,
+        "pendentes": 135,
         "planejada": {
           "data": "2026-12-22",
           "dias": 68,
