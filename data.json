@@ -1,18 +1,18 @@
 {
-  "atualizado_em": "2026-10-14T16:07-03:00",
+  "atualizado_em": "2026-10-15T15:43-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 406,
-    "feitos": 119,
-    "percentual": 29.3,
-    "duvidas": 81,
-    "entregas": 57,
-    "ultima_entrega": "2026-10-14T16:06-03:00",
+    "total": 407,
+    "feitos": 120,
+    "percentual": 29.5,
+    "duvidas": 83,
+    "entregas": 62,
+    "ultima_entrega": "2026-10-14T17:57-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-06",
+        "data": "2027-01-07",
         "dias": 84,
         "concluido": false,
         "projeto": "Tek Hunter"
@@ -203,6 +203,16 @@
       ],
       "entregas": [
         {
+          "numero": 28,
+          "titulo": "Dimensiona o trecho pluvial pela NBR 10844 sem coeficiente presumido",
+          "data": "2026-10-14T17:57-03:00"
+        },
+        {
+          "numero": 27,
+          "titulo": "Aplica os coeficientes da NBR 5419-2:2026 na análise de risco do SPDA",
+          "data": "2026-10-14T16:22-03:00"
+        },
+        {
           "numero": 26,
           "titulo": "Calcula o risco de vida humana do SPDA",
           "data": "2026-10-14T13:39-03:00"
@@ -251,20 +261,10 @@
           "numero": 18,
           "titulo": "Cita blocos sobre estacas no item 22.7",
           "data": "2026-10-14T01:02-03:00"
-        },
-        {
-          "numero": 16,
-          "titulo": "Calcula a capacidade geotécnica da estaca",
-          "data": "2026-10-13T23:58-03:00"
-        },
-        {
-          "numero": 13,
-          "titulo": "Bloco sobre estacas: reações, rigidez e tirante",
-          "data": "2026-10-13T23:49-03:00"
         }
       ],
-      "total_entregas": 26,
-      "ultima_entrega": "2026-10-14T13:39-03:00",
+      "total_entregas": 28,
+      "ultima_entrega": "2026-10-14T17:57-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -440,6 +440,12 @@
           "normas": [
             "NBR 6118"
           ]
+        },
+        {
+          "texto": "D-013 — Itens da NBR 10844:1989 não lidos no dimensionamento pluvial",
+          "normas": [
+            "NBR 10844"
+          ]
         }
       ],
       "previsao": {
@@ -449,13 +455,13 @@
         "rotina": "diária",
         "pendentes": 70,
         "planejada": {
-          "data": "2026-12-23",
+          "data": "2026-12-24",
           "dias": 70,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.3
+          "historico_dias": 5.3
         }
       }
     },
@@ -604,6 +610,16 @@
       ],
       "entregas": [
         {
+          "numero": 12,
+          "titulo": "Descreve a drenagem pluvial da escola e nomeia fontes complementares",
+          "data": "2026-10-14T17:57-03:00"
+        },
+        {
+          "numero": 11,
+          "titulo": "Cita as rotinas de risco do SPDA da escola",
+          "data": "2026-10-14T16:22-03:00"
+        },
+        {
           "numero": 10,
           "titulo": "Memorial descritivo de SPDA da escola institucional",
           "data": "2026-10-14T13:35-03:00"
@@ -654,8 +670,8 @@
           "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 10,
-      "ultima_entrega": "2026-10-14T13:35-03:00",
+      "total_entregas": 12,
+      "ultima_entrega": "2026-10-14T17:57-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -1135,6 +1151,12 @@
         {
           "texto": "D-036 — Fatores de prazo, custo e risco sem fonte",
           "normas": []
+        },
+        {
+          "texto": "D-038 — Fonte da intensidade e dos parâmetros além da NBR 10844:1989",
+          "normas": [
+            "NBR 10844"
+          ]
         }
       ],
       "previsao": {
@@ -1144,13 +1166,13 @@
         "rotina": "diária",
         "pendentes": 57,
         "planejada": {
-          "data": "2026-12-10",
+          "data": "2026-12-11",
           "dias": 57,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.2
+          "historico_dias": 5.2
         }
       }
     },
@@ -1162,9 +1184,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 204,
-      "feitos": 68,
-      "percentual": 33.3,
+      "total": 205,
+      "feitos": 69,
+      "percentual": 33.7,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1318,9 +1340,9 @@
         },
         {
           "nome": "Base da escola",
-          "total": 18,
-          "feitos": 16,
-          "percentual": 88.9
+          "total": 19,
+          "feitos": 17,
+          "percentual": 89.5
         }
       ],
       "proximas": [
@@ -1404,6 +1426,11 @@
       ],
       "entregas": [
         {
+          "numero": 19,
+          "titulo": "Guarda o trecho pluvial dimensionado no elemento (TM-205)",
+          "data": "2026-10-14T17:57-03:00"
+        },
+        {
           "numero": 18,
           "titulo": "TM-012: interface C# do Revit 2027 no CI, sem RevitAPI",
           "data": "2026-10-14T16:06-03:00"
@@ -1457,15 +1484,10 @@
           "numero": 8,
           "titulo": "Abre resultados de cálculo no envelope 0.1.4 (TM-006)",
           "data": "2026-10-12T08:56-03:00"
-        },
-        {
-          "numero": 7,
-          "titulo": "Abre as seções transversais parametrizadas (TM-005)",
-          "data": "2026-10-11T16:01-03:00"
         }
       ],
-      "total_entregas": 18,
-      "ultima_entrega": "2026-10-14T16:06-03:00",
+      "total_entregas": 19,
+      "ultima_entrega": "2026-10-14T17:57-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1484,8 +1506,8 @@
         {
           "norma": "painel tekto-calc",
           "descricao": "",
-          "tarefas": 25,
-          "feitas": 6,
+          "tarefas": 26,
+          "feitas": 7,
           "estado": "em_andamento"
         },
         {
@@ -1893,6 +1915,7 @@
         "BuiltInCategory",
         "BuiltInCategory OST_StructuralColumns",
         "Extensões do pyRevit",
+        "GUTTER",
         "ISO 16739-1",
         "IfcBuildingElementProxy",
         "IfcBuildingStorey",
@@ -2156,13 +2179,13 @@
         "rotina": "diária",
         "pendentes": 136,
         "planejada": {
-          "data": "2026-12-21",
+          "data": "2026-12-22",
           "dias": 68,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.2
+          "historico_dias": 5.2
         }
       }
     },
@@ -2294,13 +2317,13 @@
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-01-06",
+          "data": "2027-01-07",
           "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.0
+          "historico_dias": 2.0
         }
       }
     }
