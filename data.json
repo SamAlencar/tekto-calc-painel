@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-16T18:46-03:00",
+  "atualizado_em": "2026-10-16T18:49-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 544,
     "feitos": 122,
     "percentual": 22.4,
     "duvidas": 88,
-    "entregas": 70,
-    "ultima_entrega": "2026-10-16T18:45-03:00",
+    "entregas": 71,
+    "ultima_entrega": "2026-10-16T18:48-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -1207,28 +1207,22 @@
           "percentual": 80.0
         },
         {
-          "nome": "Padrão estrutural Tekto",
-          "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
           "nome": "Fundações",
-          "total": 16,
+          "total": 12,
           "feitos": 6,
-          "percentual": 37.5
+          "percentual": 50.0
         },
         {
           "nome": "Concreto",
-          "total": 12,
+          "total": 9,
           "feitos": 3,
-          "percentual": 25.0
+          "percentual": 33.3
         },
         {
           "nome": "Vedações e cobertura",
-          "total": 8,
+          "total": 6,
           "feitos": 3,
-          "percentual": 37.5
+          "percentual": 50.0
         },
         {
           "nome": "Regras",
@@ -1245,6 +1239,18 @@
         {
           "nome": "Viabilidade para a plataforma",
           "total": 23,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Padrão estrutural Tekto",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Revit e Dynamo da estrutura",
+          "total": 9,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1362,78 +1368,82 @@
           "disciplina": "Revit, Dynamo e pyRevit"
         },
         {
-          "id": "TM-016",
-          "titulo": "Arquivo de parâmetros compartilhados Tekto",
+          "id": "TM-030",
+          "titulo": "Especificação de modelagem: Sapata",
           "normas": [
-            "Guia de parâmetros compartilhados",
-            "arquivo de definição"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
-          "id": "TM-017",
-          "titulo": "Template Revit estrutural Tekto",
-          "normas": [
-            "Guia de unidades",
-            "fundações",
-            "BuiltInCategory",
-            ".NET 10 do Revit 2027"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
-          "id": "TM-018",
-          "titulo": "Famílias de fundação Tekto",
-          "normas": [
-            "Guia de fundações",
-            "OST_StructuralFoundation",
-            "IfcPile"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
-          "id": "TM-019",
-          "titulo": "Famílias de pilar e viga de concreto",
-          "normas": [
-            "OST_StructuralColumns e OST_StructuralFraming",
-            "IfcColumn",
-            "IfcBeam"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
-          "id": "TM-020",
-          "titulo": "Tipo de laje no template Tekto",
-          "normas": [
-            "OST_Floors",
-            "IfcSlab"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
-          "id": "TM-021",
-          "titulo": "Famílias de perfis metálicos",
-          "normas": [
-            "OST_StructuralColumns e OST_StructuralFraming",
-            "IfcIShapeProfileDef",
-            "IfcMember"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
-          "id": "TM-025",
-          "titulo": "Estaca no Revit e no Dynamo",
-          "normas": [
-            "IfcPile",
-            "IfcPileTypeEnum",
+            "IfcFootingTypeEnum",
             "fundações na API do Revit",
-            "BuiltInCategory",
-            "AnalyticalMember"
+            "BuiltInCategory"
           ],
           "disciplina": "Fundações"
+        },
+        {
+          "id": "TM-031",
+          "titulo": "Sapata no modelo neutro",
+          "normas": [
+            "IfcFootingTypeEnum",
+            "fundações na API do Revit",
+            "BuiltInCategory"
+          ],
+          "disciplina": "Fundações"
+        },
+        {
+          "id": "TM-032",
+          "titulo": "Sapata na ida e volta IFC",
+          "normas": [
+            "IfcFootingTypeEnum",
+            "fundações na API do Revit",
+            "BuiltInCategory"
+          ],
+          "disciplina": "Fundações"
+        },
+        {
+          "id": "TM-034",
+          "titulo": "Especificação de modelagem: Viga baldrame",
+          "normas": [
+            "IfcFootingTypeEnum",
+            "IfcBeam",
+            "fundações na API do Revit"
+          ],
+          "disciplina": "Fundações"
+        },
+        {
+          "id": "TM-035",
+          "titulo": "Viga baldrame no modelo neutro",
+          "normas": [
+            "IfcFootingTypeEnum",
+            "IfcBeam",
+            "fundações na API do Revit"
+          ],
+          "disciplina": "Fundações"
+        },
+        {
+          "id": "TM-036",
+          "titulo": "Viga baldrame na ida e volta IFC",
+          "normas": [
+            "IfcFootingTypeEnum",
+            "IfcBeam",
+            "fundações na API do Revit"
+          ],
+          "disciplina": "Fundações"
+        },
+        {
+          "id": "TM-042",
+          "titulo": "Especificação de modelagem: Viga de concreto",
+          "normas": [
+            "IfcBeam e IfcBeamTypeEnum",
+            "OST_StructuralFraming",
+            "AnalyticalMember"
+          ],
+          "disciplina": "Concreto"
         }
       ],
       "entregas": [
+        {
+          "numero": 24,
+          "titulo": "DT-004: padrão Revit e pares Revit/Dynamo da estrutura depois da fase da plataforma",
+          "data": "2026-10-16T18:48-03:00"
+        },
         {
           "numero": 23,
           "titulo": "DT-004: plataforma sem Revit e MVP antes das instalações; fecha D-052 e D-053",
@@ -1488,15 +1498,10 @@
           "numero": 13,
           "titulo": "Base da escola no modelo neutro 0.1.6",
           "data": "2026-10-14T07:03-03:00"
-        },
-        {
-          "numero": 12,
-          "titulo": "Fecha a ida e volta do GlobalId do projeto (TM-009)",
-          "data": "2026-10-13T16:02-03:00"
         }
       ],
-      "total_entregas": 23,
-      "ultima_entrega": "2026-10-16T18:45-03:00",
+      "total_entregas": 24,
+      "ultima_entrega": "2026-10-16T18:48-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1639,14 +1644,14 @@
           "estado": "coberta"
         },
         {
-          "norma": "IfcColumn",
+          "norma": "IfcSpace",
           "descricao": "",
           "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "IfcSpace",
+          "norma": "IfcColumn",
           "descricao": "",
           "tarefas": 6,
           "feitas": 0,
@@ -1660,13 +1665,6 @@
           "estado": "em_andamento"
         },
         {
-          "norma": "IfcMember",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "guia estrutural",
           "descricao": "",
           "tarefas": 5,
@@ -1674,11 +1672,11 @@
           "estado": "em_andamento"
         },
         {
-          "norma": "OST_StructuralFoundation",
+          "norma": "IfcMember",
           "descricao": "",
-          "tarefas": 4,
-          "feitas": 2,
-          "estado": "em_andamento"
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
         },
         {
           "norma": "IfcPileTypeEnum",
@@ -1777,6 +1775,13 @@
           "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
+        },
+        {
+          "norma": "OST_StructuralFoundation",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 2,
+          "estado": "em_andamento"
         },
         {
           "norma": "OST_StructuralColumns",
