@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-16T18:33-03:00",
+  "atualizado_em": "2026-10-16T18:46-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 544,
     "feitos": 122,
     "percentual": 22.4,
-    "duvidas": 90,
-    "entregas": 69,
-    "ultima_entrega": "2026-10-16T18:33-03:00",
+    "duvidas": 88,
+    "entregas": 70,
+    "ultima_entrega": "2026-10-16T18:45-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -1225,16 +1225,34 @@
           "percentual": 25.0
         },
         {
-          "nome": "Aço",
-          "total": 20,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
           "nome": "Vedações e cobertura",
           "total": 8,
           "feitos": 3,
           "percentual": 37.5
+        },
+        {
+          "nome": "Regras",
+          "total": 2,
+          "feitos": 1,
+          "percentual": 50.0
+        },
+        {
+          "nome": "Camada de IA",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Viabilidade para a plataforma",
+          "total": 23,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Aço",
+          "total": 20,
+          "feitos": 0,
+          "percentual": 0.0
         },
         {
           "nome": "Circulação",
@@ -1297,12 +1315,6 @@
           "percentual": 0.0
         },
         {
-          "nome": "Regras",
-          "total": 2,
-          "feitos": 1,
-          "percentual": 50.0
-        },
-        {
           "nome": "Integração tekto-calc",
           "total": 4,
           "feitos": 1,
@@ -1327,12 +1339,6 @@
           "percentual": 0.0
         },
         {
-          "nome": "Camada de IA",
-          "total": 2,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
           "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
           "total": 7,
           "feitos": 7,
@@ -1343,12 +1349,6 @@
           "total": 19,
           "feitos": 17,
           "percentual": 89.5
-        },
-        {
-          "nome": "Viabilidade para a plataforma",
-          "total": 23,
-          "feitos": 0,
-          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -1435,6 +1435,11 @@
       ],
       "entregas": [
         {
+          "numero": 23,
+          "titulo": "DT-004: plataforma sem Revit e MVP antes das instalações; fecha D-052 e D-053",
+          "data": "2026-10-16T18:45-03:00"
+        },
+        {
           "numero": 22,
           "titulo": "Fase Viabilidade para a plataforma: TM-206 a TM-228, docs/PLATAFORMA.md, D-052 e D-053",
           "data": "2026-10-16T18:33-03:00"
@@ -1488,15 +1493,10 @@
           "numero": 12,
           "titulo": "Fecha a ida e volta do GlobalId do projeto (TM-009)",
           "data": "2026-10-13T16:02-03:00"
-        },
-        {
-          "numero": 11,
-          "titulo": "Abre arquivo IFC4X3_ADD2 com IfcProject e unidades SI (TM-008)",
-          "data": "2026-10-13T09:09-03:00"
         }
       ],
-      "total_entregas": 22,
-      "ultima_entrega": "2026-10-16T18:33-03:00",
+      "total_entregas": 23,
+      "ultima_entrega": "2026-10-16T18:45-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1737,27 +1737,6 @@
           "estado": "planejada"
         },
         {
-          "norma": "OST_StructuralColumns",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcElementAssemblyTypeEnum",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "OST_StructuralTruss",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "IfcWall e IfcWallTypeEnum",
           "descricao": "",
           "tarefas": 4,
@@ -1794,6 +1773,27 @@
         },
         {
           "norma": "OST_Roofs",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_StructuralColumns",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcElementAssemblyTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_StructuralTruss",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -2204,14 +2204,6 @@
         {
           "texto": "D-051 — Carregamento do pacote Tekto no Dynamo 4.0.2.3852",
           "normas": []
-        },
-        {
-          "texto": "D-052 — Caminho de geração da plataforma sem Revit",
-          "normas": []
-        },
-        {
-          "texto": "D-053 — Prioridade da fase Viabilidade para a plataforma",
-          "normas": []
         }
       ],
       "previsao": {
@@ -2540,7 +2532,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.1
+          "historico_dias": 0.2
         }
       }
     }
