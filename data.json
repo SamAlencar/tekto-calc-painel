@@ -1,14 +1,14 @@
 {
-  "atualizado_em": "2026-10-16T14:57-03:00",
+  "atualizado_em": "2026-10-16T14:58-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 407,
+    "total": 461,
     "feitos": 122,
-    "percentual": 30.0,
+    "percentual": 26.5,
     "duvidas": 88,
     "entregas": 64,
     "ultima_entrega": "2026-10-16T09:08-03:00",
-    "projetos_ativos": 4,
+    "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
       "planejada": {
@@ -2352,6 +2352,150 @@
         "real": {
           "disponivel": false,
           "historico_dias": 2.9
+        }
+      }
+    },
+    {
+      "slug": "team",
+      "nome": "Tek Team",
+      "descricao": "Equipe de agentes de IA: papéis, skills e diretrizes BIM",
+      "estado": "ativo",
+      "repo_encontrado": true,
+      "backlog_encontrado": true,
+      "duvidas_encontrado": true,
+      "total": 54,
+      "feitos": 0,
+      "percentual": 0.0,
+      "areas": [
+        {
+          "nome": "Fundamentos",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "BIM",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Papéis",
+          "total": 18,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Diretrizes",
+          "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Skills",
+          "total": 9,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Esquemas",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Piloto",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fechamento",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        }
+      ],
+      "proximas": [
+        {
+          "id": "TT-001",
+          "titulo": "Convenções, glossário inicial e modelo de ficha de fonte",
+          "normas": [],
+          "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-002",
+          "titulo": "Inventário das capacidades atuais dos quatro projetos Tekto",
+          "normas": [],
+          "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-003",
+          "titulo": "Pesquisa: estrutura real de escritórios brasileiros de engenharia e arquitetura",
+          "normas": [],
+          "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-004",
+          "titulo": "Pesquisa: atribuições profissionais e responsabilidade técnica (CONFEA e CAU)",
+          "normas": [],
+          "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-005",
+          "titulo": "Pesquisa: uso de IA em serviços de engenharia",
+          "normas": [],
+          "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-006",
+          "titulo": "Pesquisa: arquiteturas de sistemas multiagente e protocolos de agentes",
+          "normas": [],
+          "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-007",
+          "titulo": "Pesquisa: ISO 19650 e NBR ISO 19650",
+          "normas": [
+            "NBR ISO 19650"
+          ],
+          "disciplina": "BIM"
+        },
+        {
+          "id": "TT-008",
+          "titulo": "Pesquisa: papéis e funções de gestão da informação na ISO 19650",
+          "normas": [],
+          "disciplina": "BIM"
+        }
+      ],
+      "entregas": [],
+      "total_entregas": 0,
+      "ultima_entrega": null,
+      "normas": [
+        {
+          "norma": "NBR ISO 19650",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        }
+      ],
+      "normas_cobertas": [],
+      "duvidas": [],
+      "previsao": {
+        "situacao": "ativo",
+        "ritmo_planejado": 1.0,
+        "ritmo_texto": "1 tarefa/dia",
+        "rotina": "diária",
+        "pendentes": 54,
+        "planejada": {
+          "data": "2026-12-09",
+          "dias": 54,
+          "concluido": false
+        },
+        "real": {
+          "disponivel": false,
+          "historico_dias": 0.0
         }
       }
     }
