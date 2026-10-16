@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-16T08:49-03:00",
+  "atualizado_em": "2026-10-16T09:08-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 407,
-    "feitos": 121,
-    "percentual": 29.7,
-    "duvidas": 85,
-    "entregas": 63,
-    "ultima_entrega": "2026-10-15T16:03-03:00",
+    "feitos": 122,
+    "percentual": 30.0,
+    "duvidas": 88,
+    "entregas": 64,
+    "ultima_entrega": "2026-10-16T09:08-03:00",
     "projetos_ativos": 4,
     "previsao": {
       "aguardando": [],
@@ -1185,8 +1185,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 205,
-      "feitos": 70,
-      "percentual": 34.1,
+      "feitos": 71,
+      "percentual": 34.6,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1203,8 +1203,8 @@
         {
           "nome": "Revit, Dynamo e pyRevit",
           "total": 5,
-          "feitos": 3,
-          "percentual": 60.0
+          "feitos": 4,
+          "percentual": 80.0
         },
         {
           "nome": "Padrão estrutural Tekto",
@@ -1347,16 +1347,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-014",
-          "titulo": "Pacote Dynamo que lê o JSON neutro",
-          "normas": [
-            "Mapa de versões do Dynamo",
-            "Dynamo 4.0.2 e PythonNet3",
-            "primer"
-          ],
-          "disciplina": "Revit, Dynamo e pyRevit"
-        },
-        {
           "id": "TM-015",
           "titulo": "Botões pyRevit que exportam e importam o JSON",
           "normas": [
@@ -1423,9 +1413,26 @@
             "IfcMember"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-025",
+          "titulo": "Estaca no Revit e no Dynamo",
+          "normas": [
+            "IfcPile",
+            "IfcPileTypeEnum",
+            "fundações na API do Revit",
+            "BuiltInCategory",
+            "AnalyticalMember"
+          ],
+          "disciplina": "Fundações"
         }
       ],
       "entregas": [
+        {
+          "numero": 21,
+          "titulo": "Lê o nome do projeto mínimo no pacote Dynamo (TM-014)",
+          "data": "2026-10-16T09:08-03:00"
+        },
         {
           "numero": 20,
           "titulo": "Lê e grava níveis e eixos no Revit e no Dynamo (TM-013)",
@@ -1480,15 +1487,10 @@
           "numero": 10,
           "titulo": "Abre níveis e eixos no envelope 0.1.5 (TM-007)",
           "data": "2026-10-12T16:20-03:00"
-        },
-        {
-          "numero": 9,
-          "titulo": "Registra a decisão de esforços no Robot 2027 (DT-003)",
-          "data": "2026-10-12T13:12-03:00"
         }
       ],
-      "total_entregas": 20,
-      "ultima_entrega": "2026-10-15T16:03-03:00",
+      "total_entregas": 21,
+      "ultima_entrega": "2026-10-16T09:08-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1915,6 +1917,7 @@
         "AnalyticalMember",
         "BuiltInCategory",
         "BuiltInCategory OST_StructuralColumns",
+        "Dynamo 4.0.2 e PythonNet3",
         "Extensões do pyRevit",
         "GUTTER",
         "ISO 16739-1",
@@ -1955,6 +1958,7 @@
         "LIGHTNINGPROTECTION e EARTHING",
         "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
         "Level.ProjectElevation",
+        "Mapa de versões do Dynamo",
         "Migração do Revit 2027 para .NET 10",
         "Modelo da ficha em docs/especificacoes/modelo.md",
         "My First Plug-in",
@@ -1984,6 +1988,7 @@
         "nota da Autodesk sobre a biblioteca RobotOM",
         "painel do tekto-calc",
         "painel tekto-calc",
+        "primer",
         "página do produto",
         "resultado anexado ao elemento",
         "suporte a Revit 2027",
@@ -2068,6 +2073,10 @@
         },
         {
           "texto": "D-025 — Unidade da geometria do Dynamo no Revit 2027",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2181,6 +2190,14 @@
         {
           "texto": "D-050 — Nó Dynamo de níveis fora do pacote",
           "normas": []
+        },
+        {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
+          "texto": "D-051 — Carregamento do pacote Tekto no Dynamo 4.0.2.3852",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2188,10 +2205,10 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 135,
+        "pendentes": 134,
         "planejada": {
-          "data": "2026-12-23",
-          "dias": 68,
+          "data": "2026-12-22",
+          "dias": 67,
           "concluido": false
         },
         "real": {
