@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-16T16:42-03:00",
+  "atualizado_em": "2026-10-16T16:44-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 481,
     "feitos": 122,
     "percentual": 25.4,
     "duvidas": 88,
-    "entregas": 65,
-    "ultima_entrega": "2026-10-16T16:42-03:00",
+    "entregas": 66,
+    "ultima_entrega": "2026-10-16T16:44-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -2476,13 +2476,18 @@
       ],
       "entregas": [
         {
+          "numero": 2,
+          "titulo": "Plano: TT-038 avalia bibliotecas abertas; TT-039 adota regra biblioteca primeiro",
+          "data": "2026-10-16T16:44-03:00"
+        },
+        {
           "numero": 1,
           "titulo": "Plano: fase Arsenal de scripts e economia de tokens",
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 1,
-      "ultima_entrega": "2026-10-16T16:42-03:00",
+      "total_entregas": 2,
+      "ultima_entrega": "2026-10-16T16:44-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
