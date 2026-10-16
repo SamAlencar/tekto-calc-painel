@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-15T16:03-03:00",
+  "atualizado_em": "2026-10-16T07:43-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 407,
@@ -12,7 +12,7 @@
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-07",
+        "data": "2027-01-08",
         "dias": 84,
         "concluido": false,
         "projeto": "Tek Hunter"
@@ -455,13 +455,13 @@
         "rotina": "diária",
         "pendentes": 70,
         "planejada": {
-          "data": "2026-12-24",
+          "data": "2026-12-25",
           "dias": 70,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.3
+          "historico_dias": 5.9
         }
       }
     },
@@ -1166,13 +1166,13 @@
         "rotina": "diária",
         "pendentes": 57,
         "planejada": {
-          "data": "2026-12-11",
+          "data": "2026-12-12",
           "dias": 57,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.2
+          "historico_dias": 5.8
         }
       }
     },
@@ -2190,13 +2190,13 @@
         "rotina": "diária",
         "pendentes": 135,
         "planejada": {
-          "data": "2026-12-22",
+          "data": "2026-12-23",
           "dias": 68,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.2
+          "historico_dias": 5.8
         }
       }
     },
@@ -2328,13 +2328,13 @@
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-01-07",
+          "data": "2027-01-08",
           "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.0
+          "historico_dias": 2.6
         }
       }
     }
