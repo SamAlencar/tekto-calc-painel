@@ -1,21 +1,21 @@
 {
-  "atualizado_em": "2026-10-16T16:44-03:00",
+  "atualizado_em": "2026-10-16T16:50-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 481,
+    "total": 505,
     "feitos": 122,
-    "percentual": 25.4,
+    "percentual": 24.2,
     "duvidas": 88,
-    "entregas": 66,
-    "ultima_entrega": "2026-10-16T16:44-03:00",
+    "entregas": 67,
+    "ultima_entrega": "2026-10-16T16:50-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-08",
-        "dias": 84,
+        "data": "2027-01-22",
+        "dias": 98,
         "concluido": false,
-        "projeto": "Tek Hunter"
+        "projeto": "Tek Team"
       }
     }
   },
@@ -2363,7 +2363,7 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 74,
+      "total": 98,
       "feitos": 0,
       "percentual": 0.0,
       "areas": [
@@ -2381,25 +2381,25 @@
         },
         {
           "nome": "Papéis",
-          "total": 18,
+          "total": 33,
           "feitos": 0,
           "percentual": 0.0
         },
         {
           "nome": "Diretrizes",
-          "total": 7,
+          "total": 8,
           "feitos": 0,
           "percentual": 0.0
         },
         {
           "nome": "Arsenal",
-          "total": 20,
+          "total": 25,
           "feitos": 0,
           "percentual": 0.0
         },
         {
           "nome": "Skills",
-          "total": 9,
+          "total": 12,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -2476,6 +2476,11 @@
       ],
       "entregas": [
         {
+          "numero": 3,
+          "titulo": "Plano: empresa completa — mapa de departamentos, 14 fichas de áreas não técnicas, interação entre áreas, scripts e skills de gestão (98 etapas)",
+          "data": "2026-10-16T16:50-03:00"
+        },
+        {
           "numero": 2,
           "titulo": "Plano: TT-038 avalia bibliotecas abertas; TT-039 adota regra biblioteca primeiro",
           "data": "2026-10-16T16:44-03:00"
@@ -2486,8 +2491,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 2,
-      "ultima_entrega": "2026-10-16T16:44-03:00",
+      "total_entregas": 3,
+      "ultima_entrega": "2026-10-16T16:50-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2504,10 +2509,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 74,
+        "pendentes": 98,
         "planejada": {
-          "data": "2026-12-29",
-          "dias": 74,
+          "data": "2027-01-22",
+          "dias": 98,
           "concluido": false
         },
         "real": {
