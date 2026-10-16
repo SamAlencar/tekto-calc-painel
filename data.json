@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-16T16:55-03:00",
+  "atualizado_em": "2026-10-16T18:33-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 521,
+    "total": 544,
     "feitos": 122,
-    "percentual": 23.4,
-    "duvidas": 88,
-    "entregas": 68,
-    "ultima_entrega": "2026-10-16T16:55-03:00",
+    "percentual": 22.4,
+    "duvidas": 90,
+    "entregas": 69,
+    "ultima_entrega": "2026-10-16T18:33-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -461,7 +461,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.3
+          "historico_dias": 6.4
         }
       }
     },
@@ -1172,7 +1172,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.2
+          "historico_dias": 6.3
         }
       }
     },
@@ -1184,9 +1184,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 205,
+      "total": 228,
       "feitos": 71,
-      "percentual": 34.6,
+      "percentual": 31.1,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1343,6 +1343,12 @@
           "total": 19,
           "feitos": 17,
           "percentual": 89.5
+        },
+        {
+          "nome": "Viabilidade para a plataforma",
+          "total": 23,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -1429,6 +1435,11 @@
       ],
       "entregas": [
         {
+          "numero": 22,
+          "titulo": "Fase Viabilidade para a plataforma: TM-206 a TM-228, docs/PLATAFORMA.md, D-052 e D-053",
+          "data": "2026-10-16T18:33-03:00"
+        },
+        {
           "numero": 21,
           "titulo": "Lê o nome do projeto mínimo no pacote Dynamo (TM-014)",
           "data": "2026-10-16T09:08-03:00"
@@ -1482,15 +1493,10 @@
           "numero": 11,
           "titulo": "Abre arquivo IFC4X3_ADD2 com IfcProject e unidades SI (TM-008)",
           "data": "2026-10-13T09:09-03:00"
-        },
-        {
-          "numero": 10,
-          "titulo": "Abre níveis e eixos no envelope 0.1.5 (TM-007)",
-          "data": "2026-10-12T16:20-03:00"
         }
       ],
-      "total_entregas": 21,
-      "ultima_entrega": "2026-10-16T09:08-03:00",
+      "total_entregas": 22,
+      "ultima_entrega": "2026-10-16T18:33-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1509,7 +1515,7 @@
         {
           "norma": "painel tekto-calc",
           "descricao": "",
-          "tarefas": 26,
+          "tarefas": 28,
           "feitas": 7,
           "estado": "em_andamento"
         },
@@ -1565,7 +1571,7 @@
         {
           "norma": "IfcBeam",
           "descricao": "",
-          "tarefas": 10,
+          "tarefas": 11,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -1633,18 +1639,25 @@
           "estado": "coberta"
         },
         {
+          "norma": "IfcColumn",
+          "descricao": "",
+          "tarefas": 6,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcSpace",
+          "descricao": "",
+          "tarefas": 6,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
           "norma": "IfcPile",
           "descricao": "",
           "tarefas": 5,
           "feitas": 3,
           "estado": "em_andamento"
-        },
-        {
-          "norma": "IfcColumn",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
         },
         {
           "norma": "IfcMember",
@@ -1900,13 +1913,6 @@
         },
         {
           "norma": "SEWAGE em IfcDistributionSystemEnum",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcSanitaryTerminal",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -2198,6 +2204,14 @@
         {
           "texto": "D-051 — Carregamento do pacote Tekto no Dynamo 4.0.2.3852",
           "normas": []
+        },
+        {
+          "texto": "D-052 — Caminho de geração da plataforma sem Revit",
+          "normas": []
+        },
+        {
+          "texto": "D-053 — Prioridade da fase Viabilidade para a plataforma",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2205,15 +2219,15 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 134,
+        "pendentes": 157,
         "planejada": {
-          "data": "2026-12-22",
-          "dias": 67,
+          "data": "2027-01-03",
+          "dias": 79,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.2
+          "historico_dias": 6.3
         }
       }
     },
@@ -2351,7 +2365,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.0
+          "historico_dias": 3.1
         }
       }
     },
