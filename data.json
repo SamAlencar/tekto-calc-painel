@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-16T16:50-03:00",
+  "atualizado_em": "2026-10-16T16:55-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 505,
+    "total": 521,
     "feitos": 122,
-    "percentual": 24.2,
+    "percentual": 23.4,
     "duvidas": 88,
-    "entregas": 67,
-    "ultima_entrega": "2026-10-16T16:50-03:00",
+    "entregas": 68,
+    "ultima_entrega": "2026-10-16T16:55-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-01-22",
-        "dias": 98,
+        "data": "2027-02-07",
+        "dias": 114,
         "concluido": false,
         "projeto": "Tek Team"
       }
@@ -2363,13 +2363,13 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 98,
+      "total": 114,
       "feitos": 0,
       "percentual": 0.0,
       "areas": [
         {
           "nome": "Fundamentos",
-          "total": 6,
+          "total": 11,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -2405,13 +2405,19 @@
         },
         {
           "nome": "Esquemas",
-          "total": 3,
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Aplicação",
+          "total": 8,
           "feitos": 0,
           "percentual": 0.0
         },
         {
           "nome": "Piloto",
-          "total": 4,
+          "total": 6,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -2461,20 +2467,23 @@
         },
         {
           "id": "TT-007",
-          "titulo": "Pesquisa: ISO 19650 e NBR ISO 19650",
-          "normas": [
-            "NBR ISO 19650"
-          ],
-          "disciplina": "BIM"
+          "titulo": "Pesquisa: configuração de agentes no Cursor",
+          "normas": [],
+          "disciplina": "Fundamentos"
         },
         {
           "id": "TT-008",
-          "titulo": "Pesquisa: papéis e funções de gestão da informação na ISO 19650",
+          "titulo": "Pesquisa: padrão aberto AGENTS.md",
           "normas": [],
-          "disciplina": "BIM"
+          "disciplina": "Fundamentos"
         }
       ],
       "entregas": [
+        {
+          "numero": 4,
+          "titulo": "Plano: fase Aplicação (exportadores, compatibilidade, guia no Cursor, medição, atualização), pesquisa de runtimes, formato canônico e piloto no Cursor (114 etapas)",
+          "data": "2026-10-16T16:55-03:00"
+        },
         {
           "numero": 3,
           "titulo": "Plano: empresa completa — mapa de departamentos, 14 fichas de áreas não técnicas, interação entre áreas, scripts e skills de gestão (98 etapas)",
@@ -2491,8 +2500,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 3,
-      "ultima_entrega": "2026-10-16T16:50-03:00",
+      "total_entregas": 4,
+      "ultima_entrega": "2026-10-16T16:55-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2509,10 +2518,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 98,
+        "pendentes": 114,
         "planejada": {
-          "data": "2027-01-22",
-          "dias": 98,
+          "data": "2027-02-07",
+          "dias": 114,
           "concluido": false
         },
         "real": {
