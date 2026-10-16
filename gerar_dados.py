@@ -56,6 +56,11 @@ PROJETOS = [
         "ritmo_planejado": 2/7,   # duas etapas por semana
         "rotina": "semanal",
     },
+    {
+        "slug": "team", "nome": "Tek Team", "repo": "SamAlencar/tek-team", "prefixo": "TT",
+        "descricao": "Equipe de agentes de IA: papéis, skills e diretrizes BIM",
+        "ritmo_planejado": 1.0,   # uma etapa por dia
+    },
 ]
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
 RITMO_PADRAO = 1.0        # tarefas/dia quando o projeto não define ritmo_planejado (7 dias por semana)
