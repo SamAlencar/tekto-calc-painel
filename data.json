@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-16T15:45-03:00",
+  "atualizado_em": "2026-10-16T16:42-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 461,
+    "total": 481,
     "feitos": 122,
-    "percentual": 26.5,
+    "percentual": 25.4,
     "duvidas": 88,
-    "entregas": 64,
-    "ultima_entrega": "2026-10-16T09:08-03:00",
+    "entregas": 65,
+    "ultima_entrega": "2026-10-16T16:42-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -2363,7 +2363,7 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 54,
+      "total": 74,
       "feitos": 0,
       "percentual": 0.0,
       "areas": [
@@ -2388,6 +2388,12 @@
         {
           "nome": "Diretrizes",
           "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Arsenal",
+          "total": 20,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -2468,9 +2474,15 @@
           "disciplina": "BIM"
         }
       ],
-      "entregas": [],
-      "total_entregas": 0,
-      "ultima_entrega": null,
+      "entregas": [
+        {
+          "numero": 1,
+          "titulo": "Plano: fase Arsenal de scripts e economia de tokens",
+          "data": "2026-10-16T16:42-03:00"
+        }
+      ],
+      "total_entregas": 1,
+      "ultima_entrega": "2026-10-16T16:42-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2487,15 +2499,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 54,
+        "pendentes": 74,
         "planejada": {
-          "data": "2026-12-09",
-          "dias": 54,
+          "data": "2026-12-29",
+          "dias": 74,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.0
+          "historico_dias": 0.1
         }
       }
     }
