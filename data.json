@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-17T09:48-03:00",
+  "atualizado_em": "2026-10-17T09:54-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 544,
-    "feitos": 125,
-    "percentual": 23.0,
-    "duvidas": 89,
-    "entregas": 74,
-    "ultima_entrega": "2026-10-17T09:47-03:00",
+    "feitos": 126,
+    "percentual": 23.2,
+    "duvidas": 90,
+    "entregas": 75,
+    "ultima_entrega": "2026-10-17T09:53-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 114,
+        "data": "2027-02-07",
+        "dias": 113,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -480,7 +480,7 @@
           "historico_dias": 7.0,
           "janela_dias": 7.0,
           "concluidas_na_janela": 31,
-          "tarefas_por_dia": 4.408,
+          "tarefas_por_dia": 4.406,
           "previsao": {
             "data": "2026-11-02",
             "dias": 16,
@@ -2402,14 +2402,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 0,
-      "percentual": 0.0,
+      "feitos": 1,
+      "percentual": 0.9,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 9.1
         },
         {
           "nome": "BIM",
@@ -2468,12 +2468,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-001",
-          "titulo": "Convenções, glossário inicial e modelo de ficha de fonte",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-002",
           "titulo": "Inventário das capacidades atuais dos quatro projetos Tekto",
           "normas": [],
@@ -2514,9 +2508,20 @@
           "titulo": "Pesquisa: padrão aberto AGENTS.md",
           "normas": [],
           "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-009",
+          "titulo": "Pesquisa: agentes, skills e rotinas do Grok Bot",
+          "normas": [],
+          "disciplina": "Fundamentos"
         }
       ],
       "entregas": [
+        {
+          "numero": 5,
+          "titulo": "TT-001 — Convenções, glossário inicial e modelo de ficha de fonte",
+          "data": "2026-10-17T09:53-03:00"
+        },
         {
           "numero": 4,
           "titulo": "Plano: fase Aplicação (exportadores, compatibilidade, guia no Cursor, medição, atualização), pesquisa de runtimes, formato canônico e piloto no Cursor (114 etapas)",
@@ -2538,8 +2543,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 4,
-      "ultima_entrega": "2026-10-16T16:55-03:00",
+      "total_entregas": 5,
+      "ultima_entrega": "2026-10-17T09:53-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2550,16 +2555,21 @@
         }
       ],
       "normas_cobertas": [],
-      "duvidas": [],
+      "duvidas": [
+        {
+          "texto": "D-001 — Termos em português da série ISO 19650 (2026-10-17)",
+          "normas": []
+        }
+      ],
       "previsao": {
         "situacao": "ativo",
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 114,
+        "pendentes": 113,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 114,
+          "data": "2027-02-07",
+          "dias": 113,
           "concluido": false
         },
         "real": {
