@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-17T09:54-03:00",
+  "atualizado_em": "2026-10-17T12:06-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 544,
+    "total": 569,
     "feitos": 126,
-    "percentual": 23.2,
+    "percentual": 22.1,
     "duvidas": 90,
-    "entregas": 75,
-    "ultima_entrega": "2026-10-17T09:53-03:00",
+    "entregas": 78,
+    "ultima_entrega": "2026-10-17T12:03-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -18,13 +18,11 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-02",
-        "dias": 16,
+        "data": "2026-11-08",
+        "dias": 22,
         "concluido": false,
-        "projeto": "Tekto Calc",
+        "projeto": "Tekto Docs",
         "sem_historico": [
-          "Tekto Docs",
-          "Tekto Model",
           "Tek Hunter",
           "Tek Team"
         ]
@@ -40,9 +38,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 101,
+      "total": 116,
       "feitos": 32,
-      "percentual": 31.7,
+      "percentual": 27.6,
       "areas": [
         {
           "nome": "Concreto armado",
@@ -145,6 +143,12 @@
           "total": 2,
           "feitos": 0,
           "percentual": 0.0
+        },
+        {
+          "nome": "Normas internacionais (comparativos)",
+          "total": 15,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -215,6 +219,11 @@
       ],
       "entregas": [
         {
+          "numero": 30,
+          "titulo": "Backlog: normas internacionais (comparativos) — TC-101 a TC-115",
+          "data": "2026-10-17T12:02-03:00"
+        },
+        {
           "numero": 29,
           "titulo": "TC-019: flexão de seção T com a linha neutra na mesa",
           "data": "2026-10-17T09:46-03:00"
@@ -268,20 +277,15 @@
           "numero": 20,
           "titulo": "Expõe as rotinas de cálculo num servidor MCP",
           "data": "2026-10-14T01:32-03:00"
-        },
-        {
-          "numero": 17,
-          "titulo": "Calcula o momento local de 2ª ordem do pilar retangular.",
-          "data": "2026-10-14T01:02-03:00"
         }
       ],
-      "total_entregas": 29,
-      "ultima_entrega": "2026-10-17T09:46-03:00",
+      "total_entregas": 30,
+      "ultima_entrega": "2026-10-17T12:02-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
-          "tarefas": 30,
+          "tarefas": 31,
           "feitas": 12,
           "estado": "em_andamento"
         },
@@ -323,9 +327,9 @@
         {
           "norma": "NBR 8681",
           "descricao": "Ações e segurança nas estruturas",
-          "tarefas": 2,
+          "tarefas": 3,
           "feitas": 2,
-          "estado": "coberta"
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 5410",
@@ -337,7 +341,7 @@
         {
           "norma": "NBR 5626",
           "descricao": "Água fria e água quente",
-          "tarefas": 6,
+          "tarefas": 7,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -351,9 +355,9 @@
         {
           "norma": "NBR 10844",
           "descricao": "Águas pluviais",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 5,
-          "estado": "coberta"
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 5419",
@@ -365,7 +369,7 @@
         {
           "norma": "NBR 15526",
           "descricao": "",
-          "tarefas": 4,
+          "tarefas": 5,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -377,14 +381,14 @@
           "estado": "planejada"
         },
         {
-          "norma": "NBR 13714",
+          "norma": "NBR 10897",
           "descricao": "",
-          "tarefas": 2,
+          "tarefas": 3,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "NBR 10897",
+          "norma": "NBR 13714",
           "descricao": "",
           "tarefas": 2,
           "feitas": 0,
@@ -419,6 +423,13 @@
           "estado": "coberta"
         },
         {
+          "norma": "NBR 6123",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
           "norma": "DT-002",
           "descricao": "",
           "tarefas": 6,
@@ -426,7 +437,112 @@
           "estado": "planejada"
         },
         {
+          "norma": "IS 456:2000",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "ANSI/AISC 360-22",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
           "norma": "IEC 62676",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "decisão interna",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "National Building Code of Canada 2025",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IPC 2024 e UPC 2024 (leitura gratuita)",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NCC 2025 Volume Três",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Approved Document G",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Uniform Plumbing Code 2024",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "International Plumbing Code 2024",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Approved Document H (parte H3)",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NZ Building Code E1/VM1 e E1/AS1",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IPC 2024 capítulo 11",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBC 2025",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IS 875 (Parte 3):2015",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "International Fuel Gas Code 2024",
           "descricao": "",
           "tarefas": 1,
           "feitas": 0,
@@ -469,21 +585,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 69,
+        "pendentes": 84,
         "planejada": {
-          "data": "2026-12-25",
-          "dias": 69,
+          "data": "2027-01-09",
+          "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.0,
-          "janela_dias": 7.0,
+          "historico_dias": 7.1,
+          "janela_dias": 7.1,
           "concluidas_na_janela": 31,
-          "tarefas_por_dia": 4.406,
+          "tarefas_por_dia": 4.349,
           "previsao": {
-            "data": "2026-11-02",
-            "dias": 16,
+            "data": "2026-11-06",
+            "dias": 20,
             "concluido": false
           }
         }
@@ -497,9 +613,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 77,
+      "total": 84,
       "feitos": 21,
-      "percentual": 27.3,
+      "percentual": 25.0,
       "areas": [
         {
           "nome": "Memoriais",
@@ -560,6 +676,12 @@
           "total": 1,
           "feitos": 1,
           "percentual": 100.0
+        },
+        {
+          "nome": "Normas internacionais (comparativos)",
+          "total": 7,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -634,6 +756,11 @@
       ],
       "entregas": [
         {
+          "numero": 14,
+          "titulo": "Backlog: normas internacionais (comparativos) — TD-078 a TD-084",
+          "data": "2026-10-17T12:03-03:00"
+        },
+        {
           "numero": 13,
           "titulo": "TD-077: memorial de estrutura cita as grandezas da NBR 6118:2026",
           "data": "2026-10-17T09:47-03:00"
@@ -687,15 +814,10 @@
           "numero": 3,
           "titulo": "Memorial de arquitetura para residência unifamiliar (TD-001)",
           "data": "2026-10-10T14:54-03:00"
-        },
-        {
-          "numero": 2,
-          "titulo": "Cobre instalações prediais no acervo e no backlog",
-          "data": "2026-10-10T11:54-03:00"
         }
       ],
-      "total_entregas": 13,
-      "ultima_entrega": "2026-10-17T09:47-03:00",
+      "total_entregas": 14,
+      "ultima_entrega": "2026-10-17T12:03-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -707,54 +829,54 @@
         {
           "norma": "NBR 6118",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 7,
           "feitas": 4,
           "estado": "em_andamento"
         },
         {
           "norma": "NBR 5626",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 8160",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 10844",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 4,
           "estado": "em_andamento"
         },
         {
-          "norma": "NBR 14565",
-          "descricao": "",
-          "tarefas": 5,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
           "norma": "NBR 13714",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 10897",
           "descricao": "",
-          "tarefas": 5,
+          "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
           "norma": "NBR 17240",
+          "descricao": "",
+          "tarefas": 6,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 14565",
           "descricao": "",
           "tarefas": 5,
           "feitas": 0,
@@ -769,6 +891,13 @@
         },
         {
           "norma": "NBR 12693",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBR 15526",
           "descricao": "",
           "tarefas": 5,
           "feitas": 0,
@@ -794,13 +923,6 @@
           "tarefas": 4,
           "feitas": 4,
           "estado": "coberta"
-        },
-        {
-          "norma": "NBR 15526",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
         },
         {
           "norma": "NBR 14931",
@@ -859,6 +981,13 @@
           "estado": "em_andamento"
         },
         {
+          "norma": "NBR 8681",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 1,
+          "estado": "em_andamento"
+        },
+        {
           "norma": "NBR 12655",
           "descricao": "",
           "tarefas": 2,
@@ -895,13 +1024,6 @@
         },
         {
           "norma": "NBR 9050",
-          "descricao": "",
-          "tarefas": 1,
-          "feitas": 1,
-          "estado": "coberta"
-        },
-        {
-          "norma": "NBR 8681",
           "descricao": "",
           "tarefas": 1,
           "feitas": 1,
@@ -964,6 +1086,55 @@
           "estado": "planejada"
         },
         {
+          "norma": "AISC 360-22",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NZ Building Code E1",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IS 456",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NZS 3101",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NFPA 13",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IFC 4.3",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "TD-078",
+          "descricao": "",
+          "tarefas": 2,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
           "norma": "NR-18",
           "descricao": "",
           "tarefas": 1,
@@ -976,6 +1147,97 @@
           "tarefas": 1,
           "feitas": 1,
           "estado": "coberta"
+        },
+        {
+          "norma": "NBC 2025 (Canadá)",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IPC",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "UPC 2024 (IAPMO)",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NCC 2025 Volume Três (Austrália)",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Approved Documents B",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NBC 2025",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IPC 2024",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "UPC 2024",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "NCC 2025 Volume Três",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Approved Documents G e H",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IFGC 2024",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "Approved Document B",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "TD-083",
+          "descricao": "",
+          "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
         }
       ],
       "normas_cobertas": [
@@ -1188,15 +1450,23 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 56,
+        "pendentes": 63,
         "planejada": {
-          "data": "2026-12-12",
-          "dias": 56,
+          "data": "2026-12-19",
+          "dias": 63,
           "concluido": false
         },
         "real": {
-          "disponivel": false,
-          "historico_dias": 6.9
+          "disponivel": true,
+          "historico_dias": 7.0,
+          "janela_dias": 7.0,
+          "concluidas_na_janela": 21,
+          "tarefas_por_dia": 2.99,
+          "previsao": {
+            "data": "2026-11-08",
+            "dias": 22,
+            "concluido": false
+          }
         }
       }
     },
@@ -1208,9 +1478,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 228,
+      "total": 231,
       "feitos": 72,
-      "percentual": 31.6,
+      "percentual": 31.2,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1379,6 +1649,12 @@
           "total": 19,
           "feitos": 17,
           "percentual": 89.5
+        },
+        {
+          "nome": "Normas internacionais (comparativos)",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
         }
       ],
       "proximas": [
@@ -1465,6 +1741,11 @@
       ],
       "entregas": [
         {
+          "numero": 26,
+          "titulo": "Backlog: normas internacionais (comparativos) — TM-229 a TM-231",
+          "data": "2026-10-17T12:03-03:00"
+        },
+        {
           "numero": 25,
           "titulo": "TM-015: botões pyRevit que exportam e importam o JSON neutro (fecha D-045)",
           "data": "2026-10-17T09:44-03:00"
@@ -1518,15 +1799,10 @@
           "numero": 15,
           "titulo": "Manutenção 2026-10-14: índice de parâmetros e tag do IfcOpenShell",
           "data": "2026-10-14T10:58-03:00"
-        },
-        {
-          "numero": 14,
-          "titulo": "Publica o guia de instalação do pyRevit no Revit 2027 (TM-011)",
-          "data": "2026-10-14T09:06-03:00"
         }
       ],
-      "total_entregas": 25,
-      "ultima_entrega": "2026-10-17T09:44-03:00",
+      "total_entregas": 26,
+      "ultima_entrega": "2026-10-17T12:03-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1545,7 +1821,7 @@
         {
           "norma": "painel tekto-calc",
           "descricao": "",
-          "tarefas": 28,
+          "tarefas": 29,
           "feitas": 7,
           "estado": "em_andamento"
         },
@@ -2243,15 +2519,23 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 156,
+        "pendentes": 159,
         "planejada": {
-          "data": "2027-01-03",
-          "dias": 78,
+          "data": "2027-01-05",
+          "dias": 80,
           "concluido": false
         },
         "real": {
-          "disponivel": false,
-          "historico_dias": 6.9
+          "disponivel": true,
+          "historico_dias": 7.0,
+          "janela_dias": 7.0,
+          "concluidas_na_janela": 72,
+          "tarefas_por_dia": 10.28,
+          "previsao": {
+            "data": "2026-11-02",
+            "dias": 16,
+            "concluido": false
+          }
         }
       }
     },
@@ -2389,7 +2673,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.7
+          "historico_dias": 3.8
         }
       }
     },
@@ -2574,7 +2858,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.8
+          "historico_dias": 0.9
         }
       }
     }
