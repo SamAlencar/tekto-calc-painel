@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-16T18:49-03:00",
+  "atualizado_em": "2026-10-17T07:50-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 544,
@@ -12,7 +12,7 @@
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-07",
+        "data": "2027-02-08",
         "dias": 114,
         "concluido": false,
         "projeto": "Tek Team"
@@ -455,13 +455,13 @@
         "rotina": "diária",
         "pendentes": 70,
         "planejada": {
-          "data": "2026-12-25",
+          "data": "2026-12-26",
           "dias": 70,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.4
+          "historico_dias": 7.0
         }
       }
     },
@@ -1166,13 +1166,13 @@
         "rotina": "diária",
         "pendentes": 57,
         "planejada": {
-          "data": "2026-12-12",
+          "data": "2026-12-13",
           "dias": 57,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.3
+          "historico_dias": 6.8
         }
       }
     },
@@ -2218,13 +2218,13 @@
         "rotina": "diária",
         "pendentes": 157,
         "planejada": {
-          "data": "2027-01-03",
+          "data": "2027-01-04",
           "dias": 79,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.3
+          "historico_dias": 6.8
         }
       }
     },
@@ -2356,13 +2356,13 @@
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-01-08",
+          "data": "2027-01-09",
           "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.1
+          "historico_dias": 3.6
         }
       }
     },
@@ -2531,13 +2531,13 @@
         "rotina": "diária",
         "pendentes": 114,
         "planejada": {
-          "data": "2027-02-07",
+          "data": "2027-02-08",
           "dias": 114,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.2
+          "historico_dias": 0.7
         }
       }
     }
