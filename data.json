@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-17T12:06-03:00",
+  "atualizado_em": "2026-10-17T15:50-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 569,
@@ -593,10 +593,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.1,
-          "janela_dias": 7.1,
+          "historico_dias": 7.3,
+          "janela_dias": 7.3,
           "concluidas_na_janela": 31,
-          "tarefas_por_dia": 4.349,
+          "tarefas_por_dia": 4.256,
           "previsao": {
             "data": "2026-11-06",
             "dias": 20,
@@ -1458,10 +1458,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.0,
-          "janela_dias": 7.0,
+          "historico_dias": 7.2,
+          "janela_dias": 7.2,
           "concluidas_na_janela": 21,
-          "tarefas_por_dia": 2.99,
+          "tarefas_por_dia": 2.925,
           "previsao": {
             "data": "2026-11-08",
             "dias": 22,
@@ -2527,10 +2527,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.0,
-          "janela_dias": 7.0,
+          "historico_dias": 7.2,
+          "janela_dias": 7.2,
           "concluidas_na_janela": 72,
-          "tarefas_por_dia": 10.28,
+          "tarefas_por_dia": 10.057,
           "previsao": {
             "data": "2026-11-02",
             "dias": 16,
@@ -2673,7 +2673,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.8
+          "historico_dias": 4.0
         }
       }
     },
@@ -2858,7 +2858,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.9
+          "historico_dias": 1.0
         }
       }
     }
