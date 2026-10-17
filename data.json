@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-17T08:42-03:00",
+  "atualizado_em": "2026-10-17T09:48-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 544,
-    "feitos": 122,
-    "percentual": 22.4,
-    "duvidas": 88,
-    "entregas": 71,
-    "ultima_entrega": "2026-10-16T18:48-03:00",
+    "feitos": 125,
+    "percentual": 23.0,
+    "duvidas": 89,
+    "entregas": 74,
+    "ultima_entrega": "2026-10-17T09:47-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -16,6 +16,18 @@
         "dias": 114,
         "concluido": false,
         "projeto": "Tek Team"
+      },
+      "real": {
+        "data": "2026-11-02",
+        "dias": 16,
+        "concluido": false,
+        "projeto": "Tekto Calc",
+        "sem_historico": [
+          "Tekto Docs",
+          "Tekto Model",
+          "Tek Hunter",
+          "Tek Team"
+        ]
       }
     }
   },
@@ -29,14 +41,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 101,
-      "feitos": 31,
-      "percentual": 30.7,
+      "feitos": 32,
+      "percentual": 31.7,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 8,
-          "percentual": 36.4
+          "feitos": 9,
+          "percentual": 40.9
         },
         {
           "nome": "Ações e combinações",
@@ -203,6 +215,11 @@
       ],
       "entregas": [
         {
+          "numero": 29,
+          "titulo": "TC-019: flexão de seção T com a linha neutra na mesa",
+          "data": "2026-10-17T09:46-03:00"
+        },
+        {
           "numero": 28,
           "titulo": "Dimensiona o trecho pluvial pela NBR 10844 sem coeficiente presumido",
           "data": "2026-10-14T17:57-03:00"
@@ -256,21 +273,16 @@
           "numero": 17,
           "titulo": "Calcula o momento local de 2ª ordem do pilar retangular.",
           "data": "2026-10-14T01:02-03:00"
-        },
-        {
-          "numero": 18,
-          "titulo": "Cita blocos sobre estacas no item 22.7",
-          "data": "2026-10-14T01:02-03:00"
         }
       ],
-      "total_entregas": 28,
-      "ultima_entrega": "2026-10-14T17:57-03:00",
+      "total_entregas": 29,
+      "ultima_entrega": "2026-10-17T09:46-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 30,
-          "feitas": 11,
+          "feitas": 12,
           "estado": "em_andamento"
         },
         {
@@ -446,6 +458,10 @@
           "normas": [
             "NBR 10844"
           ]
+        },
+        {
+          "texto": "D-014 — Armadura mínima e máxima da seção T",
+          "normas": []
         }
       ],
       "previsao": {
@@ -453,15 +469,23 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 70,
+        "pendentes": 69,
         "planejada": {
-          "data": "2026-12-26",
-          "dias": 70,
+          "data": "2026-12-25",
+          "dias": 69,
           "concluido": false
         },
         "real": {
-          "disponivel": false,
-          "historico_dias": 7.0
+          "disponivel": true,
+          "historico_dias": 7.0,
+          "janela_dias": 7.0,
+          "concluidas_na_janela": 31,
+          "tarefas_por_dia": 4.408,
+          "previsao": {
+            "data": "2026-11-02",
+            "dias": 16,
+            "concluido": false
+          }
         }
       }
     },
@@ -474,8 +498,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 77,
-      "feitos": 20,
-      "percentual": 26.0,
+      "feitos": 21,
+      "percentual": 27.3,
       "areas": [
         {
           "nome": "Memoriais",
@@ -534,8 +558,8 @@
         {
           "nome": "Estrutura NBR 6118:2026",
           "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 100.0
         }
       ],
       "proximas": [
@@ -610,6 +634,11 @@
       ],
       "entregas": [
         {
+          "numero": 13,
+          "titulo": "TD-077: memorial de estrutura cita as grandezas da NBR 6118:2026",
+          "data": "2026-10-17T09:47-03:00"
+        },
+        {
           "numero": 12,
           "titulo": "Descreve a drenagem pluvial da escola e nomeia fontes complementares",
           "data": "2026-10-14T17:57-03:00"
@@ -663,15 +692,10 @@
           "numero": 2,
           "titulo": "Cobre instalações prediais no acervo e no backlog",
           "data": "2026-10-10T11:54-03:00"
-        },
-        {
-          "numero": 1,
-          "titulo": "Fundação do Tekto Docs: estrutura, convenções, fichas e backlog",
-          "data": "2026-10-10T11:30-03:00"
         }
       ],
-      "total_entregas": 12,
-      "ultima_entrega": "2026-10-14T17:57-03:00",
+      "total_entregas": 13,
+      "ultima_entrega": "2026-10-17T09:47-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -684,7 +708,7 @@
           "norma": "NBR 6118",
           "descricao": "",
           "tarefas": 5,
-          "feitas": 3,
+          "feitas": 4,
           "estado": "em_andamento"
         },
         {
@@ -1164,10 +1188,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 57,
+        "pendentes": 56,
         "planejada": {
-          "data": "2026-12-13",
-          "dias": 57,
+          "data": "2026-12-12",
+          "dias": 56,
           "concluido": false
         },
         "real": {
@@ -1185,8 +1209,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 228,
-      "feitos": 71,
-      "percentual": 31.1,
+      "feitos": 72,
+      "percentual": 31.6,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1203,8 +1227,8 @@
         {
           "nome": "Revit, Dynamo e pyRevit",
           "total": 5,
-          "feitos": 4,
-          "percentual": 80.0
+          "feitos": 5,
+          "percentual": 100.0
         },
         {
           "nome": "Fundações",
@@ -1359,15 +1383,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-015",
-          "titulo": "Botões pyRevit que exportam e importam o JSON",
-          "normas": [
-            "Arquitetura do pyRevit",
-            "instalação"
-          ],
-          "disciplina": "Revit, Dynamo e pyRevit"
-        },
-        {
           "id": "TM-030",
           "titulo": "Especificação de modelagem: Sapata",
           "normas": [
@@ -1436,9 +1451,24 @@
             "AnalyticalMember"
           ],
           "disciplina": "Concreto"
+        },
+        {
+          "id": "TM-043",
+          "titulo": "Viga de concreto no modelo neutro",
+          "normas": [
+            "IfcBeam e IfcBeamTypeEnum",
+            "OST_StructuralFraming",
+            "AnalyticalMember"
+          ],
+          "disciplina": "Concreto"
         }
       ],
       "entregas": [
+        {
+          "numero": 25,
+          "titulo": "TM-015: botões pyRevit que exportam e importam o JSON neutro (fecha D-045)",
+          "data": "2026-10-17T09:44-03:00"
+        },
         {
           "numero": 24,
           "titulo": "DT-004: padrão Revit e pares Revit/Dynamo da estrutura depois da fase da plataforma",
@@ -1493,15 +1523,10 @@
           "numero": 14,
           "titulo": "Publica o guia de instalação do pyRevit no Revit 2027 (TM-011)",
           "data": "2026-10-14T09:06-03:00"
-        },
-        {
-          "numero": 13,
-          "titulo": "Base da escola no modelo neutro 0.1.6",
-          "data": "2026-10-14T07:03-03:00"
         }
       ],
-      "total_entregas": 24,
-      "ultima_entrega": "2026-10-16T18:48-03:00",
+      "total_entregas": 25,
+      "ultima_entrega": "2026-10-17T09:44-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1926,6 +1951,7 @@
       ],
       "normas_cobertas": [
         "AnalyticalMember",
+        "Arquitetura do pyRevit",
         "BuiltInCategory",
         "BuiltInCategory OST_StructuralColumns",
         "Dynamo 4.0.2 e PythonNet3",
@@ -1993,6 +2019,7 @@
         "guia estrutural",
         "ifcopenshell.validate",
         "instaladores",
+        "instalação",
         "instalação do IfcOpenShell",
         "lista de schemas",
         "migração do Revit 2027 para .NET 10",
@@ -2171,10 +2198,6 @@
           "normas": []
         },
         {
-          "texto": "D-045 — Shebang python3 e a chave engine.type cpython3",
-          "normas": []
-        },
-        {
           "texto": "D-046 — Momento no mock da TM-175",
           "normas": []
         },
@@ -2209,6 +2232,10 @@
         {
           "texto": "D-051 — Carregamento do pacote Tekto no Dynamo 4.0.2.3852",
           "normas": []
+        },
+        {
+          "texto": "D-054 — Dependências do núcleo no CPython do pyRevit",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2216,10 +2243,10 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 157,
+        "pendentes": 156,
         "planejada": {
-          "data": "2027-01-04",
-          "dias": 79,
+          "data": "2027-01-03",
+          "dias": 78,
           "concluido": false
         },
         "real": {
@@ -2537,7 +2564,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.7
+          "historico_dias": 0.8
         }
       }
     }
