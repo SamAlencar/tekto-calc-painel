@@ -1,14 +1,14 @@
 {
-  "atualizado_em": "2026-10-18T16:34-03:00",
+  "atualizado_em": "2026-10-18T16:43-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 571,
-    "feitos": 134,
-    "percentual": 23.5,
+    "total": 618,
+    "feitos": 139,
+    "percentual": 22.5,
     "duvidas": 100,
-    "entregas": 87,
-    "ultima_entrega": "2026-10-18T16:33-03:00",
-    "projetos_ativos": 5,
+    "entregas": 88,
+    "ultima_entrega": "2026-10-18T16:42-03:00",
+    "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
@@ -21,10 +21,11 @@
         "data": "2026-11-11",
         "dias": 24,
         "concluido": false,
-        "projeto": "Tekto Docs",
+        "projeto": "Tekto Calc",
         "sem_historico": [
           "Tek Hunter",
-          "Tek Team"
+          "Tek Team",
+          "Tekto Studio"
         ]
       }
     }
@@ -38,10 +39,16 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 116,
+      "total": 126,
       "feitos": 34,
-      "percentual": 29.3,
+      "percentual": 27.0,
       "areas": [
+        {
+          "nome": "Migração para Pydantic v2",
+          "total": 10,
+          "feitos": 0,
+          "percentual": 0.0
+        },
         {
           "nome": "Concreto armado",
           "total": 22,
@@ -153,71 +160,76 @@
       ],
       "proximas": [
         {
-          "id": "TC-007",
-          "titulo": "Comprimento de ancoragem necessário com gancho",
+          "id": "TC-116",
+          "titulo": "Base Pydantic v2 e retrato do contrato MCP",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-008",
-          "titulo": "Comprimento de traspasse",
+          "id": "TC-117",
+          "titulo": "Ferramentas de concreto: flexão, cortante, biela e estribos (5)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-009",
-          "titulo": "Flecha imediata de viga biapoiada",
+          "id": "TC-118",
+          "titulo": "Ferramentas de pilar e seção (7)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-010",
-          "titulo": "Flecha diferida no tempo",
+          "id": "TC-119",
+          "titulo": "Ferramentas de estaca e capacidade de carga (7)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-011",
-          "titulo": "Abertura característica de fissuras",
+          "id": "TC-120",
+          "titulo": "Ferramentas de bloco sobre estacas (8)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-012",
-          "titulo": "Armadura de pele",
+          "id": "TC-121",
+          "titulo": "Ferramentas de ações, sapata corrida, empuxo e alvenaria (7)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-013",
-          "titulo": "Laje maciça armada em uma direção",
+          "id": "TC-122",
+          "titulo": "Ferramentas de SPDA, projeto (5)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         },
         {
-          "id": "TC-014",
-          "titulo": "Laje maciça com quatro bordas apoiadas",
+          "id": "TC-123",
+          "titulo": "Ferramentas de SPDA, risco (7)",
           "normas": [
-            "NBR 6118"
+            "DT-003"
           ],
-          "disciplina": "Concreto armado"
+          "disciplina": "Migração para Pydantic v2"
         }
       ],
       "entregas": [
+        {
+          "numero": 33,
+          "titulo": "DT-003: Pydantic v2 nas ferramentas MCP; série TC-116 a TC-125 no topo do backlog",
+          "data": "2026-10-18T16:42-03:00"
+        },
         {
           "numero": 32,
           "titulo": "Comprimento básico de ancoragem lb (TC-006)",
@@ -272,15 +284,10 @@
           "numero": 22,
           "titulo": "Publica o catálogo e calcula ações, sapata, empuxo, alvenaria, SPDA e pluviais",
           "data": "2026-10-14T07:08-03:00"
-        },
-        {
-          "numero": 21,
-          "titulo": "Detalha faixa, distribuição e suspensão do bloco",
-          "data": "2026-10-14T01:39-03:00"
         }
       ],
-      "total_entregas": 32,
-      "ultima_entrega": "2026-10-18T07:57-03:00",
+      "total_entregas": 33,
+      "ultima_entrega": "2026-10-18T16:42-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -426,6 +433,13 @@
           "norma": "NBR 6123",
           "descricao": "",
           "tarefas": 1,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "DT-003",
+          "descricao": "",
+          "tarefas": 10,
           "feitas": 0,
           "estado": "planejada"
         },
@@ -585,10 +599,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 82,
+        "pendentes": 92,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 82,
+          "data": "2027-01-18",
+          "dias": 92,
           "concluido": false
         },
         "real": {
@@ -596,10 +610,10 @@
           "historico_dias": 8.3,
           "janela_dias": 8.3,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 3.969,
+          "tarefas_por_dia": 3.966,
           "previsao": {
-            "data": "2026-11-08",
-            "dias": 21,
+            "data": "2026-11-11",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -1469,7 +1483,7 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.679,
+          "tarefas_por_dia": 2.677,
           "previsao": {
             "data": "2026-11-11",
             "dias": 24,
@@ -2574,7 +2588,7 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 76,
-          "tarefas_por_dia": 9.279,
+          "tarefas_por_dia": 9.272,
           "previsao": {
             "data": "2026-11-04",
             "dias": 17,
@@ -2916,6 +2930,134 @@
         "real": {
           "disponivel": false,
           "historico_dias": 2.1
+        }
+      }
+    },
+    {
+      "slug": "studio",
+      "nome": "Tekto Studio",
+      "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
+      "estado": "ativo",
+      "repo_encontrado": true,
+      "backlog_encontrado": true,
+      "duvidas_encontrado": true,
+      "total": 37,
+      "feitos": 5,
+      "percentual": 13.5,
+      "areas": [
+        {
+          "nome": "Fase 0 — Setup (5)",
+          "total": 6,
+          "feitos": 4,
+          "percentual": 66.7
+        },
+        {
+          "nome": "Fase 1 — Template de especificação (extração REA) (5)",
+          "total": 5,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fase 2 — Integração do núcleo (8)",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fase 3 — Ferramentas via MCP (4)",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fase 4 — Laço do agente + memória (6)",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Fase 5 — Interface (4)",
+          "total": 4,
+          "feitos": 1,
+          "percentual": 25.0
+        },
+        {
+          "nome": "Fase 6 — Log de auditoria (4)",
+          "total": 4,
+          "feitos": 0,
+          "percentual": 0.0
+        }
+      ],
+      "proximas": [
+        {
+          "id": "TS-003",
+          "titulo": "Dependência do tekto-calc (via git, versão fixada)",
+          "normas": [],
+          "disciplina": "Fase 0 — Setup (5)"
+        },
+        {
+          "id": "TS-006",
+          "titulo": "Dependência do tekto-model (via git, versão fixada; DT-005 do Model)",
+          "normas": [],
+          "disciplina": "Fase 0 — Setup (5)"
+        },
+        {
+          "id": "TS-010",
+          "titulo": "Template specs/modelo.md: fórmula, variáveis+unidades, condições de validade, norma (código/edição/item), exemplo E/S do programa, proveniência (software, versã",
+          "normas": [],
+          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
+        },
+        {
+          "id": "TS-011",
+          "titulo": "Validador de spec (script : não interativo, saída JSON)",
+          "normas": [],
+          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
+        },
+        {
+          "id": "TS-012",
+          "titulo": "Guia de uso do REA para o Samuel (instalação local, Ghidra, como preencher a spec)",
+          "normas": [],
+          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
+        },
+        {
+          "id": "TS-013 [S]",
+          "titulo": "Piloto: Samuel roda REA no Robot 2027 e preenche 1 spec da flexão de viga de concreto armado (TS-D06)",
+          "normas": [],
+          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
+        },
+        {
+          "id": "TS-014",
+          "titulo": "Revisão do piloto e ajuste do template",
+          "normas": [],
+          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
+        },
+        {
+          "id": "TS-020",
+          "titulo": "Mapear specs do Robot contra o que o tekto-calc já tem; listar lacunas",
+          "normas": [],
+          "disciplina": "Fase 2 — Integração do núcleo (8)"
+        }
+      ],
+      "entregas": [],
+      "total_entregas": 0,
+      "ultima_entrega": null,
+      "normas": [],
+      "normas_cobertas": [],
+      "duvidas": [],
+      "previsao": {
+        "situacao": "ativo",
+        "ritmo_planejado": 1.0,
+        "ritmo_texto": "1 tarefa/dia",
+        "rotina": "diária",
+        "pendentes": 32,
+        "planejada": {
+          "data": "2026-11-19",
+          "dias": 32,
+          "concluido": false
+        },
+        "real": {
+          "disponivel": false,
+          "historico_dias": 0.0
         }
       }
     }
