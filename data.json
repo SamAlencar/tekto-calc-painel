@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-18T16:44-03:00",
+  "atualizado_em": "2026-10-18T17:01-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 618,
+    "total": 621,
     "feitos": 138,
-    "percentual": 22.3,
+    "percentual": 22.2,
     "duvidas": 100,
-    "entregas": 88,
-    "ultima_entrega": "2026-10-18T16:42-03:00",
+    "entregas": 89,
+    "ultima_entrega": "2026-10-18T17:00-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -610,7 +610,7 @@
           "historico_dias": 8.3,
           "janela_dias": 8.3,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 3.966,
+          "tarefas_por_dia": 3.96,
           "previsao": {
             "data": "2026-11-11",
             "dias": 24,
@@ -1483,7 +1483,7 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.677,
+          "tarefas_por_dia": 2.673,
           "previsao": {
             "data": "2026-11-11",
             "dias": 24,
@@ -1500,9 +1500,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 233,
+      "total": 236,
       "feitos": 76,
-      "percentual": 32.6,
+      "percentual": 32.2,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1583,6 +1583,30 @@
           "percentual": 89.5
         },
         {
+          "nome": "Padrão estrutural Tekto",
+          "total": 6,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Revit e Dynamo da estrutura",
+          "total": 9,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Robot",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Plug-in express (DT-006)",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
           "nome": "Instalações elétricas",
           "total": 21,
           "feitos": 0,
@@ -1607,12 +1631,6 @@
           "percentual": 0.0
         },
         {
-          "nome": "Robot",
-          "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
           "nome": "Documentos Office",
           "total": 1,
           "feitos": 0,
@@ -1621,18 +1639,6 @@
         {
           "nome": "Viabilidade para a plataforma",
           "total": 23,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Padrão estrutural Tekto",
-          "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Revit e Dynamo da estrutura",
-          "total": 9,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1721,50 +1727,53 @@
           "disciplina": "Integração tekto-calc"
         },
         {
-          "id": "TM-087",
-          "titulo": "Especificação de modelagem: Circuito elétrico",
+          "id": "TM-016",
+          "titulo": "Arquivo de parâmetros compartilhados Tekto",
           "normas": [
-            "IfcDistributionCircuit",
-            "IfcDistributionSystemEnum",
-            "OST_ElectricalCircuit e OST_Wire",
-            "painel tekto-calc"
+            "Guia de parâmetros compartilhados",
+            "arquivo de definição"
           ],
-          "disciplina": "Instalações elétricas"
+          "disciplina": "Padrão estrutural Tekto"
         },
         {
-          "id": "TM-088",
-          "titulo": "Circuito elétrico no modelo neutro",
+          "id": "TM-017",
+          "titulo": "Template Revit estrutural Tekto",
           "normas": [
-            "IfcDistributionCircuit",
-            "IfcDistributionSystemEnum",
-            "OST_ElectricalCircuit e OST_Wire",
-            "painel tekto-calc"
+            "Guia de unidades",
+            "fundações",
+            "BuiltInCategory",
+            ".NET 10 do Revit 2027"
           ],
-          "disciplina": "Instalações elétricas"
+          "disciplina": "Padrão estrutural Tekto"
         },
         {
-          "id": "TM-173",
-          "titulo": "Troca de dimensionamento de condutores",
+          "id": "TM-019",
+          "titulo": "Famílias de pilar e viga de concreto",
           "normas": [
-            "Ficha do circuito elétrico",
-            "Pset_DistributionSystemTypeElectrical",
-            "painel tekto-calc"
+            "OST_StructuralColumns e OST_StructuralFraming",
+            "IfcColumn",
+            "IfcBeam"
           ],
-          "disciplina": "Integração tekto-calc"
+          "disciplina": "Padrão estrutural Tekto"
         },
         {
-          "id": "TM-103",
-          "titulo": "Especificação de modelagem: Água fria",
+          "id": "TM-041",
+          "titulo": "Pilar de concreto no Revit e no Dynamo",
           "normas": [
-            "IfcPipeSegment",
-            "definição de DOMESTICCOLDWATER",
-            "portas no exemplo oficial de OST_PipeCurves",
-            "painel tekto-calc"
+            "IfcColumn e IfcColumnTypeEnum",
+            "BuiltInCategory OST_StructuralColumns",
+            "AnalyticalMember",
+            "guia estrutural"
           ],
-          "disciplina": "Água fria e água quente"
+          "disciplina": "Revit e Dynamo da estrutura"
         }
       ],
       "entregas": [
+        {
+          "numero": 32,
+          "titulo": "DT-006: plug-in express do Revit (13 tarefas no topo, TM-234 a TM-236 novas)",
+          "data": "2026-10-18T17:00-03:00"
+        },
         {
           "numero": 31,
           "titulo": "DT-005: Model como camada de modelo neutro e IFC da Nova plataforma; TM-178/179 movidas; nova ordem do backlog",
@@ -1819,15 +1828,10 @@
           "numero": 21,
           "titulo": "Lê o nome do projeto mínimo no pacote Dynamo (TM-014)",
           "data": "2026-10-16T09:08-03:00"
-        },
-        {
-          "numero": 20,
-          "titulo": "Lê e grava níveis e eixos no Revit e no Dynamo (TM-013)",
-          "data": "2026-10-15T16:03-03:00"
         }
       ],
-      "total_entregas": 31,
-      "ultima_entrega": "2026-10-18T16:33-03:00",
+      "total_entregas": 32,
+      "ultima_entrega": "2026-10-18T17:00-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -2577,10 +2581,10 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 157,
+        "pendentes": 160,
         "planejada": {
-          "data": "2027-01-05",
-          "dias": 79,
+          "data": "2027-01-06",
+          "dias": 80,
           "concluido": false
         },
         "real": {
@@ -2588,10 +2592,10 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 76,
-          "tarefas_por_dia": 9.272,
+          "tarefas_por_dia": 9.258,
           "previsao": {
-            "data": "2026-11-04",
-            "dias": 17,
+            "data": "2026-11-05",
+            "dias": 18,
             "concluido": false
           }
         }
