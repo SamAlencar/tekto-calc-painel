@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-18T16:05-03:00",
+  "atualizado_em": "2026-10-18T16:34-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 571,
     "feitos": 134,
     "percentual": 23.5,
     "duvidas": 100,
-    "entregas": 86,
-    "ultima_entrega": "2026-10-18T16:04-03:00",
+    "entregas": 87,
+    "ultima_entrega": "2026-10-18T16:33-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -596,7 +596,7 @@
           "historico_dias": 8.3,
           "janela_dias": 8.3,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 3.979,
+          "tarefas_por_dia": 3.969,
           "previsao": {
             "data": "2026-11-08",
             "dias": 21,
@@ -1469,7 +1469,7 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.686,
+          "tarefas_por_dia": 2.679,
           "previsao": {
             "data": "2026-11-11",
             "dias": 24,
@@ -1533,8 +1533,74 @@
           "percentual": 50.0
         },
         {
-          "nome": "Camada de IA",
-          "total": 2,
+          "nome": "Circulação",
+          "total": 4,
+          "feitos": 3,
+          "percentual": 75.0
+        },
+        {
+          "nome": "Águas pluviais",
+          "total": 4,
+          "feitos": 4,
+          "percentual": 100.0
+        },
+        {
+          "nome": "SPDA",
+          "total": 12,
+          "feitos": 12,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Integração tekto-calc",
+          "total": 6,
+          "feitos": 2,
+          "percentual": 33.3
+        },
+        {
+          "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
+          "total": 7,
+          "feitos": 7,
+          "percentual": 100.0
+        },
+        {
+          "nome": "Base da escola",
+          "total": 19,
+          "feitos": 17,
+          "percentual": 89.5
+        },
+        {
+          "nome": "Instalações elétricas",
+          "total": 21,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Água fria e água quente",
+          "total": 8,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Aço",
+          "total": 20,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Normas internacionais (comparativos)",
+          "total": 3,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Robot",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Documentos Office",
+          "total": 1,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1557,46 +1623,16 @@
           "percentual": 0.0
         },
         {
-          "nome": "Aço",
-          "total": 20,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Circulação",
-          "total": 4,
-          "feitos": 3,
-          "percentual": 75.0
-        },
-        {
-          "nome": "Instalações elétricas",
-          "total": 21,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Água fria e água quente",
-          "total": 8,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
           "nome": "Esgoto sanitário",
           "total": 4,
           "feitos": 0,
           "percentual": 0.0
         },
         {
-          "nome": "Águas pluviais",
-          "total": 4,
-          "feitos": 4,
-          "percentual": 100.0
-        },
-        {
-          "nome": "SPDA",
-          "total": 12,
-          "feitos": 12,
-          "percentual": 100.0
+          "nome": "Camada de IA",
+          "total": 2,
+          "feitos": 0,
+          "percentual": 0.0
         },
         {
           "nome": "Dados e telecom",
@@ -1611,6 +1647,12 @@
           "percentual": 0.0
         },
         {
+          "nome": "Tekla e Civil 3D",
+          "total": 1,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
           "nome": "CFTV",
           "total": 4,
           "feitos": 0,
@@ -1621,80 +1663,18 @@
           "total": 4,
           "feitos": 0,
           "percentual": 0.0
-        },
-        {
-          "nome": "Integração tekto-calc",
-          "total": 6,
-          "feitos": 2,
-          "percentual": 33.3
-        },
-        {
-          "nome": "Robot",
-          "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Tekla e Civil 3D",
-          "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Documentos Office",
-          "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
-        },
-        {
-          "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
-          "total": 7,
-          "feitos": 7,
-          "percentual": 100.0
-        },
-        {
-          "nome": "Base da escola",
-          "total": 19,
-          "feitos": 17,
-          "percentual": 89.5
-        },
-        {
-          "nome": "Normas internacionais (comparativos)",
-          "total": 3,
-          "feitos": 0,
-          "percentual": 0.0
         }
       ],
       "proximas": [
         {
-          "id": "TM-032",
-          "titulo": "Sapata na ida e volta IFC",
+          "id": "TM-233",
+          "titulo": "Área no vocabulário de unidades",
           "normas": [
-            "IfcFootingTypeEnum",
-            "fundações na API do Revit",
-            "BuiltInCategory"
+            "IfcUnitEnum",
+            "IfcSIUnit",
+            "IfcSIPrefix"
           ],
-          "disciplina": "Fundações"
-        },
-        {
-          "id": "TM-035",
-          "titulo": "Viga baldrame no modelo neutro",
-          "normas": [
-            "IfcFootingTypeEnum",
-            "IfcBeam",
-            "fundações na API do Revit"
-          ],
-          "disciplina": "Fundações"
-        },
-        {
-          "id": "TM-036",
-          "titulo": "Viga baldrame na ida e volta IFC",
-          "normas": [
-            "IfcFootingTypeEnum",
-            "IfcBeam",
-            "fundações na API do Revit"
-          ],
-          "disciplina": "Fundações"
+          "disciplina": "Integração tekto-calc"
         },
         {
           "id": "TM-042",
@@ -1717,37 +1697,65 @@
           "disciplina": "Concreto"
         },
         {
-          "id": "TM-044",
-          "titulo": "Viga de concreto na ida e volta IFC",
+          "id": "TM-172",
+          "titulo": "Fluxo da viga de concreto até o resultado",
           "normas": [
-            "IfcBeam e IfcBeamTypeEnum",
-            "OST_StructuralFraming",
-            "AnalyticalMember"
+            "Ficha da viga de concreto",
+            "painel do tekto-calc",
+            "NBR 6118"
           ],
-          "disciplina": "Concreto"
+          "disciplina": "Integração tekto-calc"
         },
         {
-          "id": "TM-046",
-          "titulo": "Especificação de modelagem: Laje",
+          "id": "TM-087",
+          "titulo": "Especificação de modelagem: Circuito elétrico",
           "normas": [
-            "IfcSlab e IfcSlabTypeEnum",
-            "pisos e lajes de fundação na API do Revit",
-            "OST_Floors e OST_AnalyticalPanel"
+            "IfcDistributionCircuit",
+            "IfcDistributionSystemEnum",
+            "OST_ElectricalCircuit e OST_Wire",
+            "painel tekto-calc"
           ],
-          "disciplina": "Concreto"
+          "disciplina": "Instalações elétricas"
         },
         {
-          "id": "TM-047",
-          "titulo": "Laje no modelo neutro",
+          "id": "TM-088",
+          "titulo": "Circuito elétrico no modelo neutro",
           "normas": [
-            "IfcSlab e IfcSlabTypeEnum",
-            "pisos e lajes de fundação na API do Revit",
-            "OST_Floors e OST_AnalyticalPanel"
+            "IfcDistributionCircuit",
+            "IfcDistributionSystemEnum",
+            "OST_ElectricalCircuit e OST_Wire",
+            "painel tekto-calc"
           ],
-          "disciplina": "Concreto"
+          "disciplina": "Instalações elétricas"
+        },
+        {
+          "id": "TM-173",
+          "titulo": "Troca de dimensionamento de condutores",
+          "normas": [
+            "Ficha do circuito elétrico",
+            "Pset_DistributionSystemTypeElectrical",
+            "painel tekto-calc"
+          ],
+          "disciplina": "Integração tekto-calc"
+        },
+        {
+          "id": "TM-103",
+          "titulo": "Especificação de modelagem: Água fria",
+          "normas": [
+            "IfcPipeSegment",
+            "definição de DOMESTICCOLDWATER",
+            "portas no exemplo oficial de OST_PipeCurves",
+            "painel tekto-calc"
+          ],
+          "disciplina": "Água fria e água quente"
         }
       ],
       "entregas": [
+        {
+          "numero": 31,
+          "titulo": "DT-005: Model como camada de modelo neutro e IFC da Nova plataforma; TM-178/179 movidas; nova ordem do backlog",
+          "data": "2026-10-18T16:33-03:00"
+        },
         {
           "numero": 30,
           "titulo": "Resposta real do MCP do tekto-calc (TM-232, D-002); abre TM-233 e D-059; verifica D-009 e D-034",
@@ -1802,15 +1810,10 @@
           "numero": 20,
           "titulo": "Lê e grava níveis e eixos no Revit e no Dynamo (TM-013)",
           "data": "2026-10-15T16:03-03:00"
-        },
-        {
-          "numero": 19,
-          "titulo": "Guarda o trecho pluvial dimensionado no elemento (TM-205)",
-          "data": "2026-10-14T17:57-03:00"
         }
       ],
-      "total_entregas": 30,
-      "ultima_entrega": "2026-10-18T16:04-03:00",
+      "total_entregas": 31,
+      "ultima_entrega": "2026-10-18T16:33-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1939,13 +1942,6 @@
           "estado": "planejada"
         },
         {
-          "norma": "IfcWasteTerminal",
-          "descricao": "",
-          "tarefas": 7,
-          "feitas": 3,
-          "estado": "em_andamento"
-        },
-        {
           "norma": "LIGHTNINGPROTECTION",
           "descricao": "",
           "tarefas": 7,
@@ -1953,14 +1949,21 @@
           "estado": "coberta"
         },
         {
-          "norma": "IfcSpace",
+          "norma": "IfcWasteTerminal",
+          "descricao": "",
+          "tarefas": 7,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "IfcColumn",
           "descricao": "",
           "tarefas": 6,
           "feitas": 0,
           "estado": "planejada"
         },
         {
-          "norma": "IfcColumn",
+          "norma": "IfcSpace",
           "descricao": "",
           "tarefas": 6,
           "feitas": 0,
@@ -2016,7 +2019,112 @@
           "estado": "em_andamento"
         },
         {
+          "norma": "IfcWall e IfcWallTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "OST_Walls",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "IfcStair",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "IfcStairFlight",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "OST_Stairs",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "OST_PipeCurves",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 4,
+          "estado": "coberta"
+        },
+        {
+          "norma": "LIGHTNINGPROTECTION em IfcDistributionSystemEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 4,
+          "estado": "coberta"
+        },
+        {
+          "norma": "IfcDistributionSystem",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 4,
+          "estado": "coberta"
+        },
+        {
+          "norma": "OST_StructuralFoundation",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 2,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "IfcRamp",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
+          "norma": "resultado anexado ao elemento",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 3,
+          "estado": "em_andamento"
+        },
+        {
           "norma": "IfcBeam e IfcBeamTypeEnum",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "IfcDistributionCircuit",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "OST_ElectricalCircuit e OST_Wire",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "definição de DOMESTICCOLDWATER",
+          "descricao": "",
+          "tarefas": 4,
+          "feitas": 0,
+          "estado": "planejada"
+        },
+        {
+          "norma": "portas no exemplo oficial de OST_PipeCurves",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -2042,20 +2150,6 @@
           "tarefas": 4,
           "feitas": 0,
           "estado": "planejada"
-        },
-        {
-          "norma": "IfcWall e IfcWallTypeEnum",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
-        },
-        {
-          "norma": "OST_Walls",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
         },
         {
           "norma": "IfcCoveringTypeEnum",
@@ -2086,13 +2180,6 @@
           "estado": "planejada"
         },
         {
-          "norma": "OST_StructuralFoundation",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 2,
-          "estado": "em_andamento"
-        },
-        {
           "norma": "OST_StructuralColumns",
           "descricao": "",
           "tarefas": 4,
@@ -2114,42 +2201,7 @@
           "estado": "planejada"
         },
         {
-          "norma": "IfcStair",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
-        },
-        {
-          "norma": "IfcStairFlight",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
-        },
-        {
-          "norma": "OST_Stairs",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
-        },
-        {
           "norma": "normas previstas no tekto-calc",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcDistributionCircuit",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "OST_ElectricalCircuit e OST_Wire",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -2178,55 +2230,6 @@
         },
         {
           "norma": "IfcOutlet",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcDistributionSystem ELECTRICAL",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "OST_ElectricalFixtures e OST_ElectricalConnector",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "definição de LIGHTING em IfcDistributionSystemEnum",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "definição de DOMESTICCOLDWATER",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "portas no exemplo oficial de OST_PipeCurves",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "definição de DOMESTICHOTWATER",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "SEWAGE em IfcDistributionSystemEnum",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -2571,7 +2574,7 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 76,
-          "tarefas_por_dia": 9.302,
+          "tarefas_por_dia": 9.279,
           "previsao": {
             "data": "2026-11-04",
             "dias": 17,
@@ -2912,7 +2915,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.0
+          "historico_dias": 2.1
         }
       }
     }
