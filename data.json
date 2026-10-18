@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-18T17:01-03:00",
+  "atualizado_em": "2026-10-18T17:32-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 621,
+    "total": 623,
     "feitos": 138,
     "percentual": 22.2,
     "duvidas": 100,
-    "entregas": 89,
-    "ultima_entrega": "2026-10-18T17:00-03:00",
+    "entregas": 90,
+    "ultima_entrega": "2026-10-18T17:31-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -607,10 +607,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.3,
-          "janela_dias": 8.3,
+          "historico_dias": 8.4,
+          "janela_dias": 8.4,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 3.96,
+          "tarefas_por_dia": 3.95,
           "previsao": {
             "data": "2026-11-11",
             "dias": 24,
@@ -1480,10 +1480,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.2,
-          "janela_dias": 8.2,
+          "historico_dias": 8.3,
+          "janela_dias": 8.3,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.673,
+          "tarefas_por_dia": 2.666,
           "previsao": {
             "data": "2026-11-11",
             "dias": 24,
@@ -1500,9 +1500,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 236,
+      "total": 238,
       "feitos": 76,
-      "percentual": 32.2,
+      "percentual": 31.9,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1602,7 +1602,7 @@
         },
         {
           "nome": "Plug-in express (DT-006)",
-          "total": 3,
+          "total": 5,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1770,6 +1770,11 @@
       ],
       "entregas": [
         {
+          "numero": 33,
+          "titulo": "DT-006: express ampliado com fundações e alvenaria (22 tarefas; TM-237 e TM-238 novas)",
+          "data": "2026-10-18T17:31-03:00"
+        },
+        {
           "numero": 32,
           "titulo": "DT-006: plug-in express do Revit (13 tarefas no topo, TM-234 a TM-236 novas)",
           "data": "2026-10-18T17:00-03:00"
@@ -1823,15 +1828,10 @@
           "numero": 22,
           "titulo": "Fase Viabilidade para a plataforma: TM-206 a TM-228, docs/PLATAFORMA.md, D-052 e D-053",
           "data": "2026-10-16T18:33-03:00"
-        },
-        {
-          "numero": 21,
-          "titulo": "Lê o nome do projeto mínimo no pacote Dynamo (TM-014)",
-          "data": "2026-10-16T09:08-03:00"
         }
       ],
-      "total_entregas": 32,
-      "ultima_entrega": "2026-10-18T17:00-03:00",
+      "total_entregas": 33,
+      "ultima_entrega": "2026-10-18T17:31-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -2000,6 +2000,13 @@
           "tarefas": 5,
           "feitas": 3,
           "estado": "em_andamento"
+        },
+        {
+          "norma": "DT-006",
+          "descricao": "",
+          "tarefas": 5,
+          "feitas": 0,
+          "estado": "planejada"
         },
         {
           "norma": "IfcMember",
@@ -2241,13 +2248,6 @@
         },
         {
           "norma": "OST_Conduit e OST_CableTray",
-          "descricao": "",
-          "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
-        },
-        {
-          "norma": "IfcOutlet",
           "descricao": "",
           "tarefas": 4,
           "feitas": 0,
@@ -2581,10 +2581,10 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 160,
+        "pendentes": 162,
         "planejada": {
-          "data": "2027-01-06",
-          "dias": 80,
+          "data": "2027-01-07",
+          "dias": 81,
           "concluido": false
         },
         "real": {
@@ -2592,7 +2592,7 @@
           "historico_dias": 8.2,
           "janela_dias": 8.2,
           "concluidas_na_janela": 76,
-          "tarefas_por_dia": 9.258,
+          "tarefas_por_dia": 9.234,
           "previsao": {
             "data": "2026-11-05",
             "dias": 18,
