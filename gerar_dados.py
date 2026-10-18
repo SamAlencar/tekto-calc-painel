@@ -61,6 +61,11 @@ PROJETOS = [
         "descricao": "Equipe de agentes de IA: papéis, skills e diretrizes BIM",
         "ritmo_planejado": 1.0,   # uma etapa por dia
     },
+    {
+        "slug": "studio", "nome": "Tekto Studio", "repo": "SamAlencar/tekto-studio", "prefixo": "TS",
+        "descricao": "Plataforma de engenharia com agente de IA e núcleo determinístico",
+        "ritmo_planejado": 1.0,   # um item por dia (TS-D04)
+    },
 ]
 CAMINHO_BACKLOG = "docs/BACKLOG.md"
 RITMO_PADRAO = 1.0        # tarefas/dia quando o projeto não define ritmo_planejado (7 dias por semana)
