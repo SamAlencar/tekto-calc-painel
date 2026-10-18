@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "2026-10-18T16:43-03:00",
+  "atualizado_em": "2026-10-18T16:44-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 618,
-    "feitos": 139,
-    "percentual": 22.5,
+    "feitos": 138,
+    "percentual": 22.3,
     "duvidas": 100,
     "entregas": 88,
     "ultima_entrega": "2026-10-18T16:42-03:00",
@@ -2942,8 +2942,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 37,
-      "feitos": 5,
-      "percentual": 13.5,
+      "feitos": 4,
+      "percentual": 10.8,
       "areas": [
         {
           "nome": "Fase 0 — Setup (5)",
@@ -2978,8 +2978,8 @@
         {
           "nome": "Fase 5 — Interface (4)",
           "total": 4,
-          "feitos": 1,
-          "percentual": 25.0
+          "feitos": 0,
+          "percentual": 0.0
         },
         {
           "nome": "Fase 6 — Log de auditoria (4)",
@@ -3049,10 +3049,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 32,
+        "pendentes": 33,
         "planejada": {
-          "data": "2026-11-19",
-          "dias": 32,
+          "data": "2026-11-20",
+          "dias": 33,
           "concluido": false
         },
         "real": {
