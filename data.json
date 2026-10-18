@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-18T07:59-03:00",
+  "atualizado_em": "2026-10-18T08:15-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 569,
-    "feitos": 128,
-    "percentual": 22.5,
-    "duvidas": 90,
-    "entregas": 80,
-    "ultima_entrega": "2026-10-18T07:57-03:00",
+    "feitos": 129,
+    "percentual": 22.7,
+    "duvidas": 91,
+    "entregas": 81,
+    "ultima_entrega": "2026-10-18T08:14-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-11",
-        "dias": 24,
+        "data": "2026-11-10",
+        "dias": 23,
         "concluido": false,
         "projeto": "Tekto Docs",
         "sem_historico": [
@@ -596,7 +596,7 @@
           "historico_dias": 8.0,
           "janela_dias": 8.0,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 4.148,
+          "tarefas_por_dia": 4.142,
           "previsao": {
             "data": "2026-11-07",
             "dias": 20,
@@ -614,14 +614,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 21,
-      "percentual": 25.0,
+      "feitos": 22,
+      "percentual": 26.2,
       "areas": [
         {
           "nome": "Memoriais",
           "total": 6,
-          "feitos": 4,
-          "percentual": 66.7
+          "feitos": 5,
+          "percentual": 83.3
         },
         {
           "nome": "Especificações",
@@ -686,16 +686,6 @@
       ],
       "proximas": [
         {
-          "id": "TD-005",
-          "titulo": "Memorial descritivo de instalações hidrossanitárias",
-          "normas": [
-            "NBR 5626",
-            "NBR 8160",
-            "NBR 10844"
-          ],
-          "disciplina": "Memoriais"
-        },
-        {
           "id": "TD-006",
           "titulo": "Memorial descritivo de instalações elétricas",
           "normas": [
@@ -752,9 +742,23 @@
             "NBR 13752"
           ],
           "disciplina": "Laudos"
+        },
+        {
+          "id": "TD-016",
+          "titulo": "BEP modelo para edificação",
+          "normas": [
+            "NBR 15965",
+            "NBR ISO 19650"
+          ],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 15,
+          "titulo": "Memorial descritivo de instalações hidrossanitárias (TD-005)",
+          "data": "2026-10-18T08:14-03:00"
+        },
         {
           "numero": 14,
           "titulo": "Backlog: normas internacionais (comparativos) — TD-078 a TD-084",
@@ -809,15 +813,10 @@
           "numero": 4,
           "titulo": "Memorial descritivo de estrutura de concreto armado (TD-002)",
           "data": "2026-10-11T09:23-03:00"
-        },
-        {
-          "numero": 3,
-          "titulo": "Memorial de arquitetura para residência unifamiliar (TD-001)",
-          "data": "2026-10-10T14:54-03:00"
         }
       ],
-      "total_entregas": 14,
-      "ultima_entrega": "2026-10-17T12:03-03:00",
+      "total_entregas": 15,
+      "ultima_entrega": "2026-10-18T08:14-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -837,21 +836,21 @@
           "norma": "NBR 5626",
           "descricao": "",
           "tarefas": 6,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 8160",
           "descricao": "",
           "tarefas": 6,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 10844",
           "descricao": "",
           "tarefas": 6,
-          "feitas": 4,
+          "feitas": 5,
           "estado": "em_andamento"
         },
         {
@@ -1250,11 +1249,13 @@
         "NBR 16868",
         "NBR 5410",
         "NBR 5419",
+        "NBR 5626",
         "NBR 6118",
         "NBR 6120",
         "NBR 6122",
         "NBR 6136",
         "NBR 7480",
+        "NBR 8160",
         "NBR 8681",
         "NBR 9050",
         "NBR 9574",
@@ -1443,6 +1444,13 @@
           "normas": [
             "NBR 10844"
           ]
+        },
+        {
+          "texto": "D-039 — Itens da NBR 5626:2020 e da NBR 8160:1999 ainda não lidos",
+          "normas": [
+            "NBR 5626",
+            "NBR 8160"
+          ]
         }
       ],
       "previsao": {
@@ -1450,21 +1458,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 63,
+        "pendentes": 62,
         "planejada": {
-          "data": "2026-12-20",
-          "dias": 63,
+          "data": "2026-12-19",
+          "dias": 62,
           "concluido": false
         },
         "real": {
           "disponivel": true,
           "historico_dias": 7.9,
           "janela_dias": 7.9,
-          "concluidas_na_janela": 21,
-          "tarefas_por_dia": 2.674,
+          "concluidas_na_janela": 22,
+          "tarefas_por_dia": 2.798,
           "previsao": {
-            "data": "2026-11-11",
-            "dias": 24,
+            "data": "2026-11-10",
+            "dias": 23,
             "concluido": false
           }
         }
@@ -2530,7 +2538,7 @@
           "historico_dias": 7.8,
           "janela_dias": 7.8,
           "concluidas_na_janela": 72,
-          "tarefas_por_dia": 9.193,
+          "tarefas_por_dia": 9.179,
           "previsao": {
             "data": "2026-11-05",
             "dias": 18,
