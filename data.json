@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-18T10:06-03:00",
+  "atualizado_em": "2026-10-18T16:05-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 569,
-    "feitos": 132,
-    "percentual": 23.2,
-    "duvidas": 96,
-    "entregas": 84,
-    "ultima_entrega": "2026-10-18T10:05-03:00",
+    "total": 571,
+    "feitos": 134,
+    "percentual": 23.5,
+    "duvidas": 100,
+    "entregas": 86,
+    "ultima_entrega": "2026-10-18T16:04-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-10",
-        "dias": 23,
+        "data": "2026-11-11",
+        "dias": 24,
         "concluido": false,
         "projeto": "Tekto Docs",
         "sem_historico": [
@@ -593,13 +593,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.0,
-          "janela_dias": 8.0,
+          "historico_dias": 8.3,
+          "janela_dias": 8.3,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 4.102,
+          "tarefas_por_dia": 3.979,
           "previsao": {
-            "data": "2026-11-07",
-            "dias": 20,
+            "data": "2026-11-08",
+            "dias": 21,
             "concluido": false
           }
         }
@@ -1466,13 +1466,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.9,
-          "janela_dias": 7.9,
+          "historico_dias": 8.2,
+          "janela_dias": 8.2,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.77,
+          "tarefas_por_dia": 2.686,
           "previsao": {
-            "data": "2026-11-10",
-            "dias": 23,
+            "data": "2026-11-11",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -1486,9 +1486,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 231,
-      "feitos": 74,
-      "percentual": 32.0,
+      "total": 233,
+      "feitos": 76,
+      "percentual": 32.6,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1511,8 +1511,8 @@
         {
           "nome": "Fundações",
           "total": 12,
-          "feitos": 8,
-          "percentual": 66.7
+          "feitos": 9,
+          "percentual": 75.0
         },
         {
           "nome": "Concreto",
@@ -1624,9 +1624,9 @@
         },
         {
           "nome": "Integração tekto-calc",
-          "total": 4,
-          "feitos": 1,
-          "percentual": 25.0
+          "total": 6,
+          "feitos": 2,
+          "percentual": 33.3
         },
         {
           "nome": "Robot",
@@ -1666,16 +1666,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TM-031",
-          "titulo": "Sapata no modelo neutro",
-          "normas": [
-            "IfcFootingTypeEnum",
-            "fundações na API do Revit",
-            "BuiltInCategory"
-          ],
-          "disciplina": "Fundações"
-        },
         {
           "id": "TM-032",
           "titulo": "Sapata na ida e volta IFC",
@@ -1745,9 +1735,29 @@
             "OST_Floors e OST_AnalyticalPanel"
           ],
           "disciplina": "Concreto"
+        },
+        {
+          "id": "TM-047",
+          "titulo": "Laje no modelo neutro",
+          "normas": [
+            "IfcSlab e IfcSlabTypeEnum",
+            "pisos e lajes de fundação na API do Revit",
+            "OST_Floors e OST_AnalyticalPanel"
+          ],
+          "disciplina": "Concreto"
         }
       ],
       "entregas": [
+        {
+          "numero": 30,
+          "titulo": "Resposta real do MCP do tekto-calc (TM-232, D-002); abre TM-233 e D-059; verifica D-009 e D-034",
+          "data": "2026-10-18T16:04-03:00"
+        },
+        {
+          "numero": 29,
+          "titulo": "Sapata isolada no modelo neutro 0.1.10 (TM-031); abre D-058",
+          "data": "2026-10-18T15:53-03:00"
+        },
         {
           "numero": 28,
           "titulo": "TM-034: ficha da viga baldrame (IfcFooting FOOTING_BEAM); fecha D-017, abre D-057",
@@ -1797,20 +1807,10 @@
           "numero": 19,
           "titulo": "Guarda o trecho pluvial dimensionado no elemento (TM-205)",
           "data": "2026-10-14T17:57-03:00"
-        },
-        {
-          "numero": 18,
-          "titulo": "TM-012: interface C# do Revit 2027 no CI, sem RevitAPI",
-          "data": "2026-10-14T16:06-03:00"
-        },
-        {
-          "numero": 17,
-          "titulo": "Aceita os ids de risco na referência do memorial (TM-204)",
-          "data": "2026-10-14T15:46-03:00"
         }
       ],
-      "total_entregas": 28,
-      "ultima_entrega": "2026-10-18T09:04-03:00",
+      "total_entregas": 30,
+      "ultima_entrega": "2026-10-18T16:04-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1823,7 +1823,7 @@
           "norma": "BuiltInCategory",
           "descricao": "",
           "tarefas": 35,
-          "feitas": 22,
+          "feitas": 23,
           "estado": "em_andamento"
         },
         {
@@ -1851,7 +1851,7 @@
           "norma": "fundações na API do Revit",
           "descricao": "",
           "tarefas": 16,
-          "feitas": 8,
+          "feitas": 9,
           "estado": "em_andamento"
         },
         {
@@ -1900,7 +1900,7 @@
           "norma": "IfcFootingTypeEnum",
           "descricao": "",
           "tarefas": 8,
-          "feitas": 2,
+          "feitas": 3,
           "estado": "em_andamento"
         },
         {
@@ -2238,6 +2238,7 @@
         "Arquitetura do pyRevit",
         "BuiltInCategory",
         "BuiltInCategory OST_StructuralColumns",
+        "D-002 do tek-team",
         "Dynamo 4.0.2 e PythonNet3",
         "Extensões do pyRevit",
         "GUTTER",
@@ -2299,6 +2300,7 @@
         "STRIP_FOOTING em IfcFootingTypeEnum",
         "UnitUtils 27.3.0.0",
         "arquitetura",
+        "formato curto de unidade do Pint",
         "fundações na API do Revit",
         "guia de unidades",
         "guia de unidades da API do Revit 2027",
@@ -2315,6 +2317,7 @@
         "primer",
         "página do produto",
         "resultado anexado ao elemento",
+        "servidor MCP do tekto-calc",
         "suporte a Revit 2027",
         "suporte a versão nova"
       ],
@@ -2341,6 +2344,10 @@
         },
         {
           "texto": "Verificação",
+          "normas": []
+        },
+        {
+          "texto": "Verificação de 18/10/2026",
           "normas": []
         },
         {
@@ -2433,6 +2440,10 @@
         },
         {
           "texto": "D-034 — Cota do nível no arquivo IFC",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2534,6 +2545,14 @@
         {
           "texto": "D-057 — Exportação IFC do Revit 2027 da viga baldrame como IfcFooting",
           "normas": []
+        },
+        {
+          "texto": "D-058 — Lados e altura da sapata isolada antes do tekto-calc",
+          "normas": []
+        },
+        {
+          "texto": "D-059 — Unidades do tekto-calc sem equivalente no vocabulário do núcleo",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2549,10 +2568,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.9,
-          "janela_dias": 7.9,
-          "concluidas_na_janela": 74,
-          "tarefas_por_dia": 9.343,
+          "historico_dias": 8.2,
+          "janela_dias": 8.2,
+          "concluidas_na_janela": 76,
+          "tarefas_por_dia": 9.302,
           "previsao": {
             "data": "2026-11-04",
             "dias": 17,
@@ -2695,7 +2714,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.7
+          "historico_dias": 5.0
         }
       }
     },
@@ -2893,7 +2912,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.8
+          "historico_dias": 2.0
         }
       }
     }
