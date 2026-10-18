@@ -1,25 +1,25 @@
 {
-  "atualizado_em": "2026-10-17T15:50-03:00",
+  "atualizado_em": "2026-10-18T07:59-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 569,
-    "feitos": 126,
-    "percentual": 22.1,
+    "feitos": 128,
+    "percentual": 22.5,
     "duvidas": 90,
-    "entregas": 78,
-    "ultima_entrega": "2026-10-17T12:03-03:00",
+    "entregas": 80,
+    "ultima_entrega": "2026-10-18T07:57-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-07",
+        "data": "2027-02-08",
         "dias": 113,
         "concluido": false,
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-08",
-        "dias": 22,
+        "data": "2026-11-11",
+        "dias": 24,
         "concluido": false,
         "projeto": "Tekto Docs",
         "sem_historico": [
@@ -39,14 +39,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 116,
-      "feitos": 32,
-      "percentual": 27.6,
+      "feitos": 34,
+      "percentual": 29.3,
       "areas": [
         {
           "nome": "Concreto armado",
           "total": 22,
-          "feitos": 9,
-          "percentual": 40.9
+          "feitos": 11,
+          "percentual": 50.0
         },
         {
           "nome": "Ações e combinações",
@@ -153,22 +153,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-005",
-          "titulo": "Cortante no modelo II com ângulo informado",
-          "normas": [
-            "NBR 6118"
-          ],
-          "disciplina": "Concreto armado"
-        },
-        {
-          "id": "TC-006",
-          "titulo": "Comprimento básico de ancoragem",
-          "normas": [
-            "NBR 6118"
-          ],
-          "disciplina": "Concreto armado"
-        },
-        {
           "id": "TC-007",
           "titulo": "Comprimento de ancoragem necessário com gancho",
           "normas": [
@@ -215,9 +199,35 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-013",
+          "titulo": "Laje maciça armada em uma direção",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-014",
+          "titulo": "Laje maciça com quatro bordas apoiadas",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 32,
+          "titulo": "Comprimento básico de ancoragem lb (TC-006)",
+          "data": "2026-10-18T07:57-03:00"
+        },
+        {
+          "numero": 31,
+          "titulo": "Cortante no modelo II com θ informado (TC-005)",
+          "data": "2026-10-18T07:54-03:00"
+        },
         {
           "numero": 30,
           "titulo": "Backlog: normas internacionais (comparativos) — TC-101 a TC-115",
@@ -267,26 +277,16 @@
           "numero": 21,
           "titulo": "Detalha faixa, distribuição e suspensão do bloco",
           "data": "2026-10-14T01:39-03:00"
-        },
-        {
-          "numero": 19,
-          "titulo": "Calcula o momento total do pilar pela rigidez κ",
-          "data": "2026-10-14T01:33-03:00"
-        },
-        {
-          "numero": 20,
-          "titulo": "Expõe as rotinas de cálculo num servidor MCP",
-          "data": "2026-10-14T01:32-03:00"
         }
       ],
-      "total_entregas": 30,
-      "ultima_entrega": "2026-10-17T12:02-03:00",
+      "total_entregas": 32,
+      "ultima_entrega": "2026-10-18T07:57-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "Concreto armado e protendido",
           "tarefas": 31,
-          "feitas": 12,
+          "feitas": 14,
           "estado": "em_andamento"
         },
         {
@@ -585,20 +585,20 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 84,
+        "pendentes": 82,
         "planejada": {
-          "data": "2027-01-09",
-          "dias": 84,
+          "data": "2027-01-08",
+          "dias": 82,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.3,
-          "janela_dias": 7.3,
-          "concluidas_na_janela": 31,
-          "tarefas_por_dia": 4.256,
+          "historico_dias": 8.0,
+          "janela_dias": 8.0,
+          "concluidas_na_janela": 33,
+          "tarefas_por_dia": 4.148,
           "previsao": {
-            "data": "2026-11-06",
+            "data": "2026-11-07",
             "dias": 20,
             "concluido": false
           }
@@ -1452,19 +1452,19 @@
         "rotina": "diária",
         "pendentes": 63,
         "planejada": {
-          "data": "2026-12-19",
+          "data": "2026-12-20",
           "dias": 63,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.2,
-          "janela_dias": 7.2,
+          "historico_dias": 7.9,
+          "janela_dias": 7.9,
           "concluidas_na_janela": 21,
-          "tarefas_por_dia": 2.925,
+          "tarefas_por_dia": 2.674,
           "previsao": {
-            "data": "2026-11-08",
-            "dias": 22,
+            "data": "2026-11-11",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -2521,19 +2521,19 @@
         "rotina": "diária",
         "pendentes": 159,
         "planejada": {
-          "data": "2027-01-05",
+          "data": "2027-01-06",
           "dias": 80,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.2,
-          "janela_dias": 7.2,
+          "historico_dias": 7.8,
+          "janela_dias": 7.8,
           "concluidas_na_janela": 72,
-          "tarefas_por_dia": 10.057,
+          "tarefas_por_dia": 9.193,
           "previsao": {
-            "data": "2026-11-02",
-            "dias": 16,
+            "data": "2026-11-05",
+            "dias": 18,
             "concluido": false
           }
         }
@@ -2667,13 +2667,13 @@
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-01-09",
+          "data": "2027-01-10",
           "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.0
+          "historico_dias": 4.6
         }
       }
     },
@@ -2852,13 +2852,13 @@
         "rotina": "diária",
         "pendentes": 113,
         "planejada": {
-          "data": "2027-02-07",
+          "data": "2027-02-08",
           "dias": 113,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.0
+          "historico_dias": 1.7
         }
       }
     }
