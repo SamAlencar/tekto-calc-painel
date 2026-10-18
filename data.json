@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-18T08:15-03:00",
+  "atualizado_em": "2026-10-18T09:06-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 569,
-    "feitos": 129,
-    "percentual": 22.7,
-    "duvidas": 91,
-    "entregas": 81,
-    "ultima_entrega": "2026-10-18T08:14-03:00",
+    "feitos": 131,
+    "percentual": 23.0,
+    "duvidas": 94,
+    "entregas": 83,
+    "ultima_entrega": "2026-10-18T09:04-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
@@ -596,7 +596,7 @@
           "historico_dias": 8.0,
           "janela_dias": 8.0,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 4.142,
+          "tarefas_por_dia": 4.124,
           "previsao": {
             "data": "2026-11-07",
             "dias": 20,
@@ -1469,7 +1469,7 @@
           "historico_dias": 7.9,
           "janela_dias": 7.9,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.798,
+          "tarefas_por_dia": 2.785,
           "previsao": {
             "data": "2026-11-10",
             "dias": 23,
@@ -1487,8 +1487,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 231,
-      "feitos": 72,
-      "percentual": 31.2,
+      "feitos": 74,
+      "percentual": 32.0,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1511,8 +1511,8 @@
         {
           "nome": "Fundações",
           "total": 12,
-          "feitos": 6,
-          "percentual": 50.0
+          "feitos": 8,
+          "percentual": 66.7
         },
         {
           "nome": "Concreto",
@@ -1667,16 +1667,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-030",
-          "titulo": "Especificação de modelagem: Sapata",
-          "normas": [
-            "IfcFootingTypeEnum",
-            "fundações na API do Revit",
-            "BuiltInCategory"
-          ],
-          "disciplina": "Fundações"
-        },
-        {
           "id": "TM-031",
           "titulo": "Sapata no modelo neutro",
           "normas": [
@@ -1693,16 +1683,6 @@
             "IfcFootingTypeEnum",
             "fundações na API do Revit",
             "BuiltInCategory"
-          ],
-          "disciplina": "Fundações"
-        },
-        {
-          "id": "TM-034",
-          "titulo": "Especificação de modelagem: Viga baldrame",
-          "normas": [
-            "IfcFootingTypeEnum",
-            "IfcBeam",
-            "fundações na API do Revit"
           ],
           "disciplina": "Fundações"
         },
@@ -1745,9 +1725,39 @@
             "AnalyticalMember"
           ],
           "disciplina": "Concreto"
+        },
+        {
+          "id": "TM-044",
+          "titulo": "Viga de concreto na ida e volta IFC",
+          "normas": [
+            "IfcBeam e IfcBeamTypeEnum",
+            "OST_StructuralFraming",
+            "AnalyticalMember"
+          ],
+          "disciplina": "Concreto"
+        },
+        {
+          "id": "TM-046",
+          "titulo": "Especificação de modelagem: Laje",
+          "normas": [
+            "IfcSlab e IfcSlabTypeEnum",
+            "pisos e lajes de fundação na API do Revit",
+            "OST_Floors e OST_AnalyticalPanel"
+          ],
+          "disciplina": "Concreto"
         }
       ],
       "entregas": [
+        {
+          "numero": 28,
+          "titulo": "TM-034: ficha da viga baldrame (IfcFooting FOOTING_BEAM); fecha D-017, abre D-057",
+          "data": "2026-10-18T09:04-03:00"
+        },
+        {
+          "numero": 27,
+          "titulo": "TM-030: ficha da sapata isolada (IfcFooting PAD_FOOTING); verifica D-018, abre D-055 e D-056",
+          "data": "2026-10-18T08:57-03:00"
+        },
         {
           "numero": 26,
           "titulo": "Backlog: normas internacionais (comparativos) — TM-229 a TM-231",
@@ -1797,20 +1807,10 @@
           "numero": 17,
           "titulo": "Aceita os ids de risco na referência do memorial (TM-204)",
           "data": "2026-10-14T15:46-03:00"
-        },
-        {
-          "numero": 16,
-          "titulo": "Guarda o risco informado do SPDA no elemento (TM-203)",
-          "data": "2026-10-14T13:36-03:00"
-        },
-        {
-          "numero": 15,
-          "titulo": "Manutenção 2026-10-14: índice de parâmetros e tag do IfcOpenShell",
-          "data": "2026-10-14T10:58-03:00"
         }
       ],
-      "total_entregas": 26,
-      "ultima_entrega": "2026-10-17T12:03-03:00",
+      "total_entregas": 28,
+      "ultima_entrega": "2026-10-18T09:04-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1823,7 +1823,7 @@
           "norma": "BuiltInCategory",
           "descricao": "",
           "tarefas": 35,
-          "feitas": 21,
+          "feitas": 22,
           "estado": "em_andamento"
         },
         {
@@ -1851,7 +1851,7 @@
           "norma": "fundações na API do Revit",
           "descricao": "",
           "tarefas": 16,
-          "feitas": 6,
+          "feitas": 8,
           "estado": "em_andamento"
         },
         {
@@ -1886,8 +1886,8 @@
           "norma": "IfcBeam",
           "descricao": "",
           "tarefas": 11,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcDistributionSystemEnum",
@@ -1900,8 +1900,8 @@
           "norma": "IfcFootingTypeEnum",
           "descricao": "",
           "tarefas": 8,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 2,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcElectricDistributionBoard",
@@ -2242,6 +2242,7 @@
         "Extensões do pyRevit",
         "GUTTER",
         "ISO 16739-1",
+        "IfcBeam",
         "IfcBuildingElementProxy",
         "IfcBuildingStorey",
         "IfcCableSegment",
@@ -2251,6 +2252,7 @@
         "IfcElectricApplianceTypeEnum",
         "IfcFooting",
         "IfcFooting e IfcFootingTypeEnum",
+        "IfcFootingTypeEnum",
         "IfcGloballyUniqueId",
         "IfcGrid",
         "IfcGridAxis",
@@ -2354,15 +2356,15 @@
           "normas": []
         },
         {
-          "texto": "D-017 — Viga baldrame e a definição de FOOTING_BEAM",
-          "normas": []
-        },
-        {
           "texto": "Verificação",
           "normas": []
         },
         {
           "texto": "D-018 — Terça e a definição de PURLIN",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2520,6 +2522,18 @@
         {
           "texto": "D-054 — Dependências do núcleo no CPython do pyRevit",
           "normas": []
+        },
+        {
+          "texto": "D-055 — LoadBearingCapacity e a direção de Length e Width na sapata isolada",
+          "normas": []
+        },
+        {
+          "texto": "D-056 — Criação da sapata isolada pela API do Revit 2027 e pelo Dynamo",
+          "normas": []
+        },
+        {
+          "texto": "D-057 — Exportação IFC do Revit 2027 da viga baldrame como IfcFooting",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2527,21 +2541,21 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 159,
+        "pendentes": 157,
         "planejada": {
-          "data": "2027-01-06",
-          "dias": 80,
+          "data": "2027-01-05",
+          "dias": 79,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.8,
-          "janela_dias": 7.8,
-          "concluidas_na_janela": 72,
-          "tarefas_por_dia": 9.179,
+          "historico_dias": 7.9,
+          "janela_dias": 7.9,
+          "concluidas_na_janela": 74,
+          "tarefas_por_dia": 9.392,
           "previsao": {
-            "data": "2026-11-05",
-            "dias": 18,
+            "data": "2026-11-04",
+            "dias": 17,
             "concluido": false
           }
         }
@@ -2681,7 +2695,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.6
+          "historico_dias": 4.7
         }
       }
     },
@@ -2866,7 +2880,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.7
+          "historico_dias": 1.8
         }
       }
     }
