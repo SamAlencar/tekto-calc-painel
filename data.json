@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-18T09:06-03:00",
+  "atualizado_em": "2026-10-18T10:06-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 569,
-    "feitos": 131,
-    "percentual": 23.0,
-    "duvidas": 94,
-    "entregas": 83,
-    "ultima_entrega": "2026-10-18T09:04-03:00",
+    "feitos": 132,
+    "percentual": 23.2,
+    "duvidas": 96,
+    "entregas": 84,
+    "ultima_entrega": "2026-10-18T10:05-03:00",
     "projetos_ativos": 5,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 113,
+        "data": "2027-02-07",
+        "dias": 112,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -596,7 +596,7 @@
           "historico_dias": 8.0,
           "janela_dias": 8.0,
           "concluidas_na_janela": 33,
-          "tarefas_por_dia": 4.124,
+          "tarefas_por_dia": 4.102,
           "previsao": {
             "data": "2026-11-07",
             "dias": 20,
@@ -1469,7 +1469,7 @@
           "historico_dias": 7.9,
           "janela_dias": 7.9,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.785,
+          "tarefas_por_dia": 2.77,
           "previsao": {
             "data": "2026-11-10",
             "dias": 23,
@@ -2552,7 +2552,7 @@
           "historico_dias": 7.9,
           "janela_dias": 7.9,
           "concluidas_na_janela": 74,
-          "tarefas_por_dia": 9.392,
+          "tarefas_por_dia": 9.343,
           "previsao": {
             "data": "2026-11-04",
             "dias": 17,
@@ -2708,14 +2708,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 1,
-      "percentual": 0.9,
+      "feitos": 2,
+      "percentual": 1.8,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 1,
-          "percentual": 9.1
+          "feitos": 2,
+          "percentual": 18.2
         },
         {
           "nome": "BIM",
@@ -2774,12 +2774,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-002",
-          "titulo": "Inventário das capacidades atuais dos quatro projetos Tekto",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-003",
           "titulo": "Pesquisa: estrutura real de escritórios brasileiros de engenharia e arquitetura",
           "normas": [],
@@ -2820,9 +2814,20 @@
           "titulo": "Pesquisa: agentes, skills e rotinas do Grok Bot",
           "normas": [],
           "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-010",
+          "titulo": "Pesquisa: subagentes no estilo Claude Code e Codex",
+          "normas": [],
+          "disciplina": "Fundamentos"
         }
       ],
       "entregas": [
+        {
+          "numero": 6,
+          "titulo": "TT-002 — Inventário das capacidades atuais dos quatro projetos Tekto",
+          "data": "2026-10-18T10:05-03:00"
+        },
         {
           "numero": 5,
           "titulo": "TT-001 — Convenções, glossário inicial e modelo de ficha de fonte",
@@ -2849,8 +2854,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 5,
-      "ultima_entrega": "2026-10-17T09:53-03:00",
+      "total_entregas": 6,
+      "ultima_entrega": "2026-10-18T10:05-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2865,6 +2870,14 @@
         {
           "texto": "D-001 — Termos em português da série ISO 19650 (2026-10-17)",
           "normas": []
+        },
+        {
+          "texto": "D-002 — Contrato do Tekto Model incompatível com a resposta real do MCP do Tekto Calc (2026-10-18)",
+          "normas": []
+        },
+        {
+          "texto": "D-003 — Estado de capacidade quando código e backlog divergem (2026-10-18)",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2872,10 +2885,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 113,
+        "pendentes": 112,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 113,
+          "data": "2027-02-07",
+          "dias": 112,
           "concluido": false
         },
         "real": {
