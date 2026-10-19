@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-19T08:53-03:00",
+  "atualizado_em": "2026-10-19T10:08-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 143,
-    "percentual": 23.0,
-    "duvidas": 104,
-    "entregas": 95,
-    "ultima_entrega": "2026-10-19T08:52-03:00",
+    "feitos": 145,
+    "percentual": 23.3,
+    "duvidas": 105,
+    "entregas": 97,
+    "ultima_entrega": "2026-10-19T10:07-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 112,
+        "data": "2027-02-07",
+        "dias": 111,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -611,7 +611,7 @@
           "historico_dias": 9.0,
           "janela_dias": 9.0,
           "concluidas_na_janela": 35,
-          "tarefas_por_dia": 3.892,
+          "tarefas_por_dia": 3.869,
           "previsao": {
             "data": "2026-11-12",
             "dias": 24,
@@ -1494,7 +1494,7 @@
           "historico_dias": 8.9,
           "janela_dias": 8.9,
           "concluidas_na_janela": 24,
-          "tarefas_por_dia": 2.7,
+          "tarefas_por_dia": 2.684,
           "previsao": {
             "data": "2026-11-11",
             "dias": 23,
@@ -2612,7 +2612,7 @@
           "historico_dias": 8.9,
           "janela_dias": 8.9,
           "concluidas_na_janela": 77,
-          "tarefas_por_dia": 8.681,
+          "tarefas_por_dia": 8.63,
           "previsao": {
             "data": "2026-11-07",
             "dias": 19,
@@ -2630,14 +2630,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 24,
-      "feitos": 0,
-      "percentual": 0.0,
+      "feitos": 1,
+      "percentual": 4.2,
       "areas": [
         {
           "nome": "Convenções",
           "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 100.0
         },
         {
           "nome": "Fontes",
@@ -2671,12 +2671,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TH-001",
-          "titulo": "Convenções, taxonomia e modelo de ficha",
-          "normas": [],
-          "disciplina": "Convenções"
-        },
         {
           "id": "TH-002",
           "titulo": "Catálogo dos portais federais (PNCP e Compras.gov.br)",
@@ -2718,9 +2712,20 @@
           "titulo": "Quadro legal dos documentos de habilitação",
           "normas": [],
           "disciplina": "Amostra"
+        },
+        {
+          "id": "TH-009",
+          "titulo": "Qualificação técnica, CAT, atestado e acervo",
+          "normas": [],
+          "disciplina": "Amostra"
         }
       ],
       "entregas": [
+        {
+          "numero": 4,
+          "titulo": "TH-001: convenções, taxonomia e modelos de ficha",
+          "data": "2026-10-19T09:29-03:00"
+        },
         {
           "numero": 3,
           "titulo": "Manutenção 2026-10-14: registro do ciclo e arquivo de dúvidas",
@@ -2737,8 +2742,8 @@
           "data": "2026-10-13T16:45-03:00"
         }
       ],
-      "total_entregas": 3,
-      "ultima_entrega": "2026-10-14T10:47-03:00",
+      "total_entregas": 4,
+      "ultima_entrega": "2026-10-19T09:29-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -2747,10 +2752,10 @@
         "ritmo_planejado": 0.2857142857142857,
         "ritmo_texto": "2 etapas/semana",
         "rotina": "semanal",
-        "pendentes": 24,
+        "pendentes": 23,
         "planejada": {
-          "data": "2027-01-11",
-          "dias": 84,
+          "data": "2027-01-08",
+          "dias": 81,
           "concluido": false
         },
         "real": {
@@ -2768,14 +2773,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 2,
-      "percentual": 1.8,
+      "feitos": 3,
+      "percentual": 2.6,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 2,
-          "percentual": 18.2
+          "feitos": 3,
+          "percentual": 27.3
         },
         {
           "nome": "BIM",
@@ -2834,12 +2839,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-003",
-          "titulo": "Pesquisa: estrutura real de escritórios brasileiros de engenharia e arquitetura",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-004",
           "titulo": "Pesquisa: atribuições profissionais e responsabilidade técnica (CONFEA e CAU)",
           "normas": [],
@@ -2880,9 +2879,20 @@
           "titulo": "Pesquisa: subagentes no estilo Claude Code e Codex",
           "normas": [],
           "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-011",
+          "titulo": "Pesquisa: MCP na prática",
+          "normas": [],
+          "disciplina": "Fundamentos"
         }
       ],
       "entregas": [
+        {
+          "numero": 7,
+          "titulo": "TT-003 — Pesquisa: estrutura real de escritórios brasileiros de engenharia e arquitetura",
+          "data": "2026-10-19T10:07-03:00"
+        },
         {
           "numero": 6,
           "titulo": "TT-002 — Inventário das capacidades atuais dos quatro projetos Tekto",
@@ -2914,8 +2924,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 6,
-      "ultima_entrega": "2026-10-18T10:05-03:00",
+      "total_entregas": 7,
+      "ultima_entrega": "2026-10-19T10:07-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2938,6 +2948,10 @@
         {
           "texto": "D-003 — Estado de capacidade quando código e backlog divergem (2026-10-18)",
           "normas": []
+        },
+        {
+          "texto": "D-004 — Organograma de referência e cargos sem código CBO (2026-10-19)",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2945,15 +2959,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 112,
+        "pendentes": 111,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 112,
+          "data": "2027-02-07",
+          "dias": 111,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.7
+          "historico_dias": 2.8
         }
       }
     },
