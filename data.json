@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-19T08:07-03:00",
+  "atualizado_em": "2026-10-19T08:19-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 140,
-    "percentual": 22.5,
-    "duvidas": 100,
-    "entregas": 92,
-    "ultima_entrega": "2026-10-19T08:06-03:00",
+    "feitos": 142,
+    "percentual": 22.8,
+    "duvidas": 102,
+    "entregas": 94,
+    "ultima_entrega": "2026-10-19T08:19-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,10 +18,10 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-13",
-        "dias": 25,
+        "data": "2026-11-12",
+        "dias": 24,
         "concluido": false,
-        "projeto": "Tekto Docs",
+        "projeto": "Tekto Calc",
         "sem_historico": [
           "Tek Hunter",
           "Tek Team",
@@ -611,7 +611,7 @@
           "historico_dias": 9.0,
           "janela_dias": 9.0,
           "concluidas_na_janela": 35,
-          "tarefas_por_dia": 3.905,
+          "tarefas_por_dia": 3.902,
           "previsao": {
             "data": "2026-11-12",
             "dias": 24,
@@ -629,20 +629,20 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 22,
-      "percentual": 26.2,
+      "feitos": 24,
+      "percentual": 28.6,
       "areas": [
         {
           "nome": "Memoriais",
           "total": 6,
-          "feitos": 5,
-          "percentual": 83.3
+          "feitos": 6,
+          "percentual": 100.0
         },
         {
           "nome": "Especificações",
           "total": 5,
-          "feitos": 3,
-          "percentual": 60.0
+          "feitos": 4,
+          "percentual": 80.0
         },
         {
           "nome": "Laudos",
@@ -701,23 +701,6 @@
       ],
       "proximas": [
         {
-          "id": "TD-006",
-          "titulo": "Memorial descritivo de instalações elétricas",
-          "normas": [
-            "NBR 5410"
-          ],
-          "disciplina": "Memoriais"
-        },
-        {
-          "id": "TD-009",
-          "titulo": "Especificação de alvenaria de vedação",
-          "normas": [
-            "NBR 15270",
-            "NBR 6136"
-          ],
-          "disciplina": "Especificações"
-        },
-        {
           "id": "TD-011",
           "titulo": "Especificação de impermeabilização",
           "normas": [
@@ -766,9 +749,36 @@
             "NBR ISO 19650"
           ],
           "disciplina": "BIM"
+        },
+        {
+          "id": "TD-017",
+          "titulo": "Padrão de nomenclatura BIM",
+          "normas": [
+            "NBR 15965"
+          ],
+          "disciplina": "BIM"
+        },
+        {
+          "id": "TD-018",
+          "titulo": "Nível de informação necessário por disciplina",
+          "normas": [
+            "NBR 15965",
+            "NBR ISO 19650"
+          ],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 17,
+          "titulo": "Especificação de alvenaria de vedação (TD-009)",
+          "data": "2026-10-19T08:19-03:00"
+        },
+        {
+          "numero": 16,
+          "titulo": "Memorial descritivo de instalações elétricas (TD-006)",
+          "data": "2026-10-19T08:16-03:00"
+        },
         {
           "numero": 15,
           "titulo": "Memorial descritivo de instalações hidrossanitárias (TD-005)",
@@ -818,26 +828,16 @@
           "numero": 6,
           "titulo": "Memorial descritivo de impermeabilização (TD-004)",
           "data": "2026-10-13T08:30-03:00"
-        },
-        {
-          "numero": 5,
-          "titulo": "Memorial descritivo de fundações (TD-003)",
-          "data": "2026-10-12T08:32-03:00"
-        },
-        {
-          "numero": 4,
-          "titulo": "Memorial descritivo de estrutura de concreto armado (TD-002)",
-          "data": "2026-10-11T09:23-03:00"
         }
       ],
-      "total_entregas": 15,
-      "ultima_entrega": "2026-10-18T08:14-03:00",
+      "total_entregas": 17,
+      "ultima_entrega": "2026-10-19T08:19-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
           "descricao": "",
           "tarefas": 12,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
@@ -963,8 +963,8 @@
           "norma": "NBR 6136",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 2,
-          "estado": "em_andamento"
+          "feitas": 3,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 16747",
@@ -1012,8 +1012,8 @@
           "norma": "NBR 15270",
           "descricao": "",
           "tarefas": 2,
-          "feitas": 1,
-          "estado": "em_andamento"
+          "feitas": 2,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 16868",
@@ -1466,6 +1466,16 @@
             "NBR 5626",
             "NBR 8160"
           ]
+        },
+        {
+          "texto": "D-040 — Itens da NBR 5410:2004 Versão Corrigida:2008 ainda não lidos",
+          "normas": [
+            "NBR 5410"
+          ]
+        },
+        {
+          "texto": "D-041 — Ensaios, argamassa e execução da alvenaria de vedação",
+          "normas": []
         }
       ],
       "previsao": {
@@ -1473,21 +1483,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 62,
+        "pendentes": 60,
         "planejada": {
-          "data": "2026-12-20",
-          "dias": 62,
+          "data": "2026-12-18",
+          "dias": 60,
           "concluido": false
         },
         "real": {
           "disponivel": true,
           "historico_dias": 8.9,
           "janela_dias": 8.9,
-          "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.484,
+          "concluidas_na_janela": 24,
+          "tarefas_por_dia": 2.707,
           "previsao": {
-            "data": "2026-11-13",
-            "dias": 25,
+            "data": "2026-11-11",
+            "dias": 23,
             "concluido": false
           }
         }
@@ -2593,7 +2603,7 @@
           "historico_dias": 8.8,
           "janela_dias": 8.8,
           "concluidas_na_janela": 76,
-          "tarefas_por_dia": 8.599,
+          "tarefas_por_dia": 8.591,
           "previsao": {
             "data": "2026-11-07",
             "dias": 19,
@@ -3062,7 +3072,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.6
+          "historico_dias": 0.7
         }
       }
     }
