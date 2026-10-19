@@ -1,27 +1,27 @@
 {
-  "atualizado_em": "2026-10-18T17:32-03:00",
+  "atualizado_em": "2026-10-19T08:07-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 138,
-    "percentual": 22.2,
+    "feitos": 140,
+    "percentual": 22.5,
     "duvidas": 100,
-    "entregas": 90,
-    "ultima_entrega": "2026-10-18T17:31-03:00",
+    "entregas": 92,
+    "ultima_entrega": "2026-10-19T08:06-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-07",
+        "data": "2027-02-08",
         "dias": 112,
         "concluido": false,
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-11",
-        "dias": 24,
+        "data": "2026-11-13",
+        "dias": 25,
         "concluido": false,
-        "projeto": "Tekto Calc",
+        "projeto": "Tekto Docs",
         "sem_historico": [
           "Tek Hunter",
           "Tek Team",
@@ -40,14 +40,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 126,
-      "feitos": 34,
-      "percentual": 27.0,
+      "feitos": 36,
+      "percentual": 28.6,
       "areas": [
         {
           "nome": "Migração para Pydantic v2",
           "total": 10,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 2,
+          "percentual": 20.0
         },
         {
           "nome": "Concreto armado",
@@ -160,22 +160,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-116",
-          "titulo": "Base Pydantic v2 e retrato do contrato MCP",
-          "normas": [
-            "DT-003"
-          ],
-          "disciplina": "Migração para Pydantic v2"
-        },
-        {
-          "id": "TC-117",
-          "titulo": "Ferramentas de concreto: flexão, cortante, biela e estribos (5)",
-          "normas": [
-            "DT-003"
-          ],
-          "disciplina": "Migração para Pydantic v2"
-        },
-        {
           "id": "TC-118",
           "titulo": "Ferramentas de pilar e seção (7)",
           "normas": [
@@ -222,9 +206,35 @@
             "DT-003"
           ],
           "disciplina": "Migração para Pydantic v2"
+        },
+        {
+          "id": "TC-124",
+          "titulo": "Ferramentas de águas pluviais (5)",
+          "normas": [
+            "DT-003"
+          ],
+          "disciplina": "Migração para Pydantic v2"
+        },
+        {
+          "id": "TC-125",
+          "titulo": "Fechamento da migração Pydantic",
+          "normas": [
+            "DT-003"
+          ],
+          "disciplina": "Migração para Pydantic v2"
         }
       ],
       "entregas": [
+        {
+          "numero": 35,
+          "titulo": "TC-117: Pydantic na borda das ferramentas de concreto (5)",
+          "data": "2026-10-19T08:06-03:00"
+        },
+        {
+          "numero": 34,
+          "titulo": "TC-116: base Pydantic v2 e retrato do contrato MCP",
+          "data": "2026-10-19T07:57-03:00"
+        },
         {
           "numero": 33,
           "titulo": "DT-003: Pydantic v2 nas ferramentas MCP; série TC-116 a TC-125 no topo do backlog",
@@ -274,20 +284,10 @@
           "numero": 24,
           "titulo": "Manutenção 2026-10-14: edições do catálogo e registro do ciclo",
           "data": "2026-10-14T10:47-03:00"
-        },
-        {
-          "numero": 23,
-          "titulo": "Aponta o MCP do Cursor para o Python da venv no Windows",
-          "data": "2026-10-14T07:50-03:00"
-        },
-        {
-          "numero": 22,
-          "titulo": "Publica o catálogo e calcula ações, sapata, empuxo, alvenaria, SPDA e pluviais",
-          "data": "2026-10-14T07:08-03:00"
         }
       ],
-      "total_entregas": 33,
-      "ultima_entrega": "2026-10-18T16:42-03:00",
+      "total_entregas": 35,
+      "ultima_entrega": "2026-10-19T08:06-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -440,8 +440,8 @@
           "norma": "DT-003",
           "descricao": "",
           "tarefas": 10,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 2,
+          "estado": "em_andamento"
         },
         {
           "norma": "DT-002",
@@ -564,6 +564,7 @@
         }
       ],
       "normas_cobertas": [
+        "DT-003",
         "NBR 10844",
         "NBR 16868",
         "NBR 5419",
@@ -599,20 +600,20 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 92,
+        "pendentes": 90,
         "planejada": {
-          "data": "2027-01-18",
-          "dias": 92,
+          "data": "2027-01-17",
+          "dias": 90,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.4,
-          "janela_dias": 8.4,
-          "concluidas_na_janela": 33,
-          "tarefas_por_dia": 3.95,
+          "historico_dias": 9.0,
+          "janela_dias": 9.0,
+          "concluidas_na_janela": 35,
+          "tarefas_por_dia": 3.905,
           "previsao": {
-            "data": "2026-11-11",
+            "data": "2026-11-12",
             "dias": 24,
             "concluido": false
           }
@@ -1474,19 +1475,19 @@
         "rotina": "diária",
         "pendentes": 62,
         "planejada": {
-          "data": "2026-12-19",
+          "data": "2026-12-20",
           "dias": 62,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.3,
-          "janela_dias": 8.3,
+          "historico_dias": 8.9,
+          "janela_dias": 8.9,
           "concluidas_na_janela": 22,
-          "tarefas_por_dia": 2.666,
+          "tarefas_por_dia": 2.484,
           "previsao": {
-            "data": "2026-11-11",
-            "dias": 24,
+            "data": "2026-11-13",
+            "dias": 25,
             "concluido": false
           }
         }
@@ -2583,19 +2584,19 @@
         "rotina": "diária",
         "pendentes": 162,
         "planejada": {
-          "data": "2027-01-07",
+          "data": "2027-01-08",
           "dias": 81,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.2,
-          "janela_dias": 8.2,
+          "historico_dias": 8.8,
+          "janela_dias": 8.8,
           "concluidas_na_janela": 76,
-          "tarefas_por_dia": 9.234,
+          "tarefas_por_dia": 8.599,
           "previsao": {
-            "data": "2026-11-05",
-            "dias": 18,
+            "data": "2026-11-07",
+            "dias": 19,
             "concluido": false
           }
         }
@@ -2729,13 +2730,13 @@
         "rotina": "semanal",
         "pendentes": 24,
         "planejada": {
-          "data": "2027-01-10",
+          "data": "2027-01-11",
           "dias": 84,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.0
+          "historico_dias": 5.6
         }
       }
     },
@@ -2927,13 +2928,13 @@
         "rotina": "diária",
         "pendentes": 112,
         "planejada": {
-          "data": "2027-02-07",
+          "data": "2027-02-08",
           "dias": 112,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.1
+          "historico_dias": 2.7
         }
       }
     },
@@ -3055,13 +3056,13 @@
         "rotina": "diária",
         "pendentes": 33,
         "planejada": {
-          "data": "2026-11-20",
+          "data": "2026-11-21",
           "dias": 33,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.0
+          "historico_dias": 0.6
         }
       }
     }
