@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-19T10:56-03:00",
+  "atualizado_em": "2026-10-19T15:56-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 146,
-    "percentual": 23.4,
-    "duvidas": 105,
-    "entregas": 98,
-    "ultima_entrega": "2026-10-19T10:55-03:00",
+    "feitos": 147,
+    "percentual": 23.6,
+    "duvidas": 108,
+    "entregas": 99,
+    "ultima_entrega": "2026-10-19T15:54-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -608,10 +608,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.1,
-          "janela_dias": 9.1,
+          "historico_dias": 9.3,
+          "janela_dias": 9.3,
           "concluidas_na_janela": 35,
-          "tarefas_por_dia": 3.855,
+          "tarefas_por_dia": 3.769,
           "previsao": {
             "data": "2026-11-12",
             "dias": 24,
@@ -1491,10 +1491,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.0,
-          "janela_dias": 9.0,
+          "historico_dias": 9.2,
+          "janela_dias": 9.2,
           "concluidas_na_janela": 24,
-          "tarefas_por_dia": 2.674,
+          "tarefas_por_dia": 2.613,
           "previsao": {
             "data": "2026-11-11",
             "dias": 23,
@@ -1512,8 +1512,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 238,
-      "feitos": 77,
-      "percentual": 32.4,
+      "feitos": 78,
+      "percentual": 32.8,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1542,8 +1542,8 @@
         {
           "nome": "Concreto",
           "total": 9,
-          "feitos": 3,
-          "percentual": 33.3
+          "feitos": 4,
+          "percentual": 44.4
         },
         {
           "nome": "Vedações e cobertura",
@@ -1698,16 +1698,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-042",
-          "titulo": "Especificação de modelagem: Viga de concreto",
-          "normas": [
-            "IfcBeam e IfcBeamTypeEnum",
-            "OST_StructuralFraming",
-            "AnalyticalMember"
-          ],
-          "disciplina": "Concreto"
-        },
-        {
           "id": "TM-043",
           "titulo": "Viga de concreto no modelo neutro",
           "normas": [
@@ -1777,9 +1767,24 @@
             "AnalyticalMember"
           ],
           "disciplina": "Revit e Dynamo da estrutura"
+        },
+        {
+          "id": "TM-175",
+          "titulo": "Contrato de leitura de esforços",
+          "normas": [
+            "Ajuda do Robot Structural Analysis",
+            "AnalyticalMember",
+            "guia estrutural"
+          ],
+          "disciplina": "Robot"
         }
       ],
       "entregas": [
+        {
+          "numero": 35,
+          "titulo": "Ficha da viga de concreto (TM-042); fecha D-016, abre D-061 a D-063",
+          "data": "2026-10-19T15:54-03:00"
+        },
         {
           "numero": 34,
           "titulo": "Área no vocabulário de unidades e schema 0.1.11 (TM-233); abre D-060, verifica D-012",
@@ -1834,15 +1839,10 @@
           "numero": 24,
           "titulo": "DT-004: padrão Revit e pares Revit/Dynamo da estrutura depois da fase da plataforma",
           "data": "2026-10-16T18:48-03:00"
-        },
-        {
-          "numero": 23,
-          "titulo": "DT-004: plataforma sem Revit e MVP antes das instalações; fecha D-052 e D-053",
-          "data": "2026-10-16T18:45-03:00"
         }
       ],
-      "total_entregas": 34,
-      "ultima_entrega": "2026-10-19T08:52-03:00",
+      "total_entregas": 35,
+      "ultima_entrega": "2026-10-19T15:54-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1869,7 +1869,7 @@
           "norma": "AnalyticalMember",
           "descricao": "",
           "tarefas": 21,
-          "feitas": 6,
+          "feitas": 7,
           "estado": "em_andamento"
         },
         {
@@ -1890,8 +1890,8 @@
           "norma": "OST_StructuralFraming",
           "descricao": "",
           "tarefas": 16,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcMemberTypeEnum",
@@ -2135,8 +2135,8 @@
           "norma": "IfcBeam e IfcBeamTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcDistributionCircuit",
@@ -2276,6 +2276,7 @@
         "GUTTER",
         "ISO 16739-1",
         "IfcBeam",
+        "IfcBeam e IfcBeamTypeEnum",
         "IfcBuildingElementProxy",
         "IfcBuildingStorey",
         "IfcCableSegment",
@@ -2325,6 +2326,7 @@
         "OST_Ramps",
         "OST_Stairs",
         "OST_StructuralFoundation",
+        "OST_StructuralFraming",
         "OST_Walls",
         "Painel do tekto-calc",
         "Página do produto",
@@ -2396,7 +2398,7 @@
           "normas": []
         },
         {
-          "texto": "D-016 — API analítica do Revit 2024 e a de 2025/2026",
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2594,6 +2596,18 @@
         {
           "texto": "D-060 — Prefixo do IfcSIUnit aplicado ao SQUARE_METRE",
           "normas": []
+        },
+        {
+          "texto": "D-061 — BEAM ou T_BEAM para a viga moldada com a laje",
+          "normas": []
+        },
+        {
+          "texto": "D-062 — Um só momento e um só cortante por viga",
+          "normas": []
+        },
+        {
+          "texto": "D-063 — PredefinedType da viga exportada pelo Revit 2027",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2601,18 +2615,18 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 161,
+        "pendentes": 160,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 81,
+          "data": "2027-01-07",
+          "dias": 80,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.0,
-          "janela_dias": 9.0,
-          "concluidas_na_janela": 77,
-          "tarefas_por_dia": 8.598,
+          "historico_dias": 9.2,
+          "janela_dias": 9.2,
+          "concluidas_na_janela": 78,
+          "tarefas_por_dia": 8.512,
           "previsao": {
             "data": "2026-11-07",
             "dias": 19,
@@ -2760,7 +2774,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.8
+          "historico_dias": 6.0
         }
       }
     },
@@ -2967,7 +2981,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.8
+          "historico_dias": 3.0
         }
       }
     },
@@ -3101,7 +3115,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 0.8
+          "historico_dias": 1.0
         }
       }
     }
