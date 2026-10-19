@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-19T08:19-03:00",
+  "atualizado_em": "2026-10-19T08:53-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 142,
-    "percentual": 22.8,
-    "duvidas": 102,
-    "entregas": 94,
-    "ultima_entrega": "2026-10-19T08:19-03:00",
+    "feitos": 143,
+    "percentual": 23.0,
+    "duvidas": 104,
+    "entregas": 95,
+    "ultima_entrega": "2026-10-19T08:52-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -611,7 +611,7 @@
           "historico_dias": 9.0,
           "janela_dias": 9.0,
           "concluidas_na_janela": 35,
-          "tarefas_por_dia": 3.902,
+          "tarefas_por_dia": 3.892,
           "previsao": {
             "data": "2026-11-12",
             "dias": 24,
@@ -1494,7 +1494,7 @@
           "historico_dias": 8.9,
           "janela_dias": 8.9,
           "concluidas_na_janela": 24,
-          "tarefas_por_dia": 2.707,
+          "tarefas_por_dia": 2.7,
           "previsao": {
             "data": "2026-11-11",
             "dias": 23,
@@ -1512,8 +1512,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 238,
-      "feitos": 76,
-      "percentual": 31.9,
+      "feitos": 77,
+      "percentual": 32.4,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1578,8 +1578,8 @@
         {
           "nome": "Integração tekto-calc",
           "total": 6,
-          "feitos": 2,
-          "percentual": 33.3
+          "feitos": 3,
+          "percentual": 50.0
         },
         {
           "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
@@ -1698,16 +1698,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-233",
-          "titulo": "Área no vocabulário de unidades",
-          "normas": [
-            "IfcUnitEnum",
-            "IfcSIUnit",
-            "IfcSIPrefix"
-          ],
-          "disciplina": "Integração tekto-calc"
-        },
-        {
           "id": "TM-042",
           "titulo": "Especificação de modelagem: Viga de concreto",
           "normas": [
@@ -1777,9 +1767,24 @@
             "guia estrutural"
           ],
           "disciplina": "Revit e Dynamo da estrutura"
+        },
+        {
+          "id": "TM-045",
+          "titulo": "Viga de concreto no Revit e no Dynamo",
+          "normas": [
+            "IfcBeam e IfcBeamTypeEnum",
+            "OST_StructuralFraming",
+            "AnalyticalMember"
+          ],
+          "disciplina": "Revit e Dynamo da estrutura"
         }
       ],
       "entregas": [
+        {
+          "numero": 34,
+          "titulo": "Área no vocabulário de unidades e schema 0.1.11 (TM-233); abre D-060, verifica D-012",
+          "data": "2026-10-19T08:52-03:00"
+        },
         {
           "numero": 33,
           "titulo": "DT-006: express ampliado com fundações e alvenaria (22 tarefas; TM-237 e TM-238 novas)",
@@ -1834,15 +1839,10 @@
           "numero": 23,
           "titulo": "DT-004: plataforma sem Revit e MVP antes das instalações; fecha D-052 e D-053",
           "data": "2026-10-16T18:45-03:00"
-        },
-        {
-          "numero": 22,
-          "titulo": "Fase Viabilidade para a plataforma: TM-206 a TM-228, docs/PLATAFORMA.md, D-052 e D-053",
-          "data": "2026-10-16T18:33-03:00"
         }
       ],
-      "total_entregas": 33,
-      "ultima_entrega": "2026-10-18T17:31-03:00",
+      "total_entregas": 34,
+      "ultima_entrega": "2026-10-19T08:52-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -2307,6 +2307,7 @@
         "IfcSIUnit",
         "IfcStair",
         "IfcStairFlight",
+        "IfcUnitEnum",
         "IfcWall e IfcWallTypeEnum",
         "IfcWasteTerminal",
         "Instalação do pyRevit",
@@ -2384,6 +2385,10 @@
         },
         {
           "texto": "D-012 — LGPL do IfcOpenShell no add-in",
+          "normas": []
+        },
+        {
+          "texto": "Verificação",
           "normas": []
         },
         {
@@ -2585,6 +2590,10 @@
         {
           "texto": "D-059 — Unidades do tekto-calc sem equivalente no vocabulário do núcleo",
           "normas": []
+        },
+        {
+          "texto": "D-060 — Prefixo do IfcSIUnit aplicado ao SQUARE_METRE",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2592,7 +2601,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 162,
+        "pendentes": 161,
         "planejada": {
           "data": "2027-01-08",
           "dias": 81,
@@ -2600,10 +2609,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.8,
-          "janela_dias": 8.8,
-          "concluidas_na_janela": 76,
-          "tarefas_por_dia": 8.591,
+          "historico_dias": 8.9,
+          "janela_dias": 8.9,
+          "concluidas_na_janela": 77,
+          "tarefas_por_dia": 8.681,
           "previsao": {
             "data": "2026-11-07",
             "dias": 19,
@@ -2746,7 +2755,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.6
+          "historico_dias": 5.7
         }
       }
     },
