@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-20T10:53-03:00",
+  "atualizado_em": "2026-10-20T15:54-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 153,
-    "percentual": 24.6,
-    "duvidas": 115,
-    "entregas": 105,
-    "ultima_entrega": "2026-10-20T10:52-03:00",
+    "feitos": 154,
+    "percentual": 24.7,
+    "duvidas": 117,
+    "entregas": 106,
+    "ultima_entrega": "2026-10-20T15:51-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2026-11-14",
-        "dias": 25,
+        "data": "2026-11-15",
+        "dias": 26,
         "concluido": false,
         "projeto": "Tekto Calc",
         "sem_historico": [
@@ -608,13 +608,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.1,
-          "janela_dias": 10.1,
+          "historico_dias": 10.3,
+          "janela_dias": 10.3,
           "concluidas_na_janela": 36,
-          "tarefas_por_dia": 3.572,
+          "tarefas_por_dia": 3.5,
           "previsao": {
-            "data": "2026-11-14",
-            "dias": 25,
+            "data": "2026-11-15",
+            "dias": 26,
             "concluido": false
           }
         }
@@ -1503,10 +1503,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.0,
-          "janela_dias": 10.0,
+          "historico_dias": 10.2,
+          "janela_dias": 10.2,
           "concluidas_na_janela": 26,
-          "tarefas_por_dia": 2.607,
+          "tarefas_por_dia": 2.553,
           "previsao": {
             "data": "2026-11-12",
             "dias": 23,
@@ -1524,8 +1524,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 238,
-      "feitos": 79,
-      "percentual": 33.2,
+      "feitos": 80,
+      "percentual": 33.6,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1590,8 +1590,8 @@
         {
           "nome": "Integração tekto-calc",
           "total": 6,
-          "feitos": 3,
-          "percentual": 50.0
+          "feitos": 4,
+          "percentual": 66.7
         },
         {
           "nome": "Ponte pyRevit, Robot 2027 e tekto-calc",
@@ -1710,16 +1710,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-172",
-          "titulo": "Fluxo da viga de concreto até o resultado",
-          "normas": [
-            "Ficha da viga de concreto",
-            "painel do tekto-calc",
-            "NBR 6118"
-          ],
-          "disciplina": "Integração tekto-calc"
-        },
-        {
           "id": "TM-016",
           "titulo": "Arquivo de parâmetros compartilhados Tekto",
           "normas": [
@@ -1789,9 +1779,23 @@
             "servidor MCP do tekto-calc"
           ],
           "disciplina": "Plug-in express (DT-006)"
+        },
+        {
+          "id": "TM-235",
+          "titulo": "Memorial do tekto-calc ao lado do projeto",
+          "normas": [
+            "DT-006",
+            "memorial do tekto-calc"
+          ],
+          "disciplina": "Plug-in express (DT-006)"
         }
       ],
       "entregas": [
+        {
+          "numero": 37,
+          "titulo": "Fluxo da viga de concreto até o resultado (TM-172); abre D-065, verifica D-031",
+          "data": "2026-10-20T15:51-03:00"
+        },
         {
           "numero": 36,
           "titulo": "Viga de concreto no modelo neutro 0.1.12 (TM-043); abre D-064, verifica D-063",
@@ -1846,22 +1850,17 @@
           "numero": 26,
           "titulo": "Backlog: normas internacionais (comparativos) — TM-229 a TM-231",
           "data": "2026-10-17T12:03-03:00"
-        },
-        {
-          "numero": 25,
-          "titulo": "TM-015: botões pyRevit que exportam e importam o JSON neutro (fecha D-045)",
-          "data": "2026-10-17T09:44-03:00"
         }
       ],
-      "total_entregas": 36,
-      "ultima_entrega": "2026-10-20T08:54-03:00",
+      "total_entregas": 37,
+      "ultima_entrega": "2026-10-20T15:51-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "BuiltInCategory",
@@ -2285,6 +2284,7 @@
         "D-002 do tek-team",
         "Dynamo 4.0.2 e PythonNet3",
         "Extensões do pyRevit",
+        "Ficha da viga de concreto",
         "GUTTER",
         "ISO 16739-1",
         "IfcBeam",
@@ -2332,6 +2332,7 @@
         "Migração do Revit 2027 para .NET 10",
         "Modelo da ficha em docs/especificacoes/modelo.md",
         "My First Plug-in",
+        "NBR 6118",
         "Nota da Autodesk sobre a biblioteca RobotOM",
         "OST_PipeCurves",
         "OST_PlumbingFixtures",
@@ -2486,6 +2487,10 @@
           "normas": []
         },
         {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
           "texto": "D-032 — Entidade IFC do elemento genérico",
           "normas": []
         },
@@ -2628,6 +2633,10 @@
         {
           "texto": "D-064 — Coerência geométrica dos apoios da viga",
           "normas": []
+        },
+        {
+          "texto": "D-065 — Pedido em SI da viga e os argumentos da ferramenta MCP do tekto-calc",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2635,18 +2644,18 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 159,
+        "pendentes": 158,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 80,
+          "data": "2027-01-07",
+          "dias": 79,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.0,
-          "janela_dias": 10.0,
-          "concluidas_na_janela": 79,
-          "tarefas_por_dia": 7.937,
+          "historico_dias": 10.2,
+          "janela_dias": 10.2,
+          "concluidas_na_janela": 80,
+          "tarefas_por_dia": 7.872,
           "previsao": {
             "data": "2026-11-10",
             "dias": 21,
@@ -2794,7 +2803,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.8
+          "historico_dias": 7.0
         }
       }
     },
@@ -3020,7 +3029,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.8
+          "historico_dias": 4.0
         }
       }
     },
@@ -3159,7 +3168,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.8
+          "historico_dias": 2.0
         }
       }
     }
