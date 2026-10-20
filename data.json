@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-20T07:49-03:00",
+  "atualizado_em": "2026-10-20T08:21-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 148,
-    "percentual": 23.8,
-    "duvidas": 108,
-    "entregas": 100,
-    "ultima_entrega": "2026-10-20T07:48-03:00",
+    "feitos": 150,
+    "percentual": 24.1,
+    "duvidas": 110,
+    "entregas": 102,
+    "ultima_entrega": "2026-10-20T08:20-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -608,10 +608,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.9,
-          "janela_dias": 9.9,
+          "historico_dias": 10.0,
+          "janela_dias": 10.0,
           "concluidas_na_janela": 36,
-          "tarefas_por_dia": 3.618,
+          "tarefas_por_dia": 3.61,
           "previsao": {
             "data": "2026-11-14",
             "dias": 25,
@@ -629,8 +629,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 24,
-      "percentual": 28.6,
+      "feitos": 26,
+      "percentual": 31.0,
       "areas": [
         {
           "nome": "Memoriais",
@@ -641,14 +641,14 @@
         {
           "nome": "Especificações",
           "total": 5,
-          "feitos": 4,
-          "percentual": 80.0
+          "feitos": 5,
+          "percentual": 100.0
         },
         {
           "nome": "Laudos",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 25.0
         },
         {
           "nome": "BIM",
@@ -701,23 +701,6 @@
       ],
       "proximas": [
         {
-          "id": "TD-011",
-          "titulo": "Especificação de impermeabilização",
-          "normas": [
-            "NBR 9574",
-            "NBR 9575"
-          ],
-          "disciplina": "Especificações"
-        },
-        {
-          "id": "TD-012",
-          "titulo": "Laudo de inspeção predial",
-          "normas": [
-            "NBR 16747"
-          ],
-          "disciplina": "Laudos"
-        },
-        {
           "id": "TD-013",
           "titulo": "Checklist de inspeção predial",
           "normas": [
@@ -766,9 +749,37 @@
             "NBR ISO 19650"
           ],
           "disciplina": "BIM"
+        },
+        {
+          "id": "TD-021",
+          "titulo": "Ficha comparativa de steel frame",
+          "normas": [
+            "NBR 15253",
+            "NBR 16970",
+            "NBR 14762"
+          ],
+          "disciplina": "Métodos construtivos"
+        },
+        {
+          "id": "TD-022",
+          "titulo": "Ficha comparativa de concreto pré-moldado",
+          "normas": [
+            "NBR 9062"
+          ],
+          "disciplina": "Métodos construtivos"
         }
       ],
       "entregas": [
+        {
+          "numero": 19,
+          "titulo": "Laudo de inspeção predial (TD-012)",
+          "data": "2026-10-20T08:20-03:00"
+        },
+        {
+          "numero": 18,
+          "titulo": "Especificação de impermeabilização (TD-011)",
+          "data": "2026-10-20T08:18-03:00"
+        },
         {
           "numero": 17,
           "titulo": "Especificação de alvenaria de vedação (TD-009)",
@@ -818,20 +829,10 @@
           "numero": 8,
           "titulo": "Manutenção 2026-10-14: NBR 5419 partes 3 e 4 e registro do ciclo",
           "data": "2026-10-14T10:47-03:00"
-        },
-        {
-          "numero": 7,
-          "titulo": "Acrescenta a base da escola, SPDA, pluviais e o MCP de leitura",
-          "data": "2026-10-14T07:05-03:00"
-        },
-        {
-          "numero": 6,
-          "titulo": "Memorial descritivo de impermeabilização (TD-004)",
-          "data": "2026-10-13T08:30-03:00"
         }
       ],
-      "total_entregas": 17,
-      "ultima_entrega": "2026-10-19T08:19-03:00",
+      "total_entregas": 19,
+      "ultima_entrega": "2026-10-20T08:20-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -921,14 +922,14 @@
           "norma": "NBR 9575",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
           "norma": "NBR 9574",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
@@ -970,8 +971,8 @@
           "norma": "NBR 16747",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 13752",
@@ -1261,6 +1262,7 @@
         "NBR 14931",
         "NBR 15270",
         "NBR 15575",
+        "NBR 16747",
         "NBR 16868",
         "NBR 5410",
         "NBR 5419",
@@ -1476,6 +1478,16 @@
         {
           "texto": "D-041 — Ensaios, argamassa e execução da alvenaria de vedação",
           "normas": []
+        },
+        {
+          "texto": "D-042 — Ensaios dos produtos e controle da impermeabilização",
+          "normas": []
+        },
+        {
+          "texto": "D-043 — Pontos da NBR 16747:2020 ainda não registrados",
+          "normas": [
+            "NBR 16747"
+          ]
         }
       ],
       "previsao": {
@@ -1483,21 +1495,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 60,
+        "pendentes": 58,
         "planejada": {
-          "data": "2026-12-19",
-          "dias": 60,
+          "data": "2026-12-17",
+          "dias": 58,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.8,
-          "janela_dias": 9.8,
-          "concluidas_na_janela": 24,
-          "tarefas_por_dia": 2.438,
+          "historico_dias": 9.9,
+          "janela_dias": 9.9,
+          "concluidas_na_janela": 26,
+          "tarefas_por_dia": 2.635,
           "previsao": {
-            "data": "2026-11-14",
-            "dias": 25,
+            "data": "2026-11-12",
+            "dias": 23,
             "concluido": false
           }
         }
@@ -2626,7 +2638,7 @@
           "historico_dias": 9.8,
           "janela_dias": 9.8,
           "concluidas_na_janela": 78,
-          "tarefas_por_dia": 7.939,
+          "tarefas_por_dia": 7.921,
           "previsao": {
             "data": "2026-11-10",
             "dias": 21,
@@ -2774,7 +2786,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.6
+          "historico_dias": 6.7
         }
       }
     },
@@ -3115,7 +3127,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.6
+          "historico_dias": 1.7
         }
       }
     }
