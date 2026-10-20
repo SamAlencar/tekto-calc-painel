@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-20T10:06-03:00",
+  "atualizado_em": "2026-10-20T10:53-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 152,
-    "percentual": 24.4,
+    "feitos": 153,
+    "percentual": 24.6,
     "duvidas": 115,
-    "entregas": 104,
-    "ultima_entrega": "2026-10-20T10:04-03:00",
+    "entregas": 105,
+    "ultima_entrega": "2026-10-20T10:52-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -608,10 +608,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.0,
-          "janela_dias": 10.0,
+          "historico_dias": 10.1,
+          "janela_dias": 10.1,
           "concluidas_na_janela": 36,
-          "tarefas_por_dia": 3.584,
+          "tarefas_por_dia": 3.572,
           "previsao": {
             "data": "2026-11-14",
             "dias": 25,
@@ -1503,10 +1503,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.9,
-          "janela_dias": 9.9,
+          "historico_dias": 10.0,
+          "janela_dias": 10.0,
           "concluidas_na_janela": 26,
-          "tarefas_por_dia": 2.615,
+          "tarefas_por_dia": 2.607,
           "previsao": {
             "data": "2026-11-12",
             "dias": 23,
@@ -2643,13 +2643,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.9,
-          "janela_dias": 9.9,
+          "historico_dias": 10.0,
+          "janela_dias": 10.0,
           "concluidas_na_janela": 79,
-          "tarefas_por_dia": 7.963,
+          "tarefas_por_dia": 7.937,
           "previsao": {
-            "data": "2026-11-09",
-            "dias": 20,
+            "data": "2026-11-10",
+            "dias": 21,
             "concluido": false
           }
         }
@@ -2794,7 +2794,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.7
+          "historico_dias": 6.8
         }
       }
     },
@@ -3033,8 +3033,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 37,
-      "feitos": 5,
-      "percentual": 13.5,
+      "feitos": 6,
+      "percentual": 16.2,
       "areas": [
         {
           "nome": "Fase 0 — Setup (5)",
@@ -3045,8 +3045,8 @@
         {
           "nome": "Fase 1 — Template de especificação (extração REA) (5)",
           "total": 5,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 20.0
         },
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
@@ -3081,16 +3081,10 @@
       ],
       "proximas": [
         {
-          "id": "TS-006",
+          "id": "TS-006 (bloqueado: TS-D10)",
           "titulo": "Dependência do tekto-model (via git, versão fixada; DT-005 do Model)",
           "normas": [],
           "disciplina": "Fase 0 — Setup (5)"
-        },
-        {
-          "id": "TS-010",
-          "titulo": "Template specs/modelo.md: fórmula, variáveis+unidades, condições de validade, norma (código/edição/item), exemplo E/S do programa, proveniência (software, versã",
-          "normas": [],
-          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
         },
         {
           "id": "TS-011",
@@ -3127,17 +3121,28 @@
           "titulo": "Teste de conferência Robot × tekto-calc para uma rotina existente (ex.: flexão)",
           "normas": [],
           "disciplina": "Fase 2 — Integração do núcleo (8)"
+        },
+        {
+          "id": "TS-022",
+          "titulo": "1ª rotina nova de estruturas a partir de spec do Robot (TDD)",
+          "normas": [],
+          "disciplina": "Fase 2 — Integração do núcleo (8)"
         }
       ],
       "entregas": [
+        {
+          "numero": 2,
+          "titulo": "TS-010: template de especificação (sala limpa)",
+          "data": "2026-10-20T10:52-03:00"
+        },
         {
           "numero": 1,
           "titulo": "TS-003: dependência pinada do tekto-calc",
           "data": "2026-10-19T10:55-03:00"
         }
       ],
-      "total_entregas": 1,
-      "ultima_entrega": "2026-10-19T10:55-03:00",
+      "total_entregas": 2,
+      "ultima_entrega": "2026-10-20T10:52-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -3146,15 +3151,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 32,
+        "pendentes": 31,
         "planejada": {
-          "data": "2026-11-21",
-          "dias": 32,
+          "data": "2026-11-20",
+          "dias": 31,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 1.7
+          "historico_dias": 1.8
         }
       }
     }
