@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-20T08:55-03:00",
+  "atualizado_em": "2026-10-20T10:06-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 151,
-    "percentual": 24.2,
-    "duvidas": 112,
-    "entregas": 103,
-    "ultima_entrega": "2026-10-20T08:54-03:00",
+    "feitos": 152,
+    "percentual": 24.4,
+    "duvidas": 115,
+    "entregas": 104,
+    "ultima_entrega": "2026-10-20T10:04-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 111,
+        "data": "2027-02-07",
+        "dias": 110,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -611,7 +611,7 @@
           "historico_dias": 10.0,
           "janela_dias": 10.0,
           "concluidas_na_janela": 36,
-          "tarefas_por_dia": 3.602,
+          "tarefas_por_dia": 3.584,
           "previsao": {
             "data": "2026-11-14",
             "dias": 25,
@@ -1506,7 +1506,7 @@
           "historico_dias": 9.9,
           "janela_dias": 9.9,
           "concluidas_na_janela": 26,
-          "tarefas_por_dia": 2.628,
+          "tarefas_por_dia": 2.615,
           "previsao": {
             "data": "2026-11-12",
             "dias": 23,
@@ -2646,7 +2646,7 @@
           "historico_dias": 9.9,
           "janela_dias": 9.9,
           "concluidas_na_janela": 79,
-          "tarefas_por_dia": 8.003,
+          "tarefas_por_dia": 7.963,
           "previsao": {
             "data": "2026-11-09",
             "dias": 20,
@@ -2807,14 +2807,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 3,
-      "percentual": 2.6,
+      "feitos": 4,
+      "percentual": 3.5,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 3,
-          "percentual": 27.3
+          "feitos": 4,
+          "percentual": 36.4
         },
         {
           "nome": "BIM",
@@ -2873,12 +2873,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-004",
-          "titulo": "Pesquisa: atribuições profissionais e responsabilidade técnica (CONFEA e CAU)",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-005",
           "titulo": "Pesquisa: uso de IA em serviços de engenharia",
           "normas": [],
@@ -2919,9 +2913,22 @@
           "titulo": "Pesquisa: MCP na prática",
           "normas": [],
           "disciplina": "Fundamentos"
+        },
+        {
+          "id": "TT-012",
+          "titulo": "Pesquisa: ISO 19650 e NBR ISO 19650",
+          "normas": [
+            "NBR ISO 19650"
+          ],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 8,
+          "titulo": "TT-004 — Pesquisa: atribuições profissionais e responsabilidade técnica (CONFEA e CAU)",
+          "data": "2026-10-20T10:04-03:00"
+        },
         {
           "numero": 7,
           "titulo": "TT-003 — Pesquisa: estrutura real de escritórios brasileiros de engenharia e arquitetura",
@@ -2958,8 +2965,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 7,
-      "ultima_entrega": "2026-10-19T10:07-03:00",
+      "total_entregas": 8,
+      "ultima_entrega": "2026-10-20T10:04-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -2986,6 +2993,18 @@
         {
           "texto": "D-004 — Organograma de referência e cargos sem código CBO (2026-10-19)",
           "normas": []
+        },
+        {
+          "texto": "D-005 — Áreas disputadas entre CAU e CONFEA (2026-10-20)",
+          "normas": []
+        },
+        {
+          "texto": "D-006 — Assinatura de trabalho preparado por agente de IA (2026-10-20)",
+          "normas": []
+        },
+        {
+          "texto": "D-007 — Limites dos técnicos industriais: decreto ou resoluções do CFT (2026-10-20)",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2993,15 +3012,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 111,
+        "pendentes": 110,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 111,
+          "data": "2027-02-07",
+          "dias": 110,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.7
+          "historico_dias": 3.8
         }
       }
     },
