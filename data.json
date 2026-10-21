@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-21T10:04-03:00",
+  "atualizado_em": "2026-10-21T15:54-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 159,
-    "percentual": 25.5,
-    "duvidas": 123,
-    "entregas": 111,
-    "ultima_entrega": "2026-10-21T10:03-03:00",
+    "feitos": 161,
+    "percentual": 25.8,
+    "duvidas": 125,
+    "entregas": 113,
+    "ultima_entrega": "2026-10-21T15:53-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-04-16",
-        "dias": 177,
+        "data": "2027-04-22",
+        "dias": 183,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -607,10 +607,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 11.0,
-          "janela_dias": 11.0,
+          "historico_dias": 11.3,
+          "janela_dias": 11.3,
           "concluidas_na_janela": 37,
-          "tarefas_por_dia": 3.35,
+          "tarefas_por_dia": 3.278,
           "previsao": {
             "data": "2026-11-17",
             "dias": 27,
@@ -1510,13 +1510,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.9,
-          "janela_dias": 10.9,
+          "historico_dias": 11.2,
+          "janela_dias": 11.2,
           "concluidas_na_janela": 28,
-          "tarefas_por_dia": 2.559,
+          "tarefas_por_dia": 2.504,
           "previsao": {
-            "data": "2026-11-12",
-            "dias": 22,
+            "data": "2026-11-13",
+            "dias": 23,
             "concluido": false
           }
         }
@@ -1531,8 +1531,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 238,
-      "feitos": 81,
-      "percentual": 34.0,
+      "feitos": 82,
+      "percentual": 34.5,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1615,8 +1615,8 @@
         {
           "nome": "Padrão estrutural Tekto",
           "total": 6,
-          "feitos": 1,
-          "percentual": 16.7
+          "feitos": 2,
+          "percentual": 33.3
         },
         {
           "nome": "Revit e Dynamo da estrutura",
@@ -1717,17 +1717,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-017",
-          "titulo": "Template Revit estrutural Tekto",
-          "normas": [
-            "Guia de unidades",
-            "fundações",
-            "BuiltInCategory",
-            ".NET 10 do Revit 2027"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
           "id": "TM-019",
           "titulo": "Famílias de pilar e viga de concreto",
           "normas": [
@@ -1795,9 +1784,24 @@
             "DT-006"
           ],
           "disciplina": "Plug-in express (DT-006)"
+        },
+        {
+          "id": "TM-018",
+          "titulo": "Famílias de fundação Tekto",
+          "normas": [
+            "Guia de fundações",
+            "OST_StructuralFoundation",
+            "IfcPile"
+          ],
+          "disciplina": "Padrão estrutural Tekto"
         }
       ],
       "entregas": [
+        {
+          "numero": 39,
+          "titulo": "Script e manifesto do template Revit estrutural Tekto (TM-017); abre D-068, verifica D-067",
+          "data": "2026-10-21T15:53-03:00"
+        },
         {
           "numero": 38,
           "titulo": "Arquivo de parâmetros compartilhados Tekto (TM-016); abre D-066 e D-067, verifica D-027",
@@ -1852,15 +1856,10 @@
           "numero": 28,
           "titulo": "TM-034: ficha da viga baldrame (IfcFooting FOOTING_BEAM); fecha D-017, abre D-057",
           "data": "2026-10-18T09:04-03:00"
-        },
-        {
-          "numero": 27,
-          "titulo": "TM-030: ficha da sapata isolada (IfcFooting PAD_FOOTING); verifica D-018, abre D-055 e D-056",
-          "data": "2026-10-18T08:57-03:00"
         }
       ],
-      "total_entregas": 38,
-      "ultima_entrega": "2026-10-21T08:51-03:00",
+      "total_entregas": 39,
+      "ultima_entrega": "2026-10-21T15:53-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1873,7 +1872,7 @@
           "norma": "BuiltInCategory",
           "descricao": "",
           "tarefas": 35,
-          "feitas": 23,
+          "feitas": 24,
           "estado": "em_andamento"
         },
         {
@@ -2284,6 +2283,7 @@
         }
       ],
       "normas_cobertas": [
+        ".NET 10 do Revit 2027",
         "AnalyticalMember",
         "Arquitetura do pyRevit",
         "BuiltInCategory",
@@ -2294,6 +2294,7 @@
         "Ficha da viga de concreto",
         "GUTTER",
         "Guia de parâmetros compartilhados",
+        "Guia de unidades",
         "ISO 16739-1",
         "IfcBeam",
         "IfcBeam e IfcBeamTypeEnum",
@@ -2358,6 +2359,7 @@
         "arquitetura",
         "arquivo de definição",
         "formato curto de unidade do Pint",
+        "fundações",
         "fundações na API do Revit",
         "guia de unidades",
         "guia de unidades da API do Revit 2027",
@@ -2658,6 +2660,14 @@
         {
           "texto": "D-067 — Colunas que o Revit 2027 grava no arquivo de parâmetros",
           "normas": []
+        },
+        {
+          "texto": "Verificação de 21/10/2026",
+          "normas": []
+        },
+        {
+          "texto": "D-068 — Base e gravação do template estrutural no Revit 2027",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2665,18 +2675,18 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 157,
+        "pendentes": 156,
         "planejada": {
-          "data": "2027-01-08",
-          "dias": 79,
+          "data": "2027-01-07",
+          "dias": 78,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.9,
-          "janela_dias": 10.9,
-          "concluidas_na_janela": 81,
-          "tarefas_por_dia": 7.418,
+          "historico_dias": 11.2,
+          "janela_dias": 11.2,
+          "concluidas_na_janela": 82,
+          "tarefas_por_dia": 7.346,
           "previsao": {
             "data": "2026-11-12",
             "dias": 22,
@@ -2824,13 +2834,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.7,
-          "janela_dias": 7.7,
+          "historico_dias": 8.0,
+          "janela_dias": 8.0,
           "concluidas_na_janela": 1,
-          "tarefas_por_dia": 0.13,
+          "tarefas_por_dia": 0.126,
           "previsao": {
-            "data": "2027-04-16",
-            "dias": 177,
+            "data": "2027-04-22",
+            "dias": 183,
             "concluido": false
           }
         }
@@ -3071,7 +3081,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.8
+          "historico_dias": 5.0
         }
       }
     },
@@ -3084,8 +3094,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 37,
-      "feitos": 6,
-      "percentual": 16.2,
+      "feitos": 7,
+      "percentual": 18.9,
       "areas": [
         {
           "nome": "Fase 0 — Setup (5)",
@@ -3096,8 +3106,8 @@
         {
           "nome": "Fase 1 — Template de especificação (extração REA) (5)",
           "total": 5,
-          "feitos": 1,
-          "percentual": 20.0
+          "feitos": 2,
+          "percentual": 40.0
         },
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
@@ -3138,12 +3148,6 @@
           "disciplina": "Fase 0 — Setup (5)"
         },
         {
-          "id": "TS-011",
-          "titulo": "Validador de spec (script : não interativo, saída JSON)",
-          "normas": [],
-          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
-        },
-        {
           "id": "TS-012",
           "titulo": "Guia de uso do REA para o Samuel (instalação local, Ghidra, como preencher a spec)",
           "normas": [],
@@ -3178,9 +3182,20 @@
           "titulo": "1ª rotina nova de estruturas a partir de spec do Robot (TDD)",
           "normas": [],
           "disciplina": "Fase 2 — Integração do núcleo (8)"
+        },
+        {
+          "id": "TS-023 [S]",
+          "titulo": "Samuel extrai 2–3 specs do Geo5 2024 (ex.: capacidade de carga, empuxo, estabilidade de talude)",
+          "normas": [],
+          "disciplina": "Fase 2 — Integração do núcleo (8)"
         }
       ],
       "entregas": [
+        {
+          "numero": 3,
+          "titulo": "TS-011: validador de spec (sala limpa)",
+          "data": "2026-10-21T10:51-03:00"
+        },
         {
           "numero": 2,
           "titulo": "TS-010: template de especificação (sala limpa)",
@@ -3192,8 +3207,8 @@
           "data": "2026-10-19T10:55-03:00"
         }
       ],
-      "total_entregas": 2,
-      "ultima_entrega": "2026-10-20T10:52-03:00",
+      "total_entregas": 3,
+      "ultima_entrega": "2026-10-21T10:51-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -3202,15 +3217,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 31,
+        "pendentes": 30,
         "planejada": {
-          "data": "2026-11-21",
-          "dias": 31,
+          "data": "2026-11-20",
+          "dias": 30,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.7
+          "historico_dias": 3.0
         }
       }
     }
