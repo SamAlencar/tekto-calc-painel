@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-21T07:47-03:00",
+  "atualizado_em": "2026-10-21T08:20-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 155,
-    "percentual": 24.9,
-    "duvidas": 117,
-    "entregas": 107,
-    "ultima_entrega": "2026-10-21T07:46-03:00",
+    "feitos": 157,
+    "percentual": 25.2,
+    "duvidas": 118,
+    "entregas": 109,
+    "ultima_entrega": "2026-10-21T08:19-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -607,10 +607,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.9,
-          "janela_dias": 10.9,
+          "historico_dias": 11.0,
+          "janela_dias": 11.0,
           "concluidas_na_janela": 37,
-          "tarefas_por_dia": 3.38,
+          "tarefas_por_dia": 3.372,
           "previsao": {
             "data": "2026-11-17",
             "dias": 27,
@@ -628,8 +628,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 26,
-      "percentual": 31.0,
+      "feitos": 28,
+      "percentual": 33.3,
       "areas": [
         {
           "nome": "Memoriais",
@@ -646,8 +646,8 @@
         {
           "nome": "Laudos",
           "total": 4,
-          "feitos": 1,
-          "percentual": 25.0
+          "feitos": 3,
+          "percentual": 75.0
         },
         {
           "nome": "BIM",
@@ -700,22 +700,6 @@
       ],
       "proximas": [
         {
-          "id": "TD-013",
-          "titulo": "Checklist de inspeção predial",
-          "normas": [
-            "NBR 16747"
-          ],
-          "disciplina": "Laudos"
-        },
-        {
-          "id": "TD-014",
-          "titulo": "Laudo técnico de engenharia",
-          "normas": [
-            "NBR 13752"
-          ],
-          "disciplina": "Laudos"
-        },
-        {
           "id": "TD-015",
           "titulo": "Checklist de vistoria cautelar",
           "normas": [
@@ -766,9 +750,36 @@
             "NBR 9062"
           ],
           "disciplina": "Métodos construtivos"
+        },
+        {
+          "id": "TD-023",
+          "titulo": "Ficha comparativa de sistemas de impermeabilização",
+          "normas": [
+            "NBR 9575",
+            "NBR 9574"
+          ],
+          "disciplina": "Métodos construtivos"
+        },
+        {
+          "id": "TD-025",
+          "titulo": "Ficha de cimento Portland",
+          "normas": [
+            "NBR 16697"
+          ],
+          "disciplina": "Materiais"
         }
       ],
       "entregas": [
+        {
+          "numero": 21,
+          "titulo": "TD-014: laudo técnico de engenharia",
+          "data": "2026-10-21T08:19-03:00"
+        },
+        {
+          "numero": 20,
+          "titulo": "TD-013: checklist de inspeção predial",
+          "data": "2026-10-21T08:18-03:00"
+        },
         {
           "numero": 19,
           "titulo": "Laudo de inspeção predial (TD-012)",
@@ -818,20 +829,10 @@
           "numero": 10,
           "titulo": "Memorial descritivo de SPDA da escola institucional",
           "data": "2026-10-14T13:35-03:00"
-        },
-        {
-          "numero": 9,
-          "titulo": "Backlog: promove propostas aprovadas no ciclo de manutenção de 14/10",
-          "data": "2026-10-14T11:32-03:00"
-        },
-        {
-          "numero": 8,
-          "titulo": "Manutenção 2026-10-14: NBR 5419 partes 3 e 4 e registro do ciclo",
-          "data": "2026-10-14T10:47-03:00"
         }
       ],
-      "total_entregas": 19,
-      "ultima_entrega": "2026-10-20T08:20-03:00",
+      "total_entregas": 21,
+      "ultima_entrega": "2026-10-21T08:19-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -970,15 +971,15 @@
           "norma": "NBR 16747",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
           "norma": "NBR 13752",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "NBR 15965",
@@ -1258,6 +1259,7 @@
         "DT-001",
         "NBR 10844",
         "NBR 12655",
+        "NBR 13752",
         "NBR 14931",
         "NBR 15270",
         "NBR 15575",
@@ -1487,6 +1489,12 @@
           "normas": [
             "NBR 16747"
           ]
+        },
+        {
+          "texto": "D-044 — Pontos da NBR 13752:2024 ainda não registrados",
+          "normas": [
+            "NBR 13752"
+          ]
         }
       ],
       "previsao": {
@@ -1494,21 +1502,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 58,
+        "pendentes": 56,
         "planejada": {
-          "data": "2026-12-18",
-          "dias": 58,
+          "data": "2026-12-16",
+          "dias": 56,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.8,
-          "janela_dias": 10.8,
-          "concluidas_na_janela": 26,
-          "tarefas_por_dia": 2.398,
+          "historico_dias": 10.9,
+          "janela_dias": 10.9,
+          "concluidas_na_janela": 28,
+          "tarefas_por_dia": 2.576,
           "previsao": {
-            "data": "2026-11-15",
-            "dias": 25,
+            "data": "2026-11-12",
+            "dias": 22,
             "concluido": false
           }
         }
@@ -2654,7 +2662,7 @@
           "historico_dias": 10.8,
           "janela_dias": 10.8,
           "concluidas_na_janela": 80,
-          "tarefas_por_dia": 7.391,
+          "tarefas_por_dia": 7.375,
           "previsao": {
             "data": "2026-11-12",
             "dias": 22,
@@ -3175,7 +3183,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 2.6
+          "historico_dias": 2.7
         }
       }
     }
