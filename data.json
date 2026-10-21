@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-21T08:52-03:00",
+  "atualizado_em": "2026-10-21T10:04-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 158,
-    "percentual": 25.4,
-    "duvidas": 121,
-    "entregas": 110,
-    "ultima_entrega": "2026-10-21T08:51-03:00",
+    "feitos": 159,
+    "percentual": 25.5,
+    "duvidas": 123,
+    "entregas": 111,
+    "ultima_entrega": "2026-10-21T10:03-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 110,
+        "data": "2027-02-07",
+        "dias": 109,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -610,7 +610,7 @@
           "historico_dias": 11.0,
           "janela_dias": 11.0,
           "concluidas_na_janela": 37,
-          "tarefas_por_dia": 3.366,
+          "tarefas_por_dia": 3.35,
           "previsao": {
             "data": "2026-11-17",
             "dias": 27,
@@ -1513,7 +1513,7 @@
           "historico_dias": 10.9,
           "janela_dias": 10.9,
           "concluidas_na_janela": 28,
-          "tarefas_por_dia": 2.571,
+          "tarefas_por_dia": 2.559,
           "previsao": {
             "data": "2026-11-12",
             "dias": 22,
@@ -2676,7 +2676,7 @@
           "historico_dias": 10.9,
           "janela_dias": 10.9,
           "concluidas_na_janela": 81,
-          "tarefas_por_dia": 7.452,
+          "tarefas_por_dia": 7.418,
           "previsao": {
             "data": "2026-11-12",
             "dias": 22,
@@ -2845,14 +2845,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 4,
-      "percentual": 3.5,
+      "feitos": 5,
+      "percentual": 4.4,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 4,
-          "percentual": 36.4
+          "feitos": 5,
+          "percentual": 45.5
         },
         {
           "nome": "BIM",
@@ -2911,12 +2911,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-005",
-          "titulo": "Pesquisa: uso de IA em serviços de engenharia",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-006",
           "titulo": "Pesquisa: arquiteturas de sistemas multiagente e protocolos de agentes",
           "normas": [],
@@ -2959,9 +2953,20 @@
             "NBR ISO 19650"
           ],
           "disciplina": "BIM"
+        },
+        {
+          "id": "TT-013",
+          "titulo": "Pesquisa: papéis e funções de gestão da informação na ISO 19650",
+          "normas": [],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 9,
+          "titulo": "TT-005 — Pesquisa: uso de IA em serviços de engenharia — limites legais e éticos",
+          "data": "2026-10-21T10:03-03:00"
+        },
         {
           "numero": 8,
           "titulo": "TT-004 — Pesquisa: atribuições profissionais e responsabilidade técnica (CONFEA e CAU)",
@@ -3003,8 +3008,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 8,
-      "ultima_entrega": "2026-10-20T10:04-03:00",
+      "total_entregas": 9,
+      "ultima_entrega": "2026-10-21T10:03-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -3043,6 +3048,14 @@
         {
           "texto": "D-007 — Limites dos técnicos industriais: decreto ou resoluções do CFT (2026-10-20)",
           "normas": []
+        },
+        {
+          "texto": "D-008 — Documento do cliente e dado pessoal em serviço de IA de terceiro (2026-10-21)",
+          "normas": []
+        },
+        {
+          "texto": "D-009 — Declarar ao cliente o uso de IA (2026-10-21)",
+          "normas": []
         }
       ],
       "previsao": {
@@ -3050,15 +3063,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 110,
+        "pendentes": 109,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 110,
+          "data": "2027-02-07",
+          "dias": 109,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.7
+          "historico_dias": 4.8
         }
       }
     },
