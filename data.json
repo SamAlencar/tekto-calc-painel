@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-21T08:20-03:00",
+  "atualizado_em": "2026-10-21T08:52-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 157,
-    "percentual": 25.2,
-    "duvidas": 118,
-    "entregas": 109,
-    "ultima_entrega": "2026-10-21T08:19-03:00",
+    "feitos": 158,
+    "percentual": 25.4,
+    "duvidas": 121,
+    "entregas": 110,
+    "ultima_entrega": "2026-10-21T08:51-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-04-15",
-        "dias": 176,
+        "data": "2027-04-16",
+        "dias": 177,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -610,7 +610,7 @@
           "historico_dias": 11.0,
           "janela_dias": 11.0,
           "concluidas_na_janela": 37,
-          "tarefas_por_dia": 3.372,
+          "tarefas_por_dia": 3.366,
           "previsao": {
             "data": "2026-11-17",
             "dias": 27,
@@ -1513,7 +1513,7 @@
           "historico_dias": 10.9,
           "janela_dias": 10.9,
           "concluidas_na_janela": 28,
-          "tarefas_por_dia": 2.576,
+          "tarefas_por_dia": 2.571,
           "previsao": {
             "data": "2026-11-12",
             "dias": 22,
@@ -1531,8 +1531,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 238,
-      "feitos": 80,
-      "percentual": 33.6,
+      "feitos": 81,
+      "percentual": 34.0,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1615,8 +1615,8 @@
         {
           "nome": "Padrão estrutural Tekto",
           "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 16.7
         },
         {
           "nome": "Revit e Dynamo da estrutura",
@@ -1717,15 +1717,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-016",
-          "titulo": "Arquivo de parâmetros compartilhados Tekto",
-          "normas": [
-            "Guia de parâmetros compartilhados",
-            "arquivo de definição"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
           "id": "TM-017",
           "titulo": "Template Revit estrutural Tekto",
           "normas": [
@@ -1795,9 +1786,23 @@
             "memorial do tekto-calc"
           ],
           "disciplina": "Plug-in express (DT-006)"
+        },
+        {
+          "id": "TM-236",
+          "titulo": "Instalação do plug-in express e roteiro de aceite",
+          "normas": [
+            "Instalação do pyRevit",
+            "DT-006"
+          ],
+          "disciplina": "Plug-in express (DT-006)"
         }
       ],
       "entregas": [
+        {
+          "numero": 38,
+          "titulo": "Arquivo de parâmetros compartilhados Tekto (TM-016); abre D-066 e D-067, verifica D-027",
+          "data": "2026-10-21T08:51-03:00"
+        },
         {
           "numero": 37,
           "titulo": "Fluxo da viga de concreto até o resultado (TM-172); abre D-065, verifica D-031",
@@ -1852,15 +1857,10 @@
           "numero": 27,
           "titulo": "TM-030: ficha da sapata isolada (IfcFooting PAD_FOOTING); verifica D-018, abre D-055 e D-056",
           "data": "2026-10-18T08:57-03:00"
-        },
-        {
-          "numero": 26,
-          "titulo": "Backlog: normas internacionais (comparativos) — TM-229 a TM-231",
-          "data": "2026-10-17T12:03-03:00"
         }
       ],
-      "total_entregas": 37,
-      "ultima_entrega": "2026-10-20T15:51-03:00",
+      "total_entregas": 38,
+      "ultima_entrega": "2026-10-21T08:51-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -2293,6 +2293,7 @@
         "Extensões do pyRevit",
         "Ficha da viga de concreto",
         "GUTTER",
+        "Guia de parâmetros compartilhados",
         "ISO 16739-1",
         "IfcBeam",
         "IfcBeam e IfcBeamTypeEnum",
@@ -2355,6 +2356,7 @@
         "STRIP_FOOTING em IfcFootingTypeEnum",
         "UnitUtils 27.3.0.0",
         "arquitetura",
+        "arquivo de definição",
         "formato curto de unidade do Pint",
         "fundações na API do Revit",
         "guia de unidades",
@@ -2475,6 +2477,10 @@
         },
         {
           "texto": "D-027 — Identificador do material no IFC",
+          "normas": []
+        },
+        {
+          "texto": "Verificação de 21/10/2026",
           "normas": []
         },
         {
@@ -2644,6 +2650,14 @@
         {
           "texto": "D-065 — Pedido em SI da viga e os argumentos da ferramenta MCP do tekto-calc",
           "normas": []
+        },
+        {
+          "texto": "D-066 — Tipo de dado de tensão no arquivo de parâmetros compartilhados",
+          "normas": []
+        },
+        {
+          "texto": "D-067 — Colunas que o Revit 2027 grava no arquivo de parâmetros",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2651,7 +2665,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 158,
+        "pendentes": 157,
         "planejada": {
           "data": "2027-01-08",
           "dias": 79,
@@ -2659,10 +2673,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.8,
-          "janela_dias": 10.8,
-          "concluidas_na_janela": 80,
-          "tarefas_por_dia": 7.375,
+          "historico_dias": 10.9,
+          "janela_dias": 10.9,
+          "concluidas_na_janela": 81,
+          "tarefas_por_dia": 7.452,
           "previsao": {
             "data": "2026-11-12",
             "dias": 22,
@@ -2810,13 +2824,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.6,
-          "janela_dias": 7.6,
+          "historico_dias": 7.7,
+          "janela_dias": 7.7,
           "concluidas_na_janela": 1,
-          "tarefas_por_dia": 0.131,
+          "tarefas_por_dia": 0.13,
           "previsao": {
-            "data": "2027-04-15",
-            "dias": 176,
+            "data": "2027-04-16",
+            "dias": 177,
             "concluido": false
           }
         }
