@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-23T00:34-03:00",
+  "atualizado_em": "2026-10-23T00:37-03:00",
   "painel": "Painel Tekto",
   "geral": {
-    "total": 623,
-    "feitos": 165,
-    "percentual": 26.5,
-    "duvidas": 127,
-    "entregas": 117,
-    "ultima_entrega": "2026-10-23T00:34-03:00",
+    "total": 624,
+    "feitos": 167,
+    "percentual": 26.8,
+    "duvidas": 128,
+    "entregas": 120,
+    "ultima_entrega": "2026-10-23T00:37-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-09",
-        "dias": 109,
+        "data": "2027-02-08",
+        "dias": 108,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -607,8 +607,8 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.6,
-          "janela_dias": 12.6,
+          "historico_dias": 12.7,
+          "janela_dias": 12.7,
           "concluidas_na_janela": 38,
           "tarefas_por_dia": 3.004,
           "previsao": {
@@ -1517,7 +1517,7 @@
           "historico_dias": 12.5,
           "janela_dias": 12.5,
           "concluidas_na_janela": 29,
-          "tarefas_por_dia": 2.312,
+          "tarefas_por_dia": 2.311,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -1534,9 +1534,9 @@
       "repo_encontrado": true,
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
-      "total": 238,
+      "total": 239,
       "feitos": 83,
-      "percentual": 34.9,
+      "percentual": 34.7,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1643,6 +1643,12 @@
         {
           "nome": "Instalações elétricas",
           "total": 21,
+          "feitos": 0,
+          "percentual": 0.0
+        },
+        {
+          "nome": "Empacotamento",
+          "total": 1,
           "feitos": 0,
           "percentual": 0.0
         },
@@ -1801,6 +1807,11 @@
       ],
       "entregas": [
         {
+          "numero": 41,
+          "titulo": "Backlog: TM-239 schemas no pacote instalado (TS-D10)",
+          "data": "2026-10-23T00:36-03:00"
+        },
+        {
           "numero": 40,
           "titulo": "TM-019: famílias de pilar e viga de concreto",
           "data": "2026-10-23T00:31-03:00"
@@ -1854,15 +1865,10 @@
           "numero": 30,
           "titulo": "Resposta real do MCP do tekto-calc (TM-232, D-002); abre TM-233 e D-059; verifica D-009 e D-034",
           "data": "2026-10-18T16:04-03:00"
-        },
-        {
-          "numero": 29,
-          "titulo": "Sapata isolada no modelo neutro 0.1.10 (TM-031); abre D-058",
-          "data": "2026-10-18T15:53-03:00"
         }
       ],
-      "total_entregas": 40,
-      "ultima_entrega": "2026-10-23T00:31-03:00",
+      "total_entregas": 41,
+      "ultima_entrega": "2026-10-23T00:36-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -2675,6 +2681,10 @@
           "normas": []
         },
         {
+          "texto": "Verificação de 23/10/2026",
+          "normas": []
+        },
+        {
           "texto": "D-069 — Template de família e instância/tipo nas famílias de pilar e viga",
           "normas": []
         }
@@ -2684,7 +2694,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 155,
+        "pendentes": 156,
         "planejada": {
           "data": "2027-01-09",
           "dias": 78,
@@ -2695,7 +2705,7 @@
           "historico_dias": 12.5,
           "janela_dias": 12.5,
           "concluidas_na_janela": 83,
-          "tarefas_por_dia": 6.628,
+          "tarefas_por_dia": 6.626,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -2869,14 +2879,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 5,
-      "percentual": 4.4,
+      "feitos": 6,
+      "percentual": 5.3,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 5,
-          "percentual": 45.5
+          "feitos": 6,
+          "percentual": 54.5
         },
         {
           "nome": "BIM",
@@ -2935,12 +2945,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-006",
-          "titulo": "Pesquisa: arquiteturas de sistemas multiagente e protocolos de agentes",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-007",
           "titulo": "Pesquisa: configuração de agentes no Cursor",
           "normas": [],
@@ -2983,9 +2987,20 @@
           "titulo": "Pesquisa: papéis e funções de gestão da informação na ISO 19650",
           "normas": [],
           "disciplina": "BIM"
+        },
+        {
+          "id": "TT-014",
+          "titulo": "Pesquisa: BEP, EIR/OIR/AIR/PIR e plano de entrega (MIDP/TIDP)",
+          "normas": [],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 10,
+          "titulo": "TT-006 — Pesquisa: arquiteturas de sistemas multiagente e protocolos de agentes",
+          "data": "2026-10-23T00:36-03:00"
+        },
         {
           "numero": 9,
           "titulo": "TT-005 — Pesquisa: uso de IA em serviços de engenharia — limites legais e éticos",
@@ -3032,8 +3047,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 9,
-      "ultima_entrega": "2026-10-21T10:03-03:00",
+      "total_entregas": 10,
+      "ultima_entrega": "2026-10-23T00:36-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -3087,10 +3102,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 109,
+        "pendentes": 108,
         "planejada": {
-          "data": "2027-02-09",
-          "dias": 109,
+          "data": "2027-02-08",
+          "dias": 108,
           "concluido": false
         },
         "real": {
@@ -3108,8 +3123,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 37,
-      "feitos": 7,
-      "percentual": 18.9,
+      "feitos": 8,
+      "percentual": 21.6,
       "areas": [
         {
           "nome": "Fase 0 — Setup (5)",
@@ -3120,8 +3135,8 @@
         {
           "nome": "Fase 1 — Template de especificação (extração REA) (5)",
           "total": 5,
-          "feitos": 2,
-          "percentual": 40.0
+          "feitos": 3,
+          "percentual": 60.0
         },
         {
           "nome": "Fase 2 — Integração do núcleo (8)",
@@ -3162,12 +3177,6 @@
           "disciplina": "Fase 0 — Setup (5)"
         },
         {
-          "id": "TS-012",
-          "titulo": "Guia de uso do REA para o Samuel (instalação local, Ghidra, como preencher a spec)",
-          "normas": [],
-          "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
-        },
-        {
           "id": "TS-013 [S]",
           "titulo": "Piloto: Samuel roda REA no Robot 2027 e preenche 1 spec da flexão de viga de concreto armado (TS-D06)",
           "normas": [],
@@ -3202,9 +3211,20 @@
           "titulo": "Samuel extrai 2–3 specs do Geo5 2024 (ex.: capacidade de carga, empuxo, estabilidade de talude)",
           "normas": [],
           "disciplina": "Fase 2 — Integração do núcleo (8)"
+        },
+        {
+          "id": "TS-024",
+          "titulo": "Namespace geotecnia/ e conferência Geo5 × rotinas de fundações existentes no Calc",
+          "normas": [],
+          "disciplina": "Fase 2 — Integração do núcleo (8)"
         }
       ],
       "entregas": [
+        {
+          "numero": 4,
+          "titulo": "TS-012: guia de uso do REA",
+          "data": "2026-10-23T00:37-03:00"
+        },
         {
           "numero": 3,
           "titulo": "TS-011: validador de spec (sala limpa)",
@@ -3221,8 +3241,8 @@
           "data": "2026-10-19T10:55-03:00"
         }
       ],
-      "total_entregas": 3,
-      "ultima_entrega": "2026-10-21T10:51-03:00",
+      "total_entregas": 4,
+      "ultima_entrega": "2026-10-23T00:37-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -3231,10 +3251,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 30,
+        "pendentes": 29,
         "planejada": {
-          "data": "2026-11-22",
-          "dias": 30,
+          "data": "2026-11-21",
+          "dias": 29,
           "concluido": false
         },
         "real": {
