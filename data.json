@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-23T00:37-03:00",
+  "atualizado_em": "2026-10-23T07:47-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 167,
-    "percentual": 26.8,
+    "feitos": 168,
+    "percentual": 26.9,
     "duvidas": 128,
-    "entregas": 120,
-    "ultima_entrega": "2026-10-23T00:37-03:00",
+    "entregas": 121,
+    "ultima_entrega": "2026-10-23T07:46-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-03",
-        "dias": 103,
+        "data": "2027-02-06",
+        "dias": 106,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -39,14 +39,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 126,
-      "feitos": 39,
-      "percentual": 31.0,
+      "feitos": 40,
+      "percentual": 31.7,
       "areas": [
         {
           "nome": "Migração para Pydantic v2",
           "total": 10,
-          "feitos": 5,
-          "percentual": 50.0
+          "feitos": 6,
+          "percentual": 60.0
         },
         {
           "nome": "Concreto armado",
@@ -159,14 +159,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-121",
-          "titulo": "Ferramentas de ações, sapata corrida, empuxo e alvenaria (7)",
-          "normas": [
-            "DT-003"
-          ],
-          "disciplina": "Migração para Pydantic v2"
-        },
-        {
           "id": "TC-122",
           "titulo": "Ferramentas de SPDA, projeto (5)",
           "normas": [
@@ -221,9 +213,22 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-010",
+          "titulo": "Flecha diferida no tempo",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 39,
+          "titulo": "TC-121: Pydantic na borda das ferramentas de ações, sapata corrida, empuxo e alvenaria (7)",
+          "data": "2026-10-23T07:46-03:00"
+        },
         {
           "numero": 38,
           "titulo": "TC-120: Pydantic na borda das ferramentas de bloco sobre estacas (8)",
@@ -278,15 +283,10 @@
           "numero": 28,
           "titulo": "Dimensiona o trecho pluvial pela NBR 10844 sem coeficiente presumido",
           "data": "2026-10-14T17:57-03:00"
-        },
-        {
-          "numero": 27,
-          "titulo": "Aplica os coeficientes da NBR 5419-2:2026 na análise de risco do SPDA",
-          "data": "2026-10-14T16:22-03:00"
         }
       ],
-      "total_entregas": 38,
-      "ultima_entrega": "2026-10-23T00:29-03:00",
+      "total_entregas": 39,
+      "ultima_entrega": "2026-10-23T07:46-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -439,7 +439,7 @@
           "norma": "DT-003",
           "descricao": "",
           "tarefas": 10,
-          "feitas": 5,
+          "feitas": 6,
           "estado": "em_andamento"
         },
         {
@@ -599,18 +599,18 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 87,
+        "pendentes": 86,
         "planejada": {
-          "data": "2027-01-18",
-          "dias": 87,
+          "data": "2027-01-17",
+          "dias": 86,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.7,
-          "janela_dias": 12.7,
-          "concluidas_na_janela": 38,
-          "tarefas_por_dia": 3.004,
+          "historico_dias": 12.9,
+          "janela_dias": 12.9,
+          "concluidas_na_janela": 39,
+          "tarefas_por_dia": 3.012,
           "previsao": {
             "data": "2026-11-21",
             "dias": 29,
@@ -1514,13 +1514,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.5,
-          "janela_dias": 12.5,
+          "historico_dias": 12.8,
+          "janela_dias": 12.8,
           "concluidas_na_janela": 29,
-          "tarefas_por_dia": 2.311,
+          "tarefas_por_dia": 2.258,
           "previsao": {
-            "data": "2026-11-16",
-            "dias": 24,
+            "data": "2026-11-17",
+            "dias": 25,
             "concluido": false
           }
         }
@@ -2702,13 +2702,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.5,
-          "janela_dias": 12.5,
+          "historico_dias": 12.8,
+          "janela_dias": 12.8,
           "concluidas_na_janela": 83,
-          "tarefas_por_dia": 6.626,
+          "tarefas_por_dia": 6.472,
           "previsao": {
-            "data": "2026-11-16",
-            "dias": 24,
+            "data": "2026-11-17",
+            "dias": 25,
             "concluido": false
           }
         }
@@ -2858,13 +2858,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.3,
-          "janela_dias": 9.3,
+          "historico_dias": 9.6,
+          "janela_dias": 9.6,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.214,
+          "tarefas_por_dia": 0.208,
           "previsao": {
-            "data": "2027-02-03",
-            "dias": 103,
+            "data": "2027-02-06",
+            "dias": 106,
             "concluido": false
           }
         }
@@ -3110,7 +3110,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.4
+          "historico_dias": 6.7
         }
       }
     },
@@ -3259,7 +3259,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.3
+          "historico_dias": 4.6
         }
       }
     }
