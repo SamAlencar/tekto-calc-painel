@@ -1,19 +1,19 @@
 {
-  "atualizado_em": "2026-10-23T08:53-03:00",
+  "atualizado_em": "2026-10-23T09:51-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 170,
-    "percentual": 27.2,
-    "duvidas": 131,
-    "entregas": 123,
-    "ultima_entrega": "2026-10-23T08:52-03:00",
+    "feitos": 171,
+    "percentual": 27.4,
+    "duvidas": 132,
+    "entregas": 124,
+    "ultima_entrega": "2026-10-23T09:50-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 108,
+        "data": "2027-02-07",
+        "dias": 107,
         "concluido": false,
         "projeto": "Tek Team"
       },
@@ -610,7 +610,7 @@
           "historico_dias": 13.0,
           "janela_dias": 13.0,
           "concluidas_na_janela": 39,
-          "tarefas_por_dia": 3.001,
+          "tarefas_por_dia": 2.992,
           "previsao": {
             "data": "2026-11-21",
             "dias": 29,
@@ -1525,7 +1525,7 @@
           "historico_dias": 12.9,
           "janela_dias": 12.9,
           "concluidas_na_janela": 30,
-          "tarefas_por_dia": 2.327,
+          "tarefas_por_dia": 2.32,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -2722,7 +2722,7 @@
           "historico_dias": 12.9,
           "janela_dias": 12.9,
           "concluidas_na_janela": 84,
-          "tarefas_por_dia": 6.527,
+          "tarefas_por_dia": 6.506,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -2878,7 +2878,7 @@
           "historico_dias": 9.7,
           "janela_dias": 9.7,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.207,
+          "tarefas_por_dia": 0.206,
           "previsao": {
             "data": "2027-02-07",
             "dias": 107,
@@ -2896,14 +2896,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 6,
-      "percentual": 5.3,
+      "feitos": 7,
+      "percentual": 6.1,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 6,
-          "percentual": 54.5
+          "feitos": 7,
+          "percentual": 63.6
         },
         {
           "nome": "BIM",
@@ -2962,12 +2962,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-007",
-          "titulo": "Pesquisa: configuração de agentes no Cursor",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-008",
           "titulo": "Pesquisa: padrão aberto AGENTS.md",
           "normas": [],
@@ -3010,9 +3004,20 @@
           "titulo": "Pesquisa: BEP, EIR/OIR/AIR/PIR e plano de entrega (MIDP/TIDP)",
           "normas": [],
           "disciplina": "BIM"
+        },
+        {
+          "id": "TT-015",
+          "titulo": "Pesquisa: CDE, estados da informação, nomenclatura e metadados",
+          "normas": [],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 11,
+          "titulo": "TT-007 — Pesquisa: configuração de agentes no Cursor",
+          "data": "2026-10-23T09:50-03:00"
+        },
         {
           "numero": 10,
           "titulo": "TT-006 — Pesquisa: arquiteturas de sistemas multiagente e protocolos de agentes",
@@ -3064,8 +3069,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 10,
-      "ultima_entrega": "2026-10-23T00:36-03:00",
+      "total_entregas": 11,
+      "ultima_entrega": "2026-10-23T09:50-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -3112,6 +3117,10 @@
         {
           "texto": "D-009 — Declarar ao cliente o uso de IA (2026-10-21)",
           "normas": []
+        },
+        {
+          "texto": "D-010 — Exemplo mínimo do Cursor testado fora do Cursor (2026-10-23)",
+          "normas": []
         }
       ],
       "previsao": {
@@ -3119,15 +3128,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 108,
+        "pendentes": 107,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 108,
+          "data": "2027-02-07",
+          "dias": 107,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 6.7
+          "historico_dias": 6.8
         }
       }
     },
