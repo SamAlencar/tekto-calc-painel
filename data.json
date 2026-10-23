@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-23T09:51-03:00",
+  "atualizado_em": "2026-10-23T10:41-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 171,
-    "percentual": 27.4,
+    "feitos": 172,
+    "percentual": 27.6,
     "duvidas": 132,
-    "entregas": 124,
-    "ultima_entrega": "2026-10-23T09:50-03:00",
+    "entregas": 125,
+    "ultima_entrega": "2026-10-23T10:41-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-07",
-        "dias": 107,
+        "data": "2027-02-08",
+        "dias": 108,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -607,10 +607,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.0,
-          "janela_dias": 13.0,
+          "historico_dias": 13.1,
+          "janela_dias": 13.1,
           "concluidas_na_janela": 39,
-          "tarefas_por_dia": 2.992,
+          "tarefas_por_dia": 2.984,
           "previsao": {
             "data": "2026-11-21",
             "dias": 29,
@@ -1522,10 +1522,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.9,
-          "janela_dias": 12.9,
+          "historico_dias": 13.0,
+          "janela_dias": 13.0,
           "concluidas_na_janela": 30,
-          "tarefas_por_dia": 2.32,
+          "tarefas_por_dia": 2.314,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -2722,7 +2722,7 @@
           "historico_dias": 12.9,
           "janela_dias": 12.9,
           "concluidas_na_janela": 84,
-          "tarefas_por_dia": 6.506,
+          "tarefas_por_dia": 6.489,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -2878,10 +2878,10 @@
           "historico_dias": 9.7,
           "janela_dias": 9.7,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.206,
+          "tarefas_por_dia": 0.205,
           "previsao": {
-            "data": "2027-02-07",
-            "dias": 107,
+            "data": "2027-02-08",
+            "dias": 108,
             "concluido": false
           }
         }
@@ -3149,8 +3149,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 37,
-      "feitos": 8,
-      "percentual": 21.6,
+      "feitos": 9,
+      "percentual": 24.3,
       "areas": [
         {
           "nome": "Fase 0 — Setup (5)",
@@ -3191,8 +3191,8 @@
         {
           "nome": "Fase 6 — Log de auditoria (4)",
           "total": 4,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 25.0
         }
       ],
       "proximas": [
@@ -3215,7 +3215,7 @@
           "disciplina": "Fase 1 — Template de especificação (extração REA) (5)"
         },
         {
-          "id": "TS-020",
+          "id": "TS-020 (aguarda TS-013: ainda não há spec do Robot)",
           "titulo": "Mapear specs do Robot contra o que o tekto-calc já tem; listar lacunas",
           "normas": [],
           "disciplina": "Fase 2 — Integração do núcleo (8)"
@@ -3247,6 +3247,11 @@
       ],
       "entregas": [
         {
+          "numero": 5,
+          "titulo": "TS-060: esquema do registro JSONL da auditoria",
+          "data": "2026-10-23T10:41-03:00"
+        },
+        {
           "numero": 4,
           "titulo": "TS-012: guia de uso do REA",
           "data": "2026-10-23T00:37-03:00"
@@ -3267,8 +3272,8 @@
           "data": "2026-10-19T10:55-03:00"
         }
       ],
-      "total_entregas": 4,
-      "ultima_entrega": "2026-10-23T00:37-03:00",
+      "total_entregas": 5,
+      "ultima_entrega": "2026-10-23T10:41-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -3277,15 +3282,15 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 29,
+        "pendentes": 28,
         "planejada": {
-          "data": "2026-11-21",
-          "dias": 29,
+          "data": "2026-11-20",
+          "dias": 28,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.7
+          "historico_dias": 4.8
         }
       }
     }
