@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-23T10:41-03:00",
+  "atualizado_em": "2026-10-23T15:56-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 172,
-    "percentual": 27.6,
-    "duvidas": 132,
-    "entregas": 125,
-    "ultima_entrega": "2026-10-23T10:41-03:00",
+    "feitos": 173,
+    "percentual": 27.7,
+    "duvidas": 134,
+    "entregas": 126,
+    "ultima_entrega": "2026-10-23T15:56-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,12 +18,11 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-08",
-        "dias": 108,
+        "data": "2027-02-10",
+        "dias": 110,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
-          "Tek Team",
           "Tekto Studio"
         ]
       }
@@ -607,13 +606,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.1,
-          "janela_dias": 13.1,
+          "historico_dias": 13.3,
+          "janela_dias": 13.3,
           "concluidas_na_janela": 39,
-          "tarefas_por_dia": 2.984,
+          "tarefas_por_dia": 2.935,
           "previsao": {
-            "data": "2026-11-21",
-            "dias": 29,
+            "data": "2026-11-22",
+            "dias": 30,
             "concluido": false
           }
         }
@@ -1522,10 +1521,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.0,
-          "janela_dias": 13.0,
+          "historico_dias": 13.2,
+          "janela_dias": 13.2,
           "concluidas_na_janela": 30,
-          "tarefas_por_dia": 2.314,
+          "tarefas_por_dia": 2.275,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -1543,8 +1542,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 239,
-      "feitos": 84,
-      "percentual": 35.1,
+      "feitos": 85,
+      "percentual": 35.6,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1633,8 +1632,8 @@
         {
           "nome": "Revit e Dynamo da estrutura",
           "total": 9,
-          "feitos": 1,
-          "percentual": 11.1
+          "feitos": 2,
+          "percentual": 22.2
         },
         {
           "nome": "Robot",
@@ -1735,16 +1734,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-045",
-          "titulo": "Viga de concreto no Revit e no Dynamo",
-          "normas": [
-            "IfcBeam e IfcBeamTypeEnum",
-            "OST_StructuralFraming",
-            "AnalyticalMember"
-          ],
-          "disciplina": "Revit e Dynamo da estrutura"
-        },
-        {
           "id": "TM-175",
           "titulo": "Contrato de leitura de esforços",
           "normas": [
@@ -1812,9 +1801,24 @@
             "AnalyticalMember"
           ],
           "disciplina": "Revit e Dynamo da estrutura"
+        },
+        {
+          "id": "TM-029",
+          "titulo": "Bloco de coroamento no Revit e no Dynamo",
+          "normas": [
+            "IfcFooting e IfcFootingTypeEnum",
+            "fundações na API do Revit",
+            "BuiltInCategory"
+          ],
+          "disciplina": "Revit e Dynamo da estrutura"
         }
       ],
       "entregas": [
+        {
+          "numero": 43,
+          "titulo": "Viga de concreto no mock do Revit e no nó Dynamo TrocarViga (TM-045); abre D-071, verifica D-066",
+          "data": "2026-10-23T15:56-03:00"
+        },
         {
           "numero": 42,
           "titulo": "TM-041: pilar de concreto no mock do Revit e no nó Dynamo; abre D-070, verifica D-069",
@@ -1869,15 +1873,10 @@
           "numero": 32,
           "titulo": "DT-006: plug-in express do Revit (13 tarefas no topo, TM-234 a TM-236 novas)",
           "data": "2026-10-18T17:00-03:00"
-        },
-        {
-          "numero": 31,
-          "titulo": "DT-005: Model como camada de modelo neutro e IFC da Nova plataforma; TM-178/179 movidas; nova ordem do backlog",
-          "data": "2026-10-18T16:33-03:00"
         }
       ],
-      "total_entregas": 42,
-      "ultima_entrega": "2026-10-23T08:52-03:00",
+      "total_entregas": 43,
+      "ultima_entrega": "2026-10-23T15:56-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1904,7 +1903,7 @@
           "norma": "AnalyticalMember",
           "descricao": "",
           "tarefas": 21,
-          "feitas": 9,
+          "feitas": 10,
           "estado": "em_andamento"
         },
         {
@@ -1925,7 +1924,7 @@
           "norma": "OST_StructuralFraming",
           "descricao": "",
           "tarefas": 16,
-          "feitas": 2,
+          "feitas": 3,
           "estado": "em_andamento"
         },
         {
@@ -2170,7 +2169,7 @@
           "norma": "IfcBeam e IfcBeamTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 2,
+          "feitas": 3,
           "estado": "em_andamento"
         },
         {
@@ -2678,6 +2677,10 @@
           "normas": []
         },
         {
+          "texto": "Verificação de 23/10/2026",
+          "normas": []
+        },
+        {
           "texto": "D-067 — Colunas que o Revit 2027 grava no arquivo de parâmetros",
           "normas": []
         },
@@ -2704,6 +2707,10 @@
         {
           "texto": "D-070 — Nome do tipo, campos sem parâmetro e posição do pilar no Revit 2027",
           "normas": []
+        },
+        {
+          "texto": "D-071 — Nome do tipo, campos fora da família e unidade dos esforços da viga no Revit 2027",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2711,18 +2718,18 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 155,
+        "pendentes": 154,
         "planejada": {
-          "data": "2027-01-09",
-          "dias": 78,
+          "data": "2027-01-08",
+          "dias": 77,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.9,
-          "janela_dias": 12.9,
-          "concluidas_na_janela": 84,
-          "tarefas_por_dia": 6.489,
+          "historico_dias": 13.2,
+          "janela_dias": 13.2,
+          "concluidas_na_janela": 85,
+          "tarefas_por_dia": 6.457,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -2875,13 +2882,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.7,
-          "janela_dias": 9.7,
+          "historico_dias": 10.0,
+          "janela_dias": 10.0,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.205,
+          "tarefas_por_dia": 0.201,
           "previsao": {
-            "data": "2027-02-08",
-            "dias": 108,
+            "data": "2027-02-10",
+            "dias": 110,
             "concluido": false
           }
         }
@@ -3135,8 +3142,16 @@
           "concluido": false
         },
         "real": {
-          "disponivel": false,
-          "historico_dias": 6.8
+          "disponivel": true,
+          "historico_dias": 7.0,
+          "janela_dias": 7.0,
+          "concluidas_na_janela": 7,
+          "tarefas_por_dia": 0.994,
+          "previsao": {
+            "data": "2027-02-08",
+            "dias": 108,
+            "concluido": false
+          }
         }
       }
     },
@@ -3290,7 +3305,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.8
+          "historico_dias": 5.0
         }
       }
     }
