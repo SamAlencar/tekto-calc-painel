@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-23T07:47-03:00",
+  "atualizado_em": "2026-10-23T08:22-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 168,
-    "percentual": 26.9,
-    "duvidas": 128,
-    "entregas": 121,
-    "ultima_entrega": "2026-10-23T07:46-03:00",
+    "feitos": 169,
+    "percentual": 27.1,
+    "duvidas": 129,
+    "entregas": 122,
+    "ultima_entrega": "2026-10-23T08:22-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-06",
-        "dias": 106,
+        "data": "2027-02-07",
+        "dias": 107,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -607,10 +607,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.9,
-          "janela_dias": 12.9,
+          "historico_dias": 13.0,
+          "janela_dias": 13.0,
           "concluidas_na_janela": 39,
-          "tarefas_por_dia": 3.012,
+          "tarefas_por_dia": 3.006,
           "previsao": {
             "data": "2026-11-21",
             "dias": 29,
@@ -628,8 +628,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 29,
-      "percentual": 34.5,
+      "feitos": 30,
+      "percentual": 35.7,
       "areas": [
         {
           "nome": "Memoriais",
@@ -658,8 +658,8 @@
         {
           "nome": "Métodos construtivos",
           "total": 6,
-          "feitos": 3,
-          "percentual": 50.0
+          "feitos": 4,
+          "percentual": 66.7
         },
         {
           "nome": "Materiais",
@@ -726,16 +726,6 @@
           "disciplina": "BIM"
         },
         {
-          "id": "TD-021",
-          "titulo": "Ficha comparativa de steel frame",
-          "normas": [
-            "NBR 15253",
-            "NBR 16970",
-            "NBR 14762"
-          ],
-          "disciplina": "Métodos construtivos"
-        },
-        {
           "id": "TD-022",
           "titulo": "Ficha comparativa de concreto pré-moldado",
           "normas": [
@@ -767,9 +757,22 @@
             "NBR 7211"
           ],
           "disciplina": "Materiais"
+        },
+        {
+          "id": "TD-027",
+          "titulo": "Ficha de barras e fios de aço para armadura",
+          "normas": [
+            "NBR 7480"
+          ],
+          "disciplina": "Materiais"
         }
       ],
       "entregas": [
+        {
+          "numero": 23,
+          "titulo": "TD-021: ficha comparativa de light steel framing",
+          "data": "2026-10-23T08:22-03:00"
+        },
         {
           "numero": 22,
           "titulo": "TD-015: checklist de vistoria cautelar de vizinhança",
@@ -824,15 +827,10 @@
           "numero": 12,
           "titulo": "Descreve a drenagem pluvial da escola e nomeia fontes complementares",
           "data": "2026-10-14T17:57-03:00"
-        },
-        {
-          "numero": 11,
-          "titulo": "Cita as rotinas de risco do SPDA da escola",
-          "data": "2026-10-14T16:22-03:00"
         }
       ],
-      "total_entregas": 22,
-      "ultima_entrega": "2026-10-23T00:33-03:00",
+      "total_entregas": 23,
+      "ultima_entrega": "2026-10-23T08:22-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -1048,22 +1046,22 @@
           "norma": "NBR 15253",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 16970",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 14762",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 9062",
@@ -1260,11 +1258,14 @@
         "NBR 10844",
         "NBR 12655",
         "NBR 13752",
+        "NBR 14762",
         "NBR 14931",
+        "NBR 15253",
         "NBR 15270",
         "NBR 15575",
         "NBR 16747",
         "NBR 16868",
+        "NBR 16970",
         "NBR 5410",
         "NBR 5419",
         "NBR 5626",
@@ -1499,6 +1500,13 @@
         {
           "texto": "D-045 — Pontos da vistoria cautelar sem critério registrado",
           "normas": []
+        },
+        {
+          "texto": "D-046 — Itens da NBR 14762:2010 e das partes 2 e 3 da NBR 16970 não registrados",
+          "normas": [
+            "NBR 14762",
+            "NBR 16970"
+          ]
         }
       ],
       "previsao": {
@@ -1506,21 +1514,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 55,
+        "pendentes": 54,
         "planejada": {
-          "data": "2026-12-17",
-          "dias": 55,
+          "data": "2026-12-16",
+          "dias": 54,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.8,
-          "janela_dias": 12.8,
-          "concluidas_na_janela": 29,
-          "tarefas_por_dia": 2.258,
+          "historico_dias": 12.9,
+          "janela_dias": 12.9,
+          "concluidas_na_janela": 30,
+          "tarefas_por_dia": 2.331,
           "previsao": {
-            "data": "2026-11-17",
-            "dias": 25,
+            "data": "2026-11-16",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -2705,7 +2713,7 @@
           "historico_dias": 12.8,
           "janela_dias": 12.8,
           "concluidas_na_janela": 83,
-          "tarefas_por_dia": 6.472,
+          "tarefas_por_dia": 6.46,
           "previsao": {
             "data": "2026-11-17",
             "dias": 25,
@@ -2858,13 +2866,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 9.6,
-          "janela_dias": 9.6,
+          "historico_dias": 9.7,
+          "janela_dias": 9.7,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.208,
+          "tarefas_por_dia": 0.207,
           "previsao": {
-            "data": "2027-02-06",
-            "dias": 106,
+            "data": "2027-02-07",
+            "dias": 107,
             "concluido": false
           }
         }
@@ -3259,7 +3267,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 4.6
+          "historico_dias": 4.7
         }
       }
     }
