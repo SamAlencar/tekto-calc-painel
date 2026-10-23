@@ -1,25 +1,25 @@
 {
-  "atualizado_em": "2026-10-21T15:54-03:00",
+  "atualizado_em": "2026-10-23T00:34-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 623,
-    "feitos": 161,
-    "percentual": 25.8,
-    "duvidas": 125,
-    "entregas": 113,
-    "ultima_entrega": "2026-10-21T15:53-03:00",
+    "feitos": 165,
+    "percentual": 26.5,
+    "duvidas": 127,
+    "entregas": 117,
+    "ultima_entrega": "2026-10-23T00:34-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-07",
+        "data": "2027-02-09",
         "dias": 109,
         "concluido": false,
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-04-22",
-        "dias": 183,
+        "data": "2027-02-03",
+        "dias": 103,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -39,14 +39,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 126,
-      "feitos": 38,
-      "percentual": 30.2,
+      "feitos": 39,
+      "percentual": 31.0,
       "areas": [
         {
           "nome": "Migração para Pydantic v2",
           "total": 10,
-          "feitos": 4,
-          "percentual": 40.0
+          "feitos": 5,
+          "percentual": 50.0
         },
         {
           "nome": "Concreto armado",
@@ -159,14 +159,6 @@
       ],
       "proximas": [
         {
-          "id": "TC-120",
-          "titulo": "Ferramentas de bloco sobre estacas (8)",
-          "normas": [
-            "DT-003"
-          ],
-          "disciplina": "Migração para Pydantic v2"
-        },
-        {
           "id": "TC-121",
           "titulo": "Ferramentas de ações, sapata corrida, empuxo e alvenaria (7)",
           "normas": [
@@ -221,9 +213,22 @@
             "NBR 6118"
           ],
           "disciplina": "Concreto armado"
+        },
+        {
+          "id": "TC-009",
+          "titulo": "Flecha imediata de viga biapoiada",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Concreto armado"
         }
       ],
       "entregas": [
+        {
+          "numero": 38,
+          "titulo": "TC-120: Pydantic na borda das ferramentas de bloco sobre estacas (8)",
+          "data": "2026-10-23T00:29-03:00"
+        },
         {
           "numero": 37,
           "titulo": "TC-119: Pydantic na borda das ferramentas de estaca e capacidade (7)",
@@ -278,15 +283,10 @@
           "numero": 27,
           "titulo": "Aplica os coeficientes da NBR 5419-2:2026 na análise de risco do SPDA",
           "data": "2026-10-14T16:22-03:00"
-        },
-        {
-          "numero": 26,
-          "titulo": "Calcula o risco de vida humana do SPDA",
-          "data": "2026-10-14T13:39-03:00"
         }
       ],
-      "total_entregas": 37,
-      "ultima_entrega": "2026-10-21T07:46-03:00",
+      "total_entregas": 38,
+      "ultima_entrega": "2026-10-23T00:29-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -439,7 +439,7 @@
           "norma": "DT-003",
           "descricao": "",
           "tarefas": 10,
-          "feitas": 4,
+          "feitas": 5,
           "estado": "em_andamento"
         },
         {
@@ -599,21 +599,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 88,
+        "pendentes": 87,
         "planejada": {
-          "data": "2027-01-17",
-          "dias": 88,
+          "data": "2027-01-18",
+          "dias": 87,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 11.3,
-          "janela_dias": 11.3,
-          "concluidas_na_janela": 37,
-          "tarefas_por_dia": 3.278,
+          "historico_dias": 12.6,
+          "janela_dias": 12.6,
+          "concluidas_na_janela": 38,
+          "tarefas_por_dia": 3.004,
           "previsao": {
-            "data": "2026-11-17",
-            "dias": 27,
+            "data": "2026-11-21",
+            "dias": 29,
             "concluido": false
           }
         }
@@ -628,8 +628,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 28,
-      "percentual": 33.3,
+      "feitos": 29,
+      "percentual": 34.5,
       "areas": [
         {
           "nome": "Memoriais",
@@ -646,8 +646,8 @@
         {
           "nome": "Laudos",
           "total": 4,
-          "feitos": 3,
-          "percentual": 75.0
+          "feitos": 4,
+          "percentual": 100.0
         },
         {
           "nome": "BIM",
@@ -699,14 +699,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TD-015",
-          "titulo": "Checklist de vistoria cautelar",
-          "normas": [
-            "NBR 13752"
-          ],
-          "disciplina": "Laudos"
-        },
         {
           "id": "TD-016",
           "titulo": "BEP modelo para edificação",
@@ -767,9 +759,22 @@
             "NBR 16697"
           ],
           "disciplina": "Materiais"
+        },
+        {
+          "id": "TD-026",
+          "titulo": "Ficha de agregados para concreto",
+          "normas": [
+            "NBR 7211"
+          ],
+          "disciplina": "Materiais"
         }
       ],
       "entregas": [
+        {
+          "numero": 22,
+          "titulo": "TD-015: checklist de vistoria cautelar de vizinhança",
+          "data": "2026-10-23T00:33-03:00"
+        },
         {
           "numero": 21,
           "titulo": "TD-014: laudo técnico de engenharia",
@@ -824,15 +829,10 @@
           "numero": 11,
           "titulo": "Cita as rotinas de risco do SPDA da escola",
           "data": "2026-10-14T16:22-03:00"
-        },
-        {
-          "numero": 10,
-          "titulo": "Memorial descritivo de SPDA da escola institucional",
-          "data": "2026-10-14T13:35-03:00"
         }
       ],
-      "total_entregas": 21,
-      "ultima_entrega": "2026-10-21T08:19-03:00",
+      "total_entregas": 22,
+      "ultima_entrega": "2026-10-23T00:33-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -978,7 +978,7 @@
           "norma": "NBR 13752",
           "descricao": "",
           "tarefas": 3,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
@@ -1495,6 +1495,10 @@
           "normas": [
             "NBR 13752"
           ]
+        },
+        {
+          "texto": "D-045 — Pontos da vistoria cautelar sem critério registrado",
+          "normas": []
         }
       ],
       "previsao": {
@@ -1502,21 +1506,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 56,
+        "pendentes": 55,
         "planejada": {
-          "data": "2026-12-16",
-          "dias": 56,
+          "data": "2026-12-17",
+          "dias": 55,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 11.2,
-          "janela_dias": 11.2,
-          "concluidas_na_janela": 28,
-          "tarefas_por_dia": 2.504,
+          "historico_dias": 12.5,
+          "janela_dias": 12.5,
+          "concluidas_na_janela": 29,
+          "tarefas_por_dia": 2.312,
           "previsao": {
-            "data": "2026-11-13",
-            "dias": 23,
+            "data": "2026-11-16",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -1531,8 +1535,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 238,
-      "feitos": 82,
-      "percentual": 34.5,
+      "feitos": 83,
+      "percentual": 34.9,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1615,8 +1619,8 @@
         {
           "nome": "Padrão estrutural Tekto",
           "total": 6,
-          "feitos": 2,
-          "percentual": 33.3
+          "feitos": 3,
+          "percentual": 50.0
         },
         {
           "nome": "Revit e Dynamo da estrutura",
@@ -1717,16 +1721,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-019",
-          "titulo": "Famílias de pilar e viga de concreto",
-          "normas": [
-            "OST_StructuralColumns e OST_StructuralFraming",
-            "IfcColumn",
-            "IfcBeam"
-          ],
-          "disciplina": "Padrão estrutural Tekto"
-        },
-        {
           "id": "TM-041",
           "titulo": "Pilar de concreto no Revit e no Dynamo",
           "normas": [
@@ -1794,9 +1788,23 @@
             "IfcPile"
           ],
           "disciplina": "Padrão estrutural Tekto"
+        },
+        {
+          "id": "TM-237",
+          "titulo": "Tipos de parede de alvenaria e de sapata corrida no template Tekto",
+          "normas": [
+            "WallType e WallFoundationType na API do Revit 2027",
+            "DT-006"
+          ],
+          "disciplina": "Plug-in express (DT-006)"
         }
       ],
       "entregas": [
+        {
+          "numero": 40,
+          "titulo": "TM-019: famílias de pilar e viga de concreto",
+          "data": "2026-10-23T00:31-03:00"
+        },
         {
           "numero": 39,
           "titulo": "Script e manifesto do template Revit estrutural Tekto (TM-017); abre D-068, verifica D-067",
@@ -1851,15 +1859,10 @@
           "numero": 29,
           "titulo": "Sapata isolada no modelo neutro 0.1.10 (TM-031); abre D-058",
           "data": "2026-10-18T15:53-03:00"
-        },
-        {
-          "numero": 28,
-          "titulo": "TM-034: ficha da viga baldrame (IfcFooting FOOTING_BEAM); fecha D-017, abre D-057",
-          "data": "2026-10-18T09:04-03:00"
         }
       ],
-      "total_entregas": 39,
-      "ultima_entrega": "2026-10-21T15:53-03:00",
+      "total_entregas": 40,
+      "ultima_entrega": "2026-10-23T00:31-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1935,7 +1938,7 @@
           "norma": "IfcBeam",
           "descricao": "",
           "tarefas": 11,
-          "feitas": 1,
+          "feitas": 2,
           "estado": "em_andamento"
         },
         {
@@ -2005,8 +2008,8 @@
           "norma": "IfcColumn",
           "descricao": "",
           "tarefas": 6,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "em_andamento"
         },
         {
           "norma": "IfcSpace",
@@ -2302,6 +2305,7 @@
         "IfcBuildingStorey",
         "IfcCableSegment",
         "IfcCircleProfileDef",
+        "IfcColumn",
         "IfcColumn e IfcColumnTypeEnum",
         "IfcDistributionSystem",
         "IfcElectricApplianceTypeEnum",
@@ -2347,6 +2351,7 @@
         "OST_PlumbingFixtures",
         "OST_Ramps",
         "OST_Stairs",
+        "OST_StructuralColumns e OST_StructuralFraming",
         "OST_StructuralFoundation",
         "OST_StructuralFraming",
         "OST_Walls",
@@ -2668,6 +2673,10 @@
         {
           "texto": "D-068 — Base e gravação do template estrutural no Revit 2027",
           "normas": []
+        },
+        {
+          "texto": "D-069 — Template de família e instância/tipo nas famílias de pilar e viga",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2675,21 +2684,21 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 156,
+        "pendentes": 155,
         "planejada": {
-          "data": "2027-01-07",
+          "data": "2027-01-09",
           "dias": 78,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 11.2,
-          "janela_dias": 11.2,
-          "concluidas_na_janela": 82,
-          "tarefas_por_dia": 7.346,
+          "historico_dias": 12.5,
+          "janela_dias": 12.5,
+          "concluidas_na_janela": 83,
+          "tarefas_por_dia": 6.628,
           "previsao": {
-            "data": "2026-11-12",
-            "dias": 22,
+            "data": "2026-11-16",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -2704,8 +2713,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 24,
-      "feitos": 1,
-      "percentual": 4.2,
+      "feitos": 2,
+      "percentual": 8.3,
       "areas": [
         {
           "nome": "Convenções",
@@ -2716,8 +2725,8 @@
         {
           "nome": "Fontes",
           "total": 6,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 16.7
         },
         {
           "nome": "Amostra",
@@ -2745,12 +2754,6 @@
         }
       ],
       "proximas": [
-        {
-          "id": "TH-002",
-          "titulo": "Catálogo dos portais federais (PNCP e Compras.gov.br)",
-          "normas": [],
-          "disciplina": "Fontes"
-        },
         {
           "id": "TH-003",
           "titulo": "Catálogo dos portais estaduais",
@@ -2792,9 +2795,20 @@
           "titulo": "Qualificação técnica, CAT, atestado e acervo",
           "normas": [],
           "disciplina": "Amostra"
+        },
+        {
+          "id": "TH-010",
+          "titulo": "Método de amostragem de editais",
+          "normas": [],
+          "disciplina": "Amostra"
         }
       ],
       "entregas": [
+        {
+          "numero": 5,
+          "titulo": "TH-002: catálogo dos portais federais (PNCP e Compras.gov.br)",
+          "data": "2026-10-23T00:34-03:00"
+        },
         {
           "numero": 4,
           "titulo": "TH-001: convenções, taxonomia e modelos de ficha",
@@ -2816,8 +2830,8 @@
           "data": "2026-10-13T16:45-03:00"
         }
       ],
-      "total_entregas": 4,
-      "ultima_entrega": "2026-10-19T09:29-03:00",
+      "total_entregas": 5,
+      "ultima_entrega": "2026-10-23T00:34-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -2826,21 +2840,21 @@
         "ritmo_planejado": 0.2857142857142857,
         "ritmo_texto": "2 etapas/semana",
         "rotina": "semanal",
-        "pendentes": 23,
+        "pendentes": 22,
         "planejada": {
-          "data": "2027-01-10",
-          "dias": 81,
+          "data": "2027-01-08",
+          "dias": 77,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 8.0,
-          "janela_dias": 8.0,
-          "concluidas_na_janela": 1,
-          "tarefas_por_dia": 0.126,
+          "historico_dias": 9.3,
+          "janela_dias": 9.3,
+          "concluidas_na_janela": 2,
+          "tarefas_por_dia": 0.214,
           "previsao": {
-            "data": "2027-04-22",
-            "dias": 183,
+            "data": "2027-02-03",
+            "dias": 103,
             "concluido": false
           }
         }
@@ -3075,13 +3089,13 @@
         "rotina": "diária",
         "pendentes": 109,
         "planejada": {
-          "data": "2027-02-07",
+          "data": "2027-02-09",
           "dias": 109,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.0
+          "historico_dias": 6.4
         }
       }
     },
@@ -3219,13 +3233,13 @@
         "rotina": "diária",
         "pendentes": 30,
         "planejada": {
-          "data": "2026-11-20",
+          "data": "2026-11-22",
           "dias": 30,
           "concluido": false
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 3.0
+          "historico_dias": 4.3
         }
       }
     }
