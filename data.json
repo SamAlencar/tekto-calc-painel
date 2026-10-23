@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-23T08:22-03:00",
+  "atualizado_em": "2026-10-23T08:53-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 169,
-    "percentual": 27.1,
-    "duvidas": 129,
-    "entregas": 122,
-    "ultima_entrega": "2026-10-23T08:22-03:00",
+    "feitos": 170,
+    "percentual": 27.2,
+    "duvidas": 131,
+    "entregas": 123,
+    "ultima_entrega": "2026-10-23T08:52-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -610,7 +610,7 @@
           "historico_dias": 13.0,
           "janela_dias": 13.0,
           "concluidas_na_janela": 39,
-          "tarefas_por_dia": 3.006,
+          "tarefas_por_dia": 3.001,
           "previsao": {
             "data": "2026-11-21",
             "dias": 29,
@@ -1525,7 +1525,7 @@
           "historico_dias": 12.9,
           "janela_dias": 12.9,
           "concluidas_na_janela": 30,
-          "tarefas_por_dia": 2.331,
+          "tarefas_por_dia": 2.327,
           "previsao": {
             "data": "2026-11-16",
             "dias": 24,
@@ -1543,8 +1543,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 239,
-      "feitos": 83,
-      "percentual": 34.7,
+      "feitos": 84,
+      "percentual": 35.1,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1633,8 +1633,8 @@
         {
           "nome": "Revit e Dynamo da estrutura",
           "total": 9,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 11.1
         },
         {
           "nome": "Robot",
@@ -1735,17 +1735,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-041",
-          "titulo": "Pilar de concreto no Revit e no Dynamo",
-          "normas": [
-            "IfcColumn e IfcColumnTypeEnum",
-            "BuiltInCategory OST_StructuralColumns",
-            "AnalyticalMember",
-            "guia estrutural"
-          ],
-          "disciplina": "Revit e Dynamo da estrutura"
-        },
-        {
           "id": "TM-045",
           "titulo": "Viga de concreto no Revit e no Dynamo",
           "normas": [
@@ -1811,9 +1800,26 @@
             "DT-006"
           ],
           "disciplina": "Plug-in express (DT-006)"
+        },
+        {
+          "id": "TM-025",
+          "titulo": "Estaca no Revit e no Dynamo",
+          "normas": [
+            "IfcPile",
+            "IfcPileTypeEnum",
+            "fundações na API do Revit",
+            "BuiltInCategory",
+            "AnalyticalMember"
+          ],
+          "disciplina": "Revit e Dynamo da estrutura"
         }
       ],
       "entregas": [
+        {
+          "numero": 42,
+          "titulo": "TM-041: pilar de concreto no mock do Revit e no nó Dynamo; abre D-070, verifica D-069",
+          "data": "2026-10-23T08:52-03:00"
+        },
         {
           "numero": 41,
           "titulo": "Backlog: TM-239 schemas no pacote instalado (TS-D10)",
@@ -1868,15 +1874,10 @@
           "numero": 31,
           "titulo": "DT-005: Model como camada de modelo neutro e IFC da Nova plataforma; TM-178/179 movidas; nova ordem do backlog",
           "data": "2026-10-18T16:33-03:00"
-        },
-        {
-          "numero": 30,
-          "titulo": "Resposta real do MCP do tekto-calc (TM-232, D-002); abre TM-233 e D-059; verifica D-009 e D-034",
-          "data": "2026-10-18T16:04-03:00"
         }
       ],
-      "total_entregas": 41,
-      "ultima_entrega": "2026-10-23T00:36-03:00",
+      "total_entregas": 42,
+      "ultima_entrega": "2026-10-23T08:52-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1903,7 +1904,7 @@
           "norma": "AnalyticalMember",
           "descricao": "",
           "tarefas": 21,
-          "feitas": 8,
+          "feitas": 9,
           "estado": "em_andamento"
         },
         {
@@ -2043,7 +2044,7 @@
           "norma": "guia estrutural",
           "descricao": "",
           "tarefas": 5,
-          "feitas": 3,
+          "feitas": 4,
           "estado": "em_andamento"
         },
         {
@@ -2078,15 +2079,15 @@
           "norma": "IfcColumn e IfcColumnTypeEnum",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
+          "feitas": 4,
+          "estado": "coberta"
         },
         {
           "norma": "BuiltInCategory OST_StructuralColumns",
           "descricao": "",
           "tarefas": 4,
-          "feitas": 3,
-          "estado": "em_andamento"
+          "feitas": 4,
+          "estado": "coberta"
         },
         {
           "norma": "IfcWall e IfcWallTypeEnum",
@@ -2695,6 +2696,14 @@
         {
           "texto": "D-069 — Template de família e instância/tipo nas famílias de pilar e viga",
           "normas": []
+        },
+        {
+          "texto": "Verificação de 23/10/2026",
+          "normas": []
+        },
+        {
+          "texto": "D-070 — Nome do tipo, campos sem parâmetro e posição do pilar no Revit 2027",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2702,7 +2711,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 156,
+        "pendentes": 155,
         "planejada": {
           "data": "2027-01-09",
           "dias": 78,
@@ -2710,13 +2719,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 12.8,
-          "janela_dias": 12.8,
-          "concluidas_na_janela": 83,
-          "tarefas_por_dia": 6.46,
+          "historico_dias": 12.9,
+          "janela_dias": 12.9,
+          "concluidas_na_janela": 84,
+          "tarefas_por_dia": 6.527,
           "previsao": {
-            "data": "2026-11-17",
-            "dias": 25,
+            "data": "2026-11-16",
+            "dias": 24,
             "concluido": false
           }
         }
