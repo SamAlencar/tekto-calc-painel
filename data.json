@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-24T08:21-03:00",
+  "atualizado_em": "2026-10-24T08:56-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 175,
-    "percentual": 28.0,
-    "duvidas": 135,
-    "entregas": 128,
-    "ultima_entrega": "2026-10-24T08:20-03:00",
+    "feitos": 176,
+    "percentual": 28.2,
+    "duvidas": 137,
+    "entregas": 129,
+    "ultima_entrega": "2026-10-24T08:55-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -609,7 +609,7 @@
           "historico_dias": 14.0,
           "janela_dias": 14.0,
           "concluidas_na_janela": 40,
-          "tarefas_por_dia": 2.863,
+          "tarefas_por_dia": 2.858,
           "previsao": {
             "data": "2026-11-23",
             "dias": 30,
@@ -1531,7 +1531,7 @@
           "historico_dias": 13.9,
           "janela_dias": 13.9,
           "concluidas_na_janela": 31,
-          "tarefas_por_dia": 2.235,
+          "tarefas_por_dia": 2.231,
           "previsao": {
             "data": "2026-11-17",
             "dias": 24,
@@ -1549,8 +1549,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 239,
-      "feitos": 85,
-      "percentual": 35.6,
+      "feitos": 86,
+      "percentual": 36.0,
       "areas": [
         {
           "nome": "Núcleo transversal",
@@ -1645,8 +1645,8 @@
         {
           "nome": "Robot",
           "total": 1,
-          "feitos": 0,
-          "percentual": 0.0
+          "feitos": 1,
+          "percentual": 100.0
         },
         {
           "nome": "Plug-in express (DT-006)",
@@ -1741,16 +1741,6 @@
       ],
       "proximas": [
         {
-          "id": "TM-175",
-          "titulo": "Contrato de leitura de esforços",
-          "normas": [
-            "Ajuda do Robot Structural Analysis",
-            "AnalyticalMember",
-            "guia estrutural"
-          ],
-          "disciplina": "Robot"
-        },
-        {
           "id": "TM-234",
           "titulo": "Botão pyRevit Dimensionar no tekto-calc (pilar e viga)",
           "normas": [
@@ -1818,9 +1808,24 @@
             "BuiltInCategory"
           ],
           "disciplina": "Revit e Dynamo da estrutura"
+        },
+        {
+          "id": "TM-033",
+          "titulo": "Sapata no Revit e no Dynamo",
+          "normas": [
+            "IfcFootingTypeEnum",
+            "fundações na API do Revit",
+            "BuiltInCategory"
+          ],
+          "disciplina": "Revit e Dynamo da estrutura"
         }
       ],
       "entregas": [
+        {
+          "numero": 44,
+          "titulo": "Contrato de leitura de esforços com mock do Robot (TM-175); abre D-072, verifica D-042",
+          "data": "2026-10-24T08:55-03:00"
+        },
         {
           "numero": 43,
           "titulo": "Viga de concreto no mock do Revit e no nó Dynamo TrocarViga (TM-045); abre D-071, verifica D-066",
@@ -1875,15 +1880,10 @@
           "numero": 33,
           "titulo": "DT-006: express ampliado com fundações e alvenaria (22 tarefas; TM-237 e TM-238 novas)",
           "data": "2026-10-18T17:31-03:00"
-        },
-        {
-          "numero": 32,
-          "titulo": "DT-006: plug-in express do Revit (13 tarefas no topo, TM-234 a TM-236 novas)",
-          "data": "2026-10-18T17:00-03:00"
         }
       ],
-      "total_entregas": 43,
-      "ultima_entrega": "2026-10-23T15:56-03:00",
+      "total_entregas": 44,
+      "ultima_entrega": "2026-10-24T08:55-03:00",
       "normas": [
         {
           "norma": "NBR 6118",
@@ -1910,7 +1910,7 @@
           "norma": "AnalyticalMember",
           "descricao": "",
           "tarefas": 21,
-          "feitas": 10,
+          "feitas": 11,
           "estado": "em_andamento"
         },
         {
@@ -2050,8 +2050,8 @@
           "norma": "guia estrutural",
           "descricao": "",
           "tarefas": 5,
-          "feitas": 4,
-          "estado": "em_andamento"
+          "feitas": 5,
+          "estado": "coberta"
         },
         {
           "norma": "DT-006",
@@ -2308,6 +2308,7 @@
       ],
       "normas_cobertas": [
         ".NET 10 do Revit 2027",
+        "Ajuda do Robot Structural Analysis",
         "AnalyticalMember",
         "Arquitetura do pyRevit",
         "BuiltInCategory",
@@ -2584,6 +2585,10 @@
           "normas": []
         },
         {
+          "texto": "Verificação",
+          "normas": []
+        },
+        {
           "texto": "D-043 — Categoria Revit de captor, descida, aterramento e DPS",
           "normas": []
         },
@@ -2718,6 +2723,10 @@
         {
           "texto": "D-071 — Nome do tipo, campos fora da família e unidade dos esforços da viga no Revit 2027",
           "normas": []
+        },
+        {
+          "texto": "D-072 — Componente, eixo e sinal da força lida do Robot",
+          "normas": []
         }
       ],
       "previsao": {
@@ -2725,7 +2734,7 @@
         "ritmo_planejado": 2.0,
         "ritmo_texto": "2 tarefas/dia",
         "rotina": "diária",
-        "pendentes": 154,
+        "pendentes": 153,
         "planejada": {
           "data": "2027-01-09",
           "dias": 77,
@@ -2733,13 +2742,13 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.8,
-          "janela_dias": 13.8,
-          "concluidas_na_janela": 85,
-          "tarefas_por_dia": 6.138,
+          "historico_dias": 13.9,
+          "janela_dias": 13.9,
+          "concluidas_na_janela": 86,
+          "tarefas_por_dia": 6.199,
           "previsao": {
-            "data": "2026-11-19",
-            "dias": 26,
+            "data": "2026-11-18",
+            "dias": 25,
             "concluido": false
           }
         }
@@ -2889,10 +2898,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 10.6,
-          "janela_dias": 10.6,
+          "historico_dias": 10.7,
+          "janela_dias": 10.7,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.188,
+          "tarefas_por_dia": 0.187,
           "previsao": {
             "data": "2027-02-19",
             "dias": 118,
@@ -3153,7 +3162,7 @@
           "historico_dias": 7.7,
           "janela_dias": 7.7,
           "concluidas_na_janela": 7,
-          "tarefas_por_dia": 0.906,
+          "tarefas_por_dia": 0.903,
           "previsao": {
             "data": "2027-02-20",
             "dias": 119,
