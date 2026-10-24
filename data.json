@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-24T07:49-03:00",
+  "atualizado_em": "2026-10-24T08:21-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 174,
-    "percentual": 27.9,
-    "duvidas": 134,
-    "entregas": 127,
-    "ultima_entrega": "2026-10-24T07:48-03:00",
+    "feitos": 175,
+    "percentual": 28.0,
+    "duvidas": 135,
+    "entregas": 128,
+    "ultima_entrega": "2026-10-24T08:20-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,10 +18,10 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-19",
-        "dias": 118,
+        "data": "2027-02-20",
+        "dias": 119,
         "concluido": false,
-        "projeto": "Tek Hunter",
+        "projeto": "Tek Team",
         "sem_historico": [
           "Tekto Studio"
         ]
@@ -606,10 +606,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.9,
-          "janela_dias": 13.9,
+          "historico_dias": 14.0,
+          "janela_dias": 14.0,
           "concluidas_na_janela": 40,
-          "tarefas_por_dia": 2.867,
+          "tarefas_por_dia": 2.863,
           "previsao": {
             "data": "2026-11-23",
             "dias": 30,
@@ -627,8 +627,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 84,
-      "feitos": 30,
-      "percentual": 35.7,
+      "feitos": 31,
+      "percentual": 36.9,
       "areas": [
         {
           "nome": "Memoriais",
@@ -657,8 +657,8 @@
         {
           "nome": "Métodos construtivos",
           "total": 6,
-          "feitos": 4,
-          "percentual": 66.7
+          "feitos": 5,
+          "percentual": 83.3
         },
         {
           "nome": "Materiais",
@@ -725,14 +725,6 @@
           "disciplina": "BIM"
         },
         {
-          "id": "TD-022",
-          "titulo": "Ficha comparativa de concreto pré-moldado",
-          "normas": [
-            "NBR 9062"
-          ],
-          "disciplina": "Métodos construtivos"
-        },
-        {
           "id": "TD-023",
           "titulo": "Ficha comparativa de sistemas de impermeabilização",
           "normas": [
@@ -764,9 +756,22 @@
             "NBR 7480"
           ],
           "disciplina": "Materiais"
+        },
+        {
+          "id": "TD-029",
+          "titulo": "Índice da NBR 6118",
+          "normas": [
+            "NBR 6118"
+          ],
+          "disciplina": "Normas"
         }
       ],
       "entregas": [
+        {
+          "numero": 24,
+          "titulo": "TD-022: ficha comparativa de concreto pré-moldado (NBR 9062:2017)",
+          "data": "2026-10-24T08:20-03:00"
+        },
         {
           "numero": 23,
           "titulo": "TD-021: ficha comparativa de light steel framing",
@@ -821,15 +826,10 @@
           "numero": 13,
           "titulo": "TD-077: memorial de estrutura cita as grandezas da NBR 6118:2026",
           "data": "2026-10-17T09:47-03:00"
-        },
-        {
-          "numero": 12,
-          "titulo": "Descreve a drenagem pluvial da escola e nomeia fontes complementares",
-          "data": "2026-10-14T17:57-03:00"
         }
       ],
-      "total_entregas": 23,
-      "ultima_entrega": "2026-10-23T08:22-03:00",
+      "total_entregas": 24,
+      "ultima_entrega": "2026-10-24T08:20-03:00",
       "normas": [
         {
           "norma": "NBR 5410",
@@ -1066,8 +1066,8 @@
           "norma": "NBR 9062",
           "descricao": "",
           "tarefas": 1,
-          "feitas": 0,
-          "estado": "planejada"
+          "feitas": 1,
+          "estado": "coberta"
         },
         {
           "norma": "NBR 16697",
@@ -1276,6 +1276,7 @@
         "NBR 8160",
         "NBR 8681",
         "NBR 9050",
+        "NBR 9062",
         "NBR 9574",
         "NBR 9575"
       ],
@@ -1506,6 +1507,12 @@
             "NBR 14762",
             "NBR 16970"
           ]
+        },
+        {
+          "texto": "D-047 — Pontos da NBR 9062:2017 ainda não registrados",
+          "normas": [
+            "NBR 9062"
+          ]
         }
       ],
       "previsao": {
@@ -1513,21 +1520,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 54,
+        "pendentes": 53,
         "planejada": {
-          "data": "2026-12-17",
-          "dias": 54,
+          "data": "2026-12-16",
+          "dias": 53,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.8,
-          "janela_dias": 13.8,
-          "concluidas_na_janela": 30,
-          "tarefas_por_dia": 2.167,
+          "historico_dias": 13.9,
+          "janela_dias": 13.9,
+          "concluidas_na_janela": 31,
+          "tarefas_por_dia": 2.235,
           "previsao": {
-            "data": "2026-11-18",
-            "dias": 25,
+            "data": "2026-11-17",
+            "dias": 24,
             "concluido": false
           }
         }
@@ -2729,7 +2736,7 @@
           "historico_dias": 13.8,
           "janela_dias": 13.8,
           "concluidas_na_janela": 85,
-          "tarefas_por_dia": 6.148,
+          "tarefas_por_dia": 6.138,
           "previsao": {
             "data": "2026-11-19",
             "dias": 26,
@@ -3146,10 +3153,10 @@
           "historico_dias": 7.7,
           "janela_dias": 7.7,
           "concluidas_na_janela": 7,
-          "tarefas_por_dia": 0.909,
+          "tarefas_por_dia": 0.906,
           "previsao": {
-            "data": "2027-02-19",
-            "dias": 118,
+            "data": "2027-02-20",
+            "dias": 119,
             "concluido": false
           }
         }
@@ -3305,7 +3312,7 @@
         },
         "real": {
           "disponivel": false,
-          "historico_dias": 5.6
+          "historico_dias": 5.7
         }
       }
     }
