@@ -1,27 +1,27 @@
 {
-  "atualizado_em": "2026-10-24T08:56-03:00",
+  "atualizado_em": "2026-10-24T09:55-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 176,
-    "percentual": 28.2,
-    "duvidas": 137,
-    "entregas": 129,
-    "ultima_entrega": "2026-10-24T08:55-03:00",
+    "feitos": 177,
+    "percentual": 28.4,
+    "duvidas": 138,
+    "entregas": 130,
+    "ultima_entrega": "2026-10-24T09:54-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
       "planejada": {
-        "data": "2027-02-08",
-        "dias": 107,
+        "data": "2027-02-07",
+        "dias": 106,
         "concluido": false,
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-20",
-        "dias": 119,
+        "data": "2027-02-19",
+        "dias": 118,
         "concluido": false,
-        "projeto": "Tek Team",
+        "projeto": "Tek Hunter",
         "sem_historico": [
           "Tekto Studio"
         ]
@@ -609,7 +609,7 @@
           "historico_dias": 14.0,
           "janela_dias": 14.0,
           "concluidas_na_janela": 40,
-          "tarefas_por_dia": 2.858,
+          "tarefas_por_dia": 2.857,
           "previsao": {
             "data": "2026-11-23",
             "dias": 30,
@@ -1531,7 +1531,7 @@
           "historico_dias": 13.9,
           "janela_dias": 13.9,
           "concluidas_na_janela": 31,
-          "tarefas_por_dia": 2.231,
+          "tarefas_por_dia": 2.225,
           "previsao": {
             "data": "2026-11-17",
             "dias": 24,
@@ -2745,7 +2745,7 @@
           "historico_dias": 13.9,
           "janela_dias": 13.9,
           "concluidas_na_janela": 86,
-          "tarefas_por_dia": 6.199,
+          "tarefas_por_dia": 6.181,
           "previsao": {
             "data": "2026-11-18",
             "dias": 25,
@@ -2919,14 +2919,14 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 114,
-      "feitos": 7,
-      "percentual": 6.1,
+      "feitos": 8,
+      "percentual": 7.0,
       "areas": [
         {
           "nome": "Fundamentos",
           "total": 11,
-          "feitos": 7,
-          "percentual": 63.6
+          "feitos": 8,
+          "percentual": 72.7
         },
         {
           "nome": "BIM",
@@ -2985,12 +2985,6 @@
       ],
       "proximas": [
         {
-          "id": "TT-008",
-          "titulo": "Pesquisa: padrão aberto AGENTS.md",
-          "normas": [],
-          "disciplina": "Fundamentos"
-        },
-        {
           "id": "TT-009",
           "titulo": "Pesquisa: agentes, skills e rotinas do Grok Bot",
           "normas": [],
@@ -3033,9 +3027,20 @@
           "titulo": "Pesquisa: CDE, estados da informação, nomenclatura e metadados",
           "normas": [],
           "disciplina": "BIM"
+        },
+        {
+          "id": "TT-016",
+          "titulo": "Pesquisa: níveis de informação necessária, LOD/LOI e IFC 4.3",
+          "normas": [],
+          "disciplina": "BIM"
         }
       ],
       "entregas": [
+        {
+          "numero": 12,
+          "titulo": "TT-008 — Pesquisa: padrão aberto AGENTS.md",
+          "data": "2026-10-24T09:54-03:00"
+        },
         {
           "numero": 11,
           "titulo": "TT-007 — Pesquisa: configuração de agentes no Cursor",
@@ -3092,8 +3097,8 @@
           "data": "2026-10-16T16:42-03:00"
         }
       ],
-      "total_entregas": 11,
-      "ultima_entrega": "2026-10-23T09:50-03:00",
+      "total_entregas": 12,
+      "ultima_entrega": "2026-10-24T09:54-03:00",
       "normas": [
         {
           "norma": "NBR ISO 19650",
@@ -3144,6 +3149,10 @@
         {
           "texto": "D-010 — Exemplo mínimo do Cursor testado fora do Cursor (2026-10-23)",
           "normas": []
+        },
+        {
+          "texto": "D-011 — Arquivo canônico de instruções nos repositórios da Tekto (2026-10-24)",
+          "normas": []
         }
       ],
       "previsao": {
@@ -3151,21 +3160,21 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 107,
+        "pendentes": 106,
         "planejada": {
-          "data": "2027-02-08",
-          "dias": 107,
+          "data": "2027-02-07",
+          "dias": 106,
           "concluido": false
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 7.7,
-          "janela_dias": 7.7,
-          "concluidas_na_janela": 7,
-          "tarefas_por_dia": 0.903,
+          "historico_dias": 7.8,
+          "janela_dias": 7.8,
+          "concluidas_na_janela": 8,
+          "tarefas_por_dia": 1.027,
           "previsao": {
-            "data": "2027-02-20",
-            "dias": 119,
+            "data": "2027-02-05",
+            "dias": 104,
             "concluido": false
           }
         }
