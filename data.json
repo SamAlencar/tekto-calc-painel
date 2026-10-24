@@ -1,13 +1,13 @@
 {
-  "atualizado_em": "2026-10-24T09:55-03:00",
+  "atualizado_em": "2026-10-24T10:40-03:00",
   "painel": "Painel Tekto",
   "geral": {
     "total": 624,
-    "feitos": 177,
-    "percentual": 28.4,
+    "feitos": 178,
+    "percentual": 28.5,
     "duvidas": 138,
-    "entregas": 130,
-    "ultima_entrega": "2026-10-24T09:54-03:00",
+    "entregas": 131,
+    "ultima_entrega": "2026-10-24T10:39-03:00",
     "projetos_ativos": 6,
     "previsao": {
       "aguardando": [],
@@ -18,8 +18,8 @@
         "projeto": "Tek Team"
       },
       "real": {
-        "data": "2027-02-19",
-        "dias": 118,
+        "data": "2027-02-20",
+        "dias": 119,
         "concluido": false,
         "projeto": "Tek Hunter",
         "sem_historico": [
@@ -606,7 +606,7 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 14.0,
+          "historico_dias": 14.1,
           "janela_dias": 14.0,
           "concluidas_na_janela": 40,
           "tarefas_por_dia": 2.857,
@@ -1528,10 +1528,10 @@
         },
         "real": {
           "disponivel": true,
-          "historico_dias": 13.9,
-          "janela_dias": 13.9,
+          "historico_dias": 14.0,
+          "janela_dias": 14.0,
           "concluidas_na_janela": 31,
-          "tarefas_por_dia": 2.225,
+          "tarefas_por_dia": 2.22,
           "previsao": {
             "data": "2026-11-17",
             "dias": 24,
@@ -2745,7 +2745,7 @@
           "historico_dias": 13.9,
           "janela_dias": 13.9,
           "concluidas_na_janela": 86,
-          "tarefas_por_dia": 6.181,
+          "tarefas_por_dia": 6.167,
           "previsao": {
             "data": "2026-11-18",
             "dias": 25,
@@ -2901,10 +2901,10 @@
           "historico_dias": 10.7,
           "janela_dias": 10.7,
           "concluidas_na_janela": 2,
-          "tarefas_por_dia": 0.187,
+          "tarefas_por_dia": 0.186,
           "previsao": {
-            "data": "2027-02-19",
-            "dias": 118,
+            "data": "2027-02-20",
+            "dias": 119,
             "concluido": false
           }
         }
@@ -3171,7 +3171,7 @@
           "historico_dias": 7.8,
           "janela_dias": 7.8,
           "concluidas_na_janela": 8,
-          "tarefas_por_dia": 1.027,
+          "tarefas_por_dia": 1.023,
           "previsao": {
             "data": "2027-02-05",
             "dias": 104,
@@ -3189,8 +3189,8 @@
       "backlog_encontrado": true,
       "duvidas_encontrado": true,
       "total": 37,
-      "feitos": 9,
-      "percentual": 24.3,
+      "feitos": 10,
+      "percentual": 27.0,
       "areas": [
         {
           "nome": "Fase 0 — Setup (5)",
@@ -3231,8 +3231,8 @@
         {
           "nome": "Fase 6 — Log de auditoria (4)",
           "total": 4,
-          "feitos": 1,
-          "percentual": 25.0
+          "feitos": 2,
+          "percentual": 50.0
         }
       ],
       "proximas": [
@@ -3287,6 +3287,11 @@
       ],
       "entregas": [
         {
+          "numero": 6,
+          "titulo": "TS-061: gravação automática da auditoria",
+          "data": "2026-10-24T10:39-03:00"
+        },
+        {
           "numero": 5,
           "titulo": "TS-060: esquema do registro JSONL da auditoria",
           "data": "2026-10-23T10:41-03:00"
@@ -3312,8 +3317,8 @@
           "data": "2026-10-19T10:55-03:00"
         }
       ],
-      "total_entregas": 5,
-      "ultima_entrega": "2026-10-23T10:41-03:00",
+      "total_entregas": 6,
+      "ultima_entrega": "2026-10-24T10:39-03:00",
       "normas": [],
       "normas_cobertas": [],
       "duvidas": [],
@@ -3322,10 +3327,10 @@
         "ritmo_planejado": 1.0,
         "ritmo_texto": "1 tarefa/dia",
         "rotina": "diária",
-        "pendentes": 28,
+        "pendentes": 27,
         "planejada": {
-          "data": "2026-11-21",
-          "dias": 28,
+          "data": "2026-11-20",
+          "dias": 27,
           "concluido": false
         },
         "real": {
